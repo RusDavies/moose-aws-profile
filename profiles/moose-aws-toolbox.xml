@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="12C61254-4" name="moose-aws" version="1.0" alias="moose-aws" notes="Alias=moose-aws; Notes=Moose-tools elements for modeling AWS Infrastructure;"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="moose-awsElements" alias="ecoSystem" notes="Moose-tools elements for modeling AWS Infrastructure." cx="374" cy="239" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="moose-aws::AWS_Database_Elasticache" type="" description="" unit="" values="" default="Elasticache"/>
+					<Tag name="moose-aws::AWS_Database_ElasticacheMemcached" type="" description="" unit="" values="" default="Elasticache - Memcached"/>
+					<Tag name="moose-aws::AWS_Database_ElasticacheRedis" type="" description="" unit="" values="" default="Elasticache - Redis"/>
+					<Tag name="moose-aws::AWS_EC2_AutoScalingGroup" type="" description="" unit="" values="" default="Compute - Autoscaling Group"/>
+					<Tag name="moose-aws::AWS_EC2_DbOnInstance" type="" description="" unit="" values="" default="Compute - DB On Instance"/>
+					<Tag name="moose-aws::AWS_EC2_Instance" type="" description="" unit="" values="" default="Compute - EC2 Instance"/>
+					<Tag name="moose-aws::AWS_EC2_Instances" type="" description="" unit="" values="" default="Compute - EC2 Instances"/>
+					<Tag name="moose-aws::AWS_Location_AvailabilityZone" type="" description="" unit="" values="" default="Location - Availability Zone"/>
+					<Tag name="moose-aws::AWS_Location_Region" type="" description="" unit="" values="" default="Location - Region"/>
+					<Tag name="moose-aws::AWS_Networking_ElasticLoadBalancer" type="" description="" unit="" values="" default="Networking - Elastic Load Balancer"/>
+					<Tag name="moose-aws::AWS_Networking_Route53" type="" description="" unit="" values="" default="Networking - Route 53"/>
+					<Tag name="moose-aws::AWS_Networking_VPC" type="" description="" unit="" values="" default="Networking - VPC Subnet"/>
+					<Tag name="moose-aws::AWS_Networking_VPC_Router" type="" description="" unit="" values="" default="Networking - VPC Router"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+	<Options>
+		<Option name=" Notes" value="Moose-tools elements for modeling AWS Infrastructure"/>
+	</Options>
+</UMLProfile>

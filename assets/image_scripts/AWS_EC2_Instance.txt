@@ -1,0 +1,7 @@
+shape main{
+    setpen(255,150,0, 2);
+	setlinestyle("SOLID");
+	setfillcolor(255,150,0);
+	roundrect(0,0,100,100, 20, 20);
+}
+

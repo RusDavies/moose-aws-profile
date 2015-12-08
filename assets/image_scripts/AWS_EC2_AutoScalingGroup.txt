@@ -1,0 +1,69 @@
+shape main{
+    setfillcolor(255,255,255);
+	setlinestyle("DASH");
+	roundrect(0,10,100,100, 20, 20);
+	
+	AddSubShape("icon", 100, 20);
+	AddSubShape("text", 100, 80);
+	
+	shape icon
+	{
+		startpath();
+		setpen(255,150,0, 1);
+		setfillcolor(255,150,0);
+	    moveto(15,0);
+		lineto(20, 20);
+		lineto(18, 20);
+		lineto(18,40);
+		lineto(16,50);
+		lineto(18,60);
+		lineto(18, 80);
+		lineto(20, 80);
+		lineto(15, 100);
+		lineto(10, 80);
+		lineto(12, 80);
+		lineto(12,60);
+		lineto(14,50);
+		lineto(12,40);
+		lineto(12, 20);
+		lineto(10,20);
+		lineto(15,0);
+		endpath();
+		fillandstrokepath();
+
+		startpath();
+		//setpen(255,150,0, 1);
+		//setfillcolor(255,150,0);
+	    moveto(13,50);
+		lineto(9,30);
+		lineto(9,40);
+		lineto(5,40);
+		lineto(5,60);
+		lineto(9,60);
+		lineto(9,70);
+		lineto(13,50);
+		endpath();
+		fillandstrokepath();
+
+		startpath();
+		//setpen(255,150,0, 1)
+		//setfillcolor(255,150,0);
+	    moveto(17,50);
+		lineto(21,30);
+		lineto(21,40);
+		lineto(26,40);
+		lineto(26,60);
+		lineto(21,60);
+		lineto(21,70);
+		lineto(17,50);
+		endpath();
+		fillandstrokepath();
+	}
+			
+	shape text
+	{
+		h_align = "center";
+		v_align = "bottom";
+		print("Auto-Scaling Group");
+	}
+}

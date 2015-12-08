@@ -1,0 +1,54 @@
+shape main{
+	
+    setpen(60,0,100, 2);
+	setlinestyle("SOLID");
+	setfillcolor(60,0,100);
+	ellipse(0, 0, 100, 100); 
+	
+
+	setfillcolor(255,255,255);
+	rectangle(10,30,30,70);
+	rectangle(60,15,80,35);
+	rectangle(60,40,80,60);
+	rectangle(60,65,80,85);
+	
+	// Top arrow
+    setpen(255,255,255, 5);
+	moveto(30, 50);
+	lineto(56, 29);
+	startpath();
+    setpen(255,255,255, 1);
+	moveto(60, 25);
+	lineto(54, 25);
+	lineto(58, 35);
+	lineto(60, 25);
+	endpath();
+	fillandstrokepath();
+
+	// Middle arrow
+    setpen(255,255,255, 5);
+	moveto(30, 50);
+	lineto(55, 50);
+	startpath();
+    setpen(255,255,255, 1);
+	moveto(60, 50);
+	lineto(55, 45);
+	lineto(55, 55);
+	lineto(60, 50);
+	endpath();
+	fillandstrokepath();
+	
+	// Bottom arrow
+    setpen(255,255,255, 5);
+	moveto(30, 50);
+	lineto(56, 71);
+	startpath();
+    setpen(255,255,255, 1);
+	moveto(60, 75);
+	lineto(54, 75);
+	lineto(58, 65);
+	lineto(60, 75);
+	endpath();
+	fillandstrokepath();
+}
+

@@ -1,0 +1,31 @@
+shape main{
+	setfillcolor(60,0,100);
+	setpen(60, 0, 100, 1);
+
+	startpath();
+	
+	// Right-hand side
+	moveto(50, 0);
+	bezierto(60, 10, 80, 10, 90, 0);
+	lineto(100, 20);
+	bezierto(93, 22, 93, 40, 96.5, 45);
+	lineto(96.5, 45);
+	bezierto(100, 55, 105, 65, 90, 74);
+	lineto(90, 74);
+	bezierto(60, 80, 50, 90, 50, 100); 
+	lineto(50, 100);
+
+	// left-hand side
+	moveto(50, 0);
+	bezierto(40, 10, 20, 10, 10, 0);
+	lineto(0, 20);
+	bezierto(7, 22, 7, 40, 3.5, 45);
+	lineto(3.5, 45);
+	bezierto(0, 55, -5, 65, 10, 74);
+	lineto(10, 74);
+	bezierto(40, 80, 50, 90, 50, 100); 
+
+	endpath();
+
+	fillandstrokepath();
+}
