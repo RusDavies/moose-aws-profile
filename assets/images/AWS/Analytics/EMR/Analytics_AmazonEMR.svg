@@ -1,390 +1,2288 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 100 100" xml:space="preserve">
-<g id="Layer_1">
-	<g>
-		<polygon fill="#F58536" points="55.939,49.98 23.196,49.98 23.196,72.6 55.939,65.115 		"/>
-		<polygon fill="#F58536" points="65.743,49.98 30.159,49.98 30.159,76.082 65.743,65.98 		"/>
-		<polygon fill="#F58536" points="73.498,49.98 38.849,49.98 38.849,80.426 73.498,67.75 		"/>
-		<polygon fill="#F58536" points="49.996,86 49.996,49.979 79.802,49.979 79.802,71.098 		"/>
-		<polygon fill="#9D5025" points="23.196,49.98 23.196,72.6 20.208,71.105 20.208,49.98 		"/>
-		<polygon fill="#9D5025" points="30.159,49.98 30.159,76.082 26.496,74.25 26.496,49.98 		"/>
-		<polygon fill="#9D5025" points="38.849,49.98 38.849,80.426 34.249,78.127 34.249,49.98 		"/>
-		<polygon fill="#9D5025" points="44.055,83.029 44.055,49.98 49.995,49.98 49.995,86 		"/>
-		<polygon fill="#F58536" points="79.808,42.736 49.999,37.613 49.999,14 79.808,28.902 		"/>
-		<polygon fill="#9D5025" points="20.192,42.736 50,37.613 50,14 20.192,28.902 		"/>
-		<polygon fill="#6B3A19" points="79.808,42.736 49.999,44.857 20.192,42.736 49.999,37.613 		"/>
-	</g>
-</g>
-<g id="nyt_x5F_exporter_x5F_info" display="none">
-	<text transform="matrix(1 0 0 1 -427 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -419.8481 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -413.3442 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -407.6924 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -403.7202 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -397.7202 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -390.8926 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -387.0889 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -381.0771 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -377.6812 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -372.9287 0)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -427 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -424.4561 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -421.9121 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -414.7603 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -408.2563 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -402.6045 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -398.6323 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -392.6323 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -385.8047 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -382.001 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -375.9883 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -369.7119 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 -364.1563 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">x</text>
-	<text transform="matrix(1 0 0 1 -357.0039 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -349.8516 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -8568 -8141)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -345.7354 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -339.2314 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -333.5791 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -329.6074 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -323.6074 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -316.7793 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -312.9756 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -306.9639 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -300.6875 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 -295.1318 14.3999)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">x</text>
-	<text transform="matrix(1 0 0 1 -8568 -8141)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -427 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -424.4561 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -421.9121 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -414.7603 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -408.2563 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -402.6045 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -398.6323 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -392.6323 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -387.8804 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">u</text>
-	<text transform="matrix(1 0 0 1 -381.2686 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -371.4893 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -365.9336 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 -358.7813 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">x</text>
-	<text transform="matrix(1 0 0 1 -351.6289 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -8568 -8141)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -8568 -8141)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -347.5127 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -341.0078 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -335.3555 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -331.3838 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -325.3838 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -320.6318 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">u</text>
-	<text transform="matrix(1 0 0 1 -314.0195 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -304.2393 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -298.6836 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 -358.7813 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">x</text>
-	<text transform="matrix(1 0 0 1 -351.6289 28.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -427 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -424.4561 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -421.9121 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -414.7603 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -408.2563 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -402.6045 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -398.6323 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -392.6323 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">b</text>
-	<text transform="matrix(1 0 0 1 -385.8047 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -380.021 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -375.2695 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -369.2578 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -363.2578 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -356.4297 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -350.6934 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -346.7217 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">h</text>
-	<text transform="matrix(1 0 0 1 -340.0615 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -332.9092 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">~</text>
-	<text transform="matrix(1 0 0 1 -325.7568 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -321.6406 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">D</text>
-	<text transform="matrix(1 0 0 1 -313.6006 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -307.5889 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -302.8369 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">k</text>
-	<text transform="matrix(1 0 0 1 -297.209 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -293.3086 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -286.7207 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -279.8926 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -275.7764 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">w</text>
-	<text transform="matrix(1 0 0 1 -266.9443 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 -264.1367 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -257.3086 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -253.1924 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">A</text>
-	<text transform="matrix(1 0 0 1 -245.8848 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -242.0811 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -236.7051 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">h</text>
-	<text transform="matrix(1 0 0 1 -230.0449 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 -227.2373 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -223.3379 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -217.3262 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -211.7939 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -207.8223 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">u</text>
-	<text transform="matrix(1 0 0 1 -201.21 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -197.4063 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -191.3945 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">%</text>
-	<text transform="matrix(1 0 0 1 -181.8906 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 -175.7344 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 -169.5781 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">I</text>
-	<text transform="matrix(1 0 0 1 -166.71 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -161.4053 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -154.8174 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -148.1572 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -143.4053 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">%</text>
-	<text transform="matrix(1 0 0 1 -133.9014 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 -127.7451 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 -121.5889 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">-</text>
-	<text transform="matrix(1 0 0 1 -117.9053 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">%</text>
-	<text transform="matrix(1 0 0 1 -108.4014 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 -102.2451 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 -96.0889 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">U</text>
-	<text transform="matrix(1 0 0 1 -88.3252 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -81.4971 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">d</text>
-	<text transform="matrix(1 0 0 1 -74.7295 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -68.9932 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -65.0938 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -59.082 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">%</text>
-	<text transform="matrix(1 0 0 1 -49.5781 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 -43.4219 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 -37.2656 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -31.4814 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">l</text>
-	<text transform="matrix(1 0 0 1 -28.6494 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">l</text>
-	<text transform="matrix(1 0 0 1 -25.8174 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">%</text>
-	<text transform="matrix(1 0 0 1 -16.3135 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 -10.1572 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 -4.001 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 1.375 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">u</text>
-	<text transform="matrix(1 0 0 1 7.9873 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 12.7393 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 16.6387 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 23.2266 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">m</text>
-	<text transform="matrix(1 0 0 1 33.2344 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 39.2461 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 43.1104 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">-</text>
-	<text transform="matrix(1 0 0 1 46.7939 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 50.2979 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 56.082 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 61.458 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 64.2656 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 70.9258 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">g</text>
-	<text transform="matrix(1 0 0 1 77.6338 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">%</text>
-	<text transform="matrix(1 0 0 1 87.1377 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 93.2939 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 99.4502 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 105.7266 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 108.5586 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">l</text>
-	<text transform="matrix(1 0 0 1 114.5703 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 119.3223 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 128.8262 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">%</text>
-	<text transform="matrix(1 0 0 1 134.9824 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 141.1387 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 -8568 -8141)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 145.2549 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">A</text>
-	<text transform="matrix(1 0 0 1 151.9629 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">W</text>
-	<text transform="matrix(1 0 0 1 162.1152 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">S</text>
-	<text transform="matrix(1 0 0 1 168.0908 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">-</text>
-	<text transform="matrix(1 0 0 1 171.7744 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">S</text>
-	<text transform="matrix(1 0 0 1 177.6904 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 180.498 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">m</text>
-	<text transform="matrix(1 0 0 1 190.5059 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 197.334 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">l</text>
-	<text transform="matrix(1 0 0 1 200.166 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 206.5137 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">-</text>
-	<text transform="matrix(1 0 0 1 210.1973 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">I</text>
-	<text transform="matrix(1 0 0 1 213.0654 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 218.3701 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 224.958 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 231.6182 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 236.3701 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">%</text>
-	<text transform="matrix(1 0 0 1 245.874 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 252.0303 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 258.1865 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">2</text>
-	<text transform="matrix(1 0 0 1 264.3428 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 268.459 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">E</text>
-	<text transform="matrix(1 0 0 1 274.3633 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">P</text>
-	<text transform="matrix(1 0 0 1 280.7471 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">S</text>
-	<text transform="matrix(1 0 0 1 286.6631 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 293.8154 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 297.9316 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 304.4355 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 310.0879 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 314.0596 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 320.0596 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">b</text>
-	<text transform="matrix(1 0 0 1 326.8877 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 332.6719 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 337.4238 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 343.4355 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 349.4355 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 356.2637 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 362 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 365.9717 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">h</text>
-	<text transform="matrix(1 0 0 1 372.6318 43.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -427 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -424.4561 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -421.9121 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -414.7603 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -408.2563 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -402.6045 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -398.6323 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -392.6323 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -387.8804 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -382.5044 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -376.7202 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">l</text>
-	<text transform="matrix(1 0 0 1 -373.8887 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 -371.0811 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -364.4209 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">g</text>
-	<text transform="matrix(1 0 0 1 -357.7129 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -350.5605 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">1</text>
-	<text transform="matrix(1 0 0 1 -344.4043 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 -338.248 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">0</text>
-	<text transform="matrix(1 0 0 1 -332.0918 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -324.9395 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -320.8232 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -314.3184 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -308.666 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -304.6943 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -298.6943 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -293.9424 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -288.5664 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -282.7822 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">l</text>
-	<text transform="matrix(1 0 0 1 -279.9502 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">i</text>
-	<text transform="matrix(1 0 0 1 -277.1426 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -270.4824 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">g</text>
-	<text transform="matrix(1 0 0 1 -263.7744 57.5996)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -427 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -424.4561 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -421.9121 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -414.7603 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -408.2563 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -402.6045 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -398.6323 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -392.6323 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -388.6606 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -384.7969 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -379.0127 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -372.3525 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -367.6006 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -360.7725 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -354.9883 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -351.1846 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -345.1729 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -338.5127 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -332.9209 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -327.2686 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -320.1162 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -316.1445 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -312.2207 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">u</text>
-	<text transform="matrix(1 0 0 1 -305.6084 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -299.5967 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -292.4443 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -288.3281 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -281.8232 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -276.1709 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -272.1992 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -266.1992 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -262.2275 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -258.3633 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -252.5801 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -245.9199 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -241.168 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -234.3398 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -228.5547 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -224.751 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -218.7393 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -212.0791 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -206.4873 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -200.835 72)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -427 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -424.4561 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -421.9121 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -414.7603 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -408.2563 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -402.6045 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -398.6323 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -392.6323 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -389.2842 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -382.6963 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -378.7246 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">m</text>
-	<text transform="matrix(1 0 0 1 -368.7168 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -362.9805 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -359.0088 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -351.8564 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">E</text>
-	<text transform="matrix(1 0 0 1 -345.9521 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">P</text>
-	<text transform="matrix(1 0 0 1 -339.5684 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">S</text>
-	<text transform="matrix(1 0 0 1 -333.6523 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -326.5 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -322.3838 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -315.8799 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -310.2275 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -306.2559 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -300.2559 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -296.9072 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -290.3193 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -286.3477 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">m</text>
-	<text transform="matrix(1 0 0 1 -276.3398 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -270.6035 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -266.6318 86.4004)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -427 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -424.4561 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px"> </text>
-	<text transform="matrix(1 0 0 1 -421.9121 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -414.7603 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -408.2563 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -402.6045 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -398.6323 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -392.6323 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -386.6567 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">x</text>
-	<text transform="matrix(1 0 0 1 -381.1006 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -374.2725 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -367.6846 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -363.4736 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -359.502 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -353.502 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -348.1973 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -341.6094 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">d</text>
-	<text transform="matrix(1 0 0 1 -334.8418 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -328.8301 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -321.6777 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -315.8936 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -311.6816 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -307.7109 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">b</text>
-	<text transform="matrix(1 0 0 1 -300.8828 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -294.2949 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">a</text>
-	<text transform="matrix(1 0 0 1 -288.5098 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -284.7061 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">d</text>
-	<text transform="matrix(1 0 0 1 -277.9385 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -273.1865 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -266.0342 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -261.918 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -255.4141 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -249.7617 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -245.79 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -239.79 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -233.8145 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">x</text>
-	<text transform="matrix(1 0 0 1 -228.2588 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -221.4307 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -214.8428 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -210.6309 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -206.6592 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -200.6592 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">c</text>
-	<text transform="matrix(1 0 0 1 -195.3555 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">o</text>
-	<text transform="matrix(1 0 0 1 -188.7676 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">d</text>
-	<text transform="matrix(1 0 0 1 -182 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -175.9883 100.7998)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-	<text transform="matrix(1 0 0 1 -427 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&lt;</text>
-	<text transform="matrix(1 0 0 1 -419.8481 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">/</text>
-	<text transform="matrix(1 0 0 1 -415.7324 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">n</text>
-	<text transform="matrix(1 0 0 1 -409.228 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">y</text>
-	<text transform="matrix(1 0 0 1 -403.5762 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">t</text>
-	<text transform="matrix(1 0 0 1 -399.604 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">_</text>
-	<text transform="matrix(1 0 0 1 -393.604 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">p</text>
-	<text transform="matrix(1 0 0 1 -386.7764 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">r</text>
-	<text transform="matrix(1 0 0 1 -382.9727 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">e</text>
-	<text transform="matrix(1 0 0 1 -376.9609 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">f</text>
-	<text transform="matrix(1 0 0 1 -373.5654 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">s</text>
-	<text transform="matrix(1 0 0 1 -368.8135 115.2002)" display="inline" font-family="'MyriadPro-Regular'" font-size="12px">&gt;</text>
-</g>
-</svg>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0px"
+   y="0px"
+   viewBox="0 0 100 100"
+   xml:space="preserve"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Analytics_AmazonEMR.svg"><metadata
+     id="metadata770"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs768" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="985"
+     id="namedview766"
+     showgrid="false"
+     inkscape:zoom="7.4579687"
+     inkscape:cx="50.26817"
+     inkscape:cy="50"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" /><g
+     id="Layer_1"
+     transform="matrix(1.3888889,0,0,1.3888889,-19.444445,-19.444445)"><g
+       id="g5"><polygon
+         points="55.939,65.115 55.939,49.98 23.196,49.98 23.196,72.6 "
+         id="polygon7"
+         style="fill:#f58536" /><polygon
+         points="65.743,65.98 65.743,49.98 30.159,49.98 30.159,76.082 "
+         id="polygon9"
+         style="fill:#f58536" /><polygon
+         points="73.498,67.75 73.498,49.98 38.849,49.98 38.849,80.426 "
+         id="polygon11"
+         style="fill:#f58536" /><polygon
+         points="79.802,71.098 49.996,86 49.996,49.979 79.802,49.979 "
+         id="polygon13"
+         style="fill:#f58536" /><polygon
+         points="20.208,49.98 23.196,49.98 23.196,72.6 20.208,71.105 "
+         id="polygon15"
+         style="fill:#9d5025" /><polygon
+         points="26.496,49.98 30.159,49.98 30.159,76.082 26.496,74.25 "
+         id="polygon17"
+         style="fill:#9d5025" /><polygon
+         points="34.249,49.98 38.849,49.98 38.849,80.426 34.249,78.127 "
+         id="polygon19"
+         style="fill:#9d5025" /><polygon
+         points="49.995,86 44.055,83.029 44.055,49.98 49.995,49.98 "
+         id="polygon21"
+         style="fill:#9d5025" /><polygon
+         points="79.808,28.902 79.808,42.736 49.999,37.613 49.999,14 "
+         id="polygon23"
+         style="fill:#f58536" /><polygon
+         points="20.192,28.902 20.192,42.736 50,37.613 50,14 "
+         id="polygon25"
+         style="fill:#9d5025" /><polygon
+         points="49.999,37.613 79.808,42.736 49.999,44.857 20.192,42.736 "
+         id="polygon27"
+         style="fill:#6b3a19" /></g></g><g
+     id="nyt_x5F_exporter_x5F_info"
+     display="none"><text
+       transform="matrix(1 0 0 1 -427 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text30">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -419.8481 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text32">n</text>
+<text
+       transform="matrix(1 0 0 1 -413.3442 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text34">y</text>
+<text
+       transform="matrix(1 0 0 1 -407.6924 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text36">t</text>
+<text
+       transform="matrix(1 0 0 1 -403.7202 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text38">_</text>
+<text
+       transform="matrix(1 0 0 1 -397.7202 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text40">p</text>
+<text
+       transform="matrix(1 0 0 1 -390.8926 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text42">r</text>
+<text
+       transform="matrix(1 0 0 1 -387.0889 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text44">e</text>
+<text
+       transform="matrix(1 0 0 1 -381.0771 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text46">f</text>
+<text
+       transform="matrix(1 0 0 1 -377.6812 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text48">s</text>
+<text
+       transform="matrix(1 0 0 1 -372.9287 0)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text50">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -427 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text52" />
+<text
+       transform="matrix(1 0 0 1 -424.4561 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text54" />
+<text
+       transform="matrix(1 0 0 1 -421.9121 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text56">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -414.7603 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text58">n</text>
+<text
+       transform="matrix(1 0 0 1 -408.2563 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text60">y</text>
+<text
+       transform="matrix(1 0 0 1 -402.6045 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text62">t</text>
+<text
+       transform="matrix(1 0 0 1 -398.6323 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text64">_</text>
+<text
+       transform="matrix(1 0 0 1 -392.6323 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text66">p</text>
+<text
+       transform="matrix(1 0 0 1 -385.8047 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text68">r</text>
+<text
+       transform="matrix(1 0 0 1 -382.001 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text70">e</text>
+<text
+       transform="matrix(1 0 0 1 -375.9883 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text72">f</text>
+<text
+       transform="matrix(1 0 0 1 -369.7119 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text74">i</text>
+<text
+       transform="matrix(1 0 0 1 -364.1563 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text76">x</text>
+<text
+       transform="matrix(1 0 0 1 -357.0039 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text78">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -349.8516 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text80">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -8568 -8141)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text82">/</text>
+<text
+       transform="matrix(1 0 0 1 -345.7354 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text84">n</text>
+<text
+       transform="matrix(1 0 0 1 -339.2314 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text86">y</text>
+<text
+       transform="matrix(1 0 0 1 -333.5791 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text88">t</text>
+<text
+       transform="matrix(1 0 0 1 -329.6074 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text90">_</text>
+<text
+       transform="matrix(1 0 0 1 -323.6074 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text92">p</text>
+<text
+       transform="matrix(1 0 0 1 -316.7793 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text94">r</text>
+<text
+       transform="matrix(1 0 0 1 -312.9756 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text96">e</text>
+<text
+       transform="matrix(1 0 0 1 -306.9639 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text98">f</text>
+<text
+       transform="matrix(1 0 0 1 -300.6875 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text100">i</text>
+<text
+       transform="matrix(1 0 0 1 -295.1318 14.3999)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text102">x</text>
+<text
+       transform="matrix(1 0 0 1 -8568 -8141)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text104">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -427 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text106" />
+<text
+       transform="matrix(1 0 0 1 -424.4561 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text108" />
+<text
+       transform="matrix(1 0 0 1 -421.9121 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text110">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -414.7603 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text112">n</text>
+<text
+       transform="matrix(1 0 0 1 -408.2563 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text114">y</text>
+<text
+       transform="matrix(1 0 0 1 -402.6045 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text116">t</text>
+<text
+       transform="matrix(1 0 0 1 -398.6323 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text118">_</text>
+<text
+       transform="matrix(1 0 0 1 -392.6323 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text120">s</text>
+<text
+       transform="matrix(1 0 0 1 -387.8804 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text122">u</text>
+<text
+       transform="matrix(1 0 0 1 -381.2686 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text124">f</text>
+<text
+       transform="matrix(1 0 0 1 -371.4893 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text126">f</text>
+<text
+       transform="matrix(1 0 0 1 -365.9336 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text128">i</text>
+<text
+       transform="matrix(1 0 0 1 -358.7813 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text130">x</text>
+<text
+       transform="matrix(1 0 0 1 -351.6289 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text132">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -8568 -8141)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text134">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -8568 -8141)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text136">/</text>
+<text
+       transform="matrix(1 0 0 1 -347.5127 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text138">n</text>
+<text
+       transform="matrix(1 0 0 1 -341.0078 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text140">y</text>
+<text
+       transform="matrix(1 0 0 1 -335.3555 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text142">t</text>
+<text
+       transform="matrix(1 0 0 1 -331.3838 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text144">_</text>
+<text
+       transform="matrix(1 0 0 1 -325.3838 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text146">s</text>
+<text
+       transform="matrix(1 0 0 1 -320.6318 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text148">u</text>
+<text
+       transform="matrix(1 0 0 1 -314.0195 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text150">f</text>
+<text
+       transform="matrix(1 0 0 1 -304.2393 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text152">f</text>
+<text
+       transform="matrix(1 0 0 1 -298.6836 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text154">i</text>
+<text
+       transform="matrix(1 0 0 1 -358.7813 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text156">x</text>
+<text
+       transform="matrix(1 0 0 1 -351.6289 28.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text158">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -427 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text160" />
+<text
+       transform="matrix(1 0 0 1 -424.4561 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text162" />
+<text
+       transform="matrix(1 0 0 1 -421.9121 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text164">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -414.7603 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text166">n</text>
+<text
+       transform="matrix(1 0 0 1 -408.2563 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text168">y</text>
+<text
+       transform="matrix(1 0 0 1 -402.6045 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text170">t</text>
+<text
+       transform="matrix(1 0 0 1 -398.6323 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text172">_</text>
+<text
+       transform="matrix(1 0 0 1 -392.6323 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text174">b</text>
+<text
+       transform="matrix(1 0 0 1 -385.8047 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text176">a</text>
+<text
+       transform="matrix(1 0 0 1 -380.021 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text178">s</text>
+<text
+       transform="matrix(1 0 0 1 -375.2695 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text180">e</text>
+<text
+       transform="matrix(1 0 0 1 -369.2578 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text182">_</text>
+<text
+       transform="matrix(1 0 0 1 -363.2578 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text184">p</text>
+<text
+       transform="matrix(1 0 0 1 -356.4297 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text186">a</text>
+<text
+       transform="matrix(1 0 0 1 -350.6934 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text188">t</text>
+<text
+       transform="matrix(1 0 0 1 -346.7217 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text190">h</text>
+<text
+       transform="matrix(1 0 0 1 -340.0615 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text192">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -332.9092 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text194">~</text>
+<text
+       transform="matrix(1 0 0 1 -325.7568 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text196">/</text>
+<text
+       transform="matrix(1 0 0 1 -321.6406 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text198">D</text>
+<text
+       transform="matrix(1 0 0 1 -313.6006 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text200">e</text>
+<text
+       transform="matrix(1 0 0 1 -307.5889 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text202">s</text>
+<text
+       transform="matrix(1 0 0 1 -302.8369 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text204">k</text>
+<text
+       transform="matrix(1 0 0 1 -297.209 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text206">t</text>
+<text
+       transform="matrix(1 0 0 1 -293.3086 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text208">o</text>
+<text
+       transform="matrix(1 0 0 1 -286.7207 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text210">p</text>
+<text
+       transform="matrix(1 0 0 1 -279.8926 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text212">/</text>
+<text
+       transform="matrix(1 0 0 1 -275.7764 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text214">w</text>
+<text
+       transform="matrix(1 0 0 1 -266.9443 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text216">i</text>
+<text
+       transform="matrix(1 0 0 1 -264.1367 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text218">p</text>
+<text
+       transform="matrix(1 0 0 1 -257.3086 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text220">/</text>
+<text
+       transform="matrix(1 0 0 1 -253.1924 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text222">A</text>
+<text
+       transform="matrix(1 0 0 1 -245.8848 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text224">r</text>
+<text
+       transform="matrix(1 0 0 1 -242.0811 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text226">c</text>
+<text
+       transform="matrix(1 0 0 1 -236.7051 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text228">h</text>
+<text
+       transform="matrix(1 0 0 1 -230.0449 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text230">i</text>
+<text
+       transform="matrix(1 0 0 1 -227.2373 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text232">t</text>
+<text
+       transform="matrix(1 0 0 1 -223.3379 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text234">e</text>
+<text
+       transform="matrix(1 0 0 1 -217.3262 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text236">c</text>
+<text
+       transform="matrix(1 0 0 1 -211.7939 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text238">t</text>
+<text
+       transform="matrix(1 0 0 1 -207.8223 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text240">u</text>
+<text
+       transform="matrix(1 0 0 1 -201.21 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text242">r</text>
+<text
+       transform="matrix(1 0 0 1 -197.4063 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text244">e</text>
+<text
+       transform="matrix(1 0 0 1 -191.3945 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text246">%</text>
+<text
+       transform="matrix(1 0 0 1 -181.8906 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text248">2</text>
+<text
+       transform="matrix(1 0 0 1 -175.7344 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text250">0</text>
+<text
+       transform="matrix(1 0 0 1 -169.5781 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text252">I</text>
+<text
+       transform="matrix(1 0 0 1 -166.71 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text254">c</text>
+<text
+       transform="matrix(1 0 0 1 -161.4053 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text256">o</text>
+<text
+       transform="matrix(1 0 0 1 -154.8174 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text258">n</text>
+<text
+       transform="matrix(1 0 0 1 -148.1572 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text260">s</text>
+<text
+       transform="matrix(1 0 0 1 -143.4053 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text262">%</text>
+<text
+       transform="matrix(1 0 0 1 -133.9014 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text264">2</text>
+<text
+       transform="matrix(1 0 0 1 -127.7451 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text266">0</text>
+<text
+       transform="matrix(1 0 0 1 -121.5889 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text268">-</text>
+<text
+       transform="matrix(1 0 0 1 -117.9053 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text270">%</text>
+<text
+       transform="matrix(1 0 0 1 -108.4014 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text272">2</text>
+<text
+       transform="matrix(1 0 0 1 -102.2451 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text274">0</text>
+<text
+       transform="matrix(1 0 0 1 -96.0889 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text276">U</text>
+<text
+       transform="matrix(1 0 0 1 -88.3252 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text278">p</text>
+<text
+       transform="matrix(1 0 0 1 -81.4971 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text280">d</text>
+<text
+       transform="matrix(1 0 0 1 -74.7295 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text282">a</text>
+<text
+       transform="matrix(1 0 0 1 -68.9932 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text284">t</text>
+<text
+       transform="matrix(1 0 0 1 -65.0938 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text286">e</text>
+<text
+       transform="matrix(1 0 0 1 -59.082 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text288">%</text>
+<text
+       transform="matrix(1 0 0 1 -49.5781 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text290">2</text>
+<text
+       transform="matrix(1 0 0 1 -43.4219 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text292">0</text>
+<text
+       transform="matrix(1 0 0 1 -37.2656 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text294">a</text>
+<text
+       transform="matrix(1 0 0 1 -31.4814 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text296">l</text>
+<text
+       transform="matrix(1 0 0 1 -28.6494 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text298">l</text>
+<text
+       transform="matrix(1 0 0 1 -25.8174 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text300">%</text>
+<text
+       transform="matrix(1 0 0 1 -16.3135 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text302">2</text>
+<text
+       transform="matrix(1 0 0 1 -10.1572 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text304">0</text>
+<text
+       transform="matrix(1 0 0 1 -4.001 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text306">c</text>
+<text
+       transform="matrix(1 0 0 1 1.375 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text308">u</text>
+<text
+       transform="matrix(1 0 0 1 7.9873 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text310">s</text>
+<text
+       transform="matrix(1 0 0 1 12.7393 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text312">t</text>
+<text
+       transform="matrix(1 0 0 1 16.6387 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text314">o</text>
+<text
+       transform="matrix(1 0 0 1 23.2266 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text316">m</text>
+<text
+       transform="matrix(1 0 0 1 33.2344 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text318">e</text>
+<text
+       transform="matrix(1 0 0 1 39.2461 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text320">r</text>
+<text
+       transform="matrix(1 0 0 1 43.1104 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text322">-</text>
+<text
+       transform="matrix(1 0 0 1 46.7939 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text324">f</text>
+<text
+       transform="matrix(1 0 0 1 50.2979 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text326">a</text>
+<text
+       transform="matrix(1 0 0 1 56.082 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text328">c</text>
+<text
+       transform="matrix(1 0 0 1 61.458 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text330">i</text>
+<text
+       transform="matrix(1 0 0 1 64.2656 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text332">n</text>
+<text
+       transform="matrix(1 0 0 1 70.9258 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text334">g</text>
+<text
+       transform="matrix(1 0 0 1 77.6338 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text336">%</text>
+<text
+       transform="matrix(1 0 0 1 87.1377 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text338">2</text>
+<text
+       transform="matrix(1 0 0 1 93.2939 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text340">0</text>
+<text
+       transform="matrix(1 0 0 1 99.4502 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text342">f</text>
+<text
+       transform="matrix(1 0 0 1 105.7266 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text344">i</text>
+<text
+       transform="matrix(1 0 0 1 108.5586 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text346">l</text>
+<text
+       transform="matrix(1 0 0 1 114.5703 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text348">e</text>
+<text
+       transform="matrix(1 0 0 1 119.3223 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text350">s</text>
+<text
+       transform="matrix(1 0 0 1 128.8262 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text352">%</text>
+<text
+       transform="matrix(1 0 0 1 134.9824 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text354">2</text>
+<text
+       transform="matrix(1 0 0 1 141.1387 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text356">0</text>
+<text
+       transform="matrix(1 0 0 1 -8568 -8141)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text358">/</text>
+<text
+       transform="matrix(1 0 0 1 145.2549 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text360">A</text>
+<text
+       transform="matrix(1 0 0 1 151.9629 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text362">W</text>
+<text
+       transform="matrix(1 0 0 1 162.1152 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text364">S</text>
+<text
+       transform="matrix(1 0 0 1 168.0908 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text366">-</text>
+<text
+       transform="matrix(1 0 0 1 171.7744 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text368">S</text>
+<text
+       transform="matrix(1 0 0 1 177.6904 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text370">i</text>
+<text
+       transform="matrix(1 0 0 1 180.498 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text372">m</text>
+<text
+       transform="matrix(1 0 0 1 190.5059 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text374">p</text>
+<text
+       transform="matrix(1 0 0 1 197.334 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text376">l</text>
+<text
+       transform="matrix(1 0 0 1 200.166 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text378">e</text>
+<text
+       transform="matrix(1 0 0 1 206.5137 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text380">-</text>
+<text
+       transform="matrix(1 0 0 1 210.1973 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text382">I</text>
+<text
+       transform="matrix(1 0 0 1 213.0654 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text384">c</text>
+<text
+       transform="matrix(1 0 0 1 218.3701 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text386">o</text>
+<text
+       transform="matrix(1 0 0 1 224.958 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text388">n</text>
+<text
+       transform="matrix(1 0 0 1 231.6182 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text390">s</text>
+<text
+       transform="matrix(1 0 0 1 236.3701 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text392">%</text>
+<text
+       transform="matrix(1 0 0 1 245.874 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text394">2</text>
+<text
+       transform="matrix(1 0 0 1 252.0303 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text396">0</text>
+<text
+       transform="matrix(1 0 0 1 258.1865 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text398">2</text>
+<text
+       transform="matrix(1 0 0 1 264.3428 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text400">/</text>
+<text
+       transform="matrix(1 0 0 1 268.459 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text402">E</text>
+<text
+       transform="matrix(1 0 0 1 274.3633 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text404">P</text>
+<text
+       transform="matrix(1 0 0 1 280.7471 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text406">S</text>
+<text
+       transform="matrix(1 0 0 1 286.6631 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text408">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 293.8154 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text410">/</text>
+<text
+       transform="matrix(1 0 0 1 297.9316 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text412">n</text>
+<text
+       transform="matrix(1 0 0 1 304.4355 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text414">y</text>
+<text
+       transform="matrix(1 0 0 1 310.0879 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text416">t</text>
+<text
+       transform="matrix(1 0 0 1 314.0596 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text418">_</text>
+<text
+       transform="matrix(1 0 0 1 320.0596 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text420">b</text>
+<text
+       transform="matrix(1 0 0 1 326.8877 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text422">a</text>
+<text
+       transform="matrix(1 0 0 1 332.6719 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text424">s</text>
+<text
+       transform="matrix(1 0 0 1 337.4238 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text426">e</text>
+<text
+       transform="matrix(1 0 0 1 343.4355 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text428">_</text>
+<text
+       transform="matrix(1 0 0 1 349.4355 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text430">p</text>
+<text
+       transform="matrix(1 0 0 1 356.2637 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text432">a</text>
+<text
+       transform="matrix(1 0 0 1 362 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text434">t</text>
+<text
+       transform="matrix(1 0 0 1 365.9717 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text436">h</text>
+<text
+       transform="matrix(1 0 0 1 372.6318 43.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text438">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -427 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text440" />
+<text
+       transform="matrix(1 0 0 1 -424.4561 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text442" />
+<text
+       transform="matrix(1 0 0 1 -421.9121 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text444">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -414.7603 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text446">n</text>
+<text
+       transform="matrix(1 0 0 1 -408.2563 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text448">y</text>
+<text
+       transform="matrix(1 0 0 1 -402.6045 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text450">t</text>
+<text
+       transform="matrix(1 0 0 1 -398.6323 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text452">_</text>
+<text
+       transform="matrix(1 0 0 1 -392.6323 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text454">s</text>
+<text
+       transform="matrix(1 0 0 1 -387.8804 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text456">c</text>
+<text
+       transform="matrix(1 0 0 1 -382.5044 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text458">a</text>
+<text
+       transform="matrix(1 0 0 1 -376.7202 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text460">l</text>
+<text
+       transform="matrix(1 0 0 1 -373.8887 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text462">i</text>
+<text
+       transform="matrix(1 0 0 1 -371.0811 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text464">n</text>
+<text
+       transform="matrix(1 0 0 1 -364.4209 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text466">g</text>
+<text
+       transform="matrix(1 0 0 1 -357.7129 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text468">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -350.5605 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text470">1</text>
+<text
+       transform="matrix(1 0 0 1 -344.4043 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text472">0</text>
+<text
+       transform="matrix(1 0 0 1 -338.248 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text474">0</text>
+<text
+       transform="matrix(1 0 0 1 -332.0918 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text476">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -324.9395 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text478">/</text>
+<text
+       transform="matrix(1 0 0 1 -320.8232 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text480">n</text>
+<text
+       transform="matrix(1 0 0 1 -314.3184 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text482">y</text>
+<text
+       transform="matrix(1 0 0 1 -308.666 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text484">t</text>
+<text
+       transform="matrix(1 0 0 1 -304.6943 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text486">_</text>
+<text
+       transform="matrix(1 0 0 1 -298.6943 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text488">s</text>
+<text
+       transform="matrix(1 0 0 1 -293.9424 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text490">c</text>
+<text
+       transform="matrix(1 0 0 1 -288.5664 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text492">a</text>
+<text
+       transform="matrix(1 0 0 1 -282.7822 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text494">l</text>
+<text
+       transform="matrix(1 0 0 1 -279.9502 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text496">i</text>
+<text
+       transform="matrix(1 0 0 1 -277.1426 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text498">n</text>
+<text
+       transform="matrix(1 0 0 1 -270.4824 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text500">g</text>
+<text
+       transform="matrix(1 0 0 1 -263.7744 57.5996)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text502">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -427 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text504" />
+<text
+       transform="matrix(1 0 0 1 -424.4561 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text506" />
+<text
+       transform="matrix(1 0 0 1 -421.9121 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text508">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -414.7603 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text510">n</text>
+<text
+       transform="matrix(1 0 0 1 -408.2563 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text512">y</text>
+<text
+       transform="matrix(1 0 0 1 -402.6045 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text514">t</text>
+<text
+       transform="matrix(1 0 0 1 -398.6323 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text516">_</text>
+<text
+       transform="matrix(1 0 0 1 -392.6323 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text518">t</text>
+<text
+       transform="matrix(1 0 0 1 -388.6606 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text520">r</text>
+<text
+       transform="matrix(1 0 0 1 -384.7969 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text522">a</text>
+<text
+       transform="matrix(1 0 0 1 -379.0127 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text524">n</text>
+<text
+       transform="matrix(1 0 0 1 -372.3525 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text526">s</text>
+<text
+       transform="matrix(1 0 0 1 -367.6006 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text528">p</text>
+<text
+       transform="matrix(1 0 0 1 -360.7725 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text530">a</text>
+<text
+       transform="matrix(1 0 0 1 -354.9883 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text532">r</text>
+<text
+       transform="matrix(1 0 0 1 -351.1846 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text534">e</text>
+<text
+       transform="matrix(1 0 0 1 -345.1729 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text536">n</text>
+<text
+       transform="matrix(1 0 0 1 -338.5127 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text538">c</text>
+<text
+       transform="matrix(1 0 0 1 -332.9209 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text540">y</text>
+<text
+       transform="matrix(1 0 0 1 -327.2686 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text542">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -320.1162 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text544">t</text>
+<text
+       transform="matrix(1 0 0 1 -316.1445 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text546">r</text>
+<text
+       transform="matrix(1 0 0 1 -312.2207 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text548">u</text>
+<text
+       transform="matrix(1 0 0 1 -305.6084 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text550">e</text>
+<text
+       transform="matrix(1 0 0 1 -299.5967 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text552">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -292.4443 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text554">/</text>
+<text
+       transform="matrix(1 0 0 1 -288.3281 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text556">n</text>
+<text
+       transform="matrix(1 0 0 1 -281.8232 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text558">y</text>
+<text
+       transform="matrix(1 0 0 1 -276.1709 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text560">t</text>
+<text
+       transform="matrix(1 0 0 1 -272.1992 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text562">_</text>
+<text
+       transform="matrix(1 0 0 1 -266.1992 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text564">t</text>
+<text
+       transform="matrix(1 0 0 1 -262.2275 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text566">r</text>
+<text
+       transform="matrix(1 0 0 1 -258.3633 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text568">a</text>
+<text
+       transform="matrix(1 0 0 1 -252.5801 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text570">n</text>
+<text
+       transform="matrix(1 0 0 1 -245.9199 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text572">s</text>
+<text
+       transform="matrix(1 0 0 1 -241.168 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text574">p</text>
+<text
+       transform="matrix(1 0 0 1 -234.3398 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text576">a</text>
+<text
+       transform="matrix(1 0 0 1 -228.5547 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text578">r</text>
+<text
+       transform="matrix(1 0 0 1 -224.751 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text580">e</text>
+<text
+       transform="matrix(1 0 0 1 -218.7393 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text582">n</text>
+<text
+       transform="matrix(1 0 0 1 -212.0791 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text584">c</text>
+<text
+       transform="matrix(1 0 0 1 -206.4873 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text586">y</text>
+<text
+       transform="matrix(1 0 0 1 -200.835 72)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text588">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -427 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text590" />
+<text
+       transform="matrix(1 0 0 1 -424.4561 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text592" />
+<text
+       transform="matrix(1 0 0 1 -421.9121 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text594">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -414.7603 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text596">n</text>
+<text
+       transform="matrix(1 0 0 1 -408.2563 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text598">y</text>
+<text
+       transform="matrix(1 0 0 1 -402.6045 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text600">t</text>
+<text
+       transform="matrix(1 0 0 1 -398.6323 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text602">_</text>
+<text
+       transform="matrix(1 0 0 1 -392.6323 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text604">f</text>
+<text
+       transform="matrix(1 0 0 1 -389.2842 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text606">o</text>
+<text
+       transform="matrix(1 0 0 1 -382.6963 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text608">r</text>
+<text
+       transform="matrix(1 0 0 1 -378.7246 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text610">m</text>
+<text
+       transform="matrix(1 0 0 1 -368.7168 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text612">a</text>
+<text
+       transform="matrix(1 0 0 1 -362.9805 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text614">t</text>
+<text
+       transform="matrix(1 0 0 1 -359.0088 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text616">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -351.8564 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text618">E</text>
+<text
+       transform="matrix(1 0 0 1 -345.9521 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text620">P</text>
+<text
+       transform="matrix(1 0 0 1 -339.5684 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text622">S</text>
+<text
+       transform="matrix(1 0 0 1 -333.6523 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text624">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -326.5 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text626">/</text>
+<text
+       transform="matrix(1 0 0 1 -322.3838 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text628">n</text>
+<text
+       transform="matrix(1 0 0 1 -315.8799 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text630">y</text>
+<text
+       transform="matrix(1 0 0 1 -310.2275 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text632">t</text>
+<text
+       transform="matrix(1 0 0 1 -306.2559 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text634">_</text>
+<text
+       transform="matrix(1 0 0 1 -300.2559 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text636">f</text>
+<text
+       transform="matrix(1 0 0 1 -296.9072 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text638">o</text>
+<text
+       transform="matrix(1 0 0 1 -290.3193 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text640">r</text>
+<text
+       transform="matrix(1 0 0 1 -286.3477 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text642">m</text>
+<text
+       transform="matrix(1 0 0 1 -276.3398 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text644">a</text>
+<text
+       transform="matrix(1 0 0 1 -270.6035 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text646">t</text>
+<text
+       transform="matrix(1 0 0 1 -266.6318 86.4004)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text648">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -427 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text650" />
+<text
+       transform="matrix(1 0 0 1 -424.4561 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text652" />
+<text
+       transform="matrix(1 0 0 1 -421.9121 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text654">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -414.7603 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text656">n</text>
+<text
+       transform="matrix(1 0 0 1 -408.2563 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text658">y</text>
+<text
+       transform="matrix(1 0 0 1 -402.6045 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text660">t</text>
+<text
+       transform="matrix(1 0 0 1 -398.6323 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text662">_</text>
+<text
+       transform="matrix(1 0 0 1 -392.6323 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text664">e</text>
+<text
+       transform="matrix(1 0 0 1 -386.6567 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text666">x</text>
+<text
+       transform="matrix(1 0 0 1 -381.1006 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text668">p</text>
+<text
+       transform="matrix(1 0 0 1 -374.2725 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text670">o</text>
+<text
+       transform="matrix(1 0 0 1 -367.6846 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text672">r</text>
+<text
+       transform="matrix(1 0 0 1 -363.4736 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text674">t</text>
+<text
+       transform="matrix(1 0 0 1 -359.502 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text676">_</text>
+<text
+       transform="matrix(1 0 0 1 -353.502 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text678">c</text>
+<text
+       transform="matrix(1 0 0 1 -348.1973 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text680">o</text>
+<text
+       transform="matrix(1 0 0 1 -341.6094 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text682">d</text>
+<text
+       transform="matrix(1 0 0 1 -334.8418 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text684">e</text>
+<text
+       transform="matrix(1 0 0 1 -328.8301 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text686">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -321.6777 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text688">a</text>
+<text
+       transform="matrix(1 0 0 1 -315.8936 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text690">r</text>
+<text
+       transform="matrix(1 0 0 1 -311.6816 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text692">t</text>
+<text
+       transform="matrix(1 0 0 1 -307.7109 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text694">b</text>
+<text
+       transform="matrix(1 0 0 1 -300.8828 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text696">o</text>
+<text
+       transform="matrix(1 0 0 1 -294.2949 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text698">a</text>
+<text
+       transform="matrix(1 0 0 1 -288.5098 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text700">r</text>
+<text
+       transform="matrix(1 0 0 1 -284.7061 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text702">d</text>
+<text
+       transform="matrix(1 0 0 1 -277.9385 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text704">s</text>
+<text
+       transform="matrix(1 0 0 1 -273.1865 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text706">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -266.0342 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text708">/</text>
+<text
+       transform="matrix(1 0 0 1 -261.918 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text710">n</text>
+<text
+       transform="matrix(1 0 0 1 -255.4141 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text712">y</text>
+<text
+       transform="matrix(1 0 0 1 -249.7617 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text714">t</text>
+<text
+       transform="matrix(1 0 0 1 -245.79 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text716">_</text>
+<text
+       transform="matrix(1 0 0 1 -239.79 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text718">e</text>
+<text
+       transform="matrix(1 0 0 1 -233.8145 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text720">x</text>
+<text
+       transform="matrix(1 0 0 1 -228.2588 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text722">p</text>
+<text
+       transform="matrix(1 0 0 1 -221.4307 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text724">o</text>
+<text
+       transform="matrix(1 0 0 1 -214.8428 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text726">r</text>
+<text
+       transform="matrix(1 0 0 1 -210.6309 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text728">t</text>
+<text
+       transform="matrix(1 0 0 1 -206.6592 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text730">_</text>
+<text
+       transform="matrix(1 0 0 1 -200.6592 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text732">c</text>
+<text
+       transform="matrix(1 0 0 1 -195.3555 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text734">o</text>
+<text
+       transform="matrix(1 0 0 1 -188.7676 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text736">d</text>
+<text
+       transform="matrix(1 0 0 1 -182 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text738">e</text>
+<text
+       transform="matrix(1 0 0 1 -175.9883 100.7998)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text740">&gt;</text>
+<text
+       transform="matrix(1 0 0 1 -427 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text742">&lt;</text>
+<text
+       transform="matrix(1 0 0 1 -419.8481 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text744">/</text>
+<text
+       transform="matrix(1 0 0 1 -415.7324 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text746">n</text>
+<text
+       transform="matrix(1 0 0 1 -409.228 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text748">y</text>
+<text
+       transform="matrix(1 0 0 1 -403.5762 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text750">t</text>
+<text
+       transform="matrix(1 0 0 1 -399.604 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text752">_</text>
+<text
+       transform="matrix(1 0 0 1 -393.604 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text754">p</text>
+<text
+       transform="matrix(1 0 0 1 -386.7764 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text756">r</text>
+<text
+       transform="matrix(1 0 0 1 -382.9727 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text758">e</text>
+<text
+       transform="matrix(1 0 0 1 -376.9609 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text760">f</text>
+<text
+       transform="matrix(1 0 0 1 -373.5654 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text762">s</text>
+<text
+       transform="matrix(1 0 0 1 -368.8135 115.2002)"
+       display="inline"
+       font-family="'MyriadPro-Regular'"
+       font-size="12px"
+       id="text764">&gt;</text>
+</g></svg>

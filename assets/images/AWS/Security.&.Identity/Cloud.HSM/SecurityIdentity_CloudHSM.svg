@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 100 100"
+   style="enable-background:new 0 0 100 100;"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="SecurityIdentity_CloudHSM.svg"><metadata
+     id="metadata29"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs27" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="985"
+     id="namedview25"
+     showgrid="false"
+     inkscape:zoom="7.4579687"
+     inkscape:cx="50.26817"
+     inkscape:cy="50"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><style
+     type="text/css"
+     id="style3">
+	.st0{fill:#769B3F;}
+	.st1{fill:#4C612C;}
+</style><g
+     id="g5"
+     transform="matrix(1.3812155,0,0,1.3812155,-19.060775,-19.060775)"><polygon
+       class="st0"
+       points="33.9,27.7 33.9,39.1 26.1,38.1 26.1,25.7 "
+       id="polygon7"
+       style="fill:#769b3f" /><polygon
+       class="st1"
+       points="66,27.7 66,37.2 73.9,36.1 73.9,25.7 "
+       id="polygon9"
+       style="fill:#4c612c" /><polygon
+       class="st0"
+       points="62.9,20.2 62.9,79.8 50,86.2 50,13.8 "
+       id="polygon11"
+       style="fill:#769b3f" /><polygon
+       class="st0"
+       points="80,37.4 80,50 50,50 50,28.6 "
+       id="polygon13"
+       style="fill:#769b3f" /><polygon
+       class="st0"
+       points="73.9,25.7 73.9,74.3 80,71.2 80,28.8 "
+       id="polygon15"
+       style="fill:#769b3f" /><polygon
+       class="st1"
+       points="37.3,20.1 37.3,79.9 50,86.2 50,13.8 "
+       id="polygon17"
+       style="fill:#4c612c" /><polygon
+       class="st1"
+       points="26.1,25.7 26.1,74.3 20,71.2 20,28.8 "
+       id="polygon19"
+       style="fill:#4c612c" /><polygon
+       class="st1"
+       points="20,37.4 20,71.2 50,86.2 50,28.6 "
+       id="polygon21"
+       style="fill:#4c612c" /><polygon
+       class="st1"
+       points="62.9,71.5 62.9,50 73.9,50 73.9,74.3 "
+       id="polygon23"
+       style="fill:#4c612c" /></g></svg>

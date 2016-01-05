@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 100 100"
+   style="enable-background:new 0 0 100 100;"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="SecurityIdentity_ServiceCatalog.svg"><metadata
+     id="metadata27"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs25" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="985"
+     id="namedview23"
+     showgrid="false"
+     inkscape:zoom="7.4579687"
+     inkscape:cx="50.26817"
+     inkscape:cy="50"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><style
+     type="text/css"
+     id="style3">
+	.st0{fill:#B6C99C;}
+	.st1{fill:#4C612C;}
+	.st2{fill:#769B3F;}
+</style><g
+     id="g5"
+     transform="matrix(1.2135922,0,0,1.2135922,-10.67961,-10.67961)"><polygon
+       class="st0"
+       points="49.9,82.3 84.1,67.9 49.9,61.5 15.9,67.9 "
+       id="polygon7"
+       style="fill:#b6c99c" /><polyline
+       class="st1"
+       points="15.9,67.9 15.9,74.1 20.3,76.3 50,91.2 50,80.8  "
+       id="polyline9"
+       style="fill:#4c612c" /><polyline
+       class="st2"
+       points="84.1,67.9 84.1,74.1 79.7,76.3 50,91.2 50,80.8  "
+       id="polyline11"
+       style="fill:#769b3f" /><polygon
+       class="st1"
+       points="35.6,60.3 35.6,70.4 50,74.7 50,62.4 "
+       id="polygon13"
+       style="fill:#4c612c" /><polygon
+       class="st2"
+       points="64.4,60.3 64.4,70.4 50,74.7 50,62.4 "
+       id="polygon15"
+       style="fill:#769b3f" /><polygon
+       class="st1"
+       points="35.6,54.1 35.6,16.1 50,8.8 50,55.3 "
+       id="polygon17"
+       style="fill:#4c612c" /><polygon
+       class="st2"
+       points="64.4,16.1 64.4,54.1 50,55.3 50,8.8 "
+       id="polygon19"
+       style="fill:#769b3f" /><polygon
+       class="st0"
+       points="35.6,60.3 50,58.8 64.4,60.3 50,62.4 "
+       id="polygon21"
+       style="fill:#b6c99c" /></g></svg>

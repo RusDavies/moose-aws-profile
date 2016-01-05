@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="499 2179 100 100"
+   style="enable-background:new 499 2179 100 100;"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="InternetOfThings_IOTHTTP2Protocol.svg"><metadata
+     id="metadata21"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs19" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="985"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="7.4579687"
+     inkscape:cx="50.26817"
+     inkscape:cy="50"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><style
+     type="text/css"
+     id="style3">
+	.st0{fill:#19486F;}
+	.st1{fill:#1F5B98;}
+	.st2{fill:#99BBE1;}
+	.st3{fill:#5193CE;}
+	.st4{fill:#17476F;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:none;stroke:#5193CE;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st9{fill:#5193CE;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st11{fill:#5193CE;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill:#FFFFFF;stroke:#5193CE;stroke-width:2;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#5193CE;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#5193CE;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#5193CE;stroke-linecap:round;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#5193CE;stroke-width:3;stroke-miterlimit:10;}
+	.st17{fill:none;}
+	.st18{font-family:'HelveticaNeueLTStd-MdCn';}
+	.st19{font-size:15px;}
+	.st20{fill:none;stroke:#5193CE;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style><g
+     id="g3349"
+     transform="matrix(1.7006831,0,0,1.7006831,-384.58998,-1561.8225)"><rect
+       id="rect5"
+       height="25.1"
+       width="48.099998"
+       class="st4"
+       y="2215.3999"
+       x="526.20001"
+       style="fill:#17476f" /><path
+       id="path7"
+       d="m 525.9,2253.4 c -2.6,0 -4.8,-2.1 -4.8,-4.7 l 0,0 0,3 c 0,2.6 2.1,4.7 4.8,4.7 l 0.8,0 0,-3 -0.8,0 z"
+       class="st4"
+       inkscape:connector-curvature="0"
+       style="fill:#17476f" /><path
+       id="path9"
+       d="m 569.5,2199.6 -43.6,0 c -2.6,0 -4.8,2.1 -4.8,4.7 l 0,44.3 0,0 c 0,2.6 2.1,4.7 4.8,4.7 l 0.8,0 0,-4.7 0,-11.6 47.5,0 0,-32.6 c 0.1,-2.7 -2,-4.8 -4.7,-4.8 z"
+       class="st3"
+       inkscape:connector-curvature="0"
+       style="fill:#5193ce" /><rect
+       id="rect11"
+       height="3"
+       width="48"
+       class="st4"
+       y="2255.3999"
+       x="528.79999"
+       style="fill:#17476f" /><rect
+       id="rect13"
+       height="15.9"
+       width="48"
+       class="st3"
+       y="2239.5"
+       x="528.79999"
+       style="fill:#5193ce" /><text
+       style="font-size:11.98887825px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff"
+       y="2251.3428"
+       x="531.62335"
+       id="text15"
+       class="st5 st18 st19">HTTP/2</text>
+</g></svg>

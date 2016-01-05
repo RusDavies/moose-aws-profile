@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="14003C42-5" name="moose-aws_Analytics" version="1.0" alias="Analytics" notes="AWS Analytics elements"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="moose-aws_AnalyticsElements" notes="Elements for modeling AWS analytics">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_DataPipeline(UML::Class)" type="" description="" unit="" values="" default="Data Pipeline"/>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_Elasticsearch(UML::Class)" type="" description="" unit="" values="" default="Elastic Search"/>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_EMR(UML::Class)" type="" description="" unit="" values="" default="EMR"/>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_Cluster(UML::Class)" type="" description="" unit="" values="" default="EMR Cluster"/>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_HDFS_Cluster(UML::Class)" type="" description="" unit="" values="" default="EMR HDFS Cluster"/>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_MapRM3Engine(UML::Class)" type="" description="" unit="" values="" default="EMR Map RM3 Engine"/>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_MapRM5Engine(UML::Class)" type="" description="" unit="" values="" default="EMR Map RM5 Engine"/>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_MapRM7Engine(UML::Class)" type="" description="" unit="" values="" default="EMR Map RM7 Engine"/>
+					<Tag name="moose-aws_Analytics::AWS_Analytics_Kinesis(UML::Class)" type="" description="" unit="" values="" default="Kinesis"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

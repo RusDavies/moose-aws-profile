@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 100 100"
+   style="enable-background:new 0 0 100 100;"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Database_AmazonRDS_PostgreSQLInstance.svg"><metadata
+     id="metadata75"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs73" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="985"
+     id="namedview71"
+     showgrid="false"
+     inkscape:zoom="7.4579687"
+     inkscape:cx="51.375859"
+     inkscape:cy="68.090633"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><style
+     type="text/css"
+     id="style3">
+	.st0{fill:#FFFFFF;}
+	.st1{font-family:'HelveticaNeueLTStd-MdCn';}
+	.st2{font-size:11px;}
+	.st3{fill:#1A476F;}
+	.st4{fill:#2D72B8;}
+	.st5{display:none;}
+</style><g
+     id="g3490"
+     transform="matrix(1.8181818,0,0,1.8181818,-40.90909,-39.999999)"><g
+       transform="translate(-0.0489246,0)"
+       id="g28"><g
+         id="g30"><path
+           style="fill:#1a476f"
+           inkscape:connector-curvature="0"
+           id="path32"
+           d="m 76.4,66.9 0,2.6 c 0,0.4 0,0.7 -0.1,1.1 l 0,-2.6 c 0,-0.4 0.1,-0.8 0.1,-1.1"
+           class="st3" /><path
+           style="fill:#1a476f"
+           inkscape:connector-curvature="0"
+           id="path34"
+           d="m 76.3,68 0,2.6 C 76.2,71 76.1,71.4 76,71.8 l 0,-2.6 c 0.1,-0.4 0.2,-0.8 0.3,-1.2"
+           class="st3" /><path
+           style="fill:#1a476f"
+           inkscape:connector-curvature="0"
+           id="path36"
+           d="m 76,69.2 0,2.6 c -0.1,0.5 -0.3,0.9 -0.6,1.3 l 0,-2.6 c 0.3,-0.4 0.5,-0.9 0.6,-1.3"
+           class="st3" /></g><path
+         style="fill:#1a476f"
+         inkscape:connector-curvature="0"
+         id="path38"
+         d="m 76.4,66.9 0,2.6 c 0,4.1 -3.4,7.5 -7.5,7.5 l 0,-2.6 c 4.1,0 7.5,-3.4 7.5,-7.5 z"
+         class="st3" /><g
+         id="g40"><polygon
+           style="fill:#1a476f"
+           id="polygon42"
+           points="69.9,73.6 68.8,77 31.2,77 31.2,74.4 "
+           class="st3" /></g><path
+         style="fill:#1a476f"
+         inkscape:connector-curvature="0"
+         id="path44"
+         d="m 31.2,74.4 0,2.6 C 27,77 23.7,73.6 23.7,69.5 l 0,-2.6 c -0.1,4.1 3.3,7.5 7.5,7.5 z"
+         class="st3" /><g
+         id="g46"><path
+           style="fill:#2d72b8"
+           inkscape:connector-curvature="0"
+           id="path48"
+           d="m 68.8,22 c 4.2,0 7.5,3.3 7.5,7.5 l 0,38.4 c 0,4.1 -3.4,7.5 -7.5,7.5 l -37.6,0 C 27,75.4 23.7,72 23.7,67.9 l 0,-38.4 c 0,-4.1 3.4,-7.5 7.5,-7.5 l 37.6,0 z"
+           class="st4" /></g></g><text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.212566"
+       x="24.598688"
+       class="st0 st1 st2"
+       id="text50"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">P</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.216152"
+       x="30.353163"
+       class="st0 st1 st2"
+       id="text52"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">o</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.219746"
+       x="35.993771"
+       class="st0 st1 st2"
+       id="text54"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">s</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.223331"
+       x="41.023628"
+       class="st0 st1 st2"
+       id="text56"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">t</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.226921"
+       x="44.650829"
+       class="st0 st1 st2"
+       id="text58"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">g</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.208977"
+       x="49.7635"
+       class="st0 st1 st2"
+       id="text60"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">r</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.230511"
+       x="53.84618"
+       class="st0 st1 st2"
+       id="text62"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">e</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.2341"
+       x="59.414322"
+       class="st0 st1 st2"
+       id="text64"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">S</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.237686"
+       x="65.267143"
+       class="st0 st1 st2"
+       id="text66"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">Q</text>
+<text
+       transform="scale(0.96364861,1.0377227)"
+       y="38.24128"
+       x="72.284523"
+       class="st0 st1 st2"
+       id="text68"
+       style="font-size:10.60013485px;font-family:HelveticaNeueLTStd-MdCn;fill:#ffffff">L</text>
+</g><g
+     id="nyt_x5F_exporter_x5F_info"
+     class="st5" /></svg>

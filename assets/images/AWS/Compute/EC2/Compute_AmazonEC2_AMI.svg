@@ -1,46 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" viewBox="0 0 100 100" xml:space="preserve">
-<g id="Layer_3">
-</g>
-<g id="Layer_1_1_">
-	<text transform="matrix(1 0 0 1 32.5635 -5.0303)" fill="#231F20" font-family="'HelveticaNeueLTStd-Roman'" font-size="21.0885">AMI</text>
-	<g>
-		<g>
-			<path fill="#9D5025" d="M76.562,70.677v2.967c0,0.23-0.018,0.457-0.049,0.68v-2.967C76.545,71.136,76.562,70.907,76.562,70.677"
-				/>
-			<path fill="#9D5025" d="M76.514,71.356v2.967c-0.039,0.264-0.098,0.52-0.178,0.768v-2.967
-				C76.416,71.876,76.475,71.62,76.514,71.356"/>
-			<path fill="#9D5025" d="M76.336,72.124v2.967c-0.094,0.291-0.215,0.57-0.361,0.834v-2.967
-				C76.121,72.694,76.242,72.415,76.336,72.124"/>
-			<path fill="#9D5025" d="M75.975,72.958v2.967c-0.809,1.465-2.371,2.459-4.174,2.459v-2.967
-				C73.604,75.417,75.166,74.423,75.975,72.958"/>
-		</g>
-		<path fill="#9D5025" d="M76.562,70.677v2.967c0,2.615-2.127,4.74-4.762,4.74v-2.967C74.436,75.417,76.562,73.29,76.562,70.677z"/>
-		<g>
-			<path fill="#9D5025" d="M28.199,75.417v2.967c-2.635,0-4.762-2.125-4.762-4.74v-2.967C23.438,73.29,25.564,75.417,28.199,75.417"
-				/>
-		</g>
-		<path fill="#9D5025" d="M28.199,75.417v2.967c-2.635,0-4.762-2.125-4.762-4.74v-2.967C23.438,73.29,25.564,75.417,28.199,75.417z"
-			/>
-		<g>
-			<polygon fill="#9D5025" points="72.893,74.661 71.801,78.384 28.199,78.384 27.215,74.983 			"/>
-		</g>
-		<g>
-			<path fill="#F58536" d="M71.801,21.616c2.635,0,4.762,2.125,4.762,4.741v44.319c0,2.613-2.127,4.74-4.762,4.74H28.199
-				c-2.635,0-4.762-2.127-4.762-4.74V26.357c0-2.616,2.127-4.741,4.762-4.741C28.199,21.616,71.801,21.616,71.801,21.616z"/>
-		</g>
-		<rect x="33.146" y="30.689" fill="#FFFFFF" width="33.668" height="15.868"/>
-		<rect x="35.717" y="33.312" fill="#F58536" width="7.986" height="10.627"/>
-		<rect x="45.984" y="33.312" fill="#F58536" width="7.99" height="10.627"/>
-		<rect x="56.256" y="33.312" fill="#F58536" width="7.99" height="10.627"/>
-		<rect x="33.146" y="51.942" fill="#FFFFFF" width="33.668" height="15.869"/>
-		<rect x="35.717" y="54.563" fill="#F58536" width="7.986" height="10.627"/>
-		<rect x="45.984" y="54.563" fill="#F58536" width="7.99" height="10.627"/>
-		<rect x="56.256" y="54.563" fill="#F58536" width="7.99" height="10.627"/>
-	</g>
-</g>
-<g id="nyt_x5F_exporter_x5F_info" display="none">
-</g>
-</svg>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 100 100"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Compute_AmazonEC2_AMI.svg"><metadata
+     id="metadata56"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs54" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="985"
+     id="namedview52"
+     showgrid="false"
+     inkscape:zoom="7.4579687"
+     inkscape:cx="50.26817"
+     inkscape:cy="71.453563"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><g
+     id="Layer_3"
+     transform="matrix(1.7615558,0,0,1.7615558,-17.848583,-59.69379)" /><g
+     id="g7"
+     transform="matrix(1.7615558,0,0,1.7615558,-38.07779,-38.07779)"><g
+       id="g9"><path
+         style="fill:#9d5025"
+         inkscape:connector-curvature="0"
+         id="path11"
+         d="m 76.562,70.677 0,2.967 c 0,0.23 -0.018,0.457 -0.049,0.68 l 0,-2.967 c 0.032,-0.221 0.049,-0.45 0.049,-0.68" /><path
+         style="fill:#9d5025"
+         inkscape:connector-curvature="0"
+         id="path13"
+         d="m 76.514,71.356 0,2.967 c -0.039,0.264 -0.098,0.52 -0.178,0.768 l 0,-2.967 c 0.08,-0.248 0.139,-0.504 0.178,-0.768" /><path
+         style="fill:#9d5025"
+         inkscape:connector-curvature="0"
+         id="path15"
+         d="m 76.336,72.124 0,2.967 c -0.094,0.291 -0.215,0.57 -0.361,0.834 l 0,-2.967 c 0.146,-0.264 0.267,-0.543 0.361,-0.834" /><path
+         style="fill:#9d5025"
+         inkscape:connector-curvature="0"
+         id="path17"
+         d="m 75.975,72.958 0,2.967 c -0.809,1.465 -2.371,2.459 -4.174,2.459 l 0,-2.967 c 1.803,0 3.365,-0.994 4.174,-2.459" /></g><path
+       style="fill:#9d5025"
+       inkscape:connector-curvature="0"
+       id="path19"
+       d="m 76.562,70.677 0,2.967 c 0,2.615 -2.127,4.74 -4.762,4.74 l 0,-2.967 c 2.636,0 4.762,-2.127 4.762,-4.74 z" /><g
+       id="g21"><path
+         style="fill:#9d5025"
+         inkscape:connector-curvature="0"
+         id="path23"
+         d="m 28.199,75.417 0,2.967 c -2.635,0 -4.762,-2.125 -4.762,-4.74 l 0,-2.967 c 10e-4,2.613 2.127,4.74 4.762,4.74" /></g><path
+       style="fill:#9d5025"
+       inkscape:connector-curvature="0"
+       id="path25"
+       d="m 28.199,75.417 0,2.967 c -2.635,0 -4.762,-2.125 -4.762,-4.74 l 0,-2.967 c 10e-4,2.613 2.127,4.74 4.762,4.74 z" /><g
+       id="g27"><polygon
+         style="fill:#9d5025"
+         id="polygon29"
+         points="71.801,78.384 28.199,78.384 27.215,74.983 72.893,74.661 " /></g><g
+       id="g31"><path
+         style="fill:#f58536"
+         inkscape:connector-curvature="0"
+         id="path33"
+         d="m 71.801,21.616 c 2.635,0 4.762,2.125 4.762,4.741 l 0,44.319 c 0,2.613 -2.127,4.74 -4.762,4.74 l -43.602,0 c -2.635,0 -4.762,-2.127 -4.762,-4.74 l 0,-44.319 c 0,-2.616 2.127,-4.741 4.762,-4.741 0,0 43.602,0 43.602,0 z" /></g><rect
+       style="fill:#ffffff"
+       id="rect35"
+       height="15.868"
+       width="33.667999"
+       y="30.688999"
+       x="33.146" /><rect
+       style="fill:#f58536"
+       id="rect37"
+       height="10.627"
+       width="7.9860001"
+       y="33.312"
+       x="35.716999" /><rect
+       style="fill:#f58536"
+       id="rect39"
+       height="10.627"
+       width="7.9899998"
+       y="33.312"
+       x="45.984001" /><rect
+       style="fill:#f58536"
+       id="rect41"
+       height="10.627"
+       width="7.9899998"
+       y="33.312"
+       x="56.256001" /><rect
+       style="fill:#ffffff"
+       id="rect43"
+       height="15.869"
+       width="33.667999"
+       y="51.942001"
+       x="33.146" /><rect
+       style="fill:#f58536"
+       id="rect45"
+       height="10.627"
+       width="7.9860001"
+       y="54.563"
+       x="35.716999" /><rect
+       style="fill:#f58536"
+       id="rect47"
+       height="10.627"
+       width="7.9899998"
+       y="54.563"
+       x="45.984001" /><rect
+       style="fill:#f58536"
+       id="rect49"
+       height="10.627"
+       width="7.9899998"
+       y="54.563"
+       x="56.256001" /></g><g
+     id="nyt_x5F_exporter_x5F_info"
+     display="none" /></svg>
