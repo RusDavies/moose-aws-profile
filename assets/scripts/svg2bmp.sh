@@ -10,7 +10,7 @@ do
   for i in 16x16
     do 	
       mkdir -p ${i}
-      convert "$file" -auto-orient -thumbnail "${i}>" -background white -gravity center -extent ${i} -unsharp 0x.5 -trim "./${i}/${file%.*}.bmp"
+      convert "$file" -colors 65536 -auto-orient -thumbnail "${i}>" -background white -gravity center -extent ${i} -unsharp 0x.5 -trim "./${i}/${file%.*}.bmp"
     done
   echo "Done"
   popd &> /dev/null
