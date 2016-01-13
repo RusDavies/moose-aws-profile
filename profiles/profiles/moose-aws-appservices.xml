@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="288D0E64-7" name="moose-aws_AppServices" version="1.0" notes="moose-aws_AppServices"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="AWS_APIGateway" metatype="API Gateway" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////3dnZAEFlDpLS6///////////////////////////////////
+////////////////ACVFAAArAG3FDKHq////////////////////////////////qb3Garve
+4v//////ACRDAAg1AHzPDaPs///9y8jAWouitOL5////////////S3qQAAATAFOoAHHGAFSM
+AA4yABY+AInXAJXmAF2WAAExAAI9AGDCYr7s////////Hlp2AAAPAF6uACtlAAAiAAoqACFG
+AJLdAJ/xAJbrAFOaABJJAGHDPK7o////////JV95AAAQAGKwAFqbAF+PACJDACZJA5jhCqjz
+E5fYAEWAABNIAGTFQ7Lo////////WYWYACNPFZjYKcD/Pbz6ADBSAClKCaDlD6DmG1x7ADpY
+AFeBAI3eccjy////////////////////////////F0ZbAClLCZ/kRMT/////////////////
+////////////////////////////////EkNZACpMCp/lP8D////////4///y////////////
+////SXeMAAAoAGGhAIjQCYPAAChKACtNC6DnB5jeACNAAAQgAB1IAGq5Y77o////////J2F7
+AAAUAGe2AEOBABE4ABIyAClMBpzkAJnlAFSSADl0ABlPAGfJRbPo////////Hlt3AAARAGCw
+AC9rAAInAAwtACNIAJTfAKHzAJjuAFOaABRLAGLFPK7o////////VIKWAAAZAFWqAHnPAGKY
+ABI2ABhAAIvZAJjoAGOYAAQyAAQ/AGXFbsTt////////////v87Uhszr/P//////ACZFAAk2
+AH3PD6Xu////6NnReJ+yzO7/////////////////////////////////ACVGAAArAG7GDKLr
+////////////////////////////////////////////////3NnZAEFmDZLT6v//////////
+////////////////AAAAAAAAcHvSAQAAAAAAAAAAAAAAAAAAAAD/////gBDTAQAAAAAAAAAA
+AAAAAAAAAAAAAAAAEQAAABEAAABwn3UVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAZQBwAAAAOwDwC1oVGgAAAFVTRQBoGB0CAwAAAAMAAAAAAAAAMQAuAPALWhVKAAAA
+VVNFHmgYHQIMAAAADAAAAAAAAABUAE8ARwBBAEYAOgA6AEMAbABhAGkAbQAAAAAAAABF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAP5xLEjNxdRnwgAAAHIBAAAHABEAc3RyLmRhdFVUDQAHcwqVVnMKlVZzCpVW
+bZBLC8IwEITnWsH/UOpFQUSvevIg4sEH9OBRtFatpCq2KiL+d7/EVwUJm53szk4mybTRXAfF
+8pWCEu10U1kleWBbWdOrKlBXU4WakQ8sQzeim5P3zISwjjq7aqzM8SYaqO84sS7kqxqgVCvU
+6tzXLOwtchHV1HEu7m63kRWcGtACZD5eM065xnhIcGxfYT2HeP69663roWS5O6bMiz1Gc4tO
+RK0Nu6IRrxiqBwr+OFo67h6d7z/4xAlF4xhPd98JGw9QSwECFwsUAAAACAD+cSxIzcXUZ8IA
+AAByAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHcwqVVlBLBQYAAAAAAQABAD4A
+AAD4AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppService_ElasticTranscoder" metatype="Elastic Transcoder" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////19TSAEJlFJTT6P//////////////////////////////////
+////////////kLPDAAAhAAArAG/FAIjcnszm///9////////////////////////+P//JWB7
+ADVwAEqOAAAYAAczAHrLAIjgADFtAE2PQazk8vLu////////////W4aaADd8AAA5ACtnAE+T
+AAAgACBIAI3YAJHmAC9oAEiNAFCkAC1wcsPt////////HVp3ACZxABpVAFyUFZjYfrfSv/b/
+yP//jt7/AFJ8AHGvAFSiABxkPavh////////scfTYrrmpuf////////////////+////////
+////////lcDUWaPIuuf9////////5OjqZ5GlSHeNKFtyB0BaACdDAClMCZjeHaz0MbLwSrru
+YcPves3z6vv/////////N2+IAAAXAAApAAoyABM4ABY2AChMB5jgBqPxAJblAInZAHrRAGfF
+UrXo////////OXGKAAAaAAAqAAs0ABQ5ABg4ACpOCJvjB6fzAJjnAIrcAHzTAGnIVLbo////
+////7O3tb5GhW4SXQ3KHIFVtADlTADlbGKPqLrr+R8H9Ysn7csTxgMbl8v3/////////nLG8
+H2eMcKO9ycK///Xv//////Tm/////////ODQwbGrX3iFFlBtqtLo////////IF57ACp2AA9K
+AC1hAGqoJUtfECEtFzZJMnCQACZNAEF8AEmWACBpP67o////////XYmeADuCAAVBADZzAFug
+AAIoABY/AIPOAJjtADp1AFOaAFesADJ1dcft////////////+///KGWBADt3AFKWAAAiABE+
+AITWAJDqADl1AFOXRbHk9fb2////////////////////////////mLjJAAAoAAIyAHbPAI/l
+ntPs////////////////////////////////////////////2tjWAEZqGJnX6///////////
+////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAxyLEhhU3WWygAAAIwBAAAHABEAc3RyLmRhdFVUDQAHxgqVVsYKlVbGCpVW
+ZZA5DwFRFIVPS+I/CA2JCC2VQoliJEoZYxt5zMRDQfx33322EZnc5d1z7nLGa6tYuVaqak+W
+6qCbKiqrRG6VDVhDNQ00U6Q5MedzoAnoiZjRE8E66hKqK/nAs+5rQIfwY6rGTjSFGVP15JmW
+obON32vNnhaXdAq+SyxmTfXDfffgzXxBg+1ZkLmPCs/rpAk7UrSYPlMToeZ313tuiUnGPdDl
+XuwJM3fMSaj1YNc1Rt8IXXXQ/4tMk2kzne8/VMXOTHSB8bzu22H2AFBLAQIXCxQAAAAIAAxy
+LEhhU3WWygAAAIwBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfGCpVWUEsFBgAA
+AAABAAEAPgAAAAABAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_AppStream" metatype="App Stream" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////try/AChRAH7CyO//////////////////////////////////
+////////rbzDADBQAAAYAB1TAHvPAHPOFZnZwOT5////////////////////////////z9jc
+AAAwADBsIJjTYNH/Zdz/M77/AIviAHHL3/P+////////////////////////////weX3uv3/
+gd3/AFOLAJHfheX/nub/w+/////////////////////////////////////////////6AAIy
+AGy97Pf8BlV7l9Ht////////////////////////////////////////////AAo6AHTE7PT3
+ABlPVrTi///////////////////////////////////97///////ABFBAHjJ////PH+fqt36
+////////////////////////////////V4qhAHK89v//ABtKAH7S////////////////////
+////////////////////////ZZasAH7H////ACRUAIja////////////////////////////
+////////////////////////////b5eqgMrv////////////////////////////////8fP0
+pLC3fYqTWWp1NEhVByEzAAAVAAAOABMkHTA9Qk5Xa3J4mKSs7/P2////////EVd4AAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAABFACmFKp7X////////SYGaAAAXAAAZAAAoAAAq
+AAAcAAAMABJBAEiJAGq8AHXVAGrSAGLKXr3t////////////v9LbAk5xAAAvAAApAAMxABlK
+AIvhAJj2AIXmAH7bIKbkxu7/////////////////////////4+rtJGJ/AAg0AAo+AH3WAJPt
+Rb756///////////////////////////////////////////3uDgAE5zG5/g7f//////////
+////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIxoLEiw3FeNvAAAAGgBAAAHABEAc3RyLmRhdFVUDQAH5vmUVub5lFbm+ZRW
+bZBPD8FAEMXftRLfoeFCIsKVk4MjPfTgKEVR2f5JWy7iu/vtoiqRze68nXnz5u1WOitSoVi+
+UlCiTHd11ZEHtpkTtYF6WmijUFtiwTJU91RrYk5PCKvUzWVjVQ0vhFGSidAaE1Md0RoxbdI6
+p8Q2GmruPDzcaXfV8mlAO5BpnFbcagVMSvBr32Adhzj+nfXR9VCy3Iwu82YHaF7Q2ZObwe5r
+zRtWWoJ6fxwdHDdH5/sLPvuKonGMl7tXxxNQSwECFwsUAAAACACMaCxIsNxXjbwAAABoAQAA
+BwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH5vmUVlBLBQYAAAAAAQABAD4AAADyAAAA
+AAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_CloudSearch" metatype="CloudSearch" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////yc/QADVdAIfK2Pn/////////////////////////////////
+////////////////ABU7AAAeAFy5AJDg////////////////////////////////////////
+////////AAw0AAAlAGO9AIze////////////////////////////////////////mLG8AERj
+AAAZAAApAGe/AHnVI6Pjptn4////////////////////tcrUAEBlAAAtAAATAAAPAAAOAAAl
+AGS9AHLRAGfIAGLDAHDHD5TVveX0////////CFFzAAAEAAAbAAAvABdHADhjFGmRMa7sCZ/p
+AIbZAHHMAGLDAE+4Jp7Z////////GFx8AAAOAEx1+f//////////////////////////+///
+AGCPADeTNajf////////JWaEAAAJFFh3////////////////////////////////Cj9XACB3
+Qq/k////////J2eFAAAKE1d3////////////////////////////////CkFaACJ6Q7Dl////
+////J2eFAAAKE1d4////////////////////////////////CkJbACJ6Q7Dm////////IGOB
+AAAKDlR1////////////////////////////////BT1XACR8Pa3k////////DFR2AAAMAAQ1
+Hl58k667//n1//////////Holq65J3SZAD+EAEirKqLd////////SX+YAAAUAAAOAAAUAAAb
+AAApACVLAFGFAFCZAFevAF2+AFzCAFzAX7nm////////////uc3WAEVoAAAfAAASAAATAAAo
+AGS/AHXaAGrNAGvJGJvbxOj6////////////////////////1d3hDlBuAAAfAAAnAGS/AHzb
+MKvl3fj/////////////////////////////////////////zNDWAD1kB47R2/3/////////
+////////////////oQByvPb//wAbSgB+0v//////////////////////////////////////
+/////2WWrAB+x////wAkVACI2v//////////////////////////////////////////////
+/////////2+XqoDK7/////////////////////////////////Hz9KSwt32Kk1lqdTRIVQch
+MwAAFQAADgATJB0wPUJOV2tyeJikrO/z9v///////xFXeAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGxpLEj3OfwVxQAAAHgBAAAHABEAc3RyLmRhdFVUDQAHavuUVmr7lFZq+5RW
+bZBLD8FQEIXPlsR/kNqQiLBlJWKJRReWQr0qlzaqFsR/992pRyXS3Dvnzpw5c6aZ9loq1UZ1
+HUGxTrqrpqoqYJ/ZUWsq0FBzhVoQUz5HNaJ6ISb0hLDOulp2o8x4vvtm1RH8RLnWxlvCjJjb
+AR+1RbvN9G7p7hHLqKWBeXrY7U9W8u1AK5D7OM94XTRjTox/v5PfIGSD31lv3QpKnnuiy73Y
+MzQP6ETk+rAbmrLTRGNQ8MfR2rgJOt+/UufkKDpjFO6KjidQSwECFwsUAAAACABsaSxI9zn8
+FcUAAAB4AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHavuUVlBLBQYAAAAAAQAB
+AD4AAAD7AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_CloudSearch_SDFMetaData" metatype="CloudSearch SDF Meta Data" notes="" generalizes="Archimate2::ArchiMate_DataObject" baseStereotypes="Archimate2::ArchiMate_DataObject">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////3OPkACplADZsAEN0AEx6AFF+AFR/AFR/AFF+AEx6AEN0ADZsACtl4Obl////////3fj/
+AHXPAH3YAIfYAI/gAJPjAJXkAJXkAJPjAI/gAIfYAH3YAHXP4fr/////////1fL/AHPLaMbw
+qOL/sOf/tur/uOv/uOv/tur/sOb/qOL+aMbwAHPM2PT/////////zez8AHHI/f//////////
+/////////////////////////P//AHHI0e78////////yej4AGTAKJ/aV7XmW7jmXbnmXrrm
+XrrmXbnmWrjmVrXmJ5/aAGTAzOr5////////wuPzAGa/zOn4////////////////////////
+////////y+n4AGa/yOTz////////wuPzAF26GJXTQ6nbRKrcRKrcRKrcRKrcRKrcQ6ncQ6nb
+GJXSAF26xOTz////////weLzAGK87vf8////////////////////////////////7ff8AGK8
+w+Pz////////ueLyAGa9HpfSTKzcS6zbSqvbSavbSavbSqvbS6zbTKzcHpfSAGa9vOLy////
+1en2MqDWcr7juN7x////////////////////////////////uN7xcb3jM6DW1en24fH3WbLe
+QafZf8TmxuXxw+PxwuPxwd/xwd/xwuPxw+PxxuTxf8TmQKbZWrPe4fH3////wuPzAGO8vd7x
+////////////////////////////////vN7xAGO8w+Pz////////wuPzAF+6h8fn0On2z+n1
+z+n2z+n1z+n1z+n2z+n10On2hsfnAGC6w+Pz////////xuPzAGW8zej1////////////////
+////////////////zej1AGW8yuTz////////y+fzAGi+2e33////////////////////////
+////////2e33AGm+z+nz////////0urzAGO8AHTDAH7HAILJAIXKAIbLAIbLAIXKAILJAH7H
+AHTDAGS81uzz////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGBpLEgaXIBs0QAAAJABAAAHABEAc3RyLmRhdFVUDQAHhPuUVoT7lFaE+5RW
+bZBLDwFBEITrSuI/CBcSEa6cxOOGwx4cZa3FyrBicSD+u2/aayWymema7urqrs20UaiDYpW1
+AyXa66aSiiqAfWZNraaKepop0Jx44HNUI6onYkpPAOuoi2VjZcbz3Ver9uGnOmtpvBBmxNw5
+r4FG8GJ0QqpeL1ST904rZjbYqpW728Q8qqtru97t9ifL+XGgBch9HGU2acr8BF/eq3cW4Ox3
+1lu3gJLn7ulyL/YUzS06EbkO7KomeB1rCKr82Whp3BSd798qc84oOmM8t3t2PABQSwECFwsU
+AAAACABgaSxIGlyAbNEAAACQAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHhPuU
+VlBLBQYAAAAAAQABAD4AAAAHAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_SES" metatype="SES" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////1M7PAD5gFpHO6v//////////////////////////////////
+////////////////ABE0AAAjAG7AAIjbTrbq+P//////////////////////////////////
+////////ABExAAQtAH3IAIvaAH7TAH3PPKnf4fT9////////////////////////Z7niY7vn
+ABQ1ABE1AInPAJjkAI7ZAIHRAHHHAGzDULDf////////////////f5mlAFafAIDSABU4AB49
+DpTWEaPrBpnhAI3ZAH/PAGzFAo3R//////////////fyAAwzAGGmAI/bACBAACdDHqDdIazx
+F6LnBZfeAIjVAHbKFJbW////////////FVFsAAAaAG2vApjiAChFAC9IKaXiLLP2IqftEZ/k
+AJHZAHzPHpzb////////la65AAAZAAAhAHOzCp/mAC1JADRMMKrmM7j7KbDzEpPQAGWbAIHS
+I6Dh////////J2F7AAAPAAAjAHS0C5/nAC5LADZOMazoNLv+KrP2AFuJABMwAHC5JKTi////
+////+vXyAAcxAAAeAHGyBp/lACxKADRPLavpMb3/HZ3XACVDABAwADlxIqPi////////////
+gZ2qAAAcAGisAJThACZHAC9MJKjpKLf+AFeCADNWAGipAAo5FYrC////////////////AD9c
+AFigAInaABxBACdIF6DnDpDQACE+AG2mAI/iADFsHmmM////////////////5eLeAGivAILP
+ABE5ABxCAZPbAENxAC9WAI7cAITZAIHQ7vL0////////////////////+f//6Pr/ABo9AA05
+AFycAA4zAGKiAIfhAH7aI6Tj////////////////////////////////7eTgADRXAAU2ABxO
+AIfWPbby4v7/////////////////////////////////////////4d3YADhVCHGk3P//////
+////////////////AF26GJXTQ6nbRKrcRKrcRKrcRKrcRKrcQ6ncQ6nbGJXSAF26xOTz////
+////weLzAGK87vf8////////////////////////////////7ff8AGK8w+Pz////////ueLy
+AGa9HpfSTKzcS6zbSqvbSavbSavbSqvbS6zbTKzcHpfSAGa9vOLy////1en2MqDWcr7juN7x
+////////////////////////////////uN7xcb3jM6DW1en24fH3WbLeQafZf8TmxuXx
+ww==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGJqLEiv1XtdvQAAAHABAAAHABEAc3RyLmRhdFVUDQAHRf2UVkX9lFZF/ZRW
+ZZBPD8FAEMXftRLfodELiQhXTg6O9NCDo/hTVLatWByI7+63q6jIZnZm5715+3at9lrqqFSh
+cqpMhe5qqqGA2nV2YG21NNZciRbkI8uArkHP5JKZBNZJV99NZT3PTd8qdEL0QHJt0epyW7+2
+D8j1qqOR9/Dwuwtb82moVlTm49RyOivGQYZf9wbnOMHx711v3QAlxy2YMhU7RvOAzpreEHak
+GW+Y4jwC/Xe08dwSne8vhMQFReMZL3ffCRdPUEsBAhcLFAAAAAgAYmosSK/Ve129AAAAcAEA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB0X9lFZQSwUGAAAAAAEAAQA+AAAA8wAA
+AAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_SES_Email" metatype="SES Email" notes="" generalizes="Archimate2::ArchiMate_DataObject" baseStereotypes="Archimate2::ArchiMate_DataObject">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+//Do//Ln//ns//7s///s///x///y///y///y///y///y///y///y///y//////71AEJ8AC9u
+ADlzAEB3AER5AEd7AEl8AEl8AEp8AEp8AEp8AEt8AEt8AEt8////////AHHGAGPBAG7GAHbK
+AHvNAH/PAIHQAILRAILRAIPRAIPRAIPRAITRAITR////////AHfIAGrDAHfJAH/NAIXRAInT
+AIzUAI3VAI7VAI/VAY/VAo/VA5DVBJDU////////AHvJAG7EAHvKAITPAIvSAo/VA5DZCJLZ
+DpXZEJbZEZbZE5fZFJfZFZfZ////////AHrIAG7DAHzKAIXPAIvSCJLZYrvoTrPlD5bZFZjZ
+GJnZGZnZG5nZHJrZ////////LqDYAInOAHzKAIDMHJzdqtHkyr643M/Jm9HsIJ7bEJXZFpfZ
+F5fZGJfZ////////xeX1zur4otfxWbPhsb7FVX+SAHKrFHenmKKmzdrdSbPjBZDUCJHUCpHT
+t+Dyrdzw////yOf3////1crKAFuOAHfBAIbRAIfSAHi7OXiWvb2/gcThAo/UAITOesLlrt3w
+SqzcUrDfgcbqpdDpAHXHAHXIAHfJAHnKAHvMAHfHAGKeZYmam8PTHZrXesLl5PP6NqPYj8zt
+yef2qtjuAIXNAHHFAHTHAHbIAHfIAHfJAHfKAGezD2SNxc/QV7Hex+X0i8rp5PP7e8Pm+/7/
+////////////////////////////////////////6vX4Yrbgb73jWLLeo9Xu////////////
+////////////////////////////////////////8/r6////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJZqLEjng32VvQAAAHQBAAAHABEAc3RyLmRhdFVUDQAHi/2UVov9lFaL/ZRW
+ZZBPD8FAFMTnSuI7iF5IRLhycnCkhx4chSoq2z/RciC+u9+u0obDezudN292toVO2ipXpK4S
+UKxUD3XUVgtsmSOzvnqao8plYEPYkjNDGzC96ObYSIU26OzWvZouqA397W00QpXogN+QG8eN
+PuFsooFmLsfTdVtFI6sB7UDmm7bgq5RPmpjM9h02daD1z10f3xZOVpuyZSq1j+cZnxBuitrT
+ivcsye8x/U+0d9oMn/qPdKkrjsYp3unqDVsvUEsBAhcLFAAAAAgAlmosSOeDfZW9AAAAdAEA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB4v9lFZQSwUGAAAAAAEAAQA+AAAA8wAA
+AAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_SQS" metatype="SQS" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////2NPQAEBhE5HO5f7/////////////////////////////////
+////////5+LcI1VsAAAeAAAlAGm9AIDUPazk5ff/////////////////////////zNLVEU1o
+AAAfAAAQAAAQAAYuAHbDAHvRAG3GAG3EIJnVxeTz////////////Un2RAAAQAAAMAAAjAClN
+HmiMZLPUcdn/Nrf2AI/aAHDGAFq5AFe3Zbjg////////HFZxAAo+EHGfbcTwrf//y///z///
+xv//tP//ku3/W8r/E6HpAHPKRarc////////PG2EAF+rFbT/QM3/Zt3/f+T/k+n/rP3/5P//
+////////////////////////////SneMAFqoAF+jAHCwAHu5ADZZADpdHp/fXMb6hdP5p9/6
+xOn72vH8////////////T3uPAFmjACNPAEl5AHCmABoxAC1JEZvfB6LuAJPhAITYAHXMAGTC
+T7Hh////////UX2RAFymACdTAE9/BnetACI5ADVTGaXpD6z4AJvqAIrdAHrSAGjGUbTk////
+////T3ySAGSyAG+0AIXGEJTTAE91AE90JajoXsv/juH/svH/z/r/4///////////////Q3aN
+AFeiAIPPAHi3A2ebAUpxACdDABUsIScvVkpIfmpiqI2Dzry1///9////////I2B8AAAqAAAk
+AAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAQABRPADqNRKrc////////WIabAAAhAAAlAAo0ABI1
+AAsnAAAVACRJAFiQAHrHAIPbAHfaAG3OcMXt////////////1d7iHVx5AAs3AAQwAA83ACVQ
+AJXlAKL7AI7qAIffMa7r1PX/////////////////////////9PPxNWuDAA83ABFBAIPZAJnv
+UML79v//////////////////////////////////////////5+TiBVJ1IaLh8v//////////
+////////////////ZQB0AG8AKAAwACwAMAApADsAJgAjAHgAQQA7AAkACQBsAGkAbgBlAHQA
+bwAoADEANgAsAC0ANgApADsAJgAjAHgAQQA7AAkACQBsAGkAbgBlAHQAbwAoADEANgAsADYA
+KQA7ACYAIwB4AEEAOwAJAAkAZQBuAGQAcABhAHQAaAAoACkAOwAmACMAeABBADsACQAJAGYA
+aQBsAGwAYQBuAGQAcwB0AHIAbwBrAGUAcABhAHQAaAAoACkAOwAmACMAeABBADsACQB9
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIZrLEhtjp8rvAAAAGgBAAAHABEAc3RyLmRhdFVUDQAHY/+UVmP/lFZj/5RW
+bZBPD8FAEMXftRLfoakLiQhXTg6OiPTgKNS/yrbE4kB8d7/dFpXIZnbezrx5+3at9lrqpI1C
+ZaBUuR6qq6YA7Co7ek1FGmquWAvyiWXoJnQv5CMzMayzbr66kfU8N30vuzOiQyfTFq02t3Ur
+e49cRS0NvIen313Yik8DWoHMx6nldNEUByl+3Ruc4xjHv3e9dQOUHDdnypTsKZoHdBJqfdgN
+TXjDWCNQ9MfR2nOP6Hx/ISSuKBrPKNwVEy9QSwECFwsUAAAACACGayxIbY6fK7wAAABoAQAA
+BwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHY/+UVlBLBQYAAAAAAQABAD4AAADyAAAA
+AAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_SQS_Message" metatype="SQS Message" notes="" generalizes="Archimate2::ArchiMate_DataObject" baseStereotypes="Archimate2::ArchiMate_DataObject">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////ABM5AAAlAAAmboqX////FE5oAAArAAAqDUto////V3+SAAAhAAAfAAg0////////AGuu
+AFymAF6ogcTl////MZrNAHCyAG6xJpTN////ZbffAGCoAGGoAGSr////////AJHeAITaAIbg
+hdj/////b9D/////////Xsb9////dtP/7f//////SLrz////////AIjWAHvSAHvTec33////
+b8f1////////Wr/x////asbz////////Urnp+///////AIPQAHXLAHXLcsbu////ZL/s////
+////S7Pn////XLvp////////SLDj8///////AIDMAHHGAHDGbcDn////XLjn////////Qavg
+////UrPj////////QKre7fr/////AH7JAG7DAG3Carzn////VrPh////////Oqbb////S67e
++f7/////O6ba6fb9////AHzIAG3BAGvAaLri////U7De////////NqPY////R6vc9fv/////
+OKPY5/T7////AHzHAGzAAGq/Z7nh////Uq/d////////NKHX////Rana8/r9////NqLX5vT3
+////AHzGAGzAAGq/Z7nh////Uq/d////////NKHX////Rana8/r9////N6LX5vP3////AHzG
+AGy/AGq/aLnh////VLDd////////NqLX////R6ra9fv9////OKPX5/T3////AHzGAGzAAGq/
+arrh////V7Hd////////O6TY////S6zb+fz+////O6TY6fX7////AHzGAGzAAGu/bLvi////
+W7Pe////////QafZ////Uq/c////////QKbZ7ff7////AHzHAG3AAGzAb73i////Ybbf////
+////Savb////WrPe////////Rqna8vn8////AH3HAG7AAG3Ac77n////Zbfg////////UK7c
+////Y7fg////////R6ra9/z9////AH3HAG7BAG7Bd8Dn////NaHXNqLXL5/VJJnT////V7Hd
+C47OJZrTAH7H////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALRrLEjzDrHZnQAAAC4BAAAHABEAc3RyLmRhdFVUDQAHpv+UVqb/lFam/5RW
+bY47C8IwFIXPWsH/IHVRcNBVJwdH7dDBUeqDWkmjGDsV/7tf4iuCQ25Obs7L6ahCFx3UUw2q
+ZNWqq44SsN+U/A2Uaq61cm1AI7jjaE64YzTULDjcw/THRSkGtAWZT47jdVOmK4llaODzcvJ+
+s96+CU6ea1GZFzvD84TPjt0Udl8rGi+1AKV/Gu0D94xPgaICWVRWDY4mMJ7tvgp/HlBLAQIX
+CxQAAAAIALRrLEjzDrHZnQAAAC4BAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAem
+/5RWUEsFBgAAAAABAAEAPgAAANMAAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_SQS_Queue" metatype="SQS Queue" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////+uPW9uHW8t/V7dnU
+6dnT5dnS4tnS4NnR4NnR4tnR5NnS6NnT7dnU8t/V9+HW+uPWADVuADNtADBsACxqACZoACRn
+ACVnACFmACFlACRnACNnACZoACxqAC9sADNtADVuAIPSAH/QAHvPAH3PYb7rR7HlAHHKO6zl
+UrfnAHjNU7fmUbbmAHrOAHvPAH/QAIPSAIvTAIbRAIDOAIrT////////AHnL////////AIvT
+////////AIPPAIDOAIfRAIvTB5DTE5bWAIfPAY3S////////AHrK////////AIzS////////
+AInQBI/TAIrRCZHUCI/RptjxldHuA43R////////AHnI////////AIvQ////////FpbU5vb+
+MqPdDJHSBY3Py+n3/v//B47Q////////AHfG////////AInO////////F5XT////abrhCY7Q
+AovOUa/gHJfTAIfM////////AHTE////////AIbM////////BIvOVLDhAInNBYzOAITKAH/I
+AHjFAILK////////AHDC////////AILK////////AHvGAHjFAH/IAITKAHjFAHTDAG/BAHfE
+8vn9xeT0AGe+tdnv4/L6AHbE3/D51ez3AHDCAG/BAHXDAHnFAHTDAHHCAG7AAGu/AHPDAG/B
+AGK7AGu/AG3AAGO8AG/BAHLCAGq/AG7AAHHCAHTD////////+/3+9fr97vf86fX75/T65PP6
+4/L65/T66PX77ff89fr9+/3+////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////Rana8/r9////NqLX5vT3////AHzGAGzAAGq/Z7nh////Uq/d////
+////NKHX////Rana8/r9////N6LX5vP3////AHzGAGy/AGq/aLnh////VLDd////////NqLX
+////R6ra9fv9////OKPX5/T3////AHzGAGzAAGq/arrh////V7Hd////////O6TY////S6zb
++fz+////O6TY6fX7////AHzGAGzAAGu/bLvi////W7Pe////////QafZ////Uq/c////
+/w==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABJxLEg80t8qxQAAAIwBAAAHABEAc3RyLmRhdFVUDQAH6QiVVukIlVbpCJVW
+VZBPD8FAEMXftRLfoakLiQhXTg6OiPTgKNT/rFYUB+K7+81qqWym83bmzdt5zbXXUmdtFOoE
+OijVU3XVFICtsqPXVKSh5oq1IJ85jm5C90rOmIlhXXT31Y1yz7PpR9Gd+dmZbnQtOsRJW3Tb
+vNytfHvkKmpp4Pd5Ufk/VrXIKx4caAVyXxc5t6umbHfAi/kzNzFu/t8u3wlQMm7KlCvYUzSP
+6CTU+rAbmuBvrBEoqmxYbrT23Ayd3x8KiRuKzjM+2/0mLN5QSwECFwsUAAAACAAScSxIPNLf
+KsUAAACMAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH6QiVVlBLBQYAAAAAAQAB
+AD4AAAD7AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_SWF" metatype="SWF" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////3NrWAElsGpvX9f//////////////////////////////////
+////////5eXkJVx1AAEqAAQ1AHjPGKvz////////////////////////////////x9LWCktp
+AAAkAAAaAAAjABRAAIrbAJDeADVXAEJ9csv4////////////////WoWZAAAQAAANAAAnACFL
+AA40AB5GAJbkAI/cAAw0ADx6AGayAC5if8zy////////IFt3AAA1AGOWcMbwsvD/ADRUACRK
+CaDqBpvkABs+AEqEAF+qAApHUrnr////////L2aAAE+gGLX/////////D0JZAChMFKbuE5/p
+ACREAFOKAGqxABZPY8Lx////////NGmCAEyiAKH0////////E0RaACtOGqnwG6fsAClIAFqO
+AHC1ABtTa8n0////////NmuDAE6jAKP1////////FUVbACxPHavxH6nuACxKAF2QAHO4AB5V
+cMn2////////N2yEAE+lAKX3////////FkdcAC1QHqzyH6ruACxKAF2QAHO4AB5VcMn2////
+////NmyFAFGoAKn8////////F0heAC5RHKvyHKjtACpJAFqPAHC2ABxTa8n0////////MWqF
+AEOTAHrC////////EkZdACxRFqnxFaTrACVGAFSLAGqyABZPY8Lx////////I198AAAeAAAX
+AAATDSU1ABs5ACtRDKDtCJ/mABxAAEuEAF+qAApHUrnr////////XYmeAAAYAAAYAAAkAAAk
+AAovACRMAJrnAJHeAA01AD17AGSxACpff8zy////////////y9fbDlFwAAAsAAAkAAApABhE
+AI3eAJLgADlbAER/cMv4////////////////////////////6enpKWB6AAUuAAg4AHvPGaz1
+////////////////////////////////////////////////393bAEtvG53c9f//////////
+////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEBxLEh/40IDvgAAAHABAAAHABEAc3RyLmRhdFVUDQAHWAmVVlgJlVZYCZVW
+bZBLD8FQEIXPthL/oWFDIsKWlQU7LCy6FI965WpFsSD+u2+u0kqkmTvnzpw5c24z7bTQSbFC
+HUF7JXqoqooCsFW29BqqaaBIM83JJz5Hd0X3Qk6ZmcE66+arsTLPs+l73o00UpvOURu0Wmzr
+lM4uuYya6nsPT39aZCWfDrQEua/TjNtFUxzs8WtvMMe29XfXRzdAybgJUy5nT9E8oLOi1oNd
+14Q3jDUE1f44Wntuik7xF0LiiqLzjLe7YsLiBVBLAQIXCxQAAAAIAEBxLEh/40IDvgAAAHAB
+AAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdYCZVWUEsFBgAAAAABAAEAPgAAAPQA
+AAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_SWF_Decider" metatype="SWF Decider" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+//////////////////HlYH6MAEZpADdjADdjAEVoX36L//Hl////////////////////////
+////dpCcAEJ2AGSrAIbSAJTgAJTgAIbSAGWsAEN3dZCc////////////////////RXaMAFKX
+AJDbD5/lG6TnCZvkApjiF6LmEJ/lAJHbAFeZRnaM////////////laixAE+bYcPumdn4i9L2
+vuv/bMbxMKnly/H/j9T2iNH0jtX4AFiflaix///////1AGSbAHXKgcrvQ67gFZnbdMXtg8zw
+Qa7jqd74HJzcH57dm9f1AIDPAGWb///1ucrMAG26AHzNUbPhqtz15/j/suD2UrXfJp/brd31
+5vj/vOT4f8jtAITQAG+7vMrNZqfGAHjIAIHNAIPNK6Dd2fD7GpfVBY3QC5DSBo7RmtPvQ6ve
+AIfPAITOAHvJa6nIUKrWAHvKAIHMLaDZr9zyn9TusdzyOaTdC4/QCY7QndPuSa3eAIrPAIfO
+AH/LVq3XTK/iAHnIIZrW0uz4MaHYAIbMV7Lf////td3xrNnv4vP7QKjdAovPAIjOAH/KVLLi
+bL3mAHXFAIfNhsjlicnpQ6jasNvwgsbnP6bdQKfdOKPYEZLRAovOAIXMAHzIdcHmw+X1AHPE
+AHbFAHzHVrHh5vT6P6bZBIvNDo/PD5DPDY/PB43OAIfMAIDJAHnGzun3////AIfMAGzAHZfS
+fMLl4PH5h8jkQqfZC47ODo/PCY3OAIjMAIHJAHbECo7P////////pdfuAGa9ZrjgVLDdL5/V
+hMbkjcroAorMB4zNAInMAILJAHnFAHDCs9zu////////////VbDdUK7cb73mXLTeo9Ttf8Tj
+AIbLAIjMAIPJAHnFAHDBaLnh////////////////////qdfuL5/WG5bRLp7VDpDPAITKAIHJ
+AHvGAITKnNHr////////////////////////////////dL/mE5LQAIPKAIXLHpfShsfn////
+/////////////////////xVFWwAsTx2r8R+p7gAsSgBdkABzuAAeVXDJ9v///////zdshABP
+pQCl9////////xZHXAAtUB6s8h+q7gAsSgBdkABzuAAeVXDJ9v///////zZshQBRqACp/P//
+/////xdIXgAuURyr8hyo7QAqSQBajwBwtgAcU2vJ9P///////zFqhQBDkwB6wv///////xJG
+XQAsURap8RWk6wAlRgBUiwBqsgAWT2PC8f///////yNffAAAHgAAFwAAEw0lNQAbOQAr
+UQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHRxLEiBuFTPxAAAAIABAAAHABEAc3RyLmRhdFVUDQAHjgmVVo4JlVaOCZVW
+bVDBDsFQEJxrJf6hqQuJCFdOEtzooYcehSoqr9X0lQPx72ZX8STS7O683dnd2VocsUGJFD5y
+ogwF7mijBY9YMgfWuggwRYwIa8aSn2E1YbVmPLMnIqvCVbMprPKk+9ZUYyyYm7GWkLNT9oA+
+x56z+9w+dPyI0UU9TFTTQ72YdXQboi2R+Si3fNUIuSOjfrlJLhAVv7vecz1OEm7BLtOwQ848
+qd4aY7I7WPGmJeZEwR9FclPCayvnr/i0CycaZbzUfTvEnlBLAQIXCxQAAAAIAHRxLEiBuFTP
+xAAAAIABAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeOCZVWUEsFBgAAAAABAAEA
+PgAAAPoAAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_AppServices_SWF_Worker" metatype="SWF Worker" notes="" generalizes="Archimate2::ArchiMate_ApplicationService" baseStereotypes="Archimate2::ArchiMate_ApplicationService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+hKWxAEtyAVF3AlJ4AlN5AVN6AFB5AE54AE94AFJ6AlN6BFR6BFN5AlJ3AExzhaWxjtv/B5zl
+DJ/oCJ7oBZ3oAJrnTr/3tvD/jt3/CZ/pA5zoB57oC5/oDqDoCZ3mj9v/g9P6AJPfAJPgIKbp
+HaXpNLDt////////////nuH/HabpKKvrGaPnAJTgAJTghdT6d8rxAIjYJ6Ti////////////
+////////////////////////////FpzcAInYfMvycsDrAH7NZcDp////////////s+L5TLLk
+U7bkyOz9////////////Qq3hAH/Od8TrasDkAHbHR63i////////IJvYAGjCAHTHAHTHAGrC
+Oabc////////C5HTAHjIbcDkZLnkAIbM7fj+////ZrrnAGa/Xrbh////////XrbhAGe/jM3p
+////oNTuAIXMZrrkXrXjwOPz////////AIDJAIfM////////////////AIbLCo7P////////
+u+DzX7bjXbTf2u74////////AHnFHZfS////////////////G5bSAIfM////////1uz3XrXf
+YLbfeMDm////////LJ3VAHHC////////////////AHHCV7He////////c77mYbbgZ7nkAHPC
+mczp////////AHbEAHrGcb3jcb3jAHrGAH/I////////U6/dAHPDabrkbbzkAHbEPKXY////
+////////Lp7VAHjFAHrGQKbZ////////////EJDPAHjFb8Dkd8DkAHvGNqLX////////////
+////////////////////////////JprUAHzHd8DkfcDkAILJAIHIS6zbYbbjg8Xm////////
+/////P7+Zrjkf8TlSKraAILJAIPJf8DkhcbkAIfLAIjMAIXKAILJAH3HntLr////////CI3O
+AIDIAIPKAIbLAYnMAIfLhsfki8roBYvNC47OCo7OCIzOA4rNFJLQK53VIpnTBYvNBozNCo3O
+DI/ODI/OBozNjMroAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIJxLEj6sZXmwwAAAH4BAAAHABEAc3RyLmRhdFVUDQAHwQmVVsEJlVbBCZVW
+bZA5C8JQEISnVfA/BG0URLTVykI7TZEipXhfzyhJtFD87377vCJI2OPtzs7OJtNGU520VKAD
+2VaJbqqorBK5Vdb06qqqr1iRJsQTn6M7p5sTj8xEoFJdfHWpzONs+vrqxhpSi3ml2ntsC3/Q
+CuYmu9sF3yEWs4Z6XtHde7OsoNqRzcjcR3fGK1fIji3q7SLTbxp+d715SzAZNmHKvdAhnDt4
+5tS6oGsac9FIA7LqH0ULj7Xrvv8kwM4wOo94qvtOmD0AUEsBAhcLFAAAAAgAgnEsSPqxlebD
+AAAAfgEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB8EJlVZQSwUGAAAAAAEAAQA+
+AAAA+QAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

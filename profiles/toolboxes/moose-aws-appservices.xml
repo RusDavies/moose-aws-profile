@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="CB413A6B-F" name="moose-aws_AppServices" version="1.0" alias="AWS Application Services" notes="AWS Application Services Elements"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="moose-aws_AppServicesElements" notes="Elements for modeling AWS Application Services">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="moose-aws_AppServices::AWS_APIGateway(UML::Class)" type="" description="" unit="" values="" default="API Gateway"/>
+					<Tag name="moose-aws_AppServices::AWS_AppService_ElasticTranscoder(UML::Class)" type="" description="" unit="" values="" default="Elastic Transcoder"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_AppStream(UML::Class)" type="" description="" unit="" values="" default="App Stream"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_CloudSearch(UML::Class)" type="" description="" unit="" values="" default="Cloud Search"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_CloudSearch_SDFMetaData(UML::Class)" type="" description="" unit="" values="" default="Cloud Search SDF Metadata"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_SES(UML::Class)" type="" description="" unit="" values="" default="SES"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_SES_Email(UML::Class)" type="" description="" unit="" values="" default="SES Email"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_SQS(UML::Class)" type="" description="" unit="" values="" default="SQS"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_SQS_Message(UML::Class)" type="" description="" unit="" values="" default="SQS Message"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_SQS_Queue(UML::Class)" type="" description="" unit="" values="" default="SQS Queue"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_SWF(UML::Class)" type="" description="" unit="" values="" default="SWF"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_SWF_Decider(UML::Class)" type="" description="" unit="" values="" default="SWF Decider"/>
+					<Tag name="moose-aws_AppServices::AWS_AppServices_SWF_Worker(UML::Class)" type="" description="" unit="" values="" default="SWF Worker"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
