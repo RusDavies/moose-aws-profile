@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="91C7836A-3" name="moose-aws_Database" version="1.0" notes="moose-aws_Database"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="AWS_Database_AWSDatabaseMigrationService" metatype="SQL Slave" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABZTLkiiBOvvtgAAAF4BAAAHABEAc3RyLmRhdFVUDQAHW3eXVlt3l1Zbd5dW
+XY+9DoJAEISnhacg2GhijLZamWiJFBSWRBERw48BtDG+u98BiWCxd3O7czOztW466aFYjnJQ
+qkJv2bJA5p0wmcrVVkcFCrWj11BnqmYW9pP/vsf/RFXbTVWiGtCt9OIVgRZUrivKc5yXg3PF
+PUQzbcjzoWyUf2mz1i3m7vIa10Y+HsbZ7GFyB6Qbe3R6FiqGWfAn67k+endUInpruBMd2M7T
+HuSOclxaVjnaz6GeaGXMTSLD/AJQSwECFwsUAAAACAAWUy5IogTr77YAAABeAQAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHW3eXVlBLBQYAAAAAAQABAD4AAADsAAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonElasticCache" metatype="Amazon ElasticCache" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////3NLKei8Aw3om//vt////////////////////////////////
+////////5dvShEUIRAAARwAArkkAv2EA1ZhQ/fTn////////////////////////18OwejAA
+PgAANQAAOQAATwAAtFUAvVoAskoAsUoAyIAu8N/F////////////oWs4KwAAKQAAPQAAXAAA
+iDwAvIBM461w14w9wWcCsEgApDAAoSwA1qJn////////jUoJTQAAiC4Av3k767OO/9i4/9/E
+/ti99cut6LSJ1ZBQwGgOqz4AzItD//////////////z2////////+Ni/1qN3xYtX5apz7bmK
+99a8//j0//n3/vTu////////////////////////////ll8rTwAAXAAAwGYAzHEH5bBy////
+////////////////////////////////////iUcKSgAAYQMAyGwEz24A4qNb////////////
+////////////////////////////jkwOUAAAZwkAzXIL1HQF56hg////////////////////
+////////////////////rntNaA4AcBMA0nkV4owo+8uS////////////////////////////
+9/3/4+zyytLVmIt9WjYPMQAATBUAakUZkoV0tbq/zdXd7vP4////////////lVMVMgAAHwAA
+CQAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAVAAAjSQA05RO////////qXM/OQAAPAAASQAASAAA
+OAAAJAAASgwAgjUAq08AvFIAt0MArzkA3qpv////////////4M69iD0AUQAATgAAVgAAZwQA
+zG0C2ncHy2IAw1wA1o48++bP////////////////////////8ujhlVUZVwAAXAAAwl4A0nQH
+5qli///2////////////////////////////////////////6d/YiD0A04c1///7////////
+////////////////AAAAAAAAfBgdAokDAABGUkVFmAInBYgCJwUAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAB5AHAAfBgdAnwYHQJ8GB0COQMAAEZS
+RUWYAicFiAInBQAAAAB8GB0CfBgdAgAAAAAAAAAAAQAAAHwYHQIAAAAAAAAAAAAAAAAAAAAA
+AAAAAGEAZAAAAAAAAAAAAHwYHQLpAgAARlJFRZgCJwWIAicFcgAyAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADRVLkj/c70QtwAAAEwBAAAHABEAc3RyLmRhdFVUDQAHZnuXVmZ7l1Zme5dW
+VY89D4JgDIRvhV9BZNHEGF11MuqoDAyORBAVw4cRXDT+d58iiTgU+vaud9daFx10UypPBV2m
+Ui+5cujsfQYZaqCl9goVac2soWKqBotAjPdUxeZGeTtv2E60ok/QTzWhCp3QGeMz7X1n/Pvd
+SAvc35SLzi+b6cZ0eZfOvBsFuuN0blNbypCU/x5fPQcVY5bs5B03QO+KSsJsDtfXjlu23OCD
+9nMcW1aFgt2etZd61AOtHNwSGfMDUEsBAhcLFAAAAAgANFUuSP9zvRC3AAAATAEAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB2Z7l1ZQSwUGAAAAAAEAAQA+AAAA7QAAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonElasticCache_MemCached" metatype="Amazon ElasticCache MemCached" notes="" generalizes="AWS_Database_AmazonElasticCache" baseStereotypes="AWS_Database_AmazonElasticCache">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////i2U8aBwAah0AbiQAcCgAcioAcisAcisAcioAcCgAbiQAah0AZhkAimY+////yKqOlCkA
+qDoArEAAr0QAr0UAsEYAsEUAsEUAsEYAr0UAr0UArEAAqDkAkygAuqKDyYdKnS0Ani0AtFgA
+/+3c3qx89dm+6cCZ57yU99zC3qt5/+3cslQAni0AnSwAwoVJy4xPmSkAs10I4biR////////
+////////////////////////37OJsloEmCgAzZRby4xRlCQA4byY////////////////////
+////////////////////3bSNlCMAzZRdx4xSkiIAyI5U////////////////////////////
+///////////+xYhLkSEAzZRexoxTkCAA0p5u////////y5Zi3LOMrl0Ns2UZ162E0KBx////
+////zJdjjx4AzZNdxYtTjx8A059w////////zJhmuXQwrFoJsGASuXQv0aR3////////zJhl
+jh0AyZNdxYtTjyAAw4dM/Pn2////y5dkjBoA3raS2bSPjBsA0qV5////+vbxwIFCjh0AyZJd
+xYxTjyAA1rKM////////zJloixgA////////iBMA1Kl/////////1auCjh0AyJNexYtTkCIA
+wYRH+fTu////////////////////////////////9/Dovn4+jyAAyJNexYtSkCMA3LqY////
+////////////////////////////////////1bKMjyEAyJJdxIlPkicAmjcAv4BC////9+/n
+////////////////9u3j////vHo4mjUAkSYAx5BawoZLkygAlSwAokcAz6BxvHo5zZVgwoVK
+wYNGzZZju3k3z6BxoUQAlCsAkiYAxo1W3LqYlCoAmDIAmjcAmjYAmzkAmzgAmzkAmzkAmzgA
+mzkAmjYAmjYAlzEAkykA37+g////w4lPmzkAnj4AoUUAo0kApUsApUwApUwApUsAo0kAoUUA
+nj4AmzgAw4lP////AAAAAAAAfBgdAokDAABGUkVFmAInBYgCJwUAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAB5AHAAfBgdAnwYHQJ8GB0COQMAAEZS
+RUWYAicFiAInBQAAAAB8GB0CfBgdAgAAAAAAAAAAAQAAAHwYHQIAAAAAAAAAAAAAAAAAAAAA
+AAAAAGEAZAAAAAAAAAAAAHwYHQLpAgAARlJFRZgCJwWIAicFcgAyAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHxVLkhe9bXvvQAAAF4BAAAHABEAc3RyLmRhdFVUDQAHwnuXVsJ7l1bCe5dW
+VZC9DsIwDIRvpU9RwQISQrDChICxdOjAiPgtRaFFtCwg3p3PAYkwOLnY5/M5tU7a6KqDYl1A
+hUo9FakFsndOpau2plop01pzcg2xJWpqayrGe6iicyHn8w3dM9AOdeMknJcgs9fAZ44o95k8
+DM4Rd4h6muDnRUQo/9zapC3Iff2am0apbszO/R7mO8P3/4yPXgsVY5b0uC83Re+Myo7cGG5H
+S7ZL2KpDNfSx96wKBfuNwu8eE3e0HHVzZMw3UEsBAhcLFAAAAAgAfFUuSF71te+9AAAAXgEA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB8J7l1ZQSwUGAAAAAAEAAQA+AAAA8wAA
+AAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonElasticCache_Node" metatype="Amazon ElasticCache MemCached" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////i2U8aBwAah0AbiQAcCgAcioAcisAcisAcioAcCgAbiQAah0AZhkAimY+////yKqOlCkA
+qDoArEAAr0QAr0UAsEYAsEUAsEUAsEYAr0UAr0UArEAAqDkAkygAuqKDyYdKnS0Ani0AtFgA
+/+3c3qx89dm+6cCZ57yU99zC3qt5/+3cslQAni0AnSwAwoVJy4xPmSkAs10I4biR////////
+////////////////////////37OJsloEmCgAzZRby4xRlCQA4byY////////////////////
+////////////////////3bSNlCMAzZRdx4xSkiIAyI5U////////////////////////////
+///////////+xYhLkSEAzZRexoxTkCAA0p5u////////y5Zi3LOMrl0Ns2UZ162E0KBx////
+////zJdjjx4AzZNdxYtTjx8A059w////////zJhmuXQwrFoJsGASuXQv0aR3////////zJhl
+jh0AyZNdxYtTjyAAw4dM/Pn2////y5dkjBoA3raS2bSPjBsA0qV5////+vbxwIFCjh0AyZJd
+xYxTjyAA1rKM////////zJloixgA////////iBMA1Kl/////////1auCjh0AyJNexYtTkCIA
+wYRH+fTu////////////////////////////////9/Dovn4+jyAAyJNexYtSkCMA3LqY////
+////////////////////////////////////1bKMjyEAyJJdxIlPkicAmjcAv4BC////9+/n
+////////////////9u3j////vHo4mjUAkSYAx5BawoZLkygAlSwAokcAz6BxvHo5zZVgwoVK
+wYNGzZZju3k3z6BxoUQAlCsAkiYAxo1W3LqYlCoAmDIAmjcAmjYAmzkAmzgAmzkAmzkAmzgA
+mzkAmjYAmjYAlzEAkykA37+g////w4lPmzkAnj4AoUUAo0kApUsApUwApUwApUsAo0kAoUUA
+nj4AmzgAw4lP////MSfyAAAAVVNFALw51AEAAAAAAAAAAAAABAB8GB0CAAAAAAEAAAAAAAAA
+AQAAAAAAAAB8GB0CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAKRo1wEAAAAAAAAAAAAAAAAAAAAA
+AAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHxVLkhe9bXvvQAAAF4BAAAHABEAc3RyLmRhdFVUDQAHwnuXVsJ7l1bCe5dW
+VZC9DsIwDIRvpU9RwQISQrDChICxdOjAiPgtRaFFtCwg3p3PAYkwOLnY5/M5tU7a6KqDYl1A
+hUo9FakFsndOpau2plop01pzcg2xJWpqayrGe6iicyHn8w3dM9AOdeMknJcgs9fAZ44o95k8
+DM4Rd4h6muDnRUQo/9zapC3Iff2am0apbszO/R7mO8P3/4yPXgsVY5b0uC83Re+Myo7cGG5H
+S7ZL2KpDNfSx96wKBfuNwu8eE3e0HHVzZMw3UEsBAhcLFAAAAAgAfFUuSF71te+9AAAAXgEA
+AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB8J7l1ZQSwUGAAAAAAEAAQA+AAAA8wAA
+AAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonElasticCache_Redis" metatype="Amazon ElasticCache Redis" notes="" generalizes="AWS_Database_AmazonElasticCache" baseStereotypes="AWS_Database_AmazonElasticCache">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////i2U8aBwAah0AbiQAcCgAcioAcisAcisAcioAcCgAbiQAah0AZhkAimY+////yKqOlCkA
+qDoArEAAr0QAr0UAsEYAsEUAsEUAsEYAr0UAr0UArEAAqDkAkygAuqKDyYdKnS0Ani0AtFgA
+/+3c3qx89dm+6cCZ57yU99zC3qt5/+3cslQAni0AnSwAwoVJy4xPmSkAs10I4biR////////
+////////////////////////37OJsloEmCgAzZRby4xRlCQA4byY////////////////////
+////////////////////3bSNlCMAzZRdx4xSkiIAyI5U////////////////////////////
+///////////+xYhLkSEAzZRexoxTkCAA0p5u////////y5Zi3LOMrl0Ns2UZ162E0KBx////
+////zJdjjx4AzZNdxYtTjx8A059w////////zJhmuXQwrFoJsGASuXQv0aR3////////zJhl
+jh0AyZNdxYtTjyAAw4dM/Pn2////y5dkjBoA3raS2bSPjBsA0qV5////+vbxwIFCjh0AyZJd
+xYxTjyAA1rKM////////zJloixgA////////iBMA1Kl/////////1auCjh0AyJNexYtTkCIA
+wYRH+fTu////////////////////////////////9/Dovn4+jyAAyJNexYtSkCMA3LqY////
+////////////////////////////////////1bKMjyEAyJJdxIlPkicAmjcAv4BC////9+/n
+////////////////9u3j////vHo4mjUAkSYAx5BawoZLkygAlSwAokcAz6BxvHo5zZVgwoVK
+wYNGzZZju3k3z6BxoUQAlCsAkiYAxo1W3LqYlCoAmDIAmjcAmjYAmzkAmzgAmzkAmzkAmzgA
+mzkAmjYAmjYAlzEAkykA37+g////w4lPmzkAnj4AoUUAo0kApUsApUwApUwApUsAo0kAoUUA
+nj4AmzgAw4lP////AAAAAAAAfBgdAokDAABGUkVFmAInBYgCJwUAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAB5AHAAfBgdAnwYHQJ8GB0COQMAAEZS
+RUWYAicFiAInBQAAAAB8GB0CfBgdAgAAAAAAAAAAAQAAAHwYHQIAAAAAAAAAAAAAAAAAAAAA
+AAAAAGEAZAAAAAAAAAAAAHwYHQLpAgAARlJFRZgCJwWIAicFcgAyAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKhVLkjXA25RvgAAAFgBAAAHABEAc3RyLmRhdFVUDQAHMHyXVjB8l1YwfJdW
+VZBBD8FAEIXfVX+F6IVEhCsnwREJB8dGW6qybUXrQvx331QTdZjdtzNv3rzZUhcdddNJXWWg
+VLle8tQB2Tuh0ldPcx20V6AluYoIiZJaQMV4TxV0ruTqfEV3pAU4Qt9YO86YbKkRKNMZzSEz
+x61zwt1GA81w8iY8+n4+bUYIco1T81Fpqzv6Sb2BOd7j+H/GV6+DijFzelzD3aJ3RSUiN4Xr
+a8Nea/bxqbZ9xDWrQMH+Ia237hIPtBx1c2TMD1BLAQIXCxQAAAAIAKhVLkjXA25RvgAAAFgB
+AAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcwfJdWUEsFBgAAAAABAAEAPgAAAPQA
+AAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS" metatype="RDS" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////2c/GkU0LqUgAqkwApUgAnj4Azok///7x////////////////////////
+5+LehUEBWwYAeSYAr1IArlQAqU8AokUAwG8UyXsd1JdO+/Tr////////////2eHkNwAAVwAA
+YAwAgjMAuFsDslsGrFUBpkwAxXkjz38kv2cApkQA7uLZ////////KQAAHwAAZQoAaRkAiT0A
+uGMOuGEPsFsKqVMAyIAuz4kyxnYXmy8AmDcA////////DQAAKwAAbhYAcCMAjkUAvmkWuGYW
+smARrFgIyIY41JA+yn4koTwAix4A////////FgAAMgAAdB8AdSsAk0sIwW4dvGobuGMWrlwN
+zoo+1pVGz4UupEMAkCcA////////HAAANwAAeSUAeS8AlU8Nw3IhvWweuGUZr14Rz4pD2JlM
+z4k0p0gAkiwA////////HgAAOgAAeygAezIAl1EPxHIjvm0guGYasF8S0I9I2ZtOz4s4qEoA
+ky8A////////HgAAOgAAeygAezIAl1EPxHIjvm0guGYasF8S0I9I2ZtOz4s4qEoAky8A////
+////HAAANwAAeSUAeTAAlU8Nw3IhvWweuGUZr14Rz4pD2JlMz4k0p0gAkiwA////////FwAA
+MgAAdB8AdSsAk0wIwW4dvGobuGMWrlwNzoo+1pVGz4UupEMAkCcA////////DQAAKwAAbhYA
+cCMAjkUAvmkXuGYWsmARrFgIyIY41JA+yn4koTwAix4A////////JgAAHwAAZQoAaRkAiT0A
+uGMOuGEPsFsKqVMAyIAuz4kyxnYXmy8AmDcA////////0trcNAAAVwAAYAwAgjMAuFsDslsG
+rFUBpkwAxXkjz38kv2cApkQA7uLZ////////////5d/ahUEBWwYAeSYAr1IArlQAqU8AokYA
+wG8UyXsd1JdO+/Tr////////////////////////2c/Hkk0MqUgAqkwApUgAnj4Azok+//7x
+////////////////ZQByAGEAdABpAG8AbgBwAGEAcgBhAG0AcwAuAFAAbwBzAAAAAAAAAAAA
+oQAAAEZSRUW4AScFqAEnBWk3MgRo7VgnCMBiJ+zhHScAAAAAuHwlJ/ThHSf84R0nbgBuAADi
+HSeJAAAADOIdJwziHSdQ3h0nKAAAABziHSdBAHIAYwBoACTiHScs4h0nZQAyADDiHSdBAHIA
+POIdJzziHSdhAHQAZQBfAEziHSdwAGwAaQBjAAAAAABc4h0nbgBTAGDQHScyAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAI5NLkiNTQqjsAAAADoBAAAHABEAc3RyLmRhdFVUDQAH522XVudtl1bnbZdW
+VY89D4JgDIRvhV9BcNHEGF11MtFRSWRwJH4gYvgwgovG/+5TMBGGvu3bu16vla466K5YnnKq
+VIXecuVQ2T8BGcrXUnuFirSiVxNHogKLQIz3UsnkDjzUhH6uC1NjVKedd0buViMt2PUhXNT+
+TrJmQ0xuvdimWoEeuEoaj+YpxFN/R6vnoGLMgpnsxw3Qu6FyojeHO9AW5xutqfyej3PDKlGw
+S9PmLo94opWBmyNjfgFQSwECFwsUAAAACACOTS5IjU0Ko7AAAAA6AQAABwAJAAAAAAAAAAAA
+AIAAAAAAc3RyLmRhdFVUBQAH522XVlBLBQYAAAAAAQABAD4AAADmAAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_DBInstance" metatype="RDS DB Instance" notes="" generalizes="AWS_Database_AmazonRDS" baseStereotypes="AWS_Database_AmazonRDS">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////9f//qZeBg1IfdTEAcSMAcR8AcR8AcSQAdDEAgFAcrJuG+v//////////////7O3u
+ag8AegMAlyYAoTAApDMArUMArUMApDMAoTEAmCkAegQAcBYA9Pf6////////5c+1fgAAozsA
+////16FsnzAA//rx//rwni8A2adx////pD0AfgAA5c6w////////7tjCfgAApUUA////4ruV
+slsF////////sVoE4ruV////pkYAfQAA59C5////////6dPCewAAoUAA////2bOO2LGL////
+////2LGL2bOO////okIAewAA6NC6////////6dPCegAAnz0A////48Sl////////+O3j////
+48Oj////oEAAeQAA6NG6////////6dPDegAAnjwA////////////ypNcvns6////////////
+oEAAeQAA6NG7////////6djEegAAnj0A////////////oUIAmzUA////////////oUIAegAA
+6NG7////////7dnGfAAAoEAA//////////79jx4AjRoA+fDo////////o0UAewAA6NbB////
+////7tvIfgAAmTEA+/Tt////xYhMkB4AkB4AwYBB/////ffxmzUAfQAA7NjE////////79zK
+gQEAhgsAjhoAkyMAkyQAlSYAlSYAkyQAkyMAjhoAhgoAgQAA7trH////////7tvIgwUAnjcA
+wHkz2Kt+6Mqu7tjD7tjD6Myw26+FxIA/o0AAhQgA7trG/////////ffx0aqE4unu0uPuw83T
+ur/Atbe1tbe1ur+/wszS0uTw5vL93L+i//77////////+///gU4YbhkAexoAiCcAkjEAlzgA
+lzgAkjEAiScAexoAbhcAf0sT+P//////////8u/siRkAixAAlSUAnTYAo0IApkgApkgAo0IA
+njYAlSUAixEAhxUA7ebe////////////////16uBvHUwr1wKqlIAqE4AqE4AqlIAr1sJu3Qu
+1qd6///9////////aQBvAG4ALgBPAGIAagBlAGMAdABfAEkARAAgAEkATgAgACgAMwAzADYA
+KQAgACkAIAB1AG4AaQBvAG4AIABhAGwAbAAgAHMAZQBsAGUAYwB0ACAAQQBsAGkAYQBzACwA
+IAB0AF8AbwBiAGoAZQBjAHQALgBPAGIAagBlAGMAdABfAEkARAAgAGEAcwAgAEMAbABhAHMA
+cwBpAGYAaQBlAHIAIABmAHIAbwBtACAAdABfAG8AYgBqAGUAYwB0ACwAIAB0AF8AbwBw
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxNLkgH/nPrugAAAFABAAAHABEAc3RyLmRhdFVUDQAHbm6XVm5ul1ZubpdW
+VY+9DoJAEISnhacg2GhijLZaabSwUBIpLIkiIoYfI9hofHe/O0yUYu72bmZnZ2tddNBNiTwV
+VJlKveTKoTLvFKYvX3PtFSrSkr8GHEENF8EY3VMVnTv4VrXQmndttaVilCNQ6IzXkFnjv3PC
+/V8NNCPBG7g4/PLldm7C3SY08xsFupM1tclN0pCk3Rmtn4OLUZb05F9tgN8Vl5i/Kdqetuyz
+0YrK7+Q4WVWFg9k/s9t64IFXDm8SGeUHUEsBAhcLFAAAAAgAzE0uSAf+c+u6AAAAUAEAAAcA
+CQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB25ul1ZQSwUGAAAAAAEAAQA+AAAA8AAAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_InstanceReadReplica" metatype="DB Instance Read Replica" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////raeceVcxajcAaCoAaicAbSgAaCUAaC0AcEMRk4Bp6vr//////////////f//
+ax4AcgUAkSAAozQAsEYAuE8AuFEAskoAqTwAmysAfg0AZhAA9///////////+u/ligsAlBcA
+pDcAxHUouF4FrEQArUYAwGkXxHUpozYAlx4AjhIA/PLq/////////PPrig4AjBEAuGYW////
+7MusoDUApT0A////////pD4AkRoAjRQA//jx////////+/TsiA0AiQ0AtmYY////6MmrlSMA
+oTsA////////mi8AjhgAixMA/vjz////////+vTthgwAhgsAsmES////////1qZ68NzJ////
+7dbAkSEAjBYAihIA/fj0////////+vPthgsAhQkAsF8O////////////////////z5djjxwA
+ixUAiRIA/Pj0////////+vPthQsAhAkAsF4N////7NW+kyMAnzwA////////lisAihMAiREA
+/Pjz////////+vPshgsAhQkAsV8P///////+vngzz5Zg////////lywAixQAiREA/Pjz////
+////+/PshwwAhwwAr1kF////////////////////zItPkiAAjRYAihIA/ffy////////+/Pr
+iA0Aig8AlSMAqUoArlIAsFYAsFYApUEAlyYAlCEAjhYAixIA/ffw////////+/Dmig0AnzMA
+v3Aj1p9o5LyV68qr6sqq5r+a2aNwv3AjnjIAiw8A/PTr////////////27WR1drat8TNmaWr
+hIyMen98en98goqKlqGns77F0s7J0aR4////////////////W0AeLgAAQwAAXgwAcBwAeyYA
+eycAcR4AYA8ARwAAMQAAVzoW////////////8/3/dRsAiA4AmSYAozgAqkQArUsArUwAq0YA
+pToAmygAihEAdRgA8fn/////////////////5cOixYJBtWIQrlQArE4ArE8ArlQAtWAOw387
+4r2Z////////////TABMACwATgBUAHkAcABlAD0AMAAsAFMAdABlAHIAZQBvAHQAeQBwAGUA
+PQAnAHMAdABlAHIAZQBvAHQAeQBwAGUAJwAsAEIAbwByAGQAZQByAFMAdAB5AGwAZQA9ADAA
+LABQAGEAYwBrAGEAZwBlAF8ASQBEAD0AMwA5ACwAUwB0AGEAdAB1AHMAPQAnAFAAcgBvAHAA
+bwBzAGUAZAAnACwAQQBiAHMAdAByAGEAYwB0AD0AJwAxACcALABDAG8AbQBwAGwAZQB4
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABJOLkjtu3OJwwAAAGIBAAAHABEAc3RyLmRhdFVUDQAH2W6XVtlul1bZbpdW
+VZBBD8FAEIXfVX9Fw4VEhCsnCQcHmnBwlGqrKlWN1oX4775ZEu1hdt7svH3zZiudFapUIl9X
+UKZCL3nqgKxO6fTV1Vx77XTQgruaOBIVvQMd4z114+WWvrFW4MrxCkWwtkSo2OVSOdoR9Yjq
+qhPqQ6aPG+eE3EQDzfD0Jjx0/45z5yQhfz2bo1qB7kxI3S7mfYf39oyvXgcVYxa8yX/cAL0L
+KhF3U7g9bdhwrSWo2/IRO9YNBfuRzO3vEw+0cvrmyJgfUEsBAhcLFAAAAAgAEk4uSO27c4nD
+AAAAYgEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB9lul1ZQSwUGAAAAAAEAAQA+
+AAAA+QAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_InstanceStandby" metatype="DB Instance Standby" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+/////////f//qKCUdlQsZDAAYCAAXxoAYBoAXRgAXiIAZjgGi3dd4/D7////////////9Pv/
+XxAAbwIAjx4AoTAArD0Auk4AulAAr0EApTMAliQAeAYAWQEA6+/y////////8+HQiQgAlRkA
+nCYAumEK//De///////////6xXMlnScAlhoAiwsA9ebY////////9ubWiQwAjxUAp0IA////
+///////8//Hj////////rU8AjhMAig0A+u7j////////9efZiAwAixEAu3An////5cGekyAA
+lSIA8dnC////yIpNig4AiA0A+e7k////////9ejbhgwAixQAlikApUYAsl8P0J1q/PPr////
+////smISiQ8AhwwA+O/m////////9OjchgwAihQAkB8A2K6F////////////////x4tRkB4A
+ihMAhg0A+O/n////////9OjchgwAiREAo0QA////////0Z5tq1UAs2QVtmoflSgAihMAhw0A
++PDn////////9ejbhgwAihIAo0MA////////s2ISu3Ep////////njoAixMAhw4A+fDo////
+////9efahwwAjBUAkyIA3bOK////////////////2Kp6kyIAjRcAiA8A+fDn////////9efY
+iAwAjhUAkyAAmCgAtWEO1J1o0ptjs10ImCkAlCIAjhcAiQ8A+u/l////////9OPTiQsAnzQA
+vm0f1Zxi4LOH5L6Y5L2X4LSJ1JxivGoanjEAiQwA+ezg////////////2K+I1NfVt8TMmqas
+ho6Qe4B+e4B+g4uMlqGmsrzC0cvEzJtr////////////+f//VjgUMgAARgAAYA4AcR4AeycA
+eycAcR4AYA8ARgAALwAAUzUQ+///////////5uvuchIAihEAmygApDoAq0YArkwArkwAq0YA
+pTsAmykAiREAchQA7fX7////////////////4ryXxH89tWEPr1UArVAArE8Ar1UAtWEPw347
+4ruW////////////ZCdQyWQnAAAAAEwaZCeIPTMnAAAAAFgaZCeoG2MnAAAAAGQaZCfAV2Un
+AAAAAHAaZCcwY2UnAAAAAAAAAAAgImYnAAAAABgFZCdSAAAAVVNFHmgYHQIQAAAAEAAAAAAA
+AAByAGUAcwBwAG8AbgBzAGkAYgBpAGwAaQB0AGkAZQBzAAAAbwBuAFIARABTAF8AUwBRAEwA
+UwBsAGEAdgCAGmQnKQAAAEZSRUXIACcFoJ4pJw4AAAAAAAAAQwBvAG4AbgBlAGMAdABv
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFJOLkia1vkHvwAAAFoBAAAHABEAc3RyLmRhdFVUDQAHYW+XVmFvl1Zhb5dW
+VZBPD8FQEMTnyqdouJCIcOUk4eBAEz04NrRUpX9E64D47n77KsFh++btzM6bbaWTdrroIE85
+KFWhp9pqgeyewPTU0UxbBQo1p1dTe6qCC2FM91DJ5AbeVEtw5XSFIlTBB8fM3TWkk+uI64BX
+Rz/fMecv6mtKlhfVxu+bNHMJDpxNVktSy9eV1InbwTIHZP5/o/Fr4WLKgpnso/XxO+MS0Zug
+7WrNZistQJ2/HLFTlTjYn0jd3h51wyuDt0SmfANQSwECFwsUAAAACABSTi5Imtb5B78AAABa
+AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHYW+XVlBLBQYAAAAAAQABAD4AAAD1
+AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_MSInstance2" metatype="MS Instance 2" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////knNQci8AdjYAfUIEgUoQhE8XhVIbhVIbhE8XgUoQfUIEdjYAcCwAkXRS////yLiinz0A
+uFUAvmMLw20ax3IkyXkty3sty3stynktx3Ikw20avmMLuFUAnTwAxK2X0Jdlq0gAs1gAuGMP
+vmwcwXIlw3ItxHctxHctw3ItwXIkvmwcuGMPs1gAq0cAzJZm1qNyqkwAslsFuGQTuGsevXIl
+v3Ipv3Itv3Itv3IpvXIluGsduGMSsloEqksA26x+1qh7qlAAsFwKuGQVuGoeuG4kuHIouHIt
+uHItuHIouG4kuGoduGMUsFsIqk4A27CG16uAqVEAr10Ls2MVuGgduGwiuG4luHInuHImuG4l
+uGwiuGgcsmMUr1sJqVAA2rKL1qyCqFEArlwLsWETs2YauGkeuGohuGsiuGsiuGogtGges2UZ
+sGESrVoJqFAA2rON1auCp1AArFkHrl4PsGIUsWQYsmYas2YbsmYbsmUasWQXsGEUrl0Oq1gG
+pk4A2bON1Kl+pUwAqVUBrFkIrVwMrl4Pr2ARr2ASr2ASr18Rrl4PrVwMrFkHqVQApUsA2LGK
+0qV5o0gApk4AqFEAqVQBqlUCqlYErFkIqlcEqlcEqlYDqFIAp1EApk0Ao0cA1q2Fz59xoUMA
+sGIVs2getGkgvHk4unYzqVUCwHw7uHMuuXUxxZJcvn09tm8ooUMA1Kl/y5hloEMA79/Q////
+/fr39Orf////uXQv8uba////////////////yZlnnj8AzaN2y5JcnTwA////////////////
+8uTXtm4m/////////Pr3//////7+o0kAmzgAzZxrxIpSmTQA59C53r2c+PDp9evh4MKlsmUa
+9uzj5cyz9+/o8eTW27iVoUUAmDIAzZVi3buali4AnTwAoUQApUwAqFIAqlUCqFIAq1gGqVUB
+qlYEp1AAokYAnDsAlzAA4cSn////xIpQnDsAoEMApUwAqFMAqlcFrFkIrFkIq1gGqVQApk4A
+oUUAnj0AxY1V////AAAAAAAAAQAAAAIAAAAAAAAAAwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAfBgdAnwYHQJ8GB0CkQAAAEZS
+RUWYAScFiAEnBQAAAAAAAAAAAAAAAHB70gEAAAAAAAAAAAAAAAAAAAAA/////4AQ0wEAAAAA
+AAAAAAAAAAAAAAAAAAAAAGwAbAB0AGkAcABzAAAAAAAABVYnOgAAAFVTRQQgzCInJMwi
+Jw==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEJPLkjTikGgvgAAAFQBAAAHABEAc3RyLmRhdFVUDQAHKXGXVilxl1YpcZdW
+VZC7CsJAEEVvq18RYqOgopZaCVpYRMEUlsFHfJGHmNgo/rtnNoKxmJ3Znbt3zm6hs7a6KZan
+lOqiTC811aCy/YlOW76m2ihUpBlnJbEjCnoRHdM9lXNzTd9UAeuCfeG0mfYoexqpT051xK/L
+vEFtHZLrVUcTKN5EE5cfY+Jmx+SK0hhKrXSH9+TojTaE9n9G5dfAxZQZd5KvdoXfFZc9Z2O0
+LS15U6A5lf/HcXCqHAf7g4t7sUc88EroG5EpP1BLAQIXCxQAAAAIAEJPLkjTikGgvgAAAFQB
+AAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAcpcZdWUEsFBgAAAAABAAEAPgAAAPQA
+AAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_MSSQLInstance" metatype="MSSQL Instance" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////n4x1l35inYlxoY56pJN/pJR/o417ubew3Ojxe04dZyMAYhYAYBYAaTEA3+bqzbSXjyUA
+nDQAoT0ApEMApkUApkQAojwA3LKJ27WPvWUP67eG986o5q55r0wA261+5byUpDgArEYAsE4A
+s1MAtFQAtFIAr0gA99a3886rx3Yo///5//////Lgt1gA5LKA5sSipD4Aq0sAr1MAsVcAslcA
+sVQArEgA89W48M2sw3Ik////8Myp////slIA4KqA58mrpEIAqk8ArlYAsFoFsVkEr1UAqkkA
+8dW67cqpuWIO////wG4e//boqUIA3Kl258yxo0UAqlEArlgEr1sJsFsHrlYAqUoA8NS6//ju
+4bGC+OHM8ta89Ne8z5NU8M6t582zo0YAqVIArVgGr1wKr1sIrlcCqEoA8de+////m6iudXNp
+aF5NcGdXlJON+f//5s20okUAqFEAq1cErVoJrloIrVYCqEsA8djB2fP/dDsAfCgAfCEAdx0A
+bywAztHU5cuyoUMAp08AqlUBrFgFrFgFrFUAqU0AwY5h////////////////////////////
+5Mmvn0AApUsAqFEAqlQAqlQAqlIAqU8AoUUAkEMAklkfl2s7lmo7jlgggDYA0byj4saqnT0A
+oUQApEkApk0Apk0ApkwAp0wApUYApUEAojsAnjMAmy4AmioAmSYA5sCc4MKlmzkAsGEUtWwk
+tm4mwn4/wn4/qE4Avno2vHQtuW4jyZNWvncwtmUWmSwA48Cd37+fmzgA7NnH////////8+bZ
+////uXIs7dnF////////////////yYlNmS8A4b6c3buamTQA/vz7////////////8+bZtGkf
+/////////vr3///////9o0QAly4A37ya3buZlzEA27iW1q2G7tzM69fD37+gr18Q6tXA4MGi
+7drH69bB1auAokUAly8A3ruZ////okYAnTwAoUUApUsAp1AAqVMAqFMAqVQAqFIAqFIApk4A
+okYAnj0AokYA////OAAtADQAMgBjADgALQA5ADUANwAwAC0ANAA5AEEAMgBCAEMAQwBBADEA
+RQA2ADkAfQAsAHsAQwBFADQAMQAxAEIAQwAxAC0ARgA4ADcARAAtADQAZgAxAGIALQA5AEQA
+QQBFAC0ANQAxAEQAQgA4AEMAMABFADUARQA3AEYAfQAsAHsAMgAxADQAMgBCAEMANgAyAC0A
+NwA5ADUARQAtADQAMgA2ADYALQA4ADAAMgAzAC0ARQBFADQAOQA3ADYAMgA4ADgANAA1
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGZPLkiiGSa3vwAAAFYBAAAHABEAc3RyLmRhdFVUDQAHZ3GXVmdxl1ZncZdW
+VZBPD8FQEMTnyqeQupCIcOUk4SBRQg+OjT9VlWpF60J8d799lajDvLfdmZ2d10Jn7XRTpJau
+VIkyvdRUg8q+Y5iOPE20VaBQU3ol2IMCLoQx3VM5kxt4U/mcgdZaaE63cBOZDuj74KoTjj02
+DmrnkLtedTUmxxs0cfilTN32iLvKaSlKrXQncezyW96AvP87Kr8GLqbMmEm/2hV+F1wO9EZo
+21ryKl8zKu8vx9GpchzsLyTuzS3wwCuFt0Sm/ABQSwECFwsUAAAACABmTy5Iohkmt78AAABW
+AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHZ3GXVlBLBQYAAAAAAQABAD4AAAD1
+AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_MySQLDBInstance" metatype="MySQL DB Instance" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////oY98kXlcmIVpnY12oI17oI18n4x3t7Or2OPseU0baCQAZBcAYxkAbjcA4+rw2sCmjiUA
+mjIAoDwApEIApUQApUQAojwA3baQ372bvGMN6LF98sWb46lxsE0A2al84reNpDgArEYAsU8A
+tFMAuFUAtFIAsEgA+93B+dq9x3Yn//zw//////DeuVwC4ax9476aoz4Aq0sAr1MAslcAslcA
+sVQArEgA99zC9tm9w3Ei////8Myp////tFYA3ad15MSkpEMAqk8ArlYAsVoFsVkDr1UAqkkA
+9dvD8ta6uWIN////v20c//ntq0YA2qNu5ceqpEYAqlIArlgEsFsIsFoGrlYAqUkA89rD///+
+47SG+ubT89vD9t7H1ZZa7sqn5cmto0cAqVIArVkGr1sKr1oIrVYBqEoA9NvF////l6KncWxh
+ZFlFa2FQkI6E9///5Mmuo0cAqFIArFgFrVoJrlkHrVYAqEoA9N7J3fj/dzwAfyoAgCMAeh8A
+cCwAzdHU5MitokUAp1AAqlUCrFgFrFcEq1QAqU0AwI5i////////////////////////////
+48aroEMApk0AqFIAqlUBqlMAqVEAqk8AoEUAi0AAjVYdk2k7lWo9j1ojgjgA0b6l4cSnn0AA
+o0gApUsApk0As2Yas2QXpkoApkgAp0UApD4AoTkAnTIAnS8AmyoA6cal4MGjnDsAsWUZx5Rg
+xpRf0qR46tO8xIpM1ad6wn065MOi059t1aNzsFkDmi0A58an3r6emjYAx5Ba////////7dnH
+////3LaS9ure8+PU7NW+/vjy2KyBpEUAmjEA5cWn3buamDMAyZlm////////8OHT2LGL8uTW
+69bB5Mis5cis+e/mx5FbnTkAmjMA4sOk3buZmTUAsmUaxY1VxZFbuXMvqFEAwYNC0aJ0v3k3
+0aJzwn9As2YaoEAAmjQA4cKj////pEoAn0EAo0kAp08AqlUCrFoJq1gGq1cEq1gGqVQAqFEA
+pUsAoUMApUsA////AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAKAAAA
+AAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+////////AAAAAAAAAAABAAAAAgAAAAAAAAADAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADZQLkiNhkhIwQAAAFoBAAAHABEAc3RyLmRhdFVUDQAH53GXVudxl1bncZdW
+VZBLD8FQFIRnq7+iYUMiwpYVYSFRgoVl41Gv9CHKAvHffeeSaBfTc+6dOXPnNNdRa10UyVdC
+d1KqlzxV6Ox8gKmrqr5WWirUkLsb2IAcLoQx3VMZkwt4UwV6UOeacB5oDJO7qVRbZlog0R7X
+Jq+2C98Otdg11CPLG3g4/JPGLkFE/Wa1JDfNdCX1we1gmZdkLr/x9avgYsqUmfinneF3xmXL
+XRdtTVM2CzSiq5Zy7Jwqw8H+xMnt7YM7XjG8JTLlB1BLAQIXCxQAAAAIADZQLkiNhkhIwQAA
+AFoBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfncZdWUEsFBgAAAAABAAEAPgAA
+APcAAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_MySQLInstance2" metatype="MySQL Instance 2" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEBQLkhqFXLOwgAAAFoBAAAHABEAc3RyLmRhdFVUDQAHKHKXVihyl1YocpdW
+VZBPD8FAEMXftT6F1IUEwZGThINENTg4ir9VqVa0Dojv7jdLgsPszM578/bN5jpopbN2KutE
+FSvVQyV5VHaPQKry1ddCcy01oFcQayIHW4IY766MyRm4sQLdyFONNaKbu4lUG/gNddQkn7RH
+tc6rrZ+zTf6taurh5UmUUPk6TZyDHfnt1ZwUCnXBdeR2MM9zPP+/8dbzUDFmykzy4YboHVHZ
+0OvCrWjCZoGGVP6fj61jZSjYT8Ru7zJxRSsBN0fGfAFQSwECFwsUAAAACABAUC5IahVyzsIA
+AABaAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHKHKXVlBLBQYAAAAAAQABAD4A
+AAD4AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_OracleDBInstance" metatype="Oracle DB Instance" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////n4x1l35inYlxoY56pJN/pJR/o417ubew3Ojxe04dZyMAYhYAYBYAaTEA3+bqzbSXjyUA
+nDQAoT0ApEMApkUApkQAojwA3LKJ27WPvWUP67eG986o5q55r0wA261+5byUpDgArEYAsE8A
+s1MAtFQAtFIAr0gA99a3886rx3Yo///5//////Lgt1gA5LKA58SipD4Aq0sAr1MAslcAslcA
+sVQArEkA89W48M2sw3Ik////8Myp////slIA4KqA58mrpEIAqk8ArlYAsFoFsVkEr1YAqkkA
+8dW67cqquWMO////wG4e//bpqUIA3Kl258yxo0UAqlEArlgFsFwJsFsIrlcBqUoA8NW6//nu
+4bGC+OLM8te99Ni905NU8M6t5820o0YAqVIArVkGr1wLr1wJrlgDqUsA8de/////m6ivdnRu
+aF9OcGdYlZSN+f//5s20okYAqFIArFgGrlwLrlsJrVgDqUwA8trD2fT/dTwAfSoAfSIAdx4A
+by0AztHU5syzoUUAp1AAq1YDrVoIrVoIrVcDqk8AwZNl////////////////////////////
+5cqwoEIApk0AqVMAq1cDrFcEq1UAq1IAokgAkUYAk1wkmW5Al20/j1ojgDcA0b2k48isnj8A
+o0cApk4AqFIAqVMAqVEAqU8AqEsAp0YApUEAoTkAnjMAmy0AmigA5sGd4cSnnDsAsGIVr2AS
+rFoJrl4OsWETrFcEsmITunEosl4NtmcZsVsHsFkFnDEA48Ce37+fqFIA58+36NC64sWo5syz
+9uzi8eLT8+XX69S++vDn37mV7dbA1qd6njkA4b6c3LqYsWQY2bSQ6NG7////+fPt8ODR////
+797NxItR793LvHcz7tnG16yCmzYA37ya3buZoUQA27iV2rWR69bC6dO+zZtq58+4zJlm6dK8
+5syztmwk3LiV162EnDkA3bqY////okYAo0gApk0ArFkIrVwMqVUCrFoJq1cEsGETq1cEp1AA
+p1AApk0Ao0gA////AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAKAAAA
+AAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+////////AAAAAAAAAAABAAAAAgAAAAAAAAADAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABZRLkiIYGSfvwAAAFwBAAAHABEAc3RyLmRhdFVUDQAHi3OXVotzl1aLc5dW
+VY9ND8FgEITnqr+i4UIiwpUTqYMDTTg4NlRR6YdoXYj/7tmXhB6m73Zndna20lk7XZXIV06V
+qtBTnlpU9n+C6aqtqbbaKFJArwZ7UMFFMKZ7qGRyDW+qUDd6sTIUgWZawFVurqCbaAByHfHt
+s3f49x3x/lc9TUjzAh4Ov6yZy5DwftJaltrtTclsV1jqDambOz5+LVxMWTCTfbUhfhdcYnpj
+tB2tuG2pOVW7kePgVKW7scbFLvfBHa8M3hKZ8g1QSwECFwsUAAAACAAWUS5IiGBkn78AAABc
+AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHi3OXVlBLBQYAAAAAAQABAD4AAAD1
+AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_OracleDBInstance2" metatype="Oracle DB Instance 2" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOpQLkiLo7vxwgAAAGABAAAHABEAc3RyLmRhdFVUDQAHSXOXVklzl1ZJc5dW
+VY8/DwFREMSnvfsUchoSBCUVoVBwCYVSOOdfnjtxpyG+u98+EhT7dt/O7OxsoYPWuihVRWeq
+ozI9FCqgsv8epKZIAy210EojeiWxIQqwFYjx7sqZnIMbK9aVXiIHY6ShJmCFn8vopmqqqxb5
+rB3aDXa3f94O+beqq4+jJxGi8vXrvI+U/HZsfkq/+4hvu8ScL3D+v+OtF6BizIwZ9+HG6J1Q
+Sej14FY1476pxlTRn4+tZ+X+zhIVu75C3NBy4ObImC9QSwECFwsUAAAACADqUC5Ii6O78cIA
+AABgAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHSXOXVlBLBQYAAAAAAQABAD4A
+AAD4AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_PIOP" metatype="PIOP" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+0MO1j0sFkk4JlFIOlVMPlVEMlE4GkUYAjD0AijgAhzQAhTAAgy0AgSkAijgA7N7Qx4JFuGEM
+uWgWvmoYvmkXvWYRtl0Iq3hDuZVxtI1psY1gr4dfr4hgqoBTmkkAwGwdx4FDuGIQuGYWuGcX
+uGUUuF8JoGEf////////////////////////////1Nveq10PxoZIuGMTuGYYuGYXuGMStFwG
+n2kx+Pr7////////////////////////3uTnqGIbxYdLs2MVuGcauGYYuGMTs1wHnGYu/f//
+////////////////////////zcrCqmYhxYhNs2QXuGccuGcbtGQWs18OoVcLv7mx6f//6f//
+5fn/4fH+5/7/3e76on5Xt2wjxIlPsmUZtGgduGgdtGYas2MUsV0LpFAAnEgAmkQAmUEAmEAA
+mEEAmkMApEkAwHcyxIlQsmUatGkfuGoguGketGYasmMUsV4NsFoHrlcBrVQArVQArVQArVUA
+rFQAv307xIpQsmYatGoguGsiuGsiuGogtGccs2UYsmITsV8PsF4NsF0Lr1wLr1wLrloIv4FD
+xIlQsmYatGohuGwjuG0kuGwkuGsiuGoguGgdtGYbs2UZsmQXsmMVsWIUsF8Pv4FHw4hOsWUa
+tGohuGwkuG4muG4nuG4muG0luGwkuGsiuGohuGkfs2ccsmUasGEUv4ZKv4dMsWQYtGkguGwk
+uG4nuHIouHIpuHIpuHIouG4nuG0luGwjtGogs2ccsGIVv4ZKv4VJsGIWs2geuGsjuG4nuHIp
+uHItuHItuHItuHIpuHIouG0luGohs2cdsGEUv4FIv4FDr2ASsmYctGoiuG0muHIpuHItuHIt
+uHItuHItuHIouG0ltGohsmYbr2ASv4FDwIFErV0OsWUZtGkguG0luHIpuHItuHItuHItuHIt
+uHIouGwltGkgsWQZrV0NwIFE5cy0r18RsGIWs2geuGwkuHIouHItuHItuHItuHItuHIouGwk
+s2gesGIVrl8R5s20AAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAKRo1wEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+mL5GJvIAAABVU0UAvDnUAQEAAAA6YwAAAAAAAHAnXycAAAAAAQAAAAAAAAABAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADZRLkixkOcYtgAAAEQBAAAHABEAc3RyLmRhdFVUDQAHx3OXVsdzl1bHc5dW
+VY+7DoJQEESnha8w2GhijLZamWhhoRgpLIkPRAw+Itho/HfPXkyEYvfu3ZmdnS100lZ3JWrp
+QpXpqrd8eVT2T0E6CjTRRpFiTemVxI4owGIQ4710Y3INbqyV5grJfRgXHZnvoT+o5SFvvepq
+zNYP4aP795S7XQlv5cp2lmg/8Jc6t+Yuwl1zR6XnoWLMKzP5jxuid0ZlT28Et60lNyw0owoa
+Pg6OdUPBbs7chS3iiVYObo6M+QVQSwECFwsUAAAACAA2US5IsZDnGLYAAABEAQAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHx3OXVlBLBQYAAAAAAQABAD4AAADsAAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_PostgreSQLInstance" metatype="PostgreSQL Instance" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////knNQci8AdjYAfUIEgUoQhE8XhVIbhVIbhE8XgUoQfUIEdjYAcCwAkXRS////yLiinz0A
+uFUAvmMLw20ax3IkyXkty3sty3stynktx3Ikw20avmMLuFUAnTwAxK2Xz5dlq0gAs1gAuGMP
+vmwcwXIlw3ItxHctxHctw3ItwXIkvmwcuGMPs1gAq0cAzJZm1qNyqkwAslsFuGQTuGsevXIl
+v3Ipv3Itv3Itv3IpvXIluGsduGMSsloEqksA2qt+1qd6qk8AsFwJuGQVuGoeuHIkuHIouHIt
+uHItuHIouG4kuGoduGMUsFsIqk4A2rCG1qp/qVEAr1wLs2MVuGkduGwjuHImuHInuHInuG4m
+uGwiuGgdsmMUr1sJqU8A2rKK1aqAqFAArVsKsWETs2YbuGkfuGsiuGwjuGwjuGsiuGkfs2Ya
+sGESrVoIp08A2bKM1Kh9pk4ArFgGr14PsWMWsmYas2cdtGgetGges2cdsmYasWIVrl4Oq1gF
+pk0A2LGL0qR4pEoAqVQBrFoJrl8QsGEUsGMWsWQXsWQYsWMXsGEUrl4QrFoJqVQApEoA16+H
+y55voUUApk0AqFMAq1cFrFsKsmUasGIVrl4PrVwMrFoJq1gGqVMApk4AoUMA1KqA1KqAoUQA
+tW0lu3k3wH4/v3s72raT3r6etGohwINGwYNGwHs7wYBCx5hluXMu3byb9u3lyZRf2rWQ6dS/
+7NrI6dK95cy0////4MGj79/P2rWR9Orf2raT6NG72bON2bON9u3k5Mqw2LKM2LGL2rWR59C5
+2bSP7dvK3bua4saq7t3M38Ch06d748eryI5WzJVh0qV4r2ASokYAo0kAqlcFs2gerVwNrV0N
+rV0OrFsLv3o5vHk4unc0tm8ooUQAyZNf2raSlCsAnTwAo0kAqFMAq1kHrl0Or18Rrl8Rrl0O
+q1cFp1EAo0cAnDsAlzAA4cOm////xIpRnj8Ao0kAqVUBrVwNr2EUsWMXsGMXr2ETrVwMqVQB
+pEkAn0AAxo5W////AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAisKifyAAAAVVNFALw51AEBAAAAg2YAAAAAAADwjlonAAAAAAEAAAAAAAAAAQAAAAAA
+AAB8GB0CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAKRo1wEAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFJRLkjjBOwxxAAAAGABAAAHABEAc3RyLmRhdFVUDQAHIXSXViF0l1YhdJdW
+VZA7C8JAEISnjb8ixEZBRFutBC0E3yksg48YI3mI0Ubxv/ttImiKvd3bmZudvUJn7XRVKFcp
+VaxMLzXkUNk9AmnJ00hb+Qo0pncn9kQBFoAY76mclxtwY624FfAi3eD4WmumKbj1duQD3S6R
+6oR2h9m9v7NP/q/aGuLoTTRQ+PlNSh8huXJsfu5aMjNmsm1izn2c12dUeg4qxsx4k3y5S/Qu
+qBzoDeA2tWC/uSZUXs3HsWTlKNh/xOX2LvFAKwE3R8b8AFBLAQIXCxQAAAAIAFJRLkjjBOwx
+xAAAAGABAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAchdJdWUEsFBgAAAAABAAEA
+PgAAAPoAAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_SQLMaster" metatype="SQL Master" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////oZB9kXhcmIRpnY12oI17oI17n4x3t7Os2OPreUwbaCQAYxYAYxkAbjcA5e7028OqjiQA
+mjIAnzwAo0IApUQApUQAojwA3raQ3ryavWQO6LF98sWa4qhxrksA261/5LqSozcAq0UAsU4A
+tFMAuFUAtFMAsEgA+93C+dm8yHco//3w/////+/duFoA47CA5cGfoz0AqkoAr1MAslcAslcA
+sVQArEkA99zD9ti9w3Ik////8Muo////s1MA36l75sepo0IAqk8ArlYAsVoFsVoEsFYAqkoA
+9d3F89a7umMP///+wG0c//fqqkQA3Kl058uwpEUAqlIArlkGsF0KsVwJr1gCqksA9N3G////
+5LiM+ufW9d7I9t7I1Zhc8c+u5820pEcAqlQArlsJsF4OsV4Nr1oHqk4A9uDL////kZygamVY
+YFRAZFhFioeA9f//5862pEkAqlUBrlwMsGARsWARsF0LrFEA9+XT3vz/e0ULgzIAgykAfSUA
+cjEAzdPX58+3pEkAqlYDrl0OsWIUsmIUsWAQr1kDwJlw////////////////////////////
+58+3pEkAqlYDrl4PsWMWs2UYs2MVsmAQqVYElE8KlGMvmXJImHBFkV4ohDsA2cSu5s62o0kA
+qlYDrl4QsmQYs2cbtGcbs2QXs2EQs1wIr1UAq0wApkMAozoAnzEA7c+y5s20o0gAqlYDrl8Q
+smUZtGgeuGkfuGgdtGYYs2ISsV0LrlcBqk4ApUQAnzcA69C15cuxokYAqVUBrl4PsmUatGkg
+uGsiuGsiuGkftGYasmITr1wJq1MApkgAnzoA6s+148itoUQAqFMArl0OsmUauGohuGwkuG0l
+uGwjuGogs2UZsF8PrFYCpksAnzwA582y4saqn0EAqFEArVwNsWUZtGohuG0muG4nuG4muGwj
+tGgdsGETrFgFpkwAnjwA5cqw////qFMApk8ArVsLsWQYtGohuG0muHIouHIouG0ltGkfsGIV
+q1gGpUsAqFEA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg0EYm
+8gAAAFVTRQC8OdQBAQAAAEdjAAAAAAAAyDtfJwAAAAABAAAAAAAAAAEAAAAAAAAAfBgdAgAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AQAAAAEAAAAAAAAAAAAAAAAAAACkaNcBAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHRRLki5Vid0uQAAAE4BAAAHABEAc3RyLmRhdFVUDQAHbnSXVm50l1ZudJdW
+VY87D4JAEISnxV9BsNHEGG21MtFOJEphSXyL4WEEG43/3W/BRCj2bu9mdma20FU73XWSq5Qu
+Vqa3OnLo7H0B6cnTTFuFijTnr6T2VAEWgRjvpZzJDbixQq21lF9xSlgPDTlTnVEa4DRqnGPu
+ZtfXFP8P1WH6ny6pXE/cdT5zLxWgHZPSclvOkJxtj1rPQcWYGTPJjxugd0PlwN8EblcrtvG1
+oPNaOY4VK0fBto+rXV3qiVYCbomM+QVQSwECFwsUAAAACAB0US5IuVYndLkAAABOAQAABwAJ
+AAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHbnSXVlBLBQYAAAAAAQABAD4AAADvAAAA
+AAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_AmazonRDS_SQLSlave" metatype="SQL Slave" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIJRLkgeq7RItwAAAEwBAAAHABEAc3RyLmRhdFVUDQAHoXSXVqF0l1ahdJdW
+VY9LD8FQFIRn2/6KpjYkImxZSdihoQvLxrMqfYiWBfHffackajG30ztz58wpddJGFx3kKYMl
+yvWUKwdm/zFKW77GWitUpAl3FdiCEi1CMd9DBS9X6OYKtdSMM0W54+qBTEdyuszpN84B3ybr
+aMT0F3DJ/3WzpC0s/baz2ZUCXekZ162tZUjL/xmfPIcUc+a8Sb/egLwzKTvuhnhbWrDLXFOY
+/9djX7sKEmz3pN7UAzeyUnRrZM43UEsBAhcLFAAAAAgAglEuSB6rtEi3AAAATAEAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB6F0l1ZQSwUGAAAAAAEAAQA+AAAA7QAAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_DyamoDB_GlobalSecondaryIndex" metatype="Global Secondary Index" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+mnpXOwAAhl4z9v7/RgQAVhoA////k3JNThAAVx0AWiIAWyQAWiMAVx4AUBMAp41x4qJlpy4A
+1olA////rjwAulAA////4ZxatUkAvlQAwVkAwlsAwVoAvlUAtUwA7bR+6bF5tEcA3ptZ////
+ulMAwWUK////6Ktxw2AAyWoPzG8WzXEYzHAXymsRxGIE88KT////////////////////////
+////////////////////////////////////////opWCUicAkX5n7v//WzQHaEYf////m459
+YD8XZ0kmak4sa08uak4saEonYkEbq6WayoZGihAAu20h//bqkR0AmzEA////xX04lycAnTIA
+oDYAoTgAoDcAnjMAmSoA0ZZc1JRWnCQAynwy//3yojAArEMA////0YtIqTsArkUAsUkAsksA
+sUoAr0YAqj0A3aBs////////////////////////////////////////////////////////
+////////qKefXkIgmJGD8P//Zk4wcl9F////op+ba1lAcmNNdGdTdWlWdGdUcmRPbVtDsbW1
+v4FDfgkAsWce/PLohRYAkCoA////unc1iyAAkSsAky8AlDEAlC8AkiwAjCMAx5BZzYxLlBgA
+wnMm//ntmyUApTgA////yYM9oS8ApzkAqT0Aqj8Aqj4ApzoAozEA15xi7MikwG8f47WI////
+yXkvzIlG////7MSezYZA0pJO1ZJU1pJW1ZJV05JPzohD9de6////8///////////9////P//
+////////////////////////////////////////lnxfQwIAhWM95/T/TBAAWSQA////jnRV
+URoAWCYAWioAWywAWisAWCcAUx0An4120p1imCYAyIE9////nzMAqUcA////z5NXpj8Aq0oA
+rk8Ar1EArk8ArEsAp0IA26p7051umSsAyYVG////oDgAqkwA////0JRfpkUArFAAr1QAsFYA
+r1UArVEAqEcA3K+EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAA
+pGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAB4KiMn8gAAAFVTRQC8OdQBAQAAAORmAAAAAAAA2K5YJwAAAAABAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADBULkg+Nk1OwwAAAGIBAAAHABEAc3RyLmRhdFVUDQAHlHmXVpR5l1aUeZdW
+VZBBD8FAEIXftX6F1IVEhCsnQsSBHhwcpSgq2xKthIj/7pslUYeZfTPzZubNFjoq1kWJ6spA
+qXI9VVMAsvhApalQQ6201FpjciW2wQpqlnnQE8M+g0dkpnJgYzh6Em2Jcu2Ir3BnHie6q4PP
+tGd6m+3diu/xVlFLAzS9sBpbf4qdV5LwfjSbolIRe1KU2y2mfYn2/x2feQFTjJnT477ciHkn
+r7lUH25DC26fawIK/3TYDXbZ1f9I6m+sYzdmOeqmyJhvUEsBAhcLFAAAAAgAMFQuSD42TU7D
+AAAAYgEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB5R5l1ZQSwUGAAAAAAEAAQA+
+AAAA+QAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_DyamoDB_Item" metatype="Dynamo DB Item" notes="" generalizes="Archimate2::ArchiMate_DataObject" baseStereotypes="Archimate2::ArchiMate_DataObject">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+bkUXaj8PaDwKZTYDYC8AWycAYS4A////6vT9VR0AXSoAYTEAZjgFaT0Ma0AQbkUX0X4vznkn
+zHUiyHEaxGkRwGEFwmcP////////u1gAwWQJxmsTyXEczHYjznkn0X4vyngoyHIgxnIcw2oU
+v2QLuFwAumIJ////////t1MAuF4DwGUNw2sWxnIdyHIhy3gowm8fv2oXvWcTuGIMuFwDs1QA
+tloB///////6rksAtFUAuFwDuGIMvWcTv2oXwm8fuWcVuGINuF8JtFoCsFQArEwAr1MA////
+//nwp0IArEwAsFIAs1gAuF0GuGAKuWUTuF8Ks1kCsVYArlIAq0wAp0QAqkoA/////vDkoTgA
+pkIAqUcArE0ArlEAsFUAs1sEvGscu2UUt2MQtF4JsVgArVAAsFUA/////vHmpUEAqkkArE4A
+r1MAslgBtF0HuGQS////////////////////////////////////////////////////////
+////////m624mKmzlqavlKGokJqejJSSjpOR////6f//fnltgX1ygn12hIF1iYuGjZSSkpue
+kUMAjj4AjTsAijYAhi8AgSUAgykA////4s+9cAQAdQ0AjT0Alk4FgiYAfh4AhSwAuWIPtF0H
+s1oDsFQArEwApkIAp0QA////8tvFlyQA6cal////////////tFwFp0MAuWcYtGEQsl4Lr1gC
+q1AApUUApkYA////79jBum0j////////////////897JpEIAuWsguGUYs2ISsFwKrFQApkkA
+pkoA////79rFyI1T////////////////////pkgAuW4muGkdtGUYsV8QrFcDp0wAp00A////
+8uLSp0wA////////////////1ah8pkoAuXMquGshtGccsWIUrVoIp08AqFEA////9urglSoA
+tWoh9+zi////06V4pkwAq1UBuXMvuGwjtGgesWMWrVsLqFIAqlQA////+PHqmTQAmjYAnDoA
+oEIAokUAqFEArl0OAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAALA3IyfyAAAAVVNFALw51AEAAAAAAAAAAAAABAB8GB0CAAAAAAEAAAAAAAAAAQAAAAAA
+AAB8GB0CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////8AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAKRo1wEAAAAAAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIxULkhs1yfXswAAAEIBAAAHABEAc3RyLmRhdFVUDQAHFnqXVhZ6l1YWepdW
+VY9BD8FQEITnWr9C6kIiwpUT4eBADz04SlFVqVfROoj4775tJdrD7pvdnZ2dV+iiSHfF6uoG
+SuX0VkceyOqESV++5top1F5LeiVxIApm1nmxE8HOwQs6axgx9ajKZ7aHqI8becLbRAPNuPkh
+Oqj+HWXVpZi39mQXSwV64C6pvJq3EG/tG7Weh4oxHTvZjxugd0XlSG8Kt6ctf9toBfJbPk4V
+K0fBfpyCHHynJ1oZc3NkzC9QSwECFwsUAAAACACMVC5IbNcn17MAAABCAQAABwAJAAAAAAAA
+AAAAAIAAAAAAc3RyLmRhdFVUBQAHFnqXVlBLBQYAAAAAAQABAD4AAADpAAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_DyamoDB_Items" metatype="Dynamo DB Items" notes="" generalizes="Archimate2::ArchiMate_DataObject" baseStereotypes="Archimate2::ArchiMate_DataObject">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+xrutURIAWR4AXSQAXiYAXSQAWyEA////s6ONUxEAVhYAXiYAWBoAUAwASwQAw7Sk+9m4t0kA
+t1QAvloAv1wAvloAvFYA////9MSXtUMA4J1e////////u1YAqzgA+tW09tOxrkMAuE4AuFMA
+uFUAuFMAuE8A////7LuNqzkA//3u////////zX4yoy0A9M6r7smlpTYAq0AArkYAr0cArkUA
+rEEA////4699oSsA0IhC///////0qj8AmyIA7MOd////57qO7MOb78ii8Mmk78eh7cOb////
+///75LGB5LGA7MGX5rWH4KV13aZw////+v//wNTkxN3xxOL4yOP6xOH3xN3w////8P//vMzX
+vMvVuMPKuMPKuMTMtb/F8v//y7CUbRIAchwAdSEAdSIAdCAAchsA9/v+uJBnZwYAcRgAlmIs
+hUEAZgMAYgAAxqqI6MOeoTIApjwAqUEAqkIAqUAApjsA////26ZzmiMA57yT////////slIA
+lRsA5byU5sGdnjAAozkApT4Apj8ApT0AozkA////2aFzlyEA8NK1////////tFwFkRcA47qT
+7MytqEMArU0AsFEAsFMAr1EArUwA////4LKFojcAtFoC7cyr1p5nojcAnS4A6MWj////////
+/////////////////////////////////////////////////f//////ycvOZEIZaUsnbFAu
+bVIwbFAtaUsn8///srGrXzgLYDgKYjsPXjUGXDEBWS0Avr665MSlmTEAnjsAoUAAokIAoUAA
+nzsA////16l8kyUAt2wh////69O8mTEAjhwA4b6c6cyvoTwApkYAqUsAqk0AqUsAp0YA////
+3bOJnDAA/fLo////////vnQslSUA5san6s+1oT8Ap0kAqk8AqlAAqk8AqEsA////3riSnTYA
+1qZ3////////q1IAmCwA58qu6tG5okIAp0wAqlIAq1MAqlIAqE4A////4L2aoD4ApEUAtWcb
+q1QAnTgAmjMA6M61AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAA
+pGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACQv1Mm8gAAAFVTRQC8OdQBAQAAAONjAAAAAAAAkBtgJwAAAAABAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJZULkhouLnItAAAAEQBAAAHABEAc3RyLmRhdFVUDQAHO3qXVjt6l1Y7epdW
+VY9BD8FQEITnWr9C6kIiwpUT4eBADz04SlFVqVfROoj4775tJdrDvp3dnZ2dV+iiSHfF6uoG
+SuX0VkceyOqESV++5top1F5LeiVxIApm1nmxE8HOwQs6axgxdaFRlc/sD9EfN94JuYkGmnH1
+Q3TY+3vKqlsxuXZlN0sFeuAvqdyauxB37Ru1noeKMR072Y8boHdF5UhvCrenLb/baAXyWz5O
+FStHwf6cghx8pydaGXNzZMwvUEsBAhcLFAAAAAgAllQuSGi4uci0AAAARAEAAAcACQAAAAAA
+AAAAAACAAAAAAHN0ci5kYXRVVAUABzt6l1ZQSwUGAAAAAAEAAQA+AAAA6gAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_DynamoDB" metatype="Dynamo DB" notes="" generalizes="AWS_Database_AmazonRDS_DBInstance" baseStereotypes="AWS_Database_AmazonRDS_DBInstance">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////4dbOlk8KsEsAslEArk0AqEQA1ZBE///2////////////////////////
+////jUkIYwoAgCcAuFgAuFsAuFcAsE8Aznoc1YIh4KBW//70////////////////VhcAXQAA
+axEAizUAv2AEv2IJul4Ft1YA1oYs34wrz3EEsUwA9+jc////////RyIAIAAAXQUATgsAQhMA
+SiAASCEAQxwAPBIAUSUAhUkAsGEEpjkApDwA////////DgAADQAAJAAALwMATiAAbDgAajgC
+ZDMAXisAWC0AMwoAHAAAPQcAjz8A////////RyMAKAAAbBoAfi8Ao1IH2Xsi13oj0XIezG8Y
+6p5J45tGv3IbZhYAbDgC////////LQEAPQAAhisAizgAqVgN3oAm234n1Xki0HQc8aVS+K5U
+7p09v1UAoDMA////////OA8ALwAAYRoAYycAczsCjlITi1AUhUsPf0QIkV0hl2EfklMJiUcB
+rHQ9////////XT4XHQAAPAgAPhUAQyAASyoBSCgCQiMAOxsAPR4APhkAOw4AMAAAeUIL////
+////HQAAPQAAgikAhTYAoFML0HgjzXYkyG8fwmsY4ZlH6qJQ4ZI2tk4AozUA////////SygA
+NgAAgCUAiDQAo1UJ230j2Xwk03YfznQY76JK9apU5pQzsVsAqntN////////IQAAEQAAOwAA
+VhcAgz4AtGMTsmMVq14Rp1cJtHIpi1IMTxcAJgAAXA4A////////FgAAFwAAPAAAKwAAKAYA
+LhAALBAAJwwAIAIAHQAAMQUAXR8AeRMAojoA////////raSXKgAAYgAAaBEAdCoAl0kAl0sA
+kkcAiz4Ar2gY0oEjz3MGtU8A+Ofa////////////zsW3jkgGZgwAhCsAv1sAv14BuVoAtVIA
+030e2IQi4J9S//vv////////////////////////4tbMmVEMsk0AuFMAsE8AqkUA1pFE///z
+////////////////cgBlAHMAZQBuAHQAcwAAAAAA6QAAAEZSRUVIAicF2GvQC+phAAAAAAAA
+iGrQCwAAAAABAAAAAAAAAAEAAAAAAAAAfBgdAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAACkaNcB
+AAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMRTLkjHwH5mrgAAADgBAAAHABEAc3RyLmRhdFVUDQAH2niXVtp4l1baeJdW
+VY8xD4JQDIRvhV9hcNHEGF110uioDAyOBhURAw8jOBjjf/crmChDX++11+u10kWxbkrUUwHK
+5PSSLw9k/5TOQIEW2inSXitqNXEgKnpWeTITwy7BS42pFjozM0Jz8vdOyf9oqDmb3oSP1s9H
+3ugn5NaJ7akV6o6ntHFojiIcdXe0eh4qxnTM5F9uiN4VlSO1Gdy+tly00RoUdHycGlaJgt2Z
+gRx8pwdaOX1zZMwPUEsBAhcLFAAAAAgAxFMuSMfAfmauAAAAOAEAAAcACQAAAAAAAAAAAACA
+AAAAAHN0ci5kYXRVVAUAB9p4l1ZQSwUGAAAAAAEAAQA+AAAA5AAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_DynamoDb_Attribute" metatype="Dynamo DB Attribute" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+hGM+YzQAZDYDYzMAYC8AXCkAVBwA6PH5////YC0AWiYAXy0AYjIAZDUBYjMAg2M63JZTx3AX
+yHEax20XxGkQwWMIu1gA////////wmYNv2AEw2cOxmwUyHEYx3AW25VS1pBMwmgRwmoUwWcQ
+v2MKuF0Ct1MA///9////umEIuFsAvmEIwGYPwmkSwWcQ1ZBMzYdEuF8IuGEKuF8HuFoBs1UA
+rksA//71////tVkAslMAuFoAuF4GuGEKuF8IzYhExoI5slYAs1gAsVUAr1EArEwAp0IA//br
+////r1IArEwAr1IAslYAs1kAslcAx4I6wHUsrEwArE0Aq0sAqUcApkIAoTkA/O7g////qkoA
+p0QAqkoArU4ArlEArU8AwHgww3s1r1MAr1MArlEArE0AqkkApUEA/O7h////rlMArE4Ar1QA
+slkCs1sFsloDw4A9////////////////////////////////////////////////////////
+////////pbS9jJaRjJCNiYuHiIiChoZ/g4F46v//////kZmYj5aYk56ilaOql6aulqWtrcPS
+lkoAehgAdxEAeBQAdQ8AcQgAcAYA4M66////gigAfyQAhCwAhjEAiDQAhzMAoF4ctmANoDQA
+1qFr//////32vW8jlB0A8trC////p0QApkIAq0sArlEAsFQAr1MAwXs0sVsHy45T////////
+////////qEoA79e/////pUUApUUAqk4ArVQAr1gCrlYAwII9sV0M9OPT////////////////
+xolN7da/////pkgApkgAq1IArlgEsFwJr1sIxIJEsWER3biU////////////////tWgc7tvH
+////pkwApksAq1UArlsKsF8PsF4NxIZKtWogp04A/Pfx////////3ruYlSsA8uPV////p08A
+p04Aq1cEr10NsGETsGARxIhNuHEsn0AAoUQAs2gdrVsLmTMAli4A9ene////qFIAp1AArFkH
+r18QsWIVsGETxIlPAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMpTJvIAAABVU0UAvDnUAQEA
+AADrYwAAAAAAAIgnYCcAAAAAAQAAAAAAAAABAAAAAAAAAHwYHQIAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALhTLkgEABHNtwAAAEwBAAAHABEAc3RyLmRhdFVUDQAHmHiXVph4l1aYeJdW
+VY8xD4IwFIRvhV9hcNHEGF11wuioDAyOBhQVA8UIDsb43/1aTIQ0r72+d7271roq0V2ZBipB
+uYze8uWB7P3CZKRAofaKddCaXkOlVM3Mdl68SWBX4BWdEEajBwqpnqBMU6rUGZ0JPrPOPufs
+orGWuH8oH/1/tsJ5ZpxtOuvdKHIuF5fapoxJ2fdo9TxULNPwpvhxI/RuqBzpLeAOtSP5VhtQ
+0MtxcqwKBfv3HGTgG/5WsHyXyDK/UEsBAhcLFAAAAAgAuFMuSAQAEc23AAAATAEAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB5h4l1ZQSwUGAAAAAAEAAQA+AAAA7QAAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_DynamoDb_Attributes" metatype="Dynamo DB Attributes" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+vrCcTwgAVA8AXSAAZS8AWhgAVRMAtKSN////XiIAYCYAYSgAYCYAXCAAVRQAxbmq9MujrDkA
+vFoA////////5KZrskIA88SX////vFYAvloAv1wAvloAuFUAt0oA+ta07sOaoy4AzX80////
+///////0qjkA67uM////uE4AuFIAuFQAuFMAtE4ArkMA9M+s5riMmyMAqT4A//Xl////zYM8
+oCoA4q99////q0AArUQArkYArUUAq0AApTYA7MWg////4rB+5LOE6byR7sWe6LmM6LqN////
+////8cun88+t9NKx89Cv8cyo7MOb////7///sLq+s77EsrzBsrzAtsPLtcTN7P//////wtXm
+wtnswtvvwtruwtbous3b9v//w596ZQAAaQYAikYBm2k2dBsAaQYAupFn+fz/dBwAdyEAeCMA
+dyIAdR0AbxMAyq2P362FlhwAs1UA////////6sKcmiMA26Zz////pjsAqD8AqUEAqUAApjwA
+oTIA57+Z3a2FkhgAtFwG////////8dS5liAA2aFz////ojgApTwApj4ApT0AozkAnS8A5L2X
+5L2WoDMApTwA16Nq786vtl4HpDoA4bSI////r08AsVQAslYAsVUAr1EAqkcA7Mur////////
+////////////////////////////////////////////////////////vLu2WS4AXDIDXzYJ
+YjwSXzcKXjcKsrCr9P//aEoma08tbFEwa1AuaUsoY0Eaw8nL3LOMjx0AmjMA7djD////uXAo
+kyQA16l8////njoAoD8AoUEAoUAAnjsAmTEA4sGg4byXliYAv3Yv//////////fvnDAA3bOJ
+////p0YAqUoAqkwAqUsAp0YAoTwA6Mmq4sCfmS4ArFMA////////16h6nTYA37iS////p0oA
+qk4AqlAAqk8Ap0oAoj8A6Myw48SmmzUAnjsAq1QAtWcbpEUAoD4A4L2a////qE4AqlIAq1MA
+qlIAp00AokIA6M61AAAAAAAAaJMyJ4IAAABVU0UEUBhVJsAYVSYAAAAAQJkyJzyaMicAAAAA
+wJoyJ0iaMicAAAAAuJsyJ1SaMicAAAAAsJwyJ2CaMicAAAAAqJ0yJ2yaMicAAAAAoJ4yJ3ia
+MicAAAAAmJ8yJ4SaMicAAAAAkKAyJ5CaMicAAAAAiKEyJ5yaMicAAAAAgKIyJzAAOwABDwAA
+RlJFReBPsQuYAicF3WQAAAAAAACYjmEnAAAAAAEAAAAAAAAAAQAAAAAAAAB8GB0CAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABhULkiGBCp9uAAAAE4BAAAHABEAc3RyLmRhdFVUDQAHTHmXVkx5l1ZMeZdW
+VY8xD4IwFIRvhV9hcNHEGF11wuioDAyOBhQVA8UIDsb43/1aTIQ0r72+3ru71roq0V2ZBipB
+uYze8uWB7P3Cy0iBQu0V66A1vYZKqZo323kxk8CuwCs6IYxGDxRSPUEZzCl7qTNKE5xmnX3O
+2UVjLfH/UD5z/3SFc80423zWvVHkfC4ut80Zk7Pv0ep5qFimYab4cSP0bqgc6S3gDrUj+1Yb
+UNDLcXKsCgX7+xxk4Bt+V7B8l8gyv1BLAQIXCxQAAAAIABhULkiGBCp9uAAAAE4BAAAHAAkA
+AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdMeZdWUEsFBgAAAAABAAEAPgAAAO4AAAAA
+AA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_Database_DynamoDb_Table" metatype="Dynamo DB Table" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+xcfGxsjH////6PT/xMPBxcnJxczOys/SzNLVzdPXzdTYzdTYztTYztXZztXZztXZawkAbg4A
+////pmotZgIAbAsAbg8AcBIAchQAcxYAcxYAdBcAdBcAdBcAdBcAdBcAqCwAqTAA////1IU5
+pCUAqS4AqzIArTUArzgAsDkAsDoAsTsAsTsAsTsAsTsAsTsA/+TJ/+TK/////////+DD/+bM
+/+rR/+3W//Da//Hc//Ld//Pe//Pe//Pe//Pe//PeoaWio6ak////z+Dtnpyco6elpaurp66w
+qbG0qrO2qrS3q7S4q7S4q7S4q7S4q7S4gh4AhCMA////uH5DfhgAgyEAhiUAiCkAiSsAii0A
+iy4Aiy4Aiy4Aiy8Aiy8Aiy8ArUAAr0QA////2JhYqjoArkMAsUcAs0oAtE0AtU8AtlAAulAA
+ulAAulAAulAAulAA////////////////////////////////////////////////////////
+////////dmNJeWZN////r7Ctcl1BeGVNemlTfG1Yfm9df3Fdf3JdgHNdgHNdgHNdgHNggHNg
+ly0AmTIA////xolMkycAmDAAmjQAnDgAnjoAnzwAnz0AoD0AoD4AoD4AoD4AoD4ApDQApjkA
+////0Y5NoS4ApTcAqDsAqj4Aq0EArEMArUQArUQArUQArUQArUQArUQA+t/G+uDH////////
+99vA++HJ/eXP/+nU/+vX/+3a/+7b/+7c/+7c/+/c/+/c/+/cn6aooaip////yuDwm6CioKir
+oqywpLC1pbK5prS7p7W8p7W9p7W9p7W9p7W9p7W9cg0AdRIA////qW0vbgYAcw8AdRMAdxYA
+eBgAeRoAeRsAehsAehsAehsAehsAehsAmSQAmykA////xHw2lR4AmicAnCoAnS0Ani8AnzAA
+oDEAoDIAoDIAoDIAoDIAoDIA9uXU9+XV////////9eHP9+bX+erb+uzf/O7i/PDk/fDl/fHl
+/fHm/fHm/fHm/fHmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEHAABGUkVF
+4E+xC5gCJwXrZAAAAAAAAICiYScAAAAAAQAAAAAAAAABAAAAAAAAAHwYHQIAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAA
+AAAAAAAAAAAAAAAApGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALhULki5qbF/tAAAAEQBAAAHABEAc3RyLmRhdFVUDQAHeHqXVnh6l1Z4epdW
+VY9BD8FAFITn2v4KqQuJCFdOhCM9VOIoRVVl24rWQcR/9+1Woj283dk38+bNVroq1l2JespB
+mQq95csD2XcKM1CghfaKdNCKXk0dqQrOdl7MxKhL8JLOzvEGdkzlujA/wn/SOqfcbTTUnK0f
+ysf3n8k4r4S7SWV31gr1IF/q0tp0Eem6Oxo/DxerLJgxP22I3w2XE70Z2r62/G6jNSjo5Dg7
+VYmD/XMGKtAXeuJl4G0iq/wCUEsBAhcLFAAAAAgAuFQuSLmpsX+0AAAARAEAAAcACQAAAAAA
+AAAAAACAAAAAAHN0ci5kYXRVVAUAB3h6l1ZQSwUGAAAAAAEAAQA+AAAA6gAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
