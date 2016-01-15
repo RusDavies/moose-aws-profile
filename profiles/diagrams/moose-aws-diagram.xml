@@ -8,7 +8,7 @@
 					<Apply type="Diagram_Logical">
 						<Property name="alias" value="moose-aws"/>
 						<Property name="diagramID" value="moose-aws"/>
-						<Property name="toolbox" value="&quot;moose-aws_Analytics; moose-aws_AppServices; moose-aws_Compute; moose-aws_Database; moose-aws_Networking&quot;"/>
+						<Property name="toolbox" value="&quot;moose-aws_Analytics; moose-aws_AppServices; moose-aws_Compute; moose-aws_Database; moose-aws_Networking; moose-aws_SecurityAndIdentity;&quot;"/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>

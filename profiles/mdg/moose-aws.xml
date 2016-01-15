@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<MDG.Technology version="1.0"><Documentation id="moose-aws" name="Moose-tools AWS Profile" version="0.37" notes="A profile containing a subset of AWS elements for use with Sparx Systems Enterprise Architect." infoURI="http://www.blakemere.ca" supportURI="1-514-985-9551"/><UMLProfiles><UMLProfile profiletype="uml2">
+<MDG.Technology version="1.0"><Documentation id="moose-aws" name="Moose-tools AWS Profile" version="0.38" notes="A profile containing a subset of AWS elements for use with Sparx Systems Enterprise Architect." infoURI="http://www.blakemere.ca" supportURI="1-514-985-9551"/><UMLProfiles><UMLProfile profiletype="uml2">
 			<Documentation id="9226E970-1" name="moose-aws_Analytics" version="1.0" notes="moose-aws_Analytics"/>
 			<Content>
 				<Stereotypes>
@@ -2637,6 +2637,446 @@ X7ey96hV1dIAig+rrrzCmKLWqLSkzB3PFJoEEuMx2gja/z9+eTVSzJnxJi29U/KOpGzo9fE2
 oA400Qjl/3Fsncsmt5kSN63HepCVcm9E5vwCUEsBAhcLFAAAAAgA6mEuSDileVa9AAAAVAEA
 AAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB1mRl1ZQSwUGAAAAAAEAAQA+AAAA8wAA
 AAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="7D8B08CF-6" name="moose-aws_SecurityAndIdentity" version="1.0" notes="moose-aws_SecurityAndIdentity"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="AWS_SecurityIdentity_DirectoryService" metatype="Directory Service" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////09DRADMZCYFP3vvv////////////////////////////////
+////////2dvaGkg1AAAAAAAAAFMPAGwnM59y4PXs////////////////////////vMjDADgg
+AAAAAAAAAAAAAAAAAF8eAGUdAFcNAFgSF4xcxeHV////////////T3dmAAAAAAAAAAAAAA4A
+E041YZWAbr6cLZ5vAHk9AFsWAEUAAEIAYK+O////////LV1JAAAABVExXZyCntS9wO7byvPh
+ye7evuTUn9K8ZbOSGItbAF4dQqB5/////////////////////////////////P//+v//////
+////////////////////////////////////////////////4tXbn6iksODM7//6////////
+////////////////////YYF0AFkjACMAAEodAIhOAA8AAAkAAHpCAHhAABcAADsTAFYjACIA
+cbea////////OmNSADgAABEAAEUXAIRJABcAABUABINOAoxTAHM9AG4zAGIiAEUBQaB5////
+////P2ZWADwAABUAAEkcAIlPABwFABoGDIhUC5NbAIlPAHs/AGsrAFYQRKJ7////////PWVU
+ADsAABQAAEgbAIlPABwGABsHDolWDZRcAIhPAHo+AGoqAFQOQ6F6////////MV1LADMAAA0A
+AEIUAIRIABgAABcCCIVRBpBXAINJAHU4AGUkAE8HQqB5////////aId6AE8XAAsAADUEAHg4
+AA4AAA4AAH1GAIhMAHs+AGwsAFkUAFMNeryh////////////////VHNmAEISFpFeAAoAAAEA
+AHE3AHs7AGwqAGoqNZtx2+/n////////////////////////////////AB8MAAAAAGEiAHg4
+TK2F+P/9////////////////////////////////////////693jAjojD4NT5f70////////
+////////////////TABhAGIAZQBsAD0ATgBVAEwATAAsAFQAbwBwAF8ATQBpAGQAXwBMAGEA
+YgBlAGwAPQBOAFUATABMACwAQgB0AG0AXwBFAG4AZABfAEwAYQBiAGUAbAA9AE4AVQBMAEwA
+LABUAG8AcABfAEUAbgBkAF8ATABhAGIAZQBsAD0ATgBVAEwATAAsAFMAdABhAHIAdABfAEUA
+ZABnAGUAPQAwACwARQBuAGQAXwBFAGQAZwBlAD0AMAAsAFAAdABTAHQAYQByAHQAWAA9
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFJkLkiTfWR6wgAAAHABAAAHABEAc3RyLmRhdFVUDQAH8ZWXVvGVl1bxlZdW
+bZBND8FAFEXPlsR/aNiQiLBlJWFhQRddWDZVFKmPtCUR8d/deUUqsXjTO2/u3DmvOTsiLmzw
+OErtOfGgQZ2atOskOmvTZMySgFC1IeZKpvOCOzPW6pyky33IRCozV8FZ6m53Mm7qx1I91ZGt
+Mrt6tV9ZB/pWVYeRsTxtdZVXeFOplVT6Jc61K/CNLbFZHHkg8t+3Prk1JTmvo0/fbl+Zhzf9
+UO4WC80+ZyrV/EPkpo9tzsj+wVk5nuqqxNQcJV154wVQSwECFwsUAAAACABSZC5Ik31kesIA
+AABwAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH8ZWXVlBLBQYAAAAAAQABAD4A
+AAD4AAAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM" metatype="IAM" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////ACcHAHA7////////////////////////////////////
+////////////////+/L1AAAAAEkF////////////////////////////////////////////
+////////ADQeAAAAAEIAAINJqtvH////////////////////////////////////////////
+AAAAAAAAAE0HAHMyJ5hp////////////////////////////////////////////AAAAAAAA
+AF4e0vTm////////////////////////////////////////////////AAEAAAAAAFkWAIhN
+fsep////////////////////////////////////////////AAcAAAAAAFwZAGEWAHc5////
+////////////////////////////////////////AA0AAAAAAGEgAG8pAHMylNK3////////
+////////////////////////////////ABAAAAAAAGQjAIlN////////////////////////
+////////////////r7izACsWAAAAAAAAAGgnAHc1HYlcwuTW////////////////////////
+////////ABIAAAAAAAAAABYAAHU6AGAgAFoQAHpC////////////////////////////2+De
+AAAAAAAAAHI5////////ABgAAE8KAFgO5/nx////////////////////////+/j5AAAAAAAA
+AH1B////////AAsAAEkDAG0r////////////////////////////////R29fAAAAAAsAWF1b
+VFlXAAAAAEcAXraS////////////////////////////////8O/wCkApAAAAAAAAAB4AAF8a
+JZxq9v/+////////////////////////////////////////ycnLADMVA4NO1vrr////////
+////////////////LQAxACwASQBzAEIAbwBsAGQAPQAwACwAUABEAEEAVABBADEAPQBOAFUA
+TABMACwAUABEAEEAVABBADIAPQBOAFUATABMACwAUABEAEEAVABBADMAPQBOAFUATABMACwA
+UABEAEEAVABBADQAPQBOAFUATABMACwAUABEAEEAVABBADUAPQBOAFUATABMACwAUwBvAHUA
+cgBjAGUAUgBvAGwAZQA9AE4AVQBMAEwALABEAGUAcwB0AFIAbwBsAGUAPQBOAFUATABM
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIZRL0iv2ovUwwAAAIABAAAHABEAc3RyLmRhdFVUDQAHA8aYVgPGmFYDxphW
+bVCxDoIwFLwVE/+B4KKJMbrqxODggAwMjgQRUVPAWBiM8d+9Pqqp0TSvvb5er3fVOCHDFQV8
+VERn1HhgiAE8YtMpeTZGgBA7JEhZBXJ0uPG8xR0bHNipift9+tMJyc/Z0RwRFWurWlnWTPCR
+b0zpYu7MC64ummAl3p4ym9KOf0W0J1KfBJq7FrF4LSWbSZIwyfdbb12PSoZrXCnLjql5kcwt
+lmSPsGWiCGui4I8jkz1HQ51MfqChjs/qqKiE0bvrb7wAUEsBAhcLFAAAAAgAhlEvSK/ai9TD
+AAAAgAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABwPGmFZQSwUGAAAAAAEAAQA+
+AAAA+QAAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_AWS_SecurityTokenService" metatype="IAM AWS Security Token Service" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////T0tNSUdIQkRDPEE/OD89Nz88
+OEA9PEI/QURDRkdHTEpLUExOVE5RV09TWVBUW1FVAB8AABsAABYAAA8AAA0AAAwAAA0AABIA
+ABYAABoAAB4AACIAACQAACYAACcAACgAAHo4AHMvAHYzVLmPvu/boeLJF5pjAGkfAG0kAHMs
+AHgzAH06AIA/AIJDAIRGAIVIAH1AAHw+zfLi////////////////UbWLAGsjAHMuAHg2AH8/
+AINFAIVJAIpQBYtTAHxBT7KI////jaSZ////////////////1fnq3P7w6P/5z+zg0u3ix+rb
+HZBgDo5ZAHo/YaWJ3uzmAGkp////////////////////////ypqucFVfa05al3GBCWhBD45Z
+AHk9AFktzbzD+f//////////////sJahRjxAESogABoAAEYXAE4hAEMcAIBKBIVPAG8xAF8g
+ABYAmn6K/+Dx78nbRUdGAAoAACcAAEcLAHEuAHQzAHc4AHk8AHg9AHg/AFwYAFoTAEUAAAAA
+AAAAAAAAAA0AAE8CAFkMAFsRAFwVAF8ZAGEdAGIgAGMiAGMjaraXY7STXLOPVrKMUq6IUK6H
+UbGJVLGKWbKNX7WRZbeVariYbrqacbqcdLuddbue////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////XwBJAEQAIAAgAFcAaABlAHIAZQAgACAAKAAgAHQAXwBvAGIAagBlAGMA
+dAAuAE8AYgBqAGUAYwB0AF8ASQBEACAASQBOACAAKAA1ADAAMgApACAAKQAgACAATwByAGQA
+ZQByACAAYgB5ACAAdABfAG8AYgBqAGUAYwB0AC4AVABQAG8AcwAAAEVFSQEAAEZSRUVQPkwV
+KLNIFWgAAAAAAAAAUwBFAEwARQBDAFQAIAAqACAAZgByAG8AbQAgAHQAXwBvAHAAZQBy
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAL5RL0jUrUJX1QAAALABAAAHABEAc3RyLmRhdFVUDQAHW8aYVlvGmFZbxphW
+bVC7DoJAEJwWE/+BYKOJMdpqRWFhgRSYWBJFxAcPw4GJMf67s8dp8BGyd3O7c8PMKRywwQUx
+bGRER+S4o4sOLGLpJJz14cDFGgFCVowINUrOK9ywwI6dnLg5hz8dl/yIHcXPo2JuVDPDCo32
+t/IKBc6aI5MSV/ZFZ6Tv7ulpSNfj1jrh3kYDzHSWh16lVCtvSrQlSt+JFU8VfO0g0W8hyQO6
++/zXS9eiknAlRWrYPjVPOkmFKdk9LJnPw5zI+eNI3ipi0pJu5MUK6tismoqpZjTumhtPUEsB
+AhcLFAAAAAgAvlEvSNStQlfVAAAAsAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B1vGmFZQSwUGAAAAAAEAAQA+AAAACwEAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_AWS_SecurityTokenService2" metatype="IAM AWS Security Token Service 2" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////SqJ+AGYqAHdCCoJQGopcII1gIo5iG4pcDINRAHlEAGcrT6WB////////////////
+GIlaAGAhNJhudLmdLZVqUKiGK5RpcribZrCSAHdAAGEiHYtd////////////////HIxdAGAg
+KZNnttzMYa6OoNG8MJhsb7iaweHUBYFNAGEhH41f////////////////G4xdAGIikcqygcKn
+Op51xObYbrmazOndWa+KAHU8AGIiHo1f////////////////GoxdAGAfJZRmVLCJTayEh8mt
+YrWPZLWQQaN7AHU6AGIhHY1f////////////////GI1cAGEeAHAyAHo+AIJHAIVKAIZMAIFH
+AHtBAHM2AGIgG45e////////////////FY1bAGEcAHIyAHs8AGUvAEweAFMjAHI6AH5AAHM0
+AGIeGI5d////////////////EY1ZAGEaAGcmABkABxQPZFFZT0JIAAcAADwOAHIwAGEcFY5b
+////////////////DYxXAF4VAAsAaldf////////////////ChMPADkEAGMaEY1a////////
+////////Co5XADoAAA0F/////////////////////93wAAAAAFoSDo1Y////////////////
+CY9XABcAZl1h////tZ+mERQTqpai////////AAcAAEgDDY1Y////////////////CY9XABkA
+X1db////////4MTQjH6F////////AAUAAEoFDY5Y////////////////C45XAEAAAAYA////
+////+tblnoiR////9cvdAAAAAF0VD41Z////////////////D41ZAGEYABkAS0BF////////
+/////+X7AAsEAEcPAGQcEo5a////////////////E45bAGQdAHAwAC8HABIIRz9DNzU2ABAA
+AFEfAHc2AGQfFY5c////////////////S6mCAGYiAHk6AIZJAHpDAGQ0AGo5AIRLAIdKAHk7
+AGckU62H////////ZAAgACAAIAB0AF8AbwBiAGoAZQBjAHQALgBPAGIAagBlAGMAdABfAEkA
+RAAgAD0AIAB0AF8AYQB0AHQAcgBpAGIAdQB0AGUALgBPAGIAagBlAGMAdABfAEkARAAgAGEA
+bgBkACAAdABfAGEAdAB0AHIAaQBiAHUAdABlAC4AZQBhAF8AZwB1AGkAZAA9AHQAXwB4AHIA
+ZQBmAC4AQwBsAGkAZQBuAHQAIAB1AG4AaQBvAG4AIABhAGwAbAAgAHMAZQBsAGUAYwB0
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxRL0iXz9+N1wAAALIBAAAHABEAc3RyLmRhdFVUDQAHfsaYVn7GmFZ+xphW
+bVC7CsJAEJw2gv8QYqMgopZapbCwiCkiWAaNGh95SC4RRPx3Zy+nxAdh7+Z25yYzp3DAGhfs
+YCMlOiLDHW20YBFLJ+asCwcuVggQsnaIUKHgvMQNc2zZyYjrc/jTccmP2FH8PCpmRjU1rNBo
+fysvkeOsOTIpcGVfdMYY6Nt7uurT97Cxjrg3UQ9TneahVynVSJwQbYiSd2bFUwlfe4j1a0j2
+gP4+//XStagkXMmRGLZPzZPOUmJCdgcLJvQwI3L+OJLXipi1oBt5s5w6NquiYqIZtbv6xhNQ
+SwECFwsUAAAACADMUS9Il8/fjdcAAACyAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVU
+BQAHfsaYVlBLBQYAAAAAAQABAD4AAAANAQAAAAA=</Image>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_AddOn" metatype="IAM AddOn" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////+z0lZ2ZjZaS7uDm
+////////////////////////////////////////////foyGAAkAAAkAAAoAAAMAVG5j////
+////////////////////////////////nqWjACsAAFkWAGcjAGckAFwaACgAkpuX////////
+////////////////////////AFMrAGMgAGkoAG4vAHAxAG8vAGopADkPACQPACEKAB0FABoA
+ABgAABYAABQAUXFkAGElPaJ4mtK7AYNNAHM3AHM3AHEyAGQmAEwPAEQEADwAADUAAC4AACkA
+ACUAABYAAG8y////////ariXAG4xAHE1AG4xAGoqAGUjAF8ZAFcOAFEFAGknAGYhAEcAAHU7
+AH1HWK2Jy+jcBYJOAGgqAGkrAGYmAF8cAFgSAFoVY7STi8mv////////cr2e////otTBAFkW
+AFYRAFsZAF0cAFoYAFwaVauHks2zpNTD////////////////////////////g8GnAF4eAEwF
+AE0GAF8ee72i////////////////////////////////////////////////qdPCqNPB////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////aQBvAG4ALgBPAGIAagBlAGMAdABfAEkARAAgAEkATgAgACgANQAwADIA
+KQAgACkAIAB1AG4AaQBvAG4AIABhAGwAbAAgAHMAZQBsAGUAYwB0ACAAQQBsAGkAYQBzACwA
+IAB0AF8AbwBiAGoAZQBjAHQALgBPAGIAagBlAGMAdABfAEkARAAgAGEAcwAgAEMAbABhAHMA
+cwBpAGYAaQBlAHIAIABmAHIAbwBtACAAdABfAG8AYgBqAGUAYwB0ACwAIAB0AF8AbwBw
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEhRL0g1cyhOygAAAIwBAAAHABEAc3RyLmRhdFVUDQAHnMWYVpzFmFacxZhW
+bZA/C8IwFMRvreB3KHVRENFVpw4ODurg4Fhq/U+sYuog4nf3l7RKRQkvvbxc793Faq9UF20U
+6gQ6KNdDTTUUgF1nx11bkWIttVBCbZTppiv3he6aaE0nB5fn5KcTw8/oWNYUxbxSPVWsBMaa
+NefU8/0t87o46tf2Ad866mjkfT797srWshjQCmQ+aSynghnO987ndKkWpPqe9dYNUHJc59BU
+7DmaR5+/0BB2SzO8TzUGRX8cuXfIdEYn9a9xRiekbigazyjdlX+8AFBLAQIXCxQAAAAIAEhR
+L0g1cyhOygAAAIwBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAecxZhWUEsFBgAA
+AAABAAEAPgAAAAABAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_DataEncryptionKey" metatype="IAM Data Encryption Key" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////2trZ09PS6urp8PDu19fW4eHg6Ojn6eno4+Pi1tbVxsbE6+vp////////////////
+0dHP3Nza9fX0urq5AAAAAAAAAAAAAAAAAAAAAAAAAAAApaWj////////////////1tbV4ODe
+/Pz6tra1AAAAAAAAAAAAAAAAAAAAAAAAAAAAn5+d////////////////1tbV4+Pi///+u7u6
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAoaGf////////////////1tbV5eXk///+xMTCAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAqKin////////////////1tbV6OjmrKysnZ2dysrJAAAAioqJ////
+l5eXAAAAra2p6uro////////////////2trV5+fldnZ3cHBy/Pz7AAAAra2s////wsLBAAAA
+2trY8vLw////////////////3Nza5+fldHR1bm5w////GBgYPDw77e3sSUlJAAAA4+Ph5+fl
+////////////////3d3b6OjmcnJzRERH8PDvzc3MBgYGAAAAAAAApKSj6uro3d3b////////
+////////39/c6urocnJzJycqmJiZ////+Pj2z8/O5OTj8PDu3d3b1tbV////////////////
+4eHfwcG9R0dJJSUncnJz/v78/////v788fHw4+Pi09PSzs7N////////////////zc3NPj5A
+GxseJycpLi4xoqKi/f378/Px6Ojm3Nzazs7NycnI////////////////pKSjFBQWGxseJSUo
+IiIlXV1f7+/t7Ozr4eHg09PSycnIxsbE////////////////sLCvFxcZRUVHlpaWJycqZmZo
+7Ozr5+fl3Nzb09PSxsbEw8PC////////////////1NTTamprQEBCeXl5RkZIvr697Ozr4uLg
+2NjXzs7NxMTCwcHA////////////////4ODez8/OpqallZWWycnI7Ozq5ubk3t7c09PSzMzL
+wsLAycnI////////LAAgAHQAMQAuAE8AYgBqAGUAYwB0AF8AVAB5AHAAZQAsACAAdAAxAC4A
+TgBhAG0AZQAsACAAdAAxAC4AQQBsAGkAYQBzACwAIAB0ADEALgBJAHMAQQBjAHQAaQB2AGUA
+LAAgAHQAMQAuAGUAYQBfAGcAdQBpAGQAIABmAHIAbwBtACAAdABfAG8AYgBqAGUAYwB0ACAA
+dAAxACwAIAB0AF8AbwBiAGoAZQBjAHQAIAB0ADIAIAB3AGgAZQByAGUAIAB0ADEALgBP
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAORRL0jYZyVI1QAAAKQBAAAHABEAc3RyLmRhdFVUDQAH1saYVtbGmFbWxphW
+ZZBPC4JAFMTnatB3iLwURNS1TkIdIqyDh45SZv8wi7SDRN+9364Whsjbnfd2dpzZTCdtdVes
+jq6gs1K91FZLDthMjpz11JWnjQKFVKxITz04z1VooT2TFFz2YWPiwY+YZHw+immleq1YoWZM
+cmpOH6Fc4MjcvtEvYRUaWv4BHwOcjmrrmL2O+ppa/2+7mspqGRPQDpT8UmZ0udY2z9HmN2kD
+0v7/66vroGS4xnlSsddoXuy75JrAdrUitU8el9OmI/M+EekeNneZs0M9UUwso3RX3vgAUEsB
+AhcLFAAAAAgA5FEvSNhnJUjVAAAApAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B9bGmFZQSwUGAAAAAAEAAQA+AAAACwEAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_EncryptedData" metatype="IAM Encrypted Data" notes="" generalizes="Archimate2::ArchiMate_DataObject" baseStereotypes="Archimate2::ArchiMate_DataObject">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////zs7N2dnY5+fm8/Py+/v6///+///++/v68/Py6Ojm2dnYzs7N////////////////
+1dXU5OTi9/f2////////////////////////+Pj25OTj1dXU////////////////39/d1dXT
+QUFBNDQ0QkJCSUlJSUlJQ0NCNTU0Pj4+0tLQ39/e////////////////5ubkysrJAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAxMTD5+fl////////////////6uro0dHPAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAysrJ6+vp////////////////6+vp0dHQAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAy8vK7Ozq////////////////6Ojm2NjWBwcHAAAAAAAADAwMDQ0NAAAAAAAAAQEB
+09PS6enn////////////////4eHf8vLw+fn4JycnJycn////////NTU1ExMT9fX08vLw4eHf
+////////////////29vZ7Ozr////JSUlICAg////////MzMzDw8P///+7Ozq2trY////////
+////////1dXU4+Ph+/v5WVlYAAAA0NDP1tbVAAAARERE+Pj24eHf1dXU////////////////
+zs7N2trZ7Ozr2NjXDg4PAAAAAAAAAgICz8/N6uro19fSysrJ////////////////ycnH09PS
+4ODf7u7t5ubkqqqppqal4ODf6urp29vZzc3Lw8PB////////////////xcXDzc3L2NjX4eHg
+6enn7+/u7u7s5eXk29va09PSw8PC4+Pi////////////////wcHAyMjG09PS2dnY3t7d4ODe
+3t7c2NjX09PSxsbE4eHg////////////////////v7++xMTDzc3M09PS09PS19fW09PS09PO
+x8fG39/e////////////////////////vr68wsLBysrIz8/O09PS09PSzs7NyMjH1dXT////
+////////////////bwByAGQAZQByAFcAaQBkAHQAaAA9ADEALABCAGEAYwBrAGMAbwBsAG8A
+cgA9ADEAMAAwADkAMgAyADgANwAsAEYAbwBuAHQAYwBvAGwAbwByAD0AMAAsAEcAZQBuAFQA
+eQBwAGUAPQAnAEoAYQB2AGEAJwAsAEcAZQBuAEYAaQBsAGUAPQBOAFUATABMACwARwBlAG4A
+TABpAG4AawBzAD0ATgBVAEwATAAsAEgAZQBhAGQAZQByADEAPQBOAFUATABMACwASABl
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABJSL0h2q8SK0gAAAJwBAAAHABEAc3RyLmRhdFVUDQAHGceYVhnHmFYZx5hW
+ZZBBD8FAEIXflcR/EL2QiHDlJOHgQA8Ojg1VRdolug4i/rtvtyUV2czu25m3b+dNoaO2uipR
+WznoJKOnWmqqAXaZlFpXHU210VoRkSjWXTfqVg8ttCdjwOU9+stM4cdkCtYSRVOp5hUr0pwz
+RvFBJ5bsXjM4lhh43oH/+3Q4rO0jzjrqaeL7fvndRVHzloF2oOzrruBmFXofqfftXK5x+fvX
+R7eBkuO6jrOKHaJ59vOwGsMOtMLtEj8B1f+O3FxiXdBx7k4gwyvDNDOWY5TdlS/eUEsBAhcL
+FAAAAAgAElIvSHarxIrSAAAAnAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABxnH
+mFZQSwUGAAAAAAEAAQA+AAAACAEAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_LongTermCredential" metatype="IAM Long Term Credential" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+9vb2+vr6/f39/v7+/f39+/v7+fj59vX28/Pz8fDw7Ozs6+vs9vX2////nZ2eSUlKTU1OVVVW
+W1tcW1tcV1dYVVRVUVBSTkxOSkhKRkRGQkBCPjw+PTs9j42Pmpqb////////////2tna+fj5
+//////////////////////////////////3/mJWX////////0dHRMzI0FxUYLisusa2v////
+////////////////////////////////////////NTM1KicqGBQXGBMXJiAkr6er3tTY28zU
+2c3S1cfP5Njc////////////////19fXbGlr////RD5CHxccJRohIxYdIhEaHQoUJhEcKBEc
+NyAr////////////////9PHyPTg8eHF1KSAmIxceKhkiOCQuTzdDx6u6/+Xz//v//eHt////
+////////////////k42QDQQKEQQMIxIbhG14////////////////iNW1J59tWLON////////
+////////////5NfetKOr5szZ////////9f//tOzUHZtnAFYJAE4AAEYAAHQ5////////////
+////////nuPGcNCljdq6LaZzAGwkAFUHAFcLAFYMAFcQf8KmMJhtc7qc////////////////
+AIFEAE8AAFcKAFYJAFsRAFoSAFEHAFAHAFQNmdG4QJ93V6qI////////////////////6/31
+8//7+f//////6fnyAHQ6AEIAAEMAAEAAAFQP2+3m////////////////////////////////
+////////7PjzBIBNAFgVAG0yrtbG////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////AAAFAAAAAAAAADIANgAwADAANgAAAOCUSxUiAAAAVVNFBGgYHQIFAAAA
+BQAAAAAAAAAyADYAMAA0ADkAAAA4mEsVwQEAAEZSRUXw/UAVGMc9FQUAAAAAAAAAMgA2ADAA
+MAA4AAAAYJhLFSIAAABVU0UEaBgdAgUAAAAFAAAAAAAAADIANgAwADAAOQAAAGCYSxUqAAAA
+VVNFDGgYHQIFAAAABQAAAAAAAAAyADYAMAAxADAAAAA7AAAAMwA7ALCYSxVBAQAARlJF
+RQ==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEZSL0gy1kMS1wAAALYBAAAHABEAc3RyLmRhdFVUDQAHe8eYVnvHmFZ7x5hW
+bVBNC4JAFJyrQf9B7FIQUdc6SXQIMg8GHcXMrFgtXD1E9N+bt1rYB/J2Z2fH2TdP44gIVySw
+kRGdkOOOLjqwiIVJedeHAxdbBAhZCWJUKHhf4oYl9mRy4voc/jAu9TEZzc+jY964Zo0qxAoX
+ohQbMgX57zfmREnLNYLCyDgc2NmQvY9b64R7Gw0wM4keZpXSrdSKaEek3rk1TyV883pqJiL5
+A+b/fOvla9FJtNKbatQ+Pc8mRYkp1T2sOQcPCyLnT0eSLeYUCnYjCWUeNquiozKKurv6jydQ
+SwECFwsUAAAACABGUi9IMtZDEtcAAAC2AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVU
+BQAHe8eYVlBLBQYAAAAAAQABAD4AAAANAQAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_MFA_Token" metatype="IAM MFA Token" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////5OTlkZGSdnZ3dnZ3dnZ3dnZ3kZGS5OTl////////////////////////
+////l5eYgYGBuLi32dnX4+Pi4+Ph2dnXuLi3gYGBl5eY////////////////////fn5/m5ub
+2dnX4eHf4+Ph5eXj5eXj4+Ph4ODe2NjWm5uafX1+////////////mZmanZ2d3Nza39/d4+Ph
+5ubk5+fl5+fl5eXj4uLg3d3c29vZnJybmJia////5+fohoaG3t7c4uLh5eXk6enn6+vp6+vq
+6urp6eno5+fl4+Pi4ODe3NzahISE5ubnl5eYwcG/4+Pi5OTi8PDu6urp6Ojm5ubl7+/t6Ojm
+5eXk7Ozq4uLh3t7dvr69lZWWfn5/6Ojmnp6dmJiX1dXTq6uqhoaGcHBw6+vpwMC/b29u2trZ
+fHx7o6Oi5OTifHx9gICB9vb0jo6NX19fKioqaGhnbm5uQUFBubm419fWJSUlRkZFFRUU0NDP
+7u7sfX1+gYGB9vb0kZGQHh4eeHh4KiopcHBwLi4uampqzs7NgYGBVFRUZWVl8PDv7OzqfX1+
+f3+A6urpjIyLEBAP4eHfKiopaGhoPj4+c3NyvLy7ysrJCAgIqqqp8PDu4ODffHx9mJiZxcXE
+2NjWxMTD8vLw0tLR2dnXx8fGsLCv0NDP7Ozrw8PC4uLg5+flvr69lZWW6OjpiIiI4eHf5+fl
+6enn7u7t8PDu8fHw8vLw7u7s6enn5+fm4eHf3NzahYWF5ubn////mpqcoKCf39/d4uLg5ubk
+6enn6urp6uro5+fm5OTi39/d3NzanZ2cmJia////////////f3+BnZ2d29vZ4+Ph5ubk5+fm
+5+fl5eXj4uLg2dnXnJybfX1/////////////////////mJiZgoKCurq529vZ5eXj5eXj2trY
+ubm4goKCl5eY////////////////////////////5OTlkZGTd3d4d3d4d3d4d3d3kZGS5OTl
+////////////////RUXwiT8V4MBJFVAAAAAAAAAASQB0AGUAbQA9AFIARABGADoAOgByAGQA
+ZgBQAHIAbwBwAGUAcgB0AHkAKABVAE0ATAA6ADoAQQBzAHMAbwBjAGkAYQB0AGkAbwBuACkA
+OwBJAG0AYQBnAGUATABpAHMAdAA9ADIANwAxADUAMQA5ADIAOAAwADsASQBtAGEAZwBlAEwA
+aQBzAHQASQBuAGQAZQB4AD0AMwAzADUANAA7AAAAMwA4pkwVygAAAFVTRRpoGB0CTgAA
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHxSL0hcp8rtzgAAAJIBAAAHABEAc3RyLmRhdFVUDQAHwseYVsLHmFbCx5hW
+bVBNC4JAFJyrQf9B7FIQUdc6eSjoYB4MOkqZ2seq4eohov/e7NPCKOTtzs4bZ+etxgl73BDD
+RkZ0Ro4H+ujBIjZMyt4QDlzsECBkxYhQo2S/wh1rHMnkxM05/GFc6iMymp9Hx7x1zVpVSHZF
+1RYFrsJNpJvw1jFzTTvrjHsXjbCQtE9ZTenORIroQKQ+M2meKviSPpVpzWwBZ/u+6+1r0clo
+TU7Vqn16XuQVKsypHmDD9B6WRM6fROY1Is5WMo15k4I+NqumoxJFk6754wVQSwECFwsUAAAA
+CAB8Ui9IXKfK7c4AAACSAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHwseYVlBL
+BQYAAAAAAQABAD4AAAAEAQAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_Permissions" metatype="IAM Permissions" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////0tLOT05LTk1KWllVYWBdZGNgY2JgXl5dVlZWSkpKSEhJzc3O////////////////
+m5qWv722397V6eje7+7l8fDo8O/o6+rl4+Pf2djVtra0kpKS////////////////19fN3tzS
+6+ja8e/j+Pbo+ffr9fPr8O/o6Ojj3t7a09PSzs7M////////////////2trPnaDPsrTY8+7a
+wMLktLfn7uzh6Obf4N/a19PSy8vI0NDO////////////////2trMrKvKQk3fcXjiSlbqwL7g
+6ufb4+DY29nS09PNx8bDzMzK////////////////2dXL29TEd3rWAADta3Hk6+XY5uLX39zS
+19PSz83JxMPAysrI////////////////3tbMrKfKXV3fwrraaWzkqaje5+HW3tnS09POzMvH
+wsG+yMjG////////////////3tPOz8bHjrSf0tbD7d7b4Nba5d3X3dfS09PNy8nHwcC9x8fF
+////////////////3tLQXJ55AFsBAIRD09XL7+Dd5dvY3dPS09POy8jGwL+9x8bF////////
+////////3NDPLYteI4xaAHw6AIVHy87K59va3dPS08/Oy8jGwL69x8bF////////////////
+39DS1cfI6tPY0c/LJ5Jilryo6drc3dPS087OysfGwL69xsbE////////////////3c/S1sfK
+fauVw8nD7tvf6Nnc5Nja3NPS087OysfGv768xsXE////////////////2c3QQ5BuAFAAAHU4
+w83I7Nrf4tPZ29PS083OycbGv728xcXE////////////////2cvNNopmMo5nAHtCAHc5usfA
+4tPZ2dPS08zNyMXFvry7xcXD////////////////3dHUy8DD28zSy8rINJRsk7mo4NTY09PS
+z8vLx8TEvLu6zMzL//////////////////j708nM08nL28/S3tPS3NPS2dPS08/SzcrKxcTD
+xsXE9vb2////////OgA6AEQAYQB0AGEAVAB5AHAAZQApADsASQBtAGEAZwBlAEwAaQBzAHQA
+PQAyADcAMQA1ADEAOQAyADgAMAA7AEkAbQBhAGcAZQBMAGkAcwB0AEkAbgBkAGUAeAA9ADMA
+NgA3ADMA+AE/FSIAAABVU0UEaBgdAgUAAAAFAAAAAAAAADIANQA5ADAANgAAAPgBPxUiAAAA
+VVNFBGgYHQIFAAAABQAAAAAAAAAyADUAOQAwADcAAAD4AT8VOgAAAFVTRRxoGB0CBQAA
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANZSL0jAPoNLzwAAAJgBAAAHABEAc3RyLmRhdFVUDQAHU8iYVlPImFZTyJhW
+bVDBCoJAFJyrQf8gdimIqGudPHToYAYeOkpZmbFauHqI6N+b97QwCnm7896OszNrccYONxzh
+IifKUOCBPnpwiGWS8mwIDz62iBCzjkhQo+R5hTtWOHBSEDd9/DPxyU84sfwCKhatat6yYmyI
+SvaZcjJcObeYKOfEu8d0N+2sM+5dNMJCPT91lbKdXIZoT2Q+ySy7CqFmSDWzJIyY8Puut65D
+JeGKW9OyQ2pe9C0qzMkeYM2kAZZE3h9H8iYJk5V0Iy8jGV1WTUWjjMZd88cLUEsBAhcLFAAA
+AAgA1lIvSMA+g0vPAAAAmAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB1PImFZQ
+SwUGAAAAAAEAAQA+AAAABQEAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_Role" metatype="IAM Role" notes="" generalizes="Archimate2::ArchiMate_BusinessRole" baseStereotypes="Archimate2::ArchiMate_BusinessRole">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+x87Mcp2LOH9iI3ZTKXVVaZKB6d7j////////////////////////////iZuUADkSAFQTAF4X
+AGIbAGIbAF4ZAFUTAEsVOnNc9OTq////////////////////AAAAACwAAGEgAFshAF4oAGAt
+AFUnAEgcAEMSAE0VAEwcV4Nx//X/////////////ACILAAAAABkAB2Y+PJVwXq6MYrCOT59+
+OY9rHIRZAHU7AFkZAE0ecIyA////////8ubrABEAAGk2LqRzLJ9vIJdmKJlqQKR6LJlrO592
+SqaAOqB1AXpIAE8lBl863dnb////fpOLAEAMAH4/AIJHAIVNc7yeYa2OA4RODIhVAHxEA4RO
+LZhrX7GPBoVQADYL////9eLqABAAAHU3AIFGCIlUpdTAOJ50M5tvZK+QAH1FAHg9AHEzAHg8
+D4NSImJH////////AAkAAF0iAH1AAoZPndC6KZZpRaN8mcu2AH9IAHg+AHE0AGkmAE4d8uDo
+////////DzYmAC8AAHc3AH5EjMeuLZhsMZluw+DTHI9fAHE1AGsrAGMgE2RC////////////
+rKurAAAAAGYlAHI0YrORUaqFAIFLrtXEjcWuAIFLAHAzAHRChZyT////////////////ACIM
+AC8AAGkmEoxZf8CiAHU7MJhts9fInc25e7ygR3xm/+/3////////////////1s3RAAQAAEgF
+AGYjV6yIIpJjAGEeDohVVaaEP3phuLm4////////////////////////urq7AC8IAD8AAF0c
+OZpxAHA3AD0AAEcfvL28////////////////////////////////////lq6kK29TG2FEUn5r
+jqOa////////////////////////////////////////////////////////////////////
+////////////////cgBlAHMAcwBCAHIAYQBjAGsAZQB0AHMAPQAwADsAUwB1AHAAcABDAG8A
+bgBuAGUAYwB0AG8AcgBMAGEAYgBlAGwAcwA9ADAAOwBQAHIAaQBuAHQAUABhAGcAZQBIAGUA
+YQBkAEYAbwBvAHQAPQAwADsAUwBoAG8AdwBBAHMATABpAHMAdAA9ADAAOwBTAHUAcABwAHIA
+ZQBzAHMAZQBkAEMAbwBtAHAAYQByAHQAbQBlAG4AdABzAD0AOwBTAGEAdgBlAFQAYQBn
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPJUL0hjf6gmyQAAAIoBAAAHABEAc3RyLmRhdFVUDQAHTcyYVk3MmFZNzJhW
+bVDBCoJAFJyrQf8gdimIqGudPHToYEIeOkpZWbFquHqI6N+b97QwCnm7896OszNrccYONxzh
+IiO6IMcDffTgEMsk5dkQHnxsESFmHZGgRsnzCnescOAkJ276+Gfik59wYvkFVMxb1axlxdig
+gGE30emJt43pZ9pZZ9y7aISFunzqKmU7SQzRnsh8slh2FUJ1nWpKyRQx0/ddb12HSsIVf6Zl
+h9S8avoKc7IHWDNbgCWR98eRvELCZCXdyFsU1HFZNRWNMhp3zR8vUEsBAhcLFAAAAAgA8lQv
+SGN/qCbJAAAAigEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB03MmFZQSwUGAAAA
+AAEAAQA+AAAA/wAAAAAA</Image>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_IAM_TemporarySecurityCredential" metatype="IAM Temporary Security Credential" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////5OTkeXl5YGBgoKCg////////////////////////
+////////////////////raysFRQVe3p6pKSkU1NTNzc3////////////////////////////
+/////////vz9Hx0e8e/w////////////mJiYSUhIwsLDdXR1dnV3fXx9fXx+fnx+gH6Ah4SG
+NTM0cm9w////XFlaXFpb////////GhkZpKOk9PPz19fXwL7A8e7w////////////iYOGkoyO
+////+fT2LSkq////////ISAg////zMrLLCksGhYZWFNW//////////////f7VUtP////////
+T0hL////8e7vJiQl////UE5QTEhLFA4SEgoQWU9VpZieqJmhopGZEQAIcGBm////2MzSz8rK
+NjAzy8XH/fv8b2ptzMzMJBshGw8WHQwVIg8ZUDlFjHJ+hml2hGl0XkhRTj5EUkZL39Xa////
+////eXN2EwoQDQAIJBMck32H2cDJ////////0vvqyPrl////////////////////////////
+qp6kiniA5czX////////7P//MKt4AF8PAFUCAIZI////////////////////////////es6r
+lt/BWL2TAH49AFcHAFMDAE8AAIdNO6Z5dsSj////////////////////////AINHAHAsAHAs
+AHIxAGwoAEsAAEYAAH9GNJ5yYLSS////////////////////////////////////////////
+AoROADsAADUAAFoV5PXu////////////////////////////////////////////////iMWr
+cbmb7Pfz////////////////////////////////////////////////////////////////
+////////////////OgA6AEcAVQBJAEUAbABlAG0AZQBuAHQAKQA7AEkAbQBhAGcAZQBMAGkA
+cwB0AD0AMgA3ADEANQAxADkAMgA4ADAAOwBJAG0AYQBnAGUATABpAHMAdABJAG4AZABlAHgA
+PQAzADQAMgA0ADsAAABQA0wVIgAAAFVTRQRoGB0CBQAAAAUAAAAAAAAAMgA2ADkAMgAxAAAA
+ZQB4ANEAAABGUkVFGAInBQgCJwVjAAAAAAAAAEkAdABlAG0APQBXAGkAcgBlAGYAcgBh
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAZVL0hIAF1h1gAAALgBAAAHABEAc3RyLmRhdFVUDQAHo8yYVqPMmFajzJhW
+bVBNC4JAFJyrQf9B7FIQUdc6SXToYB4MOoqZWbF+0NpBov/e7LrFhiFvnfd2dt6bJ3FBghoZ
+XBREV5R4YogBHGJVyXk3hgcfB0SIGRlSPHDnfYMWW5xYKYm7PO5VfPJTViS/gIqlUS0MK8Ze
+ZzUqqiaMttdlTZRZugkEZvrVmbNNOf3cOhf822iClfb00qcKafkWREci8XUumTUIdfdc70Rt
+IOIGfnt9dB0qKa6aTRh2SM2bdtFgSfYIO24iwIbI+zOR8paaDSiHFXVcxoOKQjO66boXb1BL
+AQIXCxQAAAAIAAZVL0hIAF1h1gAAALgBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAejzJhWUEsFBgAAAAABAAEAPgAAAAwBAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="AWS_SecurityIdentity_KeyManagementService" metatype="Key Management Service" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////LmJOP5t2////////////////////////////////////
+////////////////EkEvAAAAAFMSMKF0////////////////////////////////////////
+3eDfABkAAAAAAAAAAGMmAGgkAIFL5Pfv////////////////////////////////AAgAAAAA
+AAAAAAsAAHQ7AHs8AGclAHA2////////////////////////////X4N1AAAAAAEAAAgAABsC
+AINNAIhOAHc7AGAgcbmc////////////////////////ABYAAAAAAA8AABYBACgREI5bCpRc
+AIJJAG0wAHU+////////////////////fZuPAAAAAA0AABsEACANADEcHpRmGJtnBIpUAHc+
+AGAiisWt////////////////AB8DAAAAABYAACMMACcVBTcjJpxtIaJuDpBbAH1GAGcqAHdC
+////////////kqyiAAAAAAYAABoAACYRACkYCDkmKp9xJaRxE5NfAIBKAGwyAFcXnc26////
+////Q3BeAAAAAAYAABkAACUPACgXBjgkKJ1xI6NwEpJeAIBKAG0yAFQTVamH////////O2pX
+AAAAAAAAABMAAB8JACIQADIeIJhoHJtqCo5ZAH1FAGsvAFIQTqWC////////MWNPAAAAAAQA
+AAsAABQAABgEACkTEpBdDpZfAIdPAG82AFMZAEwHRaF8////////aYx+AAAAAFkjAC8NAAIA
+AAoAABwDAIROAItRAHxAAGExABcAAEkJeLug////////////8Pj1////0NnVAAAAAAAAAAwA
+AHU8AHw9AHIz2O7l////7vLx////////////////////////////UHFkAAAAAAAAAGMmAHk6
+Z7uZ////////////////////////////////////////////4NvdAj4mGYpd7P/6////////
+////////////////bwARGwAARlJFRbhqTBWoAicFYgAAAAAAAABJAHQAZQBtAD0AVwBpAHIA
+ZQBmAHIAYQBtAGkAbgBnADoAOgBXAGkAcgBlAGYAcgBhAG0AZQBSAGEAdABpAG4AZwBDAG8A
+bgB0AHIAbwBsACgAVQBNAEwAOgA6AEcAVQBJAEUAbABlAG0AZQBuAHQAKQA7AEkAbQBhAGcA
+ZQBMAGkAcwB0AD0AMgA3ADEANQAxADkAMgA4ADAAOwBJAG0AYQBnAGUATABpAHMAdABJ
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALZVL0hgVc0JxwAAAHgBAAAHABEAc3RyLmRhdFVUDQAHt82YVrfNmFa3zZhW
+bVBNC4JQEJyrQf9B7FIQUdc6degQYR48dBQzs+Kp4Ucg0X9vdrUw6LDvzb6dnTe7JS4IcUcM
+GynRFRmeGGIAi1heEtbGcLDGAT4CRowINQrWKzTY4sSXjLjNA+yYN3DZm3X9aceQ3gIPMiOi
+mVbO1J7y93nvXPDuowlW6umlp0TZ822IjkTm67xkVsFTj4nOJBP4nOD3r4+uRSXhikfTsT1q
+3nTWCkuyR9hzBy42RM4fR7KFCDl1Qt1FTh2bUVPRKKN113a8AVBLAQIXCxQAAAAIALZVL0hg
+Vc0JxwAAAHgBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAe3zZhWUEsFBgAAAAAB
+AAEAPgAAAP0AAAAAAA==</Image>
 						<AppliesTo>
 							<Apply type="Class">
 								<Property name="isActive" value=""/>
@@ -9175,7 +9615,913 @@ AAD//////////wMAAAB2AwAAIQIAAGcDAAD8AQAASwMAAOEBAAAFAAAANAAAAAAAAAAAAAAA
 ////////AwAAAKsCAAC2AQAAdwIAANgBAABfAgAADAIAADYAAAAQAAAAUAIAAC4CAAA2AAAA
 EAAAADECAAAZAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAACgCAAASAgAAHAIAAA4C
 AAAQAgAADgIAAD0AAAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAA
-DAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAA4BEAAA==</Column></DataRow></DataSet></RefData></Images><DiagramProfile><UMLProfile profiletype="uml2">
+DAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAA4BEAAA==</Column></DataRow><DataRow><Column name="ImageID" value="872220732"/><Column name="Name" value="AWS_SecurityIdentity_DirectoryService.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+AAABAAAADgAAABQAAAAAAAAAAAAAAEgLAAA=</Column></DataRow><DataRow><Column name="ImageID" value="155428496"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAABQBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAmAsAALIA
+AAACAAAAUwAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdAAuAGUAbQBmAAAA
+AAAAAAAAEQAAAAwAAAABAAAAJAAAACQAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAACAAAA
+RgAAACwAAAAgAAAAU2NyZWVuPTEwMjA1eDEzMTgxcHgsIDIxNngyNzltbQBGAAAAMAAAACMA
+AABEcmF3aW5nPTEwMC4weDEwMC4wcHgsIDI4LjJ4MjguMm1tAAASAAAADAAAAAEAAAATAAAA
+DAAAAAIAAAAWAAAADAAAABgAAAAYAAAADAAAAAAAAAAUAAAADAAAAA0AAAAnAAAAGAAAAAEA
+AAAAAAAAPEkpAAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAAfQEAAN0BAAA2AAAA
+EAAAALgBAADSAQAANgAAABAAAAB5AQAAygEAADYAAAAQAAAAPgEAANYBAAA9AAAACAAAADwA
+AAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwAAAABAAAA
+JwAAABgAAAABAAAAAAAAADxJKQAGAAAAJQAAAAwAAAABAAAAOwAAAAgAAAAbAAAAEAAAAJsC
+AAAVAgAANgAAABAAAAB1AQAAMwIAADYAAAAQAAAAmwIAAEUCAAA2AAAAEAAAAMEDAAAzAgAA
+PQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgA
+AAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAA8SSkABgAAACUAAAAMAAAAAQAAADsAAAAIAAAA
+GwAAABAAAACxAwAAyAEAADYAAAAQAAAAYQMAANIBAAA2AAAAEAAAAKkDAADfAQAANgAAABAA
+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
+AA==</Column></DataRow><DataRow><Column name="ImageID" value="26957214"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_AddOn.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAACABAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEA7BEAAL4A
+AAACAAAAWQAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAEEAZABkAE8A
+bgAuAGUAbQBmAAAAAAAAAAAAEQAAAAwAAAABAAAAJAAAACQAAAAAAIA/AAAAAAAAAAAAAIA/
+AAAAAAAAAAACAAAARgAAACwAAAAgAAAAU2NyZWVuPTEwMjA1eDEzMTgxcHgsIDIxNngyNzlt
+bQBGAAAAMAAAACMAAABEcmF3aW5nPTEwMC4weDEwMC4wcHgsIDI4LjJ4MjguMm1tAAASAAAA
+DAAAAAEAAAATAAAADAAAAAIAAAAWAAAADAAAABgAAAAYAAAADAAAAAAAAAAUAAAADAAAAA0A
+AAAnAAAAGAAAAAEAAAAAAAAAS2EsAAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAA
+AQUAAN8CAAA2AAAAEAAAADUFAAB5AgAANgAAABAAAAA1BQAAyQIAADYAAAAQAAAAAQUAADID
+AAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACA
+KAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAEthLAAGAAAAJQAAAAwAAAABAAAAOwAAAAgA
+AAAbAAAAEAAAAH0CAADiAgAANgAAABAAAAAWBQAAyQIAADYAAAAQAAAAAQUAADIDAAA2AAAA
+EAAAAIkCAAA5AwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUA
+AAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAABLYSwABgAAACUAAAAMAAAA
+AQAAADsAAAAIAAAAGwAAABAAAACJAgAA6AIAADYAAAAQAAAAiQIAADkDAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAAiQIAADwDAACAAgAASwMAAHYCAABhAwAANgAAABAAAAB2AgAA
+EAMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACAAgAA/gIAAIYCAADuAgAAiQIAAOgC
+AAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACA
+KAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAEthLAAGAAAAJQAAAAwAAAABAAAAOwAAAAgA
+AAAbAAAAEAAAAIkCAADoAgAANgAAABAAAACJAgAAOQMAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAACJAgAAPAMAAHYCAABhAwAAagIAAHMDAAA2AAAAEAAAAGECAAAQAwAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAG0CAAD+AgAAhgIAAO4CAACJAgAA6AIAADwAAAAIAAAA
+PgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwAAAABAAAAJwAAABgA
+AAABAAAAAAAAAEthLAAGAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACAAwAAAEQAAAAAAAAA
+AAAAAP//////////BQAAAIkCAADoAgAAiQIAADkDAACJAgAAOQMAAIkCAADoAgAAiQIAAOgC
+AAAlAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAAS2EsAAYAAAAlAAAA
+DAAAAAEAAAA7AAAACAAAABsAAAAQAAAAfQIAAAQDAAA2AAAAEAAAAHYCAABhAwAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAG0CAABzAwAAYQIAAIYDAABRAgAAlgMAADYAAAAQAAAA
+VAIAAEIDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAYQIAADYDAABzAgAAFwMAAH0C
+AAAEAwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAA
+BQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAABLYSwABgAAACUAAAAMAAAAAQAAADsA
+AAAIAAAAGwAAABAAAACDAgAA+AIAADYAAAAQAAAAeQIAAF4DAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAcAIAAG0DAABeAgAAjAMAAFECAACcAwAANgAAABAAAABRAgAASAMAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAABaAgAAOQMAAHkCAAAHAwAAgwIAAPgCAAA8AAAA
+CAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcA
+AAAYAAAAAQAAAAAAAABLYSwABgAAACUAAAAMAAAAAQAAADsAAAAIAAAAGwAAABAAAABUAgAA
+OQMAADYAAAAQAAAAUQIAAJYDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAARQIAAKUD
+AAA1AgAAtAMAACMCAADEAwAANgAAABAAAAAdAgAAcAMAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAAAsAgAAZAMAAEgCAABIAwAAVAIAADkDAAA9AAAACAAAADwAAAAIAAAAPgAAABgA
+AAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAA
+AAAAAEthLAAGAAAAJQAAAAwAAAABAAAAOwAAAAgAAAAbAAAAEAAAAFoCAAA5AwAANgAAABAA
+AABXAgAAkgMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABLAgAAogMAADgCAAC0AwAA
+KQIAAMQDAAA2AAAAEAAAABkCAABtAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAACYC
+AABeAwAASwIAAEgDAABaAgAAOQMAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////
+JQAAAAwAAAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAEthLAAGAAAAJQAAAAwA
+AAABAAAAOwAAAAgAAAAbAAAAEAAAAAIAAADAAgAANgAAABAAAAACAAAAbwIAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAAACAAAAugIAABoAAAAEAwAATwAAAEIDAAA2AAAAEAAAAGsA
+AABeAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAKwAAACcAwAAAAEAALsDAABTAQAA
+uwMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACeAQAAuwMAAOgBAACiAwAAJgIAAHAD
+AAA2AAAAEAAAACYCAADBAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAOgBAADyAwAA
+ngEAAAsEAABTAQAACwQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAAAQAACwQAAKkA
+AADsAwAAawAAAK4DAAA2AAAAEAAAAE8AAACSAwAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAABoAAABUAwAAAgAAAAoDAAACAAAAwAIAAD0AAAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAA
+AAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAA
+S2EsAAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAANQIAAFgDAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAA9wEAAIkDAACeAQAAvgMAAFMBAAC+AwAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAAAABAAC+AwAAqQAAAJ8DAABrAAAAYQMAADYAAAAQAAAATwAAAEUD
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAGgAAAAcDAAACAAAAvQIAAAIAAAByAgAA
+NgAAABAAAAACAAAAwwIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAACAAAADQMAABoA
+AABYAwAATwAAAJYDAAA2AAAAEAAAAGsAAACxAwAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAKwAAADvAwAAAAEAAA4EAABTAQAADgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AACeAQAADgQAAOgBAAD2AwAAJgIAAMQDAAA2AAAAEAAAADUCAABYAwAAPQAAAAgAAAA8AAAA
+CAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcA
+AAAYAAAAAQAAAAAAAAB1nD4ABgAAACUAAAAMAAAAAQAAADsAAAAIAAAAGwAAABAAAAC9BAAA
+CQIAADYAAAAQAAAANQUAAHwCAAA2AAAAEAAAAP4EAADiAgAANgAAABAAAACGAgAA6wIAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAACGAgAA7gIAAH0CAAD+AgAAcwIAABMDAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAagIAACYDAABeAgAANgMAAFECAABIAwAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAEUCAABYAwAANQIAAGcDAAAjAgAAdwMAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAADlAQAAqAMAAJoBAADBAwAAUAEAAMEDAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAA/QAAAMEDAACmAAAAogMAAGgAAABkAwAANgAAABAAAABMAAAA
+SAMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADW////ugIAAOz////nAQAAegAAAHQB
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAuAAAAEMBAAADAQAAKgEAAFABAAAqAQAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAJoBAAAqAQAA5QEAAEMBAAAjAgAAdAEAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAABRAgAAlwEAAG0CAADIAQAAcAIAAMgBAAA2AAAA
+EAAAAJICAADLAQAANgAAABAAAAAtAwAAyAEAADYAAAAQAAAAZQMAACUCAAA2AAAAEAAAAOcD
+AAAZAgAANgAAABAAAAAYBAAATQIAADYAAAAQAAAARwQAAFcCAAA2AAAAEAAAAL0EAAAJAgAA
+PQAAAAgAAAAbAAAAEAAAAL8AAADDAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAPAA
+AADDAgAAFQEAAJsCAAAVAQAAaQIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAVAQAA
+OAIAAO0AAAASAgAAuwAAABICAAA2AAAAEAAAALsAAAASAgAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAIoAAAASAgAAZQAAADsCAABlAAAAbAIAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAABlAAAAmwIAAI0AAADDAgAAvwAAAMMCAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAuwAAAMMCAAC7AAAAwwIAAL8AAADDAgAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA
+//////////8lAAAADAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAA7BEA
+AA==</Column></DataRow><DataRow><Column name="ImageID" value="567175795"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_AWSSecurityTokenService.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAAEQBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAVAwAAHsA
+AAACAAAAawAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAEEAVwBTAFMA
+ZQBjAHUAcgBpAHQAeQBUAG8AawBlAG4AUwBlAHIAdgBpAGMAZQAuAGUAbQBmAAAAAAAAAAAA
+EQAAAAwAAAABAAAAJAAAACQAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAACAAAARgAAACwA
+AAAgAAAAU2NyZWVuPTEwMjA1eDEzMTgxcHgsIDIxNngyNzltbQBGAAAAMAAAACMAAABEcmF3
+aW5nPTEwMC4weDEwMC4wcHgsIDI4LjJ4MjguMm1tAAASAAAADAAAAAEAAAATAAAADAAAAAIA
+AAAWAAAADAAAABgAAAAYAAAADAAAAAAAAAAUAAAADAAAAA0AAAAnAAAAGAAAAAEAAAAAAAAA
+PEkpAAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAAHAEAADgCAAA2AAAAEAAAABwB
+AABRAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAPQAAABRAgAA1wAAAGICAADXAAAA
+iQIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADXAAAArgIAAPcAAADYAgAAHAEAANgC
+AAA2AAAAEAAAABwBAADYAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAEMBAADYAgAA
+YQEAAK4CAABhAQAAhwIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABhAQAAYgIAAEMB
+AAA4AgAAHAEAADgCAAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////
+JQAAAAwAAAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAADxJKQAGAAAAJQAAAAwA
+AAABAAAAOwAAAAgAAAAbAAAAEAAAAAAAAABmAQAANgAAABAAAAAAAAAAGQQAADYAAAAQAAAA
+NQUAABkEAAA2AAAAEAAAADUFAABmAQAANgAAABAAAAAAAAAAZgEAAD0AAAAIAAAAGwAAABAA
+AACEBAAADAMAADYAAAAQAAAAjAIAABQDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+jAIAABYDAACEAgAAIgMAAH0CAAA0AwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAHYC
+AABDAwAAbAIAAE8DAABiAgAAXgMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABYAgAA
+agMAAEwCAAB2AwAAPQIAAIMDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAACwIAAKoD
+AADQAQAAvgMAAJUBAAC+AwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAFIBAAC+AwAA
+DQEAAKUDAADcAAAAdAMAADYAAAAQAAAAxgAAAF4DAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAaAAAAOwCAAB5AAAARAIAAOsAAADpAQAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAABwBAADBAQAAVwEAAK4BAACVAQAArgEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADQAQAArgEAAAsCAADBAQAAPQIAAOkBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+YgIAAAQCAAB4AgAALAIAAHsCAAAsAgAANgAAABAAAACWAgAALgIAADYAAAAQAAAAEQMAACwC
+AAA2AAAAEAAAAD4DAAB2AgAANgAAABAAAAClAwAAbAIAADYAAAAQAAAAzQMAAJYCAAA2AAAA
+EAAAAPIDAACdAgAANgAAABAAAABQBAAAZAIAADYAAAAQAAAAsAQAAMACAAA2AAAAEAAAAIQE
+AAAMAwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAA
+BQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAA8SSkABgAAACUAAAAMAAAAAQAAADsA
+AAAIAAAAGwAAABAAAADXAAAAdgIAADYAAAAQAAAAZAEAAHYCAAA2AAAAEAAAAGQBAACOAgAA
+NgAAABAAAADXAAAAjgIAAD0AAAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA////////
+//8lAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAAdZw+AAYAAAAlAAAA
+DAAAAAEAAAA7AAAACAAAABsAAAAQAAAAHAEAAB8CAAA2AAAAEAAAABwBAAAfAgAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAPQAAAAfAgAA1wAAAEkCAADXAAAAcQIAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAADXAAAAlgIAAPcAAADAAgAAHAEAAMACAAA2AAAAEAAAABwB
+AADAAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAEMBAADAAgAAYQEAAJYCAABhAQAA
+bgIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABhAQAASQIAAEMBAAAfAgAAHAEAAB8C
+AAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACA
+KAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAHWcPgAGAAAAJQAAAAwAAAABAAAAOwAAAAgA
+AAAbAAAAEAAAAAAAAAAcAQAANgAAABAAAAAAAAAAzwMAADYAAAAQAAAANQUAAM8DAAA2AAAA
+EAAAADUFAAAcAQAANgAAABAAAAAAAAAAHAEAAD0AAAAIAAAAGwAAABAAAACEBAAAwgIAADYA
+AAAQAAAAjAIAAMoCAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAjAIAAMwCAACEAgAA
+2AIAAH0CAADqAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAHYCAAD4AgAAbAIAAAUD
+AABiAgAAFAMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABYAgAAIAMAAEwCAAAsAwAA
+PQIAADkDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAACwIAAGADAADQAQAAdAMAAJUB
+AAB0AwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAFIBAAB0AwAADQEAAFsDAADcAAAA
+KgMAADYAAAAQAAAAxgAAABQDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAaAAAAKIC
+AAB5AAAA+gEAAOsAAACfAQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAABwBAAB3AQAA
+VwEAAGQBAACVAQAAZAEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADQAQAAZAEAAAsC
+AAB3AQAAPQIAAJ8BAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAYgIAALoBAAB4AgAA
+4QEAAHsCAADhAQAANgAAABAAAACWAgAA5AEAADYAAAAQAAAAEQMAAOEBAAA2AAAAEAAAAD4D
+AAAsAgAANgAAABAAAAClAwAAIgIAADYAAAAQAAAAzQMAAEwCAAA2AAAAEAAAAPIDAABTAgAA
+NgAAABAAAABQBAAAGgIAADYAAAAQAAAAsAQAAHYCAAA2AAAAEAAAAIQEAADCAgAAPQAAAAgA
+AAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAA
+AQAAAA4AAAAUAAAAAAAAAAAAAABUDAAA</Column></DataRow><DataRow><Column name="ImageID" value="1835901616"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_AWSSecurityTokenService2.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAAEQBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEA3CUAAEwB
+AAADAAAAbAAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAEEAVwBTAFMA
+ZQBjAHUAcgBpAHQAeQBUAG8AawBlAG4AUwBlAHIAdgBpAGMAZQAyAC4AZQBtAGYAAAAAAAAA
+EQAAAAwAAAABAAAAJAAAACQAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAACAAAARgAAACwA
+AAAgAAAAU2NyZWVuPTEwMjA1eDEzMTgxcHgsIDIxNngyNzltbQBGAAAAMAAAACMAAABEcmF3
+aW5nPTEwMC4weDEwMC4wcHgsIDI4LjJ4MjguMm1tAAASAAAADAAAAAEAAAATAAAADAAAAAIA
+AAAWAAAADAAAABgAAAAYAAAADAAAAAAAAAAUAAAADAAAAA0AAAAnAAAAGAAAAAEAAAAAAAAA
+////AAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAAogEAAFAEAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAAqAEAAFIEAACtAQAAVQQAALIBAABbBAAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAALcBAABhBAAAvAEAAGkEAADBAQAAdAQAADYAAAAQAAAA2gEAAKYE
+AAA2AAAAEAAAAMABAACmBAAANgAAABAAAACoAQAAdwQAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAACiAQAAagQAAJwBAABiBAAAlwEAAF4EAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAkQEAAFoEAACJAQAAWAQAAH8BAABYBAAANgAAABAAAABkAQAAWAQAADYAAAAQAAAA
+ZAEAAKYEAAA2AAAAEAAAAEwBAACmBAAANgAAABAAAABMAQAA7wMAADYAAAAQAAAAhAEAAO8D
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAmAEAAO8DAACoAQAA8wMAALIBAAD8AwAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAL0BAAAEBAAAwgEAABIEAADCAQAAIwQAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAADCAQAALwQAAL8BAAA4BAAAugEAAEAEAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAtAEAAEgEAACtAQAATQQAAKIBAABQBAAAPQAAAAgA
+AAAbAAAAEAAAAGQBAAADBAAANgAAABAAAABkAQAARAQAADYAAAAQAAAAhAEAAEQEAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAjwEAAEQEAACYAQAAQQQAAJ8BAAA8BAAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAKUBAAA2BAAAqAEAAC4EAACoAQAAIwQAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAACoAQAAGQQAAKUBAAARBAAAnwEAAAsEAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAAmAEAAAYEAACPAQAAAwQAAIQBAAADBAAANgAAABAAAABkAQAA
+AwQAAD0AAAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUA
+AIAoAAAADAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAA////AAYAAAAlAAAADAAAAAEAAAA7AAAA
+CAAAABsAAAAQAAAARAIAAP8DAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAMgIAAP8D
+AAAkAgAABgQAABoCAAAUBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAA8CAAAhBAAA
+CgIAADMEAAAKAgAASgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAKAgAAYQQAAA8C
+AAB0BAAAGgIAAIEEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAJAIAAI4EAAAyAgAA
+lQQAAEQCAACVBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAFYCAACVBAAAZQIAAI4E
+AABvAgAAgQQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAB6AgAAdAQAAH8CAABhBAAA
+fwIAAEoEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAfwIAADMEAAB6AgAAIQQAAG8C
+AAAUBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAGUCAAAGBAAAVgIAAP8DAABEAgAA
+/wMAAD0AAAAIAAAAGwAAABAAAABEAgAA6wMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AABeAgAA6wMAAHMCAAD0AwAAggIAAAUEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+kQIAABYEAACZAgAALQQAAJkCAABKBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAJkC
+AABnBAAAkQIAAH4EAACCAgAAjwQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABzAgAA
+oQQAAF4CAACpBAAARAIAAKkEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAKwIAAKkE
+AAAWAgAAoQQAAAcCAACPBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAPcBAAB+BAAA
+8AEAAGcEAADwAQAASgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADwAQAALQQAAPcB
+AAAWBAAABwIAAAUEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAFgIAAPQDAAArAgAA
+6wMAAEQCAADrAwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUA
+AAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAD///8ABgAAACUAAAAMAAAA
+AQAAADsAAAAIAAAAGwAAABAAAAAKAwAA/wMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AAD4AgAA/wMAAOoCAAAGBAAA3wIAABQEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+1QIAACEEAADPAgAAMwQAAM8CAABKBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAM8C
+AABhBAAA1QIAAHQEAADfAgAAgQQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADqAgAA
+jgQAAPgCAACVBAAACgMAAJUEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAHAMAAJUE
+AAAqAwAAjgQAADUDAACBBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAD8DAAB0BAAA
+RAMAAGEEAABEAwAASgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABEAwAAMwQAAD8D
+AAAhBAAANQMAABQEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAKgMAAAYEAAAcAwAA
+/wMAAAoDAAD/AwAAPQAAAAgAAAAbAAAAEAAAAAoDAADrAwAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAACQDAADrAwAAOAMAAPQDAABHAwAABQQAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAABXAwAAFgQAAF8DAAAtBAAAXwMAAEoEAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAXwMAAGcEAABXAwAAfgQAAEcDAACPBAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAADgDAAChBAAAJAMAAKkEAAAKAwAAqQQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADwAgAAqQQAANwCAAChBAAAzAIAAI8EAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+vQIAAH4EAAC1AgAAZwQAALUCAABKBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAALUC
+AAAtBAAAvQIAABYEAADMAgAABQQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADcAgAA
+9AMAAPACAADrAwAACgMAAOsDAAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//
+////////JQAAAAwAAAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAP///wAGAAAA
+JQAAAAwAAAABAAAAJQAAAAwAAAAIAACAAwAAAGQAAAAAAAAAAAAAAP//////////CQAAAGwD
+AADvAwAABwQAAO8DAAAHBAAAAwQAAMYDAAADBAAAxgMAAKYEAACtAwAApgQAAK0DAAADBAAA
+bAMAAAMEAABsAwAA7wMAACUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAA
+AAB1nD4ABgAAACUAAAAMAAAAAQAAACUAAAAMAAAACAAAgAMAAABEAAAAAAAAAAAAAAD/////
+/////wUAAACABAAAsAQAAIAEAADsBAAAgAQAAPUEAACABAAAugQAAIAEAACwBAAAJQAAAAwA
+AAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAHWcPgAGAAAAJQAAAAwAAAABAAAA
+OwAAAAgAAAAbAAAAEAAAAIAEAAC8BAAANgAAABAAAACABAAA9wQAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAACABAAA/AQAAH4EAAD/BAAAfgQAAAMFAAA2AAAAEAAAAH4EAADIBAAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAH4EAADDBAAAfgQAAL4EAACABAAAvAQAADwA
+AAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwAAAABAAAA
+JwAAABgAAAABAAAAAAAAAHWcPgAGAAAAJQAAAAwAAAABAAAAOwAAAAgAAAAbAAAAEAAAAHwE
+AADFBAAANgAAABAAAAB8BAAAAQUAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAB5BAAA
+BgUAAHkEAAAKBQAAdwQAAA0FAAA2AAAAEAAAAHcEAADRBAAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAHkEAADPBAAAfAQAAMoEAAB8BAAAxQQAADwAAAAIAAAAPgAAABgAAAAAAAAA
+AAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAHWc
+PgAGAAAAJQAAAAwAAAABAAAAOwAAAAgAAAAbAAAAEAAAAHcEAADUBAAANgAAABAAAAB3BAAA
+DwUAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABrBAAAJQUAAFMEAAA1BQAAOQQAADUF
+AAA2AAAAEAAAADkEAAD6BAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAFMEAAD3BAAA
+awQAAOkEAAB3BAAA1AQAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwA
+AAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAHWcPgAGAAAAJQAAAAwAAAABAAAA
+OwAAAAgAAAAbAAAAEAAAAIAEAACwBAAANgAAABAAAACABAAA7AQAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAACABAAAEgUAAGEEAAAzBQAAOQQAADMFAAA2AAAAEAAAADkEAAD3BAAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAF8EAAD3BAAAgAQAANgEAACABAAAsAQAAD0A
+AAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAA
+DAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAAdZw+AAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsA
+AAAQAAAA6QAAAOkEAAA2AAAAEAAAAFgEAADsBAAANgAAABAAAAA5BAAAMwUAADYAAAAQAAAA
+/AAAADMFAAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwA
+AAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAHWcPgAGAAAAJQAAAAwAAAABAAAA
+OwAAAAgAAAAbAAAAEAAAAPwAAAD3BAAANgAAABAAAAD8AAAAMwUAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAADUAAAAMwUAALUAAAAUBQAAtQAAAOwEAAA2AAAAEAAAALUAAACwBAAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAALUAAADYBAAA1gAAAPcEAAD8AAAA9wQAADwA
+AAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwAAAABAAAA
+JwAAABgAAAABAAAAAAAAAHWcPgAGAAAAJQAAAAwAAAABAAAAOwAAAAgAAAAbAAAAEAAAAPwA
+AAD3BAAANgAAABAAAAD8AAAAMwUAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADUAAAA
+MwUAALUAAAAUBQAAtQAAAOwEAAA2AAAAEAAAALUAAACwBAAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAALUAAADYBAAA1gAAAPcEAAD8AAAA9wQAAD0AAAAIAAAAPAAAAAgAAAA+AAAA
+GAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEA
+AAAAAAAAdZw+AAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAAOQQAAAIAAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAYQQAAAIAAACABAAAIQAAAIAEAABKAAAANgAAABAA
+AACABAAAsgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACABAAA2AQAAGEEAAD6BAAA
+OQQAAPoEAAA2AAAAEAAAAPwAAAD6BAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAANQA
+AAD6BAAAtQAAANsEAAC1AAAAsgQAADYAAAAQAAAAtQAAAEcAAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAtQAAACEAAADUAAAAAAAAAPwAAAAAAAAANgAAABAAAAA5BAAAAAAAAD0A
+AAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAA
+DAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAA////AAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsA
+AAAQAAAA+gEAANQDAAA2AAAAEAAAAPoBAADyAwAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAO4BAADtAwAA4wEAAOkDAADZAQAA5gMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADOAQAA4wMAAMQBAADiAwAAuwEAAOIDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+qgEAAOIDAACdAQAA5QMAAJQBAADsAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAIsB
+AADyAwAAhgEAAPsDAACGAQAABwQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACGAQAA
+EQQAAIkBAAAZBAAAjwEAAB4EAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAlQEAACME
+AAChAQAAKAQAALIBAAArBAAANgAAABAAAADEAQAALgQAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAADbAQAAMwQAAOwBAAA7BAAA9wEAAEYEAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAAgIAAFEEAAAIAgAAXwQAAAgCAAByBAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAAgCAACIBAAAAAIAAJkEAADxAQAApAQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADjAQAAsAQAAM0BAAC1BAAAsAEAALUEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+pgEAALUEAACaAQAAtAQAAI4BAACyBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAIIB
+AACvBAAAdQEAAKwEAABoAQAApwQAADYAAAAQAAAAaAEAAIcEAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAdQEAAI4EAACBAQAAkwQAAI0BAACXBAAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAJkBAACbBAAApQEAAJwEAACwAQAAnAQAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAADCAQAAnAQAANABAACZBAAA2QEAAJIEAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAA4wEAAIsEAADnAQAAgQQAAOcBAAB0BAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAOcBAABpBAAA5AEAAGAEAADdAQAAWgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADWAQAAVAQAAMsBAABPBAAAuwEAAEwEAAA2AAAAEAAAAKkBAABIBAAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAAJIBAABEBAAAgQEAADwEAAB3AQAAMwQAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAABsAQAAKQQAAGcBAAAbBAAAZwEAAAoEAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAZwEAAPYDAABuAQAA5gMAAHwBAADaAwAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAIsBAADPAwAAngEAAMkDAAC3AQAAyQMAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAADCAQAAyQMAAM0BAADKAwAA2AEAAMwDAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAA4wEAAM4DAADuAQAA0AMAAPoBAADUAwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAA
+AAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAA
+AAD///8ABgAAACUAAAAMAAAAAQAAACUAAAAMAAAACAAAgAMAAABkAAAAAAAAAAAAAAD/////
+/////wkAAAAYAgAAzQMAANkCAADNAwAA2QIAAOcDAACIAgAA5wMAAIgCAACxBAAAaQIAALEE
+AABpAgAA5wMAABgCAADnAwAAGAIAAM0DAAAlAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAA
+GAAAAAEAAAAAAAAA////AAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAAgAMAANQD
+AAA2AAAAEAAAAIADAADyAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAHQDAADtAwAA
+aQMAAOkDAABfAwAA5gMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABUAwAA4wMAAEoD
+AADiAwAAQQMAAOIDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAMAMAAOIDAAAjAwAA
+5QMAABoDAADsAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAABEDAADyAwAADAMAAPsD
+AAAMAwAABwQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAMAwAAEQQAAA8DAAAZBAAA
+FQMAAB4EAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAGwMAACMEAAAnAwAAKAQAADgD
+AAArBAAANgAAABAAAABKAwAALgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABhAwAA
+MwQAAHIDAAA7BAAAfQMAAEYEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAiAMAAFEE
+AACOAwAAXwQAAI4DAAByBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAI4DAACIBAAA
+hgMAAJkEAAB3AwAApAQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABpAwAAsAQAAFMD
+AAC1BAAANgMAALUEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAKwMAALUEAAAgAwAA
+tAQAABQDAACyBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAAgDAACvBAAA+wIAAKwE
+AADuAgAApwQAADYAAAAQAAAA7gIAAIcEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
++gIAAI4EAAAHAwAAkwQAABMDAACXBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAB8D
+AACbBAAAKwMAAJwEAAA2AwAAnAQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABIAwAA
+nAQAAFUDAACZBAAAXwMAAJIEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAaQMAAIsE
+AABtAwAAgQQAAG0DAAB0BAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAG0DAABpBAAA
+agMAAGAEAABjAwAAWgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABcAwAAVAQAAFED
+AABPBAAAQQMAAEwEAAA2AAAAEAAAAC4DAABIBAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAABcDAABEBAAABwMAADwEAAD8AgAAMwQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADyAgAAKQQAAO0CAAAbBAAA7QIAAAoEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+7QIAAPYDAAD0AgAA5gMAAAIDAADaAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAABED
+AADPAwAAJAMAAMkDAAA9AwAAyQMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABIAwAA
+yQMAAFMDAADKAwAAXgMAAMwDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAaQMAAM4D
+AAB0AwAA0AMAAIADAADUAwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD/////
+/////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAD///8ABgAAACUA
+AAAMAAAAAQAAAF8AAAA4AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIgEARwAAAAAAAAA8SSkA
+BgAAAAAAAAAAAAAAJQAAAAwAAAACAAAAOgAAAAwAAAAKAAAAOwAAAAgAAAAbAAAAEAAAAMID
+AAClAQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAMIDAABQAgAANwMAANsCAACMAgAA
+2wIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADhAQAA2wIAAFcBAABQAgAAVwEAAKUB
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAVwEAAPoAAADhAQAAcAAAAIwCAABwAAAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAADcDAABwAAAAwgMAAPoAAADCAwAApQEAAD0A
+AAAIAAAAPAAAAAgAAAA/AAAAGAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAA
+DAAAAAEAAAAlAAAADAAAAAgAAIAoAAAADAAAAAIAAABfAAAAOAAAAAIAAAAAAAAAAAAAAAAA
+AAAAAAAAACIBAEcAAAAAAAAAPEkpAAYAAAAAAAAAAAAAACUAAAAMAAAAAgAAADoAAAAMAAAA
+CgAAADsAAAAIAAAAGwAAABAAAACkAgAA4gAAADYAAAAQAAAApAIAAPIBAAA8AAAACAAAAEAA
+AAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAACAAAgCgAAAAMAAAAAgAAAF8AAAA4AAAA
+AgAAAAAAAAAAAAAAAAAAAAAAAAAAIgEARwAAAAAAAAA8SSkABgAAAAAAAAAAAAAAJQAAAAwA
+AAACAAAAOgAAAAwAAAAKAAAAOwAAAAgAAAAbAAAAEAAAAAkCAADXAQAANgAAABAAAACwAgAA
+1wEAADwAAAAIAAAAQAAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAIAACAKAAAAAwA
+AAACAAAADgAAABQAAAAAAAAAAAAAANwlAAA=</Column></DataRow><DataRow><Column name="ImageID" value="551662389"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_DataEncryptionKey.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAADgBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAtAkAAFoA
+AAACAAAAZQAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAEQAYQB0AGEA
+RQBuAGMAcgB5AHAAdABpAG8AbgBLAGUAeQAuAGUAbQBmAAAAAAAAAAAAEQAAAAwAAAABAAAA
+JAAAACQAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAACAAAARgAAACwAAAAgAAAAU2NyZWVu
+PTEwMjA1eDEzMTgxcHgsIDIxNngyNzltbQBGAAAAMAAAACMAAABEcmF3aW5nPTEwMC4weDEw
+MC4wcHgsIDI4LjJ4MjguMm1tAAASAAAADAAAAAEAAAATAAAADAAAAAIAAAAWAAAADAAAABgA
+AAAYAAAADAAAAAAAAAAUAAAADAAAAA0AAAAnAAAAGAAAAAEAAAAAAAAA0tPTAAYAAAAlAAAA
+DAAAAAEAAAA7AAAACAAAABsAAAAQAAAATQQAAAAAAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAeAQAAAAAAACYBAAAIAAAAJgEAABLAAAANgAAABAAAACYBAAA6gQAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAACYBAAAEgUAAHgEAAA1BQAATQQAADUFAAA2AAAAEAAAAOgA
+AAA1BQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAL4AAAA1BQAAnQAAABUFAACdAAAA
+6gQAADYAAAAQAAAAnQAAAEsAAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAnQAAACMA
+AAC+AAAAAAAAAOgAAAAAAAAANgAAABAAAABNBAAAAAAAADYAAAAQAAAATQQAAAAAAAA9AAAA
+CAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwA
+AAABAAAAJwAAABgAAAABAAAAAAAAAH18fAAGAAAAJQAAAAwAAAABAAAAOwAAAAgAAAAbAAAA
+EAAAAPgBAAA9AwAANgAAABAAAACwAQAAigMAADYAAAAQAAAAbwEAAGcDAAA2AAAAEAAAAGoB
+AADVAQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAGgBAADVAQAAXgEAANABAABRAQAA
+yQEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABFAQAAxAEAADsBAAC8AQAAMQEAALIB
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAJwEAAKsBAAAdAQAAoQEAABUBAACUAQAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAPIAAABvAQAA4wAAAD0BAADjAAAADgEAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAADjAAAA1wAAAPcAAACiAAAAHwEAAHgAAAA2AAAA
+EAAAADEBAABmAAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAI0BAAAbAAAAEQIAACgA
+AABcAgAAhAAAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAB9AgAArAAAAIwCAADcAAAA
+jAIAAAsBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAjAIAADsBAAB9AgAAagEAAFwC
+AACSAQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAEYCAACwAQAAKAIAAMEBAAAlAgAA
+xAEAADYAAAAQAAAAJQIAANoBAAA2AAAAEAAAACgCAAA8AgAANgAAABAAAADsAQAAXwIAADYA
+AAAQAAAA8wEAALECAAA2AAAAEAAAANMBAADSAgAANgAAABAAAADLAQAA8AIAADYAAAAQAAAA
++AEAAD0DAAA9AAAACAAAABsAAAAQAAAAgwEAAK8AAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAgwEAAM8AAACcAQAA5gAAALwBAADmAAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAANoBAADmAAAA8wEAAM0AAADzAQAArAAAADYAAAAQAAAA8wEAAKwAAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAA8wEAAI4AAADaAQAAdQAAALoBAAB1AAAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAAJwBAAB4AAAAgwEAAJEAAACDAQAArwAAADYAAAAQAAAAgwEAAK8A
+AAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAA
+AQAAACcAAAAYAAAAAQAAAAAAAAA3NzcABgAAACUAAAAMAAAAAQAAADsAAAAIAAAAGwAAABAA
+AADkAwAAjwMAADYAAAAQAAAA5AMAAPcCAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+2gMAAJMCAACDAwAAQwIAABoDAABDAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAALEC
+AABDAgAAWgIAAJECAABQAgAA9wIAADYAAAAQAAAAUAIAAI8DAAA2AAAAEAAAAOcBAACPAwAA
+NgAAABAAAADnAQAA4wQAADYAAAAQAAAASwQAAOMEAAA2AAAAEAAAAEsEAACPAwAANgAAABAA
+AADkAwAAjwMAAD0AAAAIAAAAGwAAABAAAACDAwAAjwMAADYAAAAQAAAAtAIAAI8DAAA2AAAA
+EAAAALQCAAD3AgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAALQCAAD3AgAAtAIAAJgC
+AAAdAwAAmAIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACAAwAAmAIAAIUDAAD3AgAA
+hQMAAPcCAAA2AAAAEAAAAIMDAACPAwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAA
+AAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAAA4AAAAUAAAAAAAAAAAAAAC0CQAA
+</Column></DataRow><DataRow><Column name="ImageID" value="622509469"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_EncryptedData.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAADABAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAzAQAADEA
+AAACAAAAYQAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAEUAbgBjAHIA
+eQBwAHQAZQBkAEQAYQB0AGEALgBlAG0AZgAAAAAAAAAAABEAAAAMAAAAAQAAACQAAAAkAAAA
+AACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAgAAAEYAAAAsAAAAIAAAAFNjcmVlbj0xMDIwNXgx
+MzE4MXB4LCAyMTZ4Mjc5bW0ARgAAADAAAAAjAAAARHJhd2luZz0xMDAuMHgxMDAuMHB4LCAy
+OC4yeDI4LjJtbQAAEgAAAAwAAAABAAAAEwAAAAwAAAACAAAAFgAAAAwAAAAYAAAAGAAAAAwA
+AAAAAAAAFAAAAAwAAAANAAAAJwAAABgAAAABAAAAAAAAANLT0wAGAAAAJQAAAAwAAAABAAAA
+OwAAAAgAAAAbAAAAEAAAAGcDAAAAAAAANgAAABAAAACgBAAAUQEAADYAAAAQAAAAoAQAADUF
+AAA2AAAAEAAAAJYAAAA1BQAANgAAABAAAACWAAAAAAAAAD0AAAAIAAAAPAAAAAgAAAA+AAAA
+GAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEA
+AAAAAAAANzc3AAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAAegMAAPoCAAA2AAAA
+EAAAAHoDAABUAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAG8DAADnAQAAEAMAAJAB
+AACdAgAAkAEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAArAgAAkAEAAMwBAADkAQAA
+wQEAAFQCAAA2AAAAEAAAAMEBAAD6AgAANgAAABAAAABPAQAA+gIAADYAAAAQAAAATwEAAGwE
+AAA2AAAAEAAAAOkDAABsBAAANgAAABAAAADpAwAA+gIAADYAAAAQAAAAegMAAPoCAAA9AAAA
+CAAAABsAAAAQAAAADQMAAPoCAAA2AAAAEAAAACsCAAD6AgAANgAAABAAAAArAgAAVAIAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAAArAgAAVAIAACsCAADtAQAAnQIAAO0BAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAACgMAAO0BAAAQAwAAVAIAABADAABUAgAANgAAABAA
+AAANAwAA+gIAAD0AAAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAA
+DAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAAzAQAAA==</Column></DataRow><DataRow><Column name="ImageID" value="1063136901"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_LongTermSecurityCredential.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAAEgBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAqA0AAHUA
+AAACAAAAbgAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAEwAbwBuAGcA
+VABlAHIAbQBTAGUAYwB1AHIAaQB0AHkAQwByAGUAZABlAG4AdABpAGEAbAAuAGUAbQBmAAAA
+AAAAABEAAAAMAAAAAQAAACQAAAAkAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAgAAAEYA
+AAAsAAAAIAAAAFNjcmVlbj0xMDIwNXgxMzE4MXB4LCAyMTZ4Mjc5bW0ARgAAADAAAAAjAAAA
+RHJhd2luZz0xMDAuMHgxMDAuMHB4LCAyOC4yeDI4LjJtbQAAEgAAAAwAAAABAAAAEwAAAAwA
+AAACAAAAFgAAAAwAAAAYAAAAGAAAAAwAAAAAAAAAFAAAAAwAAAANAAAAJwAAABgAAAABAAAA
+AAAAAH18fAAGAAAAJQAAAAwAAAABAAAAOwAAAAgAAAAbAAAAEAAAAJkAAACRBAAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAEkAAACRBAAAAAAAAEYEAAAAAAAA8wMAADYAAAAQAAAA
+AAAAALEBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAAAAAAF4BAABGAAAAIgEAAJkA
+AAAiAQAANgAAABAAAAChBAAAIgEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADyBAAA
+IgEAADUFAABeAQAANQUAALEBAAA2AAAAEAAAADUFAADzAwAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAADUFAABGBAAA9AQAAJEEAAChBAAAkQQAADYAAAAQAAAAmQAAAJEEAAA9AAAA
+CAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwA
+AAABAAAAJwAAABgAAAABAAAAAAAAAP///wAGAAAAJQAAAAwAAAABAAAAOwAAAAgAAAAbAAAA
+EAAAAJkAAABGBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAEkAAABGBAAAAAAAAPoD
+AAAAAAAApwMAADYAAAAQAAAAAAAAAGYBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+AAAAABMBAABGAAAA1wAAAJkAAADXAAAANgAAABAAAAChBAAA1wAAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAADyBAAA1wAAADUFAAATAQAANQUAAGYBAAA2AAAAEAAAADUFAACnAwAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAADUFAAD6AwAA9AQAAEYEAAChBAAARgQAADYA
+AAAQAAAAmQAAAEYEAAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////
+JQAAAAwAAAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAH18fAAGAAAAJQAAAAwA
+AAABAAAAOwAAAAgAAAAbAAAAEAAAAPsDAADAAgAANgAAABAAAABTBAAAEwMAADYAAAAQAAAA
+KwQAAFwDAAA2AAAAEAAAAGUCAABkAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAGUC
+AABmAwAAYAIAAHMDAABWAgAAggMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABOAgAA
+jgMAAEcCAACbAwAAPQIAAKcDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAANQIAALED
+AAAoAgAAuwMAABwCAADFAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAO8BAADrAwAA
+ugEAAP0DAACDAQAA/QMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABGAQAA/QMAAAgB
+AADmAwAA2gAAALkDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA0wAAALQDAADOAAAA
+rAMAAMYAAAClAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAHEAAAA+AwAAgAAAAKcC
+AADqAAAAUgIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAXAQAALAIAAE4BAAAbAgAA
+gwEAABsCAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAugEAABsCAADvAQAALAIAABwC
+AABPAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAD0CAABoAgAAUwIAAIwCAABTAgAA
+jAIAADYAAAAQAAAAbAIAAIwCAAA2AAAAEAAAANsCAACJAgAANgAAABAAAAADAwAAzQIAADYA
+AAAQAAAAYgMAAMMCAAA2AAAAEAAAAIUDAADpAgAANgAAABAAAACmAwAA8AIAADYAAAAQAAAA
++wMAAMACAAA9AAAACAAAABsAAAAQAAAAGQEAAEgDAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAPAEAAEgDAABYAQAAKgMAAFgBAAAJAwAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAFgBAADmAgAAOgEAAMoCAAAXAQAAygIAADYAAAAQAAAAFwEAAMoCAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAA9AAAAMoCAADYAAAA6QIAANgAAAAMAwAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAANgAAAAqAwAA9AAAAEgDAAAZAQAASAMAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAAAXAQAASAMAABkBAABIAwAAGQEAAEgDAAA8AAAACAAAAD4AAAAYAAAA
+AAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAA
+AAB1nD4ABgAAACUAAAAMAAAAAQAAADsAAAAIAAAAGwAAABAAAAChAQAA4wEAADYAAAAQAAAA
+SQEAAJEBAAA2AAAAEAAAAHEBAABIAQAANgAAABAAAAA4AwAAQAEAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAAA4AwAAPgEAAD0DAAAxAQAARwMAACIBAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAATgMAABUBAABWAwAACQEAAGADAAD8AAAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAGoDAADwAAAAdAMAAOYAAACAAwAA3AAAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAACuAwAAtgAAAOIDAACkAAAAGgQAAKQAAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAVgQAAKQAAACVBAAAuwAAAMIEAADoAAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAMkEAADtAAAAzgQAAPUAAADWBAAA/AAAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AAArBQAAYwEAABwFAAD6AQAAswQAAE8CAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+hgQAAHUCAABOBAAAhwIAABoEAACHAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAOID
+AACHAgAArgMAAHUCAACAAwAAUgIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABgAwAA
+OQIAAEkDAAAWAgAASQMAABYCAAA2AAAAEAAAADADAAAWAgAANgAAABAAAADCAgAAGAIAADYA
+AAAQAAAAmQIAANQBAAA2AAAAEAAAADoCAADeAQAANgAAABAAAAAXAgAAuQEAADYAAAAQAAAA
+9gEAALEBAAA2AAAAEAAAAKEBAADjAQAAPQAAAAgAAAAbAAAAEAAAAIMEAABeAQAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAGAEAABeAQAARAQAAHwBAABEBAAAnQEAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAABEBAAAwAEAAGIEAADcAQAAhgQAANwBAAA2AAAAEAAAAIYE
+AADcAQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAKkEAADcAQAAxAQAAL4BAADEBAAA
+mwEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADCBAAAegEAAKYEAABeAQAAgwQAAF4B
+AAA2AAAAEAAAAIMEAABeAQAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAA
+DAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAAqA0AAA==</Column></DataRow><DataRow><Column name="ImageID" value="2050228841"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_MFAToken.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAACQBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAiAYAAD8A
+AAADAAAAXAAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAE0ARgBBAFQA
+bwBrAGUAbgAuAGUAbQBmAAAAAAAAABEAAAAMAAAAAQAAACQAAAAkAAAAAACAPwAAAAAAAAAA
+AACAPwAAAAAAAAAAAgAAAEYAAAAsAAAAIAAAAFNjcmVlbj0xMDIwNXgxMzE4MXB4LCAyMTZ4
+Mjc5bW0ARgAAADAAAAAjAAAARHJhd2luZz0xMDAuMHgxMDAuMHB4LCAyOC4yeDI4LjJtbQAA
+EgAAAAwAAAABAAAAEwAAAAwAAAACAAAAFgAAAAwAAAAYAAAAGAAAAAwAAAAAAAAAFAAAAAwA
+AAANAAAAJwAAABgAAAABAAAAAAAAANLT0wAGAAAAJQAAAAwAAAABAAAAXwAAADgAAAACAAAA
+AAAAAAAAAAAAAAAAAAAAAAAiAQAwAAAAAAAAAH18fAAGAAAAAAAAAAAAAAAlAAAADAAAAAIA
+AAA6AAAADAAAAAoAAAA7AAAACAAAABsAAAAQAAAAHQUAAJsCAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAHQUAAP0DAAD9AwAAHQUAAJsCAAAdBQAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAADgBAAAdBQAAGAAAAP0DAAAYAAAAmwIAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAAAYAAAAOAEAADgBAAAYAAAAmwIAABgAAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAA/QMAABgAAAAdBQAAOAEAAB0FAACbAgAAPQAAAAgAAAA8AAAACAAAAD8AAAAYAAAA
+AAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACUAAAAMAAAACAAAgCgA
+AAAMAAAAAgAAACcAAAAYAAAAAgAAAAAAAAA3NzcABgAAACUAAAAMAAAAAgAAACUAAAAMAAAA
+CAAAgAMAAACMAAAAAAAAAAAAAAD//////////w4AAADmAAAA7gEAACgBAADuAQAAfAEAAM0C
+AADQAQAA7gEAABICAADuAQAAEgIAADUDAADmAQAANQMAAOYBAAAWAgAAkgEAAPYCAABlAQAA
+9gIAABEBAAAWAgAAEQEAADUDAADmAAAANQMAAOYAAADuAQAAJQAAAAwAAAAFAACAKAAAAAwA
+AAACAAAAJwAAABgAAAACAAAAAAAAADc3NwAGAAAAJQAAAAwAAAACAAAAJQAAAAwAAAAIAACA
+AwAAAHQAAAAAAAAAAAAAAP//////////CwAAAFwCAADuAQAAGQMAAO4BAAAZAwAAEwIAAIkC
+AAATAgAAiQIAAHMCAAALAwAAcwIAAAsDAACZAgAAiQIAAJkCAACJAgAANQMAAFwCAAA1AwAA
+XAIAAO4BAAAlAAAADAAAAAUAAIAoAAAADAAAAAIAAAAnAAAAGAAAAAIAAAAAAAAANzc3AAYA
+AAAlAAAADAAAAAIAAAA7AAAACAAAABsAAAAQAAAAxAMAABkCAAA2AAAAEAAAAIgDAAC8AgAA
+NgAAABAAAAAABAAAvAIAADYAAAAQAAAAxAMAABkCAAA9AAAACAAAABsAAAAQAAAAqwMAAO4B
+AAA2AAAAEAAAAN0DAADuAQAANgAAABAAAABaBAAANQMAADYAAAAQAAAALAQAADUDAAA2AAAA
+EAAAAA4EAADhAgAANgAAABAAAAB6AwAA4QIAADYAAAAQAAAAXAMAADUDAAA2AAAAEAAAAC4D
+AAA1AwAANgAAABAAAACrAwAA7gEAAD0AAAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA
+//////////8lAAAADAAAAAUAAIAoAAAADAAAAAIAAAAOAAAAFAAAAAAAAAAAAAAAiAYA
+AA==</Column></DataRow><DataRow><Column name="ImageID" value="1874951814"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_Permissions.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAACwBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAJAcAAD8A
+AAACAAAAXwAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAFAAZQByAG0A
+aQBzAHMAaQBvAG4AcwAuAGUAbQBmAAAAAAAAAAAAEQAAAAwAAAABAAAAJAAAACQAAAAAAIA/
+AAAAAAAAAAAAAIA/AAAAAAAAAAACAAAARgAAACwAAAAgAAAAU2NyZWVuPTEwMjA1eDEzMTgx
+cHgsIDIxNngyNzltbQBGAAAAMAAAACMAAABEcmF3aW5nPTEwMC4weDEwMC4wcHgsIDI4LjJ4
+MjguMm1tAAASAAAADAAAAAEAAAATAAAADAAAAAIAAAAWAAAADAAAABgAAAAYAAAADAAAAAAA
+AAAUAAAADAAAAA0AAAAnAAAAGAAAAAEAAAAAAAAAfXx8AAYAAAAlAAAADAAAAAEAAAA7AAAA
+CAAAABsAAAAQAAAAhgQAAKIEAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAhgQAAO8E
+AAA7BAAANQUAAN0DAAA1BQAANgAAABAAAABYAQAANQUAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAAD6AAAANQUAAK8AAADvBAAArwAAAKIEAAA2AAAAEAAAAK8AAADMAAAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAK8AAAB+AAAA+gAAAEYAAABYAQAARgAAADYAAAAQAAAA
+3QMAAEYAAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAOwQAAEYAAACGBAAAfgAAAIYE
+AADMAAAANgAAABAAAACGBAAAogQAAD0AAAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA
+//////////8lAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAA0tPTAAYA
+AAAlAAAADAAAAAEAAAA7AAAACAAAABsAAAAQAAAAhgQAAFwEAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAhgQAAKkEAAA0BAAA7wQAANkDAADvBAAANgAAABAAAABYAQAA7wQAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAAD6AAAA7wQAAK8AAACpBAAArwAAAFwEAAA2AAAA
+EAAAAK8AAACFAAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAK8AAAA4AAAA+gAAAAAA
+AABYAQAAAAAAADYAAAAQAAAA2QMAAAAAAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+NgQAAAAAAACGBAAAOAAAAIYEAACFAAAANgAAABAAAACGBAAAXAQAAD0AAAAIAAAAPAAAAAgA
+AAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAA
+GAAAAAEAAAAAAAAAdZw+AAYAAAAlAAAADAAAAAEAAAAlAAAADAAAAAgAAIADAAAAVAAAAAAA
+AAAAAAAA//////////8HAAAAAQEAAPYAAACJAQAAfQEAAHECAACYAAAAOwIAAGIAAACLAQAA
+8wAAAEoBAACtAAAAAQEAAPYAAAAlAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEA
+AAAAAAAAdZw+AAYAAAAlAAAADAAAAAEAAAAlAAAADAAAAAgAAIADAAAAVAAAAAAAAAAAAAAA
+//////////8HAAAAAQEAADsCAACJAQAAwgIAAHECAADdAQAAOwIAAKcBAACLAQAAOwIAAEoB
+AADyAQAAAQEAADsCAAAlAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAA
+4FJDAAYAAAAlAAAADAAAAAEAAAAlAAAADAAAAAgAAIADAAAAhAAAAAAAAAAAAAAA////////
+//8NAAAAJAEAAPwCAABjAQAA/AIAANABAABfAwAAPQIAAPwCAAB8AgAA/AIAAPABAAB8AwAA
+hgIAAAYEAABGAgAABgQAAMsBAACVAwAAUAEAAAYEAAAQAQAABgQAAKwBAAB4AwAAJAEAAPwC
+AAAlAAAADAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAAJAcAAA==</Column></DataRow><DataRow><Column name="ImageID" value="1157576553"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_Role.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAABwBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAYCQAAN8A
+AAACAAAAWAAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAFIAbwBsAGUA
+LgBlAG0AZgAAAAAAAAARAAAADAAAAAEAAAAkAAAAJAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAA
+AAAAAAIAAABGAAAALAAAACAAAABTY3JlZW49MTAyMDV4MTMxODFweCwgMjE2eDI3OW1tAEYA
+AAAwAAAAIwAAAERyYXdpbmc9MTAwLjB4MTAwLjBweCwgMjguMngyOC4ybW0AABIAAAAMAAAA
+AQAAABMAAAAMAAAAAgAAABYAAAAMAAAAGAAAABgAAAAMAAAAAAAAABQAAAAMAAAADQAAACcA
+AAAYAAAAAQAAAAAAAABLYSwABgAAACUAAAAMAAAAAQAAADsAAAAIAAAAGwAAABAAAAB9AAAA
+kAQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAB0AAAAiwQAAGoAAACIBAAAYAAAAIME
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAAQAAAFMEAADq////GgQAABQAAAC3AwAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAACYAAACPAwAARQAAAG0DAABdAAAASAMAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAABnAAAAOQMAAHAAAAAsAwAAdwAAABwDAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAmgAAANACAACXAAAAegIAALMAAAAtAgAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAANEAAADXAQAA9wAAAIYBAAAqAQAAOgEAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAACFAQAAtAAAAAYCAAB7AAAAogIAAGYAAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAAFgMAAFgAAAB6AwAAfwAAANoDAAC7AAAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAAGMEAAAPAQAAugQAAIYBAADcBAAAIwIAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAADmBAAAUAIAAPAEAAB8AgAACAUAAKUCAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAACwUAAKsCAAAQBQAAswIAABUFAAC4AgAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAD8FAADnAgAAQQUAABQDAAAXBQAAQwMAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAADrBAAAdQMAALYEAACZAwAAfQQAALcDAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAA+gMAAP8DAAB6AwAARAQAAPoCAACIBAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAANkCAACaBAAAswIAAKwEAACOAgAAtwQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADuAQAA9AQAAOsAAAC8BAAAfQAAAJAEAAA9AAAACAAAABsAAAAQAAAA2QQAAKECAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAA1AQAAJYCAADRBAAAjAIAAMwEAACBAgAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAMcEAAB5AgAAwQQAAHECAAC/BAAAaQIAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAAC6BAAAVAIAALkEAAA/AgAAtwQAACoCAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAAtgQAAB4CAAC2BAAAFQIAALIEAAAJAgAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAAJ8EAADBAQAAdwQAAIEBAABLBAAARwEAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAAA5BAAAMQEAAB8EAAAgAQAACQQAAA0BAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAA0AMAAN4AAACUAwAAtgAAAE8DAACfAAAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAEMDAACcAAAAOAMAAJcAAAAuAwAAlAAAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAAArAwAAkgAAACgDAACPAAAAJQMAAI8AAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAA7AIAAI8AAACyAgAAjQAAAHkCAACSAAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAEoCAACXAAAAGAIAAKIAAADzAQAAwwAAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADWAQAA2wAAAL4BAAD6AAAApQEAABcBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+ZgEAAGgBAAA/AQAAxQEAABoBAAAjAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAAUB
+AABVAgAA+wAAAIwCAADtAAAAwgIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADlAAAA
+3wIAAN0AAAD9AgAA0QAAABsDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAzQAAACYD
+AADBAAAANAMAALgAAAA0AwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAK8AAAA2AwAA
+pgAAACYDAACcAAAAHgMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACRAAAANgMAAJkA
+AABQAwAAqQAAAGcDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA0AAAAKEDAAAIAQAA
+xAMAAEwBAADWAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAKABAADrAwAA8wEAAP8D
+AABMAgAA8wMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACTAgAA6gMAANoCAADoAwAA
+IwMAAOEDAAA2AAAAEAAAAHEDAADdAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAABkD
+AAD/AwAAwgIAABoEAABnAgAAGgQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAWAgAA
+GgQAAMcBAAAIBAAAeAEAAP8DAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAALwEAAPYD
+AADoAAAA7QMAAJ8AAADmAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAIkAAADlAwAA
+dwAAAO4DAABwAAAAAwQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABjAAAALQQAAIUA
+AABuBAAArwAAAH4EAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAADQEAAJ8EAABtAQAA
+sgQAAM8BAAC1BAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAACUCAAC5BAAAdwIAAKQE
+AADDAgAAfQQAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAArAwAARwQAAJEDAAAPBAAA
++AMAANgDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAGgQAAMYDAAA8BAAAtAMAAGEE
+AACfAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAADkEAACMAwAALwQAAG8DAABABAAA
+SwMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABOBAAAUAMAAF0EAABTAwAAawQAAFgD
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAagQAAG0DAABmBAAAggMAAGUEAACeAwAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAKcEAAB8AwAA3AQAAFYDAAAFBQAAIQMAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAAAXBQAACQMAABAFAADyAgAAAAUAANoCAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAA8QQAAMYCAADmBAAAswIAANkEAAChAgAAPQAAAAgA
+AAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAA
+AQAAACcAAAAYAAAAAQAAAAAAAAB1nD4ABgAAACUAAAAMAAAAAQAAADsAAAAIAAAAGwAAABAA
+AABNAwAAnwAAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACSAwAAtgAAAM4DAADeAAAA
+BwQAAA0BAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA9AMAAAsBAADeAwAACAEAAMsD
+AAALAQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAIIDAAAXAQAATwMAAEQBAAAlAwAA
+fQEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADpAgAAzAEAANwCAAAoAgAA4QIAAIcC
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA4gIAALMCAADqAgAA4AIAAAYDAAAOAwAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAAsDAADvAgAADAMAANgCAAARAwAAwAIAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAAAeAwAAcQIAADMDAAAmAgAAZAMAAOQBAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAsAMAAHsBAABJBAAAeQEAAJIEAADiAQAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAKEEAAD5AQAArAQAABMCAAC3BAAAKgIAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAAC6BAAAPwIAALwEAABUAgAAvwQAAGkCAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAAwQQAAHECAADJBAAAeQIAAMwEAACBAgAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAAMYEAAC7AgAAnQQAANsCAABwBAAA9AIAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAAA3BAAAFAMAAPwDAAAzAwAAwAMAAEkDAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAVwMAAHIDAADpAgAAiQMAAHkCAACVAwAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAD0CAACcAwAAAQIAAJwDAADGAQAAlQMAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAACFAQAAjwMAAEQBAAB/AwAABQEAAHQDAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAA9wAAAHADAADoAAAAdAMAANoAAAB0AwAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAANoAAAB3AwAA2gAAAHoDAADYAAAAfQMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AAD4AAAAhwMAABkBAACRAwAAOwEAAJoDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+igEAAK8DAADZAQAAzAMAAC8CAADDAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAHQC
+AAC7AwAAugIAAK8DAAD+AgAAogMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACZAwAA
+hQMAACoEAABSAwAApwQAAO0CAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAvwQAANoC
+AADbBAAAxgIAANkEAAChAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAOYEAAC1AgAA
+8QQAAMgCAAD+BAAA2gIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAPBQAA8QIAABUF
+AAAJAwAAAwUAACEDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA2wQAAFYDAAClBAAA
+egMAAGMEAACcAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAGYEAACAAwAAaAQAAGsD
+AABqBAAAVgMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACKBAAAQAMAAKoEAAArAwAA
+ywQAABQDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAyQQAABEDAADJBAAADwMAAMcE
+AAAMAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAALkEAAAOAwAAqQQAAAwDAACcBAAA
+EgMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAB7BAAAIwMAAF0EAAA4AwAAPgQAAEkD
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAALgQAAG8DAAA3BAAAigMAAGAEAACeAwAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAADkEAACzAwAAFwQAAMMDAAD3AwAA1gMAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAACPAwAADQQAACkDAABGBAAAwgIAAHsEAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAdgIAAKIEAAAjAgAAtwQAAM4BAAC0BAAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAGsBAACwBAAADAEAAJ0EAACuAAAAfQQAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAACEAAAAbgQAAGIAAAAsBAAAbwAAAAIEAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAAdQAAAO0DAACJAAAA4QMAAJ4AAADlAwAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAAOYAAADtAwAALgEAAPUDAAB2AQAA/QMAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAADGAQAABwQAABYCAAAYBAAAZgIAABgEAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAwAIAABgEAAAYAwAA/QMAAGwDAADZAwAANgAAABAAAAAeAwAA3gMAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAADXAgAA4wMAAI4CAADmAwAARwIAAPADAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAA7gEAAPsDAACcAQAA6AMAAEcBAADTAwAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAAQBAADDAwAAywAAAJ4DAACkAAAAYwMAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAACWAAAATQMAAIwAAAAzAwAAlwAAABsDAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAAoQAAACMDAACrAAAAMwMAALMAAAAxAwAABQAAADQAAAAAAAAA
+AAAAAP//////////AwAAALwAAAAwAwAAyQAAACMDAADNAAAAFwMAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAADYAAAA+gIAAN4AAADdAgAA6AAAAL4CAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAA9wAAAIkCAAACAQAAUgIAABUBAAAgAgAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAADsBAADCAQAAYwEAAGQBAACgAQAAEwEAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAAC3AQAA9QAAANEBAADYAAAA7gEAAL8AAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAAEwIAAJ8AAABEAgAAlAAAAHQCAACPAAAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAK0CAACKAAAA5QIAAIwAAAAgAwAAjAAAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AAAjAwAAjAAAACYDAACPAAAAKQMAAJAAAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+BgMAAI8AAADlAgAAmgAAAMwCAACxAAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAALMC
+AADHAAAAmQIAAOAAAACEAgAA+gAAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAnAgAA
+dQEAAAoCAAAGAgAABgIAAJwCAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAABQIAANAC
+AAASAgAABAMAADACAAAwAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAEICAABIAwAA
+VwIAAFYDAAB5AgAAVQMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAB2AgAASQMAAHMC
+AABDAwAAbwIAAD0DAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAVAIAAP8CAABHAgAA
+vgIAAEUCAAB6AgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAEQCAAAEAgAAbAIAAJsB
+AAClAgAANwEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADMAgAA8gAAAPwCAAC2AAAA
+TQMAAJ8AAAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwA
+AAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAALfKnQAGAAAAJQAAAAwAAAABAAAA
+OwAAAAgAAAAbAAAAEAAAALcEAAAoAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAKoE
+AAAQAgAAoQQAAPYBAACSBAAA4QEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABJBAAA
+eAEAALADAAB5AQAAZAMAAOIBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAANQMAACUC
+AAAeAwAAcQIAABEDAAC+AgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAA4DAADXAgAA
+CwMAAO0CAAAGAwAADAMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADqAgAA3wIAAOQC
+AACxAgAA4QIAAIYCAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA3AIAACYCAADqAgAA
+ygEAACUDAAB7AQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAE8DAABCAQAAgQMAABMB
+AADLAwAACgEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADeAwAABwEAAPIDAAALAQAA
+BwQAAAsBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAHgQAAB8BAAA5BAAALwEAAEkE
+AABGAQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAHcEAACAAQAAnQQAAL8BAACxBAAA
+CAIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAC2BAAAEwIAALYEAAAeAgAAtwQAACgC
+AAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACA
+KAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAALfKnQAGAAAAJQAAAAwAAAABAAAAOwAAAAgA
+AAAbAAAAEAAAAE0DAACfAAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAPoCAAC2AAAA
+zAIAAPMAAAClAgAAOQEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABsAgAAnQEAAEQC
+AAAIAgAARQIAAHwCAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAARwIAAL4CAABUAgAA
+AQMAAG8CAAA+AwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAHMCAABFAwAAdAIAAEsD
+AAB5AgAAVgMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABXAgAAVgMAAEICAABJAwAA
+MAIAADEDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAEAIAAAYDAAAFAgAA0gIAAAYC
+AACeAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAAoCAAAIAgAAJwIAAHYBAACJAgAA
+/QAAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACeAgAA4wAAALcCAADLAAAA0AIAALQA
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA6gIAAJ0AAAALAwAAkgAAAC4DAACUAAAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAADgDAACXAAAAQwMAAJoAAABNAwAAnwAAAD0A
+AAAIAAAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAA
+DAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAAt8qdAAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsA
+AAAQAAAA2QQAAKECAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA2QQAAMYCAAC/BAAA
+2gIAAKcEAADtAgAABQAAADQAAAAAAAAAAAAAAP//////////AwAAACoEAABSAwAAmQMAAIUD
+AAD+AgAAogMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAC4AgAArwMAAHQCAAC7AwAA
+LwIAAMMDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA2wEAAMwDAACLAQAArwMAADsB
+AACaAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAABoBAACSAwAA+gAAAIcDAADYAAAA
+fQMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADYAAAAegMAANgAAAB3AwAA2gAAAHQD
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA6AAAAHQDAAD3AAAAcgMAAAUBAAB0AwAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAEYBAAB/AwAAhQEAAI8DAADGAQAAlQMAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAAABAgAAnAMAAD0CAACcAwAAeQIAAJUDAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAA6QIAAIkDAABXAwAAcgMAAMADAABJAwAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAP0DAAAxAwAANwQAABQDAABwBAAA9AIAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAACdBAAA2gIAAMYEAAC7AgAAzAQAAIECAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAA0QQAAIsCAADWBAAAlgIAANkEAAChAgAAPQAAAAgAAAA8AAAA
+CAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcA
+AAAYAAAAAQAAAAAAAAC3yp0ABgAAACUAAAAMAAAAAQAAADsAAAAIAAAAGwAAABAAAABABAAA
+SQMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABeBAAANgMAAH0EAAAjAwAAnQQAABID
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAqgQAAAwDAAC6BAAADgMAAMkEAAAMAwAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAMsEAAAPAwAAywQAABEDAADMBAAAFAMAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAACsBAAAKwMAAIwEAABAAwAAawQAAFYDAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAWwQAAFIDAABMBAAATgMAAEAEAABJAwAAPQAAAAgA
+AAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAA
+AQAAAA4AAAAUAAAAAAAAAAAAAABgJAAA</Column></DataRow><DataRow><Column name="ImageID" value="346488952"/><Column name="Name" value="AWS_SecurityIdentity_IdentityAccessManagement_TemporarySecurityCredential.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAAEwBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAnBAAAJsA
+AAADAAAAbwAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
+MAAgADIAMAAxADUAKQAAAFMAZQBjAHUAcgBpAHQAeQBJAGQAZQBuAHQAaQB0AHkAXwBJAGQA
+ZQBuAHQAaQB0AHkAQQBjAGMAZQBzAHMATQBhAG4AYQBnAGUAbQBlAG4AdABfAFQAZQBtAHAA
+bwByAGEAcgB5AFMAZQBjAHUAcgBpAHQAeQBDAHIAZQBkAGUAbgB0AGkAYQBsAC4AZQBtAGYA
+AAAAAAAAAAARAAAADAAAAAEAAAAkAAAAJAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAIA
+AABGAAAALAAAACAAAABTY3JlZW49MTAyMDV4MTMxODFweCwgMjE2eDI3OW1tAEYAAAAwAAAA
+IwAAAERyYXdpbmc9MTAwLjB4MTAwLjBweCwgMjguMngyOC4ybW0AABIAAAAMAAAAAQAAABMA
+AAAMAAAAAgAAABYAAAAMAAAAGAAAABgAAAAMAAAAAAAAABQAAAAMAAAADQAAACcAAAAYAAAA
+AQAAAAAAAAB9fHwABgAAACUAAAAMAAAAAQAAADsAAAAIAAAAGwAAABAAAACBAAAAzwMAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAAA9AAAAzwMAAAAAAACPAwAAAAAAAEoDAAA2AAAA
+EAAAAAAAAABiAQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAAAAAAAcAQAAOwAAAOkA
+AACBAAAA6QAAADYAAAAQAAAA6QMAAOkAAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+LAQAAOkAAABmBAAAHAEAAGYEAABiAQAANgAAABAAAABmBAAASgMAAAUAAAA0AAAAAAAAAAAA
+AAD//////////wMAAABmBAAAjwMAAC4EAADPAwAA6QMAAM8DAAA2AAAAEAAAAIEAAADPAwAA
+PQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgA
+AAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAD///8ABgAAACUAAAAMAAAAAQAAADsAAAAIAAAA
+GwAAABAAAACBAAAAjwMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAA9AAAAjwMAAAAA
+AABQAwAAAAAAAAoDAAA2AAAAEAAAAAAAAAAiAQAABQAAADQAAAAAAAAAAAAAAP//////////
+AwAAAAAAAADcAAAAOwAAAKoAAACBAAAAqgAAADYAAAAQAAAA6QMAAKoAAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAALAQAAKoAAABmBAAA3AAAAGYEAAAiAQAANgAAABAAAABmBAAA
+CgMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAABmBAAAUAMAAC4EAACPAwAA6QMAAI8D
+AAA2AAAAEAAAAIEAAACPAwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD/////
+/////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAB9fHwABgAAACUA
+AAAMAAAAAQAAADsAAAAIAAAAGwAAABAAAAAwAwAARQIAADYAAAAQAAAAegMAAIsCAAA2AAAA
+EAAAAFgDAADIAgAANgAAABAAAADZAQAAzwIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADZAQAA0QIAANQBAADbAgAAzAEAAOgCAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+xgEAAPMCAAC/AQAA/QIAALcBAAAIAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAK4B
+AAASAwAApgEAABsDAACbAQAAIwMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAB1AQAA
+QwMAAEkBAABSAwAAGgEAAFIDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA5wAAAFID
+AACyAAAAPwMAAIwAAAAZAwAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAIYAAAAVAwAA
+gQAAAA4DAAB7AAAACAMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAzAAAAsQIAAEAA
+AAAyAgAAmQAAAOoBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAvwAAAMoBAADtAAAA
+uwEAABoBAAC7AQAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAEkBAAC7AQAAdQEAAMoB
+AACbAQAA6AEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAC3AQAA/QEAAMoBAAAaAgAA
+ygEAABoCAAA2AAAAEAAAAN8BAAAaAgAANgAAABAAAAA8AgAAGAIAADYAAAAQAAAAXgIAAFIC
+AAA2AAAAEAAAAK8CAABJAgAANgAAABAAAADMAgAAaQIAADYAAAAQAAAA6AIAAG8CAAA2AAAA
+EAAAADADAABFAgAAPQAAAAgAAAAbAAAAEAAAAMEAAAC1AgAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAAN8AAAC1AgAA9gAAAJwCAAD2AAAAgAIAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAAD2AAAAYgIAANwAAABLAgAAvwAAAEsCAAA2AAAAEAAAAL8AAABLAgAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAKEAAABLAgAAigAAAGUCAACKAAAAggIAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAACKAAAAngIAAKMAAAC1AgAAwQAAALUCAAA2AAAAEAAAAMEA
+AAC1AgAAPAAAAAgAAAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAA
+DAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAAdZw+AAYAAAAlAAAADAAAAAEAAAA7AAAACAAAABsA
+AAAQAAAAMwEAAIgBAAA2AAAAEAAAAOkAAABEAQAANgAAABAAAAALAQAABwEAADYAAAAQAAAA
+iwIAAAABAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAiwIAAP4AAACPAgAA9AAAAJcC
+AADnAAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAJ4CAADcAAAApAIAANIAAACtAgAA
+xwAAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAC1AgAAvQAAAL4CAAC0AAAAyAIAAKwA
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA7gIAAIwAAAAbAwAAfQAAAEoDAAB9AAAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAHwDAAB9AAAAsQMAAJAAAADYAwAAtgAAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAADeAwAAuwAAAOIDAADBAAAA6QMAAMcAAAAFAAAA
+NAAAAAAAAAAAAAAA//////////8DAAAAMQQAAB4BAAAkBAAAnQEAAMsDAADlAQAABQAAADQA
+AAAAAAAAAAAAAP//////////AwAAAKUDAAAFAgAAdgMAABQCAABKAwAAFAIAAAUAAAA0AAAA
+AAAAAAAAAAD//////////wMAAAAbAwAAFAIAAO4CAAAFAgAAyAIAAOgBAAAFAAAANAAAAAAA
+AAAAAAAA//////////8DAAAArQIAANIBAACaAgAAtQEAAJoCAAC1AQAANgAAABAAAACEAgAA
+tQEAADYAAAAQAAAAJwIAALUBAAA2AAAAEAAAAAUCAAB7AQAANgAAABAAAAC1AQAAhAEAADYA
+AAAQAAAAlwEAAGQBAAA2AAAAEAAAAHsBAABeAQAANgAAABAAAAAzAQAAiAEAAD0AAAAIAAAA
+GwAAABAAAACjAwAAGAEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAACFAwAAGAEAAG4D
+AAAxAQAAbgMAAE0BAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAbgMAAGoBAACHAwAA
+ggEAAKUDAACCAQAANgAAABAAAAClAwAAggEAAAUAAAA0AAAAAAAAAAAAAAD//////////wMA
+AADCAwAAggEAANoDAABoAQAA2gMAAEsBAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAA
+2gMAADEBAADAAwAAGAEAAKMDAAAYAQAANgAAABAAAACjAwAAGAEAADwAAAAIAAAAPgAAABgA
+AAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAA
+AAAAAP///wAGAAAAJQAAAAwAAAABAAAAXwAAADgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAi
+AQBAAAAAAAAAAE9PTwAGAAAAAAAAAAAAAAAlAAAADAAAAAIAAAA6AAAADAAAAAoAAAA7AAAA
+CAAAABsAAAAQAAAAFgUAAIUDAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAFgUAAB0E
+AACaBAAAmAQAAAIEAACYBAAABQAAADQAAAAAAAAAAAAAAP//////////AwAAAGoDAACYBAAA
+7gIAAB0EAADuAgAAhQMAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAADuAgAA7QIAAGoD
+AABxAgAAAgQAAHECAAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAAmgQAAHECAAAWBQAA
+7QIAABYFAACFAwAAPQAAAAgAAAA8AAAACAAAAD8AAAAYAAAAAAAAAAAAAAD//////////yUA
+AAAMAAAABQAAgCgAAAAMAAAAAQAAACUAAAAMAAAACAAAgCgAAAAMAAAAAgAAAF8AAAA4AAAA
+AgAAAAAAAAAAAAAAAAAAAAAAAAAAIgEAQAAAAAAAAABPT08ABgAAAAAAAAAAAAAAJQAAAAwA
+AAACAAAAOgAAAAwAAAAKAAAAOwAAAAgAAAAbAAAAEAAAABkEAADVAgAANgAAABAAAAAXBAAA
+xwMAADwAAAAIAAAAQAAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAIAACAKAAAAAwA
+AAACAAAAXwAAADgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAiAQBAAAAAAAAAAE9PTwAGAAAA
+AAAAAAAAAAAlAAAADAAAAAIAAAA6AAAADAAAAAoAAAA7AAAACAAAABsAAAAQAAAAjwMAAK8D
+AAA2AAAAEAAAACQEAACvAwAAPAAAAAgAAABAAAAAGAAAAAAAAAAAAAAA//////////8lAAAA
+DAAAAAgAAIAoAAAADAAAAAIAAAAOAAAAFAAAAAAAAAAAAAAAnBAAAA==</Column></DataRow><DataRow><Column name="ImageID" value="73964028"/><Column name="Name" value="AWS_SecurityIdentity_KeyManagementService.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+WAYAAA==</Column></DataRow></DataSet></RefData></Images><DiagramProfile><UMLProfile profiletype="uml2">
 			<Documentation id="0431AA48-4" name="moose-aws" version="1.0" alias="moose-aws" notes="moose-aws"/>
 			<Content>
 				<Stereotypes>
@@ -9184,7 +10530,7 @@ DAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAA4BEAAA==</Column></DataRow></Dat
 							<Apply type="Diagram_Logical">
 								<Property name="alias" value="moose-aws"/>
 								<Property name="diagramID" value="moose-aws"/>
-								<Property name="toolbox" value="&quot;moose-aws_Analytics; moose-aws_AppServices; moose-aws_Compute; moose-aws_Database; moose-aws_Networking&quot;"/>
+								<Property name="toolbox" value="&quot;moose-aws_Analytics; moose-aws_AppServices; moose-aws_Compute; moose-aws_Database; moose-aws_Networking; moose-aws_SecurityAndIdentity;&quot;"/>
 							</Apply>
 						</AppliesTo>
 					</Stereotype>
@@ -9337,6 +10683,32 @@ DAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAA4BEAAA==</Column></DataRow></Dat
 							<Tag name="moose-aws_Networking::AWS_Networking_VPC_Router(UML::Class)" type="" description="" unit="" values="" default="VPC Router"/>
 							<Tag name="moose-aws_Networking::AWS_Networking_VPC_VPNConnection(UML::Class)" type="" description="" unit="" values="" default="VPC VPN Connection"/>
 							<Tag name="moose-aws_Networking::AWS_Networking_VPC_VPNGateway(UML::Class)" type="" description="" unit="" values="" default="VPC VPN Gateway"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="F97568D8-3" name="moose-aws_SecurityAndIdentity" version="1.0" alias="Security and Identity" notes="AWS Security Elements"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="moose-aws_SsecurityAndIdentityElements" notes="Elements for modeling AWS Secutiry &amp; Identity">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_DirectoryService(UML::Class)" type="" description="" unit="" values="" default="Directory Service"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM(UML::Class)" type="" description="" unit="" values="" default="IAM"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM_AddOn(UML::Class)" type="" description="" unit="" values="" default="IAM AddOn"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM_AWS_SecurityTokenService(UML::Class)" type="" description="" unit="" values="" default="IAM AWS Security Token Service"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM_DataEncryptionKey(UML::Class)" type="" description="" unit="" values="" default="IAM Data Encryption Key"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM_EncryptedData(UML::Class)" type="" description="" unit="" values="" default="IAM Encrypted Data"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM_LongTermCredential(UML::Class)" type="" description="" unit="" values="" default="IAM Long Term Credentials"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM_MFA_Token(UML::Class)" type="" description="" unit="" values="" default="IAM MFA Token"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM_Permissions(UML::Class)" type="" description="" unit="" values="" default="IAM Permissions"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_IAM_TemporarySecurityCredential(UML::Class)" type="" description="" unit="" values="" default="IAM Temporary Security Credentials"/>
+							<Tag name="moose-aws_SecurityAndIdentity::AWS_SecurityIdentity_KeyManagementService(UML::Class)" type="" description="" unit="" values="" default="Key Management Service"/>
 						</TaggedValues>
 					</Stereotype>
 				</Stereotypes>

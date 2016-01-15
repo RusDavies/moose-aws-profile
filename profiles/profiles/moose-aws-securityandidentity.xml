@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="7D8B08CF-6" name="moose-aws_SecurityAndIdentity" version="1.0" notes="moose-aws_SecurityAndIdentity"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="AWS_SecurityIdentity_DirectoryService" metatype="Directory Service" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////09DRADMZCYFP3vvv////////////////////////////////
+////////2dvaGkg1AAAAAAAAAFMPAGwnM59y4PXs////////////////////////vMjDADgg
+AAAAAAAAAAAAAAAAAF8eAGUdAFcNAFgSF4xcxeHV////////////T3dmAAAAAAAAAAAAAA4A
+E041YZWAbr6cLZ5vAHk9AFsWAEUAAEIAYK+O////////LV1JAAAABVExXZyCntS9wO7byvPh
+ye7evuTUn9K8ZbOSGItbAF4dQqB5/////////////////////////////////P//+v//////
+////////////////////////////////////////////////4tXbn6iksODM7//6////////
+////////////////////YYF0AFkjACMAAEodAIhOAA8AAAkAAHpCAHhAABcAADsTAFYjACIA
+cbea////////OmNSADgAABEAAEUXAIRJABcAABUABINOAoxTAHM9AG4zAGIiAEUBQaB5////
+////P2ZWADwAABUAAEkcAIlPABwFABoGDIhUC5NbAIlPAHs/AGsrAFYQRKJ7////////PWVU
+ADsAABQAAEgbAIlPABwGABsHDolWDZRcAIhPAHo+AGoqAFQOQ6F6////////MV1LADMAAA0A
+AEIUAIRIABgAABcCCIVRBpBXAINJAHU4AGUkAE8HQqB5////////aId6AE8XAAsAADUEAHg4
+AA4AAA4AAH1GAIhMAHs+AGwsAFkUAFMNeryh////////////////VHNmAEISFpFeAAoAAAEA
+AHE3AHs7AGwqAGoqNZtx2+/n////////////////////////////////AB8MAAAAAGEiAHg4
+TK2F+P/9////////////////////////////////////////693jAjojD4NT5f70////////
+////////////////TABhAGIAZQBsAD0ATgBVAEwATAAsAFQAbwBwAF8ATQBpAGQAXwBMAGEA
+YgBlAGwAPQBOAFUATABMACwAQgB0AG0AXwBFAG4AZABfAEwAYQBiAGUAbAA9AE4AVQBMAEwA
+LABUAG8AcABfAEUAbgBkAF8ATABhAGIAZQBsAD0ATgBVAEwATAAsAFMAdABhAHIAdABfAEUA
+ZABnAGUAPQAwACwARQBuAGQAXwBFAGQAZwBlAD0AMAAsAFAAdABTAHQAYQByAHQAWAA9
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFJkLkiTfWR6wgAAAHABAAAHABEAc3RyLmRhdFVUDQAH8ZWXVvGVl1bxlZdW
+bZBND8FAFEXPlsR/aNiQiLBlJWFhQRddWDZVFKmPtCUR8d/deUUqsXjTO2/u3DmvOTsiLmzw
+OErtOfGgQZ2atOskOmvTZMySgFC1IeZKpvOCOzPW6pyky33IRCozV8FZ6m53Mm7qx1I91ZGt
+Mrt6tV9ZB/pWVYeRsTxtdZVXeFOplVT6Jc61K/CNLbFZHHkg8t+3Prk1JTmvo0/fbl+Zhzf9
+UO4WC80+ZyrV/EPkpo9tzsj+wVk5nuqqxNQcJV154wVQSwECFwsUAAAACABSZC5Ik31kesIA
+AABwAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAH8ZWXVlBLBQYAAAAAAQABAD4A
+AAD4AAAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM" metatype="IAM" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////ACcHAHA7////////////////////////////////////
+////////////////+/L1AAAAAEkF////////////////////////////////////////////
+////////ADQeAAAAAEIAAINJqtvH////////////////////////////////////////////
+AAAAAAAAAE0HAHMyJ5hp////////////////////////////////////////////AAAAAAAA
+AF4e0vTm////////////////////////////////////////////////AAEAAAAAAFkWAIhN
+fsep////////////////////////////////////////////AAcAAAAAAFwZAGEWAHc5////
+////////////////////////////////////////AA0AAAAAAGEgAG8pAHMylNK3////////
+////////////////////////////////ABAAAAAAAGQjAIlN////////////////////////
+////////////////r7izACsWAAAAAAAAAGgnAHc1HYlcwuTW////////////////////////
+////////ABIAAAAAAAAAABYAAHU6AGAgAFoQAHpC////////////////////////////2+De
+AAAAAAAAAHI5////////ABgAAE8KAFgO5/nx////////////////////////+/j5AAAAAAAA
+AH1B////////AAsAAEkDAG0r////////////////////////////////R29fAAAAAAsAWF1b
+VFlXAAAAAEcAXraS////////////////////////////////8O/wCkApAAAAAAAAAB4AAF8a
+JZxq9v/+////////////////////////////////////////ycnLADMVA4NO1vrr////////
+////////////////LQAxACwASQBzAEIAbwBsAGQAPQAwACwAUABEAEEAVABBADEAPQBOAFUA
+TABMACwAUABEAEEAVABBADIAPQBOAFUATABMACwAUABEAEEAVABBADMAPQBOAFUATABMACwA
+UABEAEEAVABBADQAPQBOAFUATABMACwAUABEAEEAVABBADUAPQBOAFUATABMACwAUwBvAHUA
+cgBjAGUAUgBvAGwAZQA9AE4AVQBMAEwALABEAGUAcwB0AFIAbwBsAGUAPQBOAFUATABM
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIZRL0iv2ovUwwAAAIABAAAHABEAc3RyLmRhdFVUDQAHA8aYVgPGmFYDxphW
+bVCxDoIwFLwVE/+B4KKJMbrqxODggAwMjgQRUVPAWBiM8d+9Pqqp0TSvvb5er3fVOCHDFQV8
+VERn1HhgiAE8YtMpeTZGgBA7JEhZBXJ0uPG8xR0bHNipift9+tMJyc/Z0RwRFWurWlnWTPCR
+b0zpYu7MC64ummAl3p4ym9KOf0W0J1KfBJq7FrF4LSWbSZIwyfdbb12PSoZrXCnLjql5kcwt
+lmSPsGWiCGui4I8jkz1HQ51MfqChjs/qqKiE0bvrb7wAUEsBAhcLFAAAAAgAhlEvSK/ai9TD
+AAAAgAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABwPGmFZQSwUGAAAAAAEAAQA+
+AAAA+QAAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_AWS_SecurityTokenService" metatype="IAM AWS Security Token Service" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////T0tNSUdIQkRDPEE/OD89Nz88
+OEA9PEI/QURDRkdHTEpLUExOVE5RV09TWVBUW1FVAB8AABsAABYAAA8AAA0AAAwAAA0AABIA
+ABYAABoAAB4AACIAACQAACYAACcAACgAAHo4AHMvAHYzVLmPvu/boeLJF5pjAGkfAG0kAHMs
+AHgzAH06AIA/AIJDAIRGAIVIAH1AAHw+zfLi////////////////UbWLAGsjAHMuAHg2AH8/
+AINFAIVJAIpQBYtTAHxBT7KI////jaSZ////////////////1fnq3P7w6P/5z+zg0u3ix+rb
+HZBgDo5ZAHo/YaWJ3uzmAGkp////////////////////////ypqucFVfa05al3GBCWhBD45Z
+AHk9AFktzbzD+f//////////////sJahRjxAESogABoAAEYXAE4hAEMcAIBKBIVPAG8xAF8g
+ABYAmn6K/+Dx78nbRUdGAAoAACcAAEcLAHEuAHQzAHc4AHk8AHg9AHg/AFwYAFoTAEUAAAAA
+AAAAAAAAAA0AAE8CAFkMAFsRAFwVAF8ZAGEdAGIgAGMiAGMjaraXY7STXLOPVrKMUq6IUK6H
+UbGJVLGKWbKNX7WRZbeVariYbrqacbqcdLuddbue////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////XwBJAEQAIAAgAFcAaABlAHIAZQAgACAAKAAgAHQAXwBvAGIAagBlAGMA
+dAAuAE8AYgBqAGUAYwB0AF8ASQBEACAASQBOACAAKAA1ADAAMgApACAAKQAgACAATwByAGQA
+ZQByACAAYgB5ACAAdABfAG8AYgBqAGUAYwB0AC4AVABQAG8AcwAAAEVFSQEAAEZSRUVQPkwV
+KLNIFWgAAAAAAAAAUwBFAEwARQBDAFQAIAAqACAAZgByAG8AbQAgAHQAXwBvAHAAZQBy
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAL5RL0jUrUJX1QAAALABAAAHABEAc3RyLmRhdFVUDQAHW8aYVlvGmFZbxphW
+bVC7DoJAEJwWE/+BYKOJMdpqRWFhgRSYWBJFxAcPw4GJMf67s8dp8BGyd3O7c8PMKRywwQUx
+bGRER+S4o4sOLGLpJJz14cDFGgFCVowINUrOK9ywwI6dnLg5hz8dl/yIHcXPo2JuVDPDCo32
+t/IKBc6aI5MSV/ZFZ6Tv7ulpSNfj1jrh3kYDzHSWh16lVCtvSrQlSt+JFU8VfO0g0W8hyQO6
++/zXS9eiknAlRWrYPjVPOkmFKdk9LJnPw5zI+eNI3ipi0pJu5MUK6tismoqpZjTumhtPUEsB
+AhcLFAAAAAgAvlEvSNStQlfVAAAAsAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B1vGmFZQSwUGAAAAAAEAAQA+AAAACwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_AWS_SecurityTokenService2" metatype="IAM AWS Security Token Service 2" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////SqJ+AGYqAHdCCoJQGopcII1gIo5iG4pcDINRAHlEAGcrT6WB////////////////
+GIlaAGAhNJhudLmdLZVqUKiGK5RpcribZrCSAHdAAGEiHYtd////////////////HIxdAGAg
+KZNnttzMYa6OoNG8MJhsb7iaweHUBYFNAGEhH41f////////////////G4xdAGIikcqygcKn
+Op51xObYbrmazOndWa+KAHU8AGIiHo1f////////////////GoxdAGAfJZRmVLCJTayEh8mt
+YrWPZLWQQaN7AHU6AGIhHY1f////////////////GI1cAGEeAHAyAHo+AIJHAIVKAIZMAIFH
+AHtBAHM2AGIgG45e////////////////FY1bAGEcAHIyAHs8AGUvAEweAFMjAHI6AH5AAHM0
+AGIeGI5d////////////////EY1ZAGEaAGcmABkABxQPZFFZT0JIAAcAADwOAHIwAGEcFY5b
+////////////////DYxXAF4VAAsAaldf////////////////ChMPADkEAGMaEY1a////////
+////////Co5XADoAAA0F/////////////////////93wAAAAAFoSDo1Y////////////////
+CY9XABcAZl1h////tZ+mERQTqpai////////AAcAAEgDDY1Y////////////////CY9XABkA
+X1db////////4MTQjH6F////////AAUAAEoFDY5Y////////////////C45XAEAAAAYA////
+////+tblnoiR////9cvdAAAAAF0VD41Z////////////////D41ZAGEYABkAS0BF////////
+/////+X7AAsEAEcPAGQcEo5a////////////////E45bAGQdAHAwAC8HABIIRz9DNzU2ABAA
+AFEfAHc2AGQfFY5c////////////////S6mCAGYiAHk6AIZJAHpDAGQ0AGo5AIRLAIdKAHk7
+AGckU62H////////ZAAgACAAIAB0AF8AbwBiAGoAZQBjAHQALgBPAGIAagBlAGMAdABfAEkA
+RAAgAD0AIAB0AF8AYQB0AHQAcgBpAGIAdQB0AGUALgBPAGIAagBlAGMAdABfAEkARAAgAGEA
+bgBkACAAdABfAGEAdAB0AHIAaQBiAHUAdABlAC4AZQBhAF8AZwB1AGkAZAA9AHQAXwB4AHIA
+ZQBmAC4AQwBsAGkAZQBuAHQAIAB1AG4AaQBvAG4AIABhAGwAbAAgAHMAZQBsAGUAYwB0
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxRL0iXz9+N1wAAALIBAAAHABEAc3RyLmRhdFVUDQAHfsaYVn7GmFZ+xphW
+bVC7CsJAEJw2gv8QYqMgopZapbCwiCkiWAaNGh95SC4RRPx3Zy+nxAdh7+Z25yYzp3DAGhfs
+YCMlOiLDHW20YBFLJ+asCwcuVggQsnaIUKHgvMQNc2zZyYjrc/jTccmP2FH8PCpmRjU1rNBo
+fysvkeOsOTIpcGVfdMYY6Nt7uurT97Cxjrg3UQ9TneahVynVSJwQbYiSd2bFUwlfe4j1a0j2
+gP4+//XStagkXMmRGLZPzZPOUmJCdgcLJvQwI3L+OJLXipi1oBt5s5w6NquiYqIZtbv6xhNQ
+SwECFwsUAAAACADMUS9Il8/fjdcAAACyAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVU
+BQAHfsaYVlBLBQYAAAAAAQABAD4AAAANAQAAAAA=</Image>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_AddOn" metatype="IAM AddOn" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////+z0lZ2ZjZaS7uDm
+////////////////////////////////////////////foyGAAkAAAkAAAoAAAMAVG5j////
+////////////////////////////////nqWjACsAAFkWAGcjAGckAFwaACgAkpuX////////
+////////////////////////AFMrAGMgAGkoAG4vAHAxAG8vAGopADkPACQPACEKAB0FABoA
+ABgAABYAABQAUXFkAGElPaJ4mtK7AYNNAHM3AHM3AHEyAGQmAEwPAEQEADwAADUAAC4AACkA
+ACUAABYAAG8y////////ariXAG4xAHE1AG4xAGoqAGUjAF8ZAFcOAFEFAGknAGYhAEcAAHU7
+AH1HWK2Jy+jcBYJOAGgqAGkrAGYmAF8cAFgSAFoVY7STi8mv////////cr2e////otTBAFkW
+AFYRAFsZAF0cAFoYAFwaVauHks2zpNTD////////////////////////////g8GnAF4eAEwF
+AE0GAF8ee72i////////////////////////////////////////////////qdPCqNPB////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////aQBvAG4ALgBPAGIAagBlAGMAdABfAEkARAAgAEkATgAgACgANQAwADIA
+KQAgACkAIAB1AG4AaQBvAG4AIABhAGwAbAAgAHMAZQBsAGUAYwB0ACAAQQBsAGkAYQBzACwA
+IAB0AF8AbwBiAGoAZQBjAHQALgBPAGIAagBlAGMAdABfAEkARAAgAGEAcwAgAEMAbABhAHMA
+cwBpAGYAaQBlAHIAIABmAHIAbwBtACAAdABfAG8AYgBqAGUAYwB0ACwAIAB0AF8AbwBw
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEhRL0g1cyhOygAAAIwBAAAHABEAc3RyLmRhdFVUDQAHnMWYVpzFmFacxZhW
+bZA/C8IwFMRvreB3KHVRENFVpw4ODurg4Fhq/U+sYuog4nf3l7RKRQkvvbxc793Faq9UF20U
+6gQ6KNdDTTUUgF1nx11bkWIttVBCbZTppiv3he6aaE0nB5fn5KcTw8/oWNYUxbxSPVWsBMaa
+NefU8/0t87o46tf2Ad866mjkfT797srWshjQCmQ+aSynghnO987ndKkWpPqe9dYNUHJc59BU
+7DmaR5+/0BB2SzO8TzUGRX8cuXfIdEYn9a9xRiekbigazyjdlX+8AFBLAQIXCxQAAAAIAEhR
+L0g1cyhOygAAAIwBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAecxZhWUEsFBgAA
+AAABAAEAPgAAAAABAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_DataEncryptionKey" metatype="IAM Data Encryption Key" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////2trZ09PS6urp8PDu19fW4eHg6Ojn6eno4+Pi1tbVxsbE6+vp////////////////
+0dHP3Nza9fX0urq5AAAAAAAAAAAAAAAAAAAAAAAAAAAApaWj////////////////1tbV4ODe
+/Pz6tra1AAAAAAAAAAAAAAAAAAAAAAAAAAAAn5+d////////////////1tbV4+Pi///+u7u6
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAoaGf////////////////1tbV5eXk///+xMTCAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAqKin////////////////1tbV6OjmrKysnZ2dysrJAAAAioqJ////
+l5eXAAAAra2p6uro////////////////2trV5+fldnZ3cHBy/Pz7AAAAra2s////wsLBAAAA
+2trY8vLw////////////////3Nza5+fldHR1bm5w////GBgYPDw77e3sSUlJAAAA4+Ph5+fl
+////////////////3d3b6OjmcnJzRERH8PDvzc3MBgYGAAAAAAAApKSj6uro3d3b////////
+////////39/c6urocnJzJycqmJiZ////+Pj2z8/O5OTj8PDu3d3b1tbV////////////////
+4eHfwcG9R0dJJSUncnJz/v78/////v788fHw4+Pi09PSzs7N////////////////zc3NPj5A
+GxseJycpLi4xoqKi/f378/Px6Ojm3Nzazs7NycnI////////////////pKSjFBQWGxseJSUo
+IiIlXV1f7+/t7Ozr4eHg09PSycnIxsbE////////////////sLCvFxcZRUVHlpaWJycqZmZo
+7Ozr5+fl3Nzb09PSxsbEw8PC////////////////1NTTamprQEBCeXl5RkZIvr697Ozr4uLg
+2NjXzs7NxMTCwcHA////////////////4ODez8/OpqallZWWycnI7Ozq5ubk3t7c09PSzMzL
+wsLAycnI////////LAAgAHQAMQAuAE8AYgBqAGUAYwB0AF8AVAB5AHAAZQAsACAAdAAxAC4A
+TgBhAG0AZQAsACAAdAAxAC4AQQBsAGkAYQBzACwAIAB0ADEALgBJAHMAQQBjAHQAaQB2AGUA
+LAAgAHQAMQAuAGUAYQBfAGcAdQBpAGQAIABmAHIAbwBtACAAdABfAG8AYgBqAGUAYwB0ACAA
+dAAxACwAIAB0AF8AbwBiAGoAZQBjAHQAIAB0ADIAIAB3AGgAZQByAGUAIAB0ADEALgBP
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAORRL0jYZyVI1QAAAKQBAAAHABEAc3RyLmRhdFVUDQAH1saYVtbGmFbWxphW
+ZZBPC4JAFMTnatB3iLwURNS1TkIdIqyDh45SZv8wi7SDRN+9364Whsjbnfd2dpzZTCdtdVes
+jq6gs1K91FZLDthMjpz11JWnjQKFVKxITz04z1VooT2TFFz2YWPiwY+YZHw+immleq1YoWZM
+cmpOH6Fc4MjcvtEvYRUaWv4BHwOcjmrrmL2O+ppa/2+7mspqGRPQDpT8UmZ0udY2z9HmN2kD
+0v7/66vroGS4xnlSsddoXuy75JrAdrUitU8el9OmI/M+EekeNneZs0M9UUwso3RX3vgAUEsB
+AhcLFAAAAAgA5FEvSNhnJUjVAAAApAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B9bGmFZQSwUGAAAAAAEAAQA+AAAACwEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_EncryptedData" metatype="IAM Encrypted Data" notes="" generalizes="Archimate2::ArchiMate_DataObject" baseStereotypes="Archimate2::ArchiMate_DataObject">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////zs7N2dnY5+fm8/Py+/v6///+///++/v68/Py6Ojm2dnYzs7N////////////////
+1dXU5OTi9/f2////////////////////////+Pj25OTj1dXU////////////////39/d1dXT
+QUFBNDQ0QkJCSUlJSUlJQ0NCNTU0Pj4+0tLQ39/e////////////////5ubkysrJAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAxMTD5+fl////////////////6uro0dHPAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAysrJ6+vp////////////////6+vp0dHQAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAy8vK7Ozq////////////////6Ojm2NjWBwcHAAAAAAAADAwMDQ0NAAAAAAAAAQEB
+09PS6enn////////////////4eHf8vLw+fn4JycnJycn////////NTU1ExMT9fX08vLw4eHf
+////////////////29vZ7Ozr////JSUlICAg////////MzMzDw8P///+7Ozq2trY////////
+////////1dXU4+Ph+/v5WVlYAAAA0NDP1tbVAAAARERE+Pj24eHf1dXU////////////////
+zs7N2trZ7Ozr2NjXDg4PAAAAAAAAAgICz8/N6uro19fSysrJ////////////////ycnH09PS
+4ODf7u7t5ubkqqqppqal4ODf6urp29vZzc3Lw8PB////////////////xcXDzc3L2NjX4eHg
+6enn7+/u7u7s5eXk29va09PSw8PC4+Pi////////////////wcHAyMjG09PS2dnY3t7d4ODe
+3t7c2NjX09PSxsbE4eHg////////////////////v7++xMTDzc3M09PS09PS19fW09PS09PO
+x8fG39/e////////////////////////vr68wsLBysrIz8/O09PS09PSzs7NyMjH1dXT////
+////////////////bwByAGQAZQByAFcAaQBkAHQAaAA9ADEALABCAGEAYwBrAGMAbwBsAG8A
+cgA9ADEAMAAwADkAMgAyADgANwAsAEYAbwBuAHQAYwBvAGwAbwByAD0AMAAsAEcAZQBuAFQA
+eQBwAGUAPQAnAEoAYQB2AGEAJwAsAEcAZQBuAEYAaQBsAGUAPQBOAFUATABMACwARwBlAG4A
+TABpAG4AawBzAD0ATgBVAEwATAAsAEgAZQBhAGQAZQByADEAPQBOAFUATABMACwASABl
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABJSL0h2q8SK0gAAAJwBAAAHABEAc3RyLmRhdFVUDQAHGceYVhnHmFYZx5hW
+ZZBBD8FAEIXflcR/EL2QiHDlJOHgQA8Ojg1VRdolug4i/rtvtyUV2czu25m3b+dNoaO2uipR
+WznoJKOnWmqqAXaZlFpXHU210VoRkSjWXTfqVg8ttCdjwOU9+stM4cdkCtYSRVOp5hUr0pwz
+RvFBJ5bsXjM4lhh43oH/+3Q4rO0jzjrqaeL7fvndRVHzloF2oOzrruBmFXofqfftXK5x+fvX
+R7eBkuO6jrOKHaJ59vOwGsMOtMLtEj8B1f+O3FxiXdBx7k4gwyvDNDOWY5TdlS/eUEsBAhcL
+FAAAAAgAElIvSHarxIrSAAAAnAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABxnH
+mFZQSwUGAAAAAAEAAQA+AAAACAEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_LongTermCredential" metatype="IAM Long Term Credential" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+9vb2+vr6/f39/v7+/f39+/v7+fj59vX28/Pz8fDw7Ozs6+vs9vX2////nZ2eSUlKTU1OVVVW
+W1tcW1tcV1dYVVRVUVBSTkxOSkhKRkRGQkBCPjw+PTs9j42Pmpqb////////////2tna+fj5
+//////////////////////////////////3/mJWX////////0dHRMzI0FxUYLisusa2v////
+////////////////////////////////////////NTM1KicqGBQXGBMXJiAkr6er3tTY28zU
+2c3S1cfP5Njc////////////////19fXbGlr////RD5CHxccJRohIxYdIhEaHQoUJhEcKBEc
+NyAr////////////////9PHyPTg8eHF1KSAmIxceKhkiOCQuTzdDx6u6/+Xz//v//eHt////
+////////////////k42QDQQKEQQMIxIbhG14////////////////iNW1J59tWLON////////
+////////////5NfetKOr5szZ////////9f//tOzUHZtnAFYJAE4AAEYAAHQ5////////////
+////////nuPGcNCljdq6LaZzAGwkAFUHAFcLAFYMAFcQf8KmMJhtc7qc////////////////
+AIFEAE8AAFcKAFYJAFsRAFoSAFEHAFAHAFQNmdG4QJ93V6qI////////////////////6/31
+8//7+f//////6fnyAHQ6AEIAAEMAAEAAAFQP2+3m////////////////////////////////
+////////7PjzBIBNAFgVAG0yrtbG////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////AAAFAAAAAAAAADIANgAwADAANgAAAOCUSxUiAAAAVVNFBGgYHQIFAAAA
+BQAAAAAAAAAyADYAMAA0ADkAAAA4mEsVwQEAAEZSRUXw/UAVGMc9FQUAAAAAAAAAMgA2ADAA
+MAA4AAAAYJhLFSIAAABVU0UEaBgdAgUAAAAFAAAAAAAAADIANgAwADAAOQAAAGCYSxUqAAAA
+VVNFDGgYHQIFAAAABQAAAAAAAAAyADYAMAAxADAAAAA7AAAAMwA7ALCYSxVBAQAARlJF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAEZSL0gy1kMS1wAAALYBAAAHABEAc3RyLmRhdFVUDQAHe8eYVnvHmFZ7x5hW
+bVBNC4JAFJyrQf9B7FIQUdc6SXQIMg8GHcXMrFgtXD1E9N+bt1rYB/J2Z2fH2TdP44gIVySw
+kRGdkOOOLjqwiIVJedeHAxdbBAhZCWJUKHhf4oYl9mRy4voc/jAu9TEZzc+jY964Zo0qxAoX
+ohQbMgX57zfmREnLNYLCyDgc2NmQvY9b64R7Gw0wM4keZpXSrdSKaEek3rk1TyV883pqJiL5
+A+b/fOvla9FJtNKbatQ+Pc8mRYkp1T2sOQcPCyLnT0eSLeYUCnYjCWUeNquiozKKurv6jydQ
+SwECFwsUAAAACABGUi9IMtZDEtcAAAC2AQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVU
+BQAHe8eYVlBLBQYAAAAAAQABAD4AAAANAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_MFA_Token" metatype="IAM MFA Token" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////5OTlkZGSdnZ3dnZ3dnZ3dnZ3kZGS5OTl////////////////////////
+////l5eYgYGBuLi32dnX4+Pi4+Ph2dnXuLi3gYGBl5eY////////////////////fn5/m5ub
+2dnX4eHf4+Ph5eXj5eXj4+Ph4ODe2NjWm5uafX1+////////////mZmanZ2d3Nza39/d4+Ph
+5ubk5+fl5+fl5eXj4uLg3d3c29vZnJybmJia////5+fohoaG3t7c4uLh5eXk6enn6+vp6+vq
+6urp6eno5+fl4+Pi4ODe3NzahISE5ubnl5eYwcG/4+Pi5OTi8PDu6urp6Ojm5ubl7+/t6Ojm
+5eXk7Ozq4uLh3t7dvr69lZWWfn5/6Ojmnp6dmJiX1dXTq6uqhoaGcHBw6+vpwMC/b29u2trZ
+fHx7o6Oi5OTifHx9gICB9vb0jo6NX19fKioqaGhnbm5uQUFBubm419fWJSUlRkZFFRUU0NDP
+7u7sfX1+gYGB9vb0kZGQHh4eeHh4KiopcHBwLi4uampqzs7NgYGBVFRUZWVl8PDv7OzqfX1+
+f3+A6urpjIyLEBAP4eHfKiopaGhoPj4+c3NyvLy7ysrJCAgIqqqp8PDu4ODffHx9mJiZxcXE
+2NjWxMTD8vLw0tLR2dnXx8fGsLCv0NDP7Ozrw8PC4uLg5+flvr69lZWW6OjpiIiI4eHf5+fl
+6enn7u7t8PDu8fHw8vLw7u7s6enn5+fm4eHf3NzahYWF5ubn////mpqcoKCf39/d4uLg5ubk
+6enn6urp6uro5+fm5OTi39/d3NzanZ2cmJia////////////f3+BnZ2d29vZ4+Ph5ubk5+fm
+5+fl5eXj4uLg2dnXnJybfX1/////////////////////mJiZgoKCurq529vZ5eXj5eXj2trY
+ubm4goKCl5eY////////////////////////////5OTlkZGTd3d4d3d4d3d4d3d3kZGS5OTl
+////////////////RUXwiT8V4MBJFVAAAAAAAAAASQB0AGUAbQA9AFIARABGADoAOgByAGQA
+ZgBQAHIAbwBwAGUAcgB0AHkAKABVAE0ATAA6ADoAQQBzAHMAbwBjAGkAYQB0AGkAbwBuACkA
+OwBJAG0AYQBnAGUATABpAHMAdAA9ADIANwAxADUAMQA5ADIAOAAwADsASQBtAGEAZwBlAEwA
+aQBzAHQASQBuAGQAZQB4AD0AMwAzADUANAA7AAAAMwA4pkwVygAAAFVTRRpoGB0CTgAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHxSL0hcp8rtzgAAAJIBAAAHABEAc3RyLmRhdFVUDQAHwseYVsLHmFbCx5hW
+bVBNC4JAFJyrQf9B7FIQUdc6eSjoYB4MOkqZ2seq4eohov/e7NPCKOTtzs4bZ+etxgl73BDD
+RkZ0Ro4H+ujBIjZMyt4QDlzsECBkxYhQo2S/wh1rHMnkxM05/GFc6iMymp9Hx7x1zVpVSHZF
+1RYFrsJNpJvw1jFzTTvrjHsXjbCQtE9ZTenORIroQKQ+M2meKviSPpVpzWwBZ/u+6+1r0clo
+TU7Vqn16XuQVKsypHmDD9B6WRM6fROY1Is5WMo15k4I+NqumoxJFk6754wVQSwECFwsUAAAA
+CAB8Ui9IXKfK7c4AAACSAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHwseYVlBL
+BQYAAAAAAQABAD4AAAAEAQAAAAA=</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_Permissions" metatype="IAM Permissions" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////0tLOT05LTk1KWllVYWBdZGNgY2JgXl5dVlZWSkpKSEhJzc3O////////////////
+m5qWv722397V6eje7+7l8fDo8O/o6+rl4+Pf2djVtra0kpKS////////////////19fN3tzS
+6+ja8e/j+Pbo+ffr9fPr8O/o6Ojj3t7a09PSzs7M////////////////2trPnaDPsrTY8+7a
+wMLktLfn7uzh6Obf4N/a19PSy8vI0NDO////////////////2trMrKvKQk3fcXjiSlbqwL7g
+6ufb4+DY29nS09PNx8bDzMzK////////////////2dXL29TEd3rWAADta3Hk6+XY5uLX39zS
+19PSz83JxMPAysrI////////////////3tbMrKfKXV3fwrraaWzkqaje5+HW3tnS09POzMvH
+wsG+yMjG////////////////3tPOz8bHjrSf0tbD7d7b4Nba5d3X3dfS09PNy8nHwcC9x8fF
+////////////////3tLQXJ55AFsBAIRD09XL7+Dd5dvY3dPS09POy8jGwL+9x8bF////////
+////////3NDPLYteI4xaAHw6AIVHy87K59va3dPS08/Oy8jGwL69x8bF////////////////
+39DS1cfI6tPY0c/LJ5Jilryo6drc3dPS087OysfGwL69xsbE////////////////3c/S1sfK
+fauVw8nD7tvf6Nnc5Nja3NPS087OysfGv768xsXE////////////////2c3QQ5BuAFAAAHU4
+w83I7Nrf4tPZ29PS083OycbGv728xcXE////////////////2cvNNopmMo5nAHtCAHc5usfA
+4tPZ2dPS08zNyMXFvry7xcXD////////////////3dHUy8DD28zSy8rINJRsk7mo4NTY09PS
+z8vLx8TEvLu6zMzL//////////////////j708nM08nL28/S3tPS3NPS2dPS08/SzcrKxcTD
+xsXE9vb2////////OgA6AEQAYQB0AGEAVAB5AHAAZQApADsASQBtAGEAZwBlAEwAaQBzAHQA
+PQAyADcAMQA1ADEAOQAyADgAMAA7AEkAbQBhAGcAZQBMAGkAcwB0AEkAbgBkAGUAeAA9ADMA
+NgA3ADMA+AE/FSIAAABVU0UEaBgdAgUAAAAFAAAAAAAAADIANQA5ADAANgAAAPgBPxUiAAAA
+VVNFBGgYHQIFAAAABQAAAAAAAAAyADUAOQAwADcAAAD4AT8VOgAAAFVTRRxoGB0CBQAA
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANZSL0jAPoNLzwAAAJgBAAAHABEAc3RyLmRhdFVUDQAHU8iYVlPImFZTyJhW
+bVDBCoJAFJyrQf8gdimIqGudPHToYAYeOkpZmbFauHqI6N+b97QwCnm7896OszNrccYONxzh
+IifKUOCBPnpwiGWS8mwIDz62iBCzjkhQo+R5hTtWOHBSEDd9/DPxyU84sfwCKhatat6yYmyI
+SvaZcjJcObeYKOfEu8d0N+2sM+5dNMJCPT91lbKdXIZoT2Q+ySy7CqFmSDWzJIyY8Puut65D
+JeGKW9OyQ2pe9C0qzMkeYM2kAZZE3h9H8iYJk5V0Iy8jGV1WTUWjjMZd88cLUEsBAhcLFAAA
+AAgA1lIvSMA+g0vPAAAAmAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB1PImFZQ
+SwUGAAAAAAEAAQA+AAAABQEAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_Role" metatype="IAM Role" notes="" generalizes="Archimate2::ArchiMate_BusinessRole" baseStereotypes="Archimate2::ArchiMate_BusinessRole">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+x87Mcp2LOH9iI3ZTKXVVaZKB6d7j////////////////////////////iZuUADkSAFQTAF4X
+AGIbAGIbAF4ZAFUTAEsVOnNc9OTq////////////////////AAAAACwAAGEgAFshAF4oAGAt
+AFUnAEgcAEMSAE0VAEwcV4Nx//X/////////////ACILAAAAABkAB2Y+PJVwXq6MYrCOT59+
+OY9rHIRZAHU7AFkZAE0ecIyA////////8ubrABEAAGk2LqRzLJ9vIJdmKJlqQKR6LJlrO592
+SqaAOqB1AXpIAE8lBl863dnb////fpOLAEAMAH4/AIJHAIVNc7yeYa2OA4RODIhVAHxEA4RO
+LZhrX7GPBoVQADYL////9eLqABAAAHU3AIFGCIlUpdTAOJ50M5tvZK+QAH1FAHg9AHEzAHg8
+D4NSImJH////////AAkAAF0iAH1AAoZPndC6KZZpRaN8mcu2AH9IAHg+AHE0AGkmAE4d8uDo
+////////DzYmAC8AAHc3AH5EjMeuLZhsMZluw+DTHI9fAHE1AGsrAGMgE2RC////////////
+rKurAAAAAGYlAHI0YrORUaqFAIFLrtXEjcWuAIFLAHAzAHRChZyT////////////////ACIM
+AC8AAGkmEoxZf8CiAHU7MJhts9fInc25e7ygR3xm/+/3////////////////1s3RAAQAAEgF
+AGYjV6yIIpJjAGEeDohVVaaEP3phuLm4////////////////////////urq7AC8IAD8AAF0c
+OZpxAHA3AD0AAEcfvL28////////////////////////////////////lq6kK29TG2FEUn5r
+jqOa////////////////////////////////////////////////////////////////////
+////////////////cgBlAHMAcwBCAHIAYQBjAGsAZQB0AHMAPQAwADsAUwB1AHAAcABDAG8A
+bgBuAGUAYwB0AG8AcgBMAGEAYgBlAGwAcwA9ADAAOwBQAHIAaQBuAHQAUABhAGcAZQBIAGUA
+YQBkAEYAbwBvAHQAPQAwADsAUwBoAG8AdwBBAHMATABpAHMAdAA9ADAAOwBTAHUAcABwAHIA
+ZQBzAHMAZQBkAEMAbwBtAHAAYQByAHQAbQBlAG4AdABzAD0AOwBTAGEAdgBlAFQAYQBn
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPJUL0hjf6gmyQAAAIoBAAAHABEAc3RyLmRhdFVUDQAHTcyYVk3MmFZNzJhW
+bVDBCoJAFJyrQf8gdimIqGudPHToYEIeOkpZWbFquHqI6N+b97QwCnm7896OszNrccYONxzh
+IiO6IMcDffTgEMsk5dkQHnxsESFmHZGgRsnzCnescOAkJ276+Gfik59wYvkFVMxb1axlxdig
+gGE30emJt43pZ9pZZ9y7aISFunzqKmU7SQzRnsh8slh2FUJ1nWpKyRQx0/ddb12HSsIVf6Zl
+h9S8avoKc7IHWDNbgCWR98eRvELCZCXdyFsU1HFZNRWNMhp3zR8vUEsBAhcLFAAAAAgA8lQv
+SGN/qCbJAAAAigEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB03MmFZQSwUGAAAA
+AAEAAQA+AAAA/wAAAAAA</Image>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_IAM_TemporarySecurityCredential" metatype="IAM Temporary Security Credential" notes="" generalizes="Archimate2::ArchiMate_Artifact" baseStereotypes="Archimate2::ArchiMate_Artifact">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////5OTkeXl5YGBgoKCg////////////////////////
+////////////////////raysFRQVe3p6pKSkU1NTNzc3////////////////////////////
+/////////vz9Hx0e8e/w////////////mJiYSUhIwsLDdXR1dnV3fXx9fXx+fnx+gH6Ah4SG
+NTM0cm9w////XFlaXFpb////////GhkZpKOk9PPz19fXwL7A8e7w////////////iYOGkoyO
+////+fT2LSkq////////ISAg////zMrLLCksGhYZWFNW//////////////f7VUtP////////
+T0hL////8e7vJiQl////UE5QTEhLFA4SEgoQWU9VpZieqJmhopGZEQAIcGBm////2MzSz8rK
+NjAzy8XH/fv8b2ptzMzMJBshGw8WHQwVIg8ZUDlFjHJ+hml2hGl0XkhRTj5EUkZL39Xa////
+////eXN2EwoQDQAIJBMck32H2cDJ////////0vvqyPrl////////////////////////////
+qp6kiniA5czX////////7P//MKt4AF8PAFUCAIZI////////////////////////////es6r
+lt/BWL2TAH49AFcHAFMDAE8AAIdNO6Z5dsSj////////////////////////AINHAHAsAHAs
+AHIxAGwoAEsAAEYAAH9GNJ5yYLSS////////////////////////////////////////////
+AoROADsAADUAAFoV5PXu////////////////////////////////////////////////iMWr
+cbmb7Pfz////////////////////////////////////////////////////////////////
+////////////////OgA6AEcAVQBJAEUAbABlAG0AZQBuAHQAKQA7AEkAbQBhAGcAZQBMAGkA
+cwB0AD0AMgA3ADEANQAxADkAMgA4ADAAOwBJAG0AYQBnAGUATABpAHMAdABJAG4AZABlAHgA
+PQAzADQAMgA0ADsAAABQA0wVIgAAAFVTRQRoGB0CBQAAAAUAAAAAAAAAMgA2ADkAMgAxAAAA
+ZQB4ANEAAABGUkVFGAInBQgCJwVjAAAAAAAAAEkAdABlAG0APQBXAGkAcgBlAGYAcgBh
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAZVL0hIAF1h1gAAALgBAAAHABEAc3RyLmRhdFVUDQAHo8yYVqPMmFajzJhW
+bVBNC4JAFJyrQf9B7FIQUdc6SXToYB4MOoqZWbF+0NpBov/e7LrFhiFvnfd2dt6bJ3FBghoZ
+XBREV5R4YogBHGJVyXk3hgcfB0SIGRlSPHDnfYMWW5xYKYm7PO5VfPJTViS/gIqlUS0MK8Ze
+ZzUqqiaMttdlTZRZugkEZvrVmbNNOf3cOhf822iClfb00qcKafkWREci8XUumTUIdfdc70Rt
+IOIGfnt9dB0qKa6aTRh2SM2bdtFgSfYIO24iwIbI+zOR8paaDSiHFXVcxoOKQjO66boXb1BL
+AQIXCxQAAAAIAAZVL0hIAF1h1gAAALgBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAejzJhWUEsFBgAAAAABAAEAPgAAAAwBAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="AWS_SecurityIdentity_KeyManagementService" metatype="Key Management Service" notes="" generalizes="Archimate2::ArchiMate_InfrastructureService" baseStereotypes="Archimate2::ArchiMate_InfrastructureService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////////////////////LmJOP5t2////////////////////////////////////
+////////////////EkEvAAAAAFMSMKF0////////////////////////////////////////
+3eDfABkAAAAAAAAAAGMmAGgkAIFL5Pfv////////////////////////////////AAgAAAAA
+AAAAAAsAAHQ7AHs8AGclAHA2////////////////////////////X4N1AAAAAAEAAAgAABsC
+AINNAIhOAHc7AGAgcbmc////////////////////////ABYAAAAAAA8AABYBACgREI5bCpRc
+AIJJAG0wAHU+////////////////////fZuPAAAAAA0AABsEACANADEcHpRmGJtnBIpUAHc+
+AGAiisWt////////////////AB8DAAAAABYAACMMACcVBTcjJpxtIaJuDpBbAH1GAGcqAHdC
+////////////kqyiAAAAAAYAABoAACYRACkYCDkmKp9xJaRxE5NfAIBKAGwyAFcXnc26////
+////Q3BeAAAAAAYAABkAACUPACgXBjgkKJ1xI6NwEpJeAIBKAG0yAFQTVamH////////O2pX
+AAAAAAAAABMAAB8JACIQADIeIJhoHJtqCo5ZAH1FAGsvAFIQTqWC////////MWNPAAAAAAQA
+AAsAABQAABgEACkTEpBdDpZfAIdPAG82AFMZAEwHRaF8////////aYx+AAAAAFkjAC8NAAIA
+AAoAABwDAIROAItRAHxAAGExABcAAEkJeLug////////////8Pj1////0NnVAAAAAAAAAAwA
+AHU8AHw9AHIz2O7l////7vLx////////////////////////////UHFkAAAAAAAAAGMmAHk6
+Z7uZ////////////////////////////////////////////4NvdAj4mGYpd7P/6////////
+////////////////bwARGwAARlJFRbhqTBWoAicFYgAAAAAAAABJAHQAZQBtAD0AVwBpAHIA
+ZQBmAHIAYQBtAGkAbgBnADoAOgBXAGkAcgBlAGYAcgBhAG0AZQBSAGEAdABpAG4AZwBDAG8A
+bgB0AHIAbwBsACgAVQBNAEwAOgA6AEcAVQBJAEUAbABlAG0AZQBuAHQAKQA7AEkAbQBhAGcA
+ZQBMAGkAcwB0AD0AMgA3ADEANQAxADkAMgA4ADAAOwBJAG0AYQBnAGUATABpAHMAdABJ
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALZVL0hgVc0JxwAAAHgBAAAHABEAc3RyLmRhdFVUDQAHt82YVrfNmFa3zZhW
+bVBNC4JQEJyrQf9B7FIQUdc6degQYR48dBQzs+Kp4Ucg0X9vdrUw6LDvzb6dnTe7JS4IcUcM
+GynRFRmeGGIAi1heEtbGcLDGAT4CRowINQrWKzTY4sSXjLjNA+yYN3DZm3X9aceQ3gIPMiOi
+mVbO1J7y93nvXPDuowlW6umlp0TZ822IjkTm67xkVsFTj4nOJBP4nOD3r4+uRSXhikfTsT1q
+3nTWCkuyR9hzBy42RM4fR7KFCDl1Qt1FTh2bUVPRKKN113a8AVBLAQIXCxQAAAAIALZVL0hg
+Vc0JxwAAAHgBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAe3zZhWUEsFBgAAAAAB
+AAEAPgAAAP0AAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
