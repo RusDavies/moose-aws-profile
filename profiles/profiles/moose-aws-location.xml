@@ -4,32 +4,80 @@
 	<Content>
 		<Stereotypes>
 			<Stereotype name="AWS_Location_AvailabilityZone" metatype="AWS Availability Zone" notes="" generalizes="Archimate2::ArchiMate_Location" baseStereotypes="Archimate2::ArchiMate_Location">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOxJiEcSinJayQAAAJgBAAAHABEAc3RyLmRhdFVUDQAHmp9mVpqfZlaan2ZW
-bZBPC4JAEMXfNT+FeCrokEGn6CAUdO/WJdKsBLPQrYjou/fb1bSDLDPzZvbN30pn7XVTKl8X
-UKZCb3kaEN/h50ROxHwtkEAJzEIGXeLNHfPRy4x1hWfQl4bpEa9fRb5xXQsNNdWMN1aInmCt
-+ERHTf2abesXoAr8wkvJDLRUpI3WWoGCNqOk6x32AZQys4H7qxyi/63t1Nm6Qtf1SCW7b4LN
-kbJ33l/fG/92SqMnyN7V7nhwk0bcyd43R8fOZm4TX1vXI23n/yBfUEsBAhcLFAAAAAgA7EmI
-RxKKclrJAAAAmAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB5qfZlZQSwUGAAAA
-AAEAAQA+AAAA/wAAAAAA</Image>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+///////+AETwAFjx////KX30AC7u///+h7b7ABXs8ff92ej8AA7rfLD7///////////+////
+Xp36X576////jrv7PYn1///+yd78I3r0///+/v79Inn05vD98vf9vNb8AF/yYJ/6////////
+////////////////////////////////////////AFPxADHuAFPxI3n0////////////////
+////////////////////////////////yd78pMj7////////////////////////////////
+///////////////////////////+///+aKP6jbr7////////////////////////////////
+////////////////F3L0AC/uADTuAGLy////////////////////////////////////////
+////////jLn7TpT6///+///+////////////////////////////////////////////////
+////////wNn8zuH9////////////////////////////////////////////////P4v2AFPx
+ACftAFjx////////////////////////////////////////////////T5T6AGDy1OX85O/9
+///////////////////////////////////////////////////////////9///+////////
+////////////////////////////////////////d637LoD1AC7uAGLy////////////////
+////////////////////////////////Kn30AC7uY6D6vNr8////////////////////////
+///////////////////////+///+///+///////+GHP0DGvzPor1///+1ub8GHP0///9///+
+FXHzyd78///+AEnwT5T6////////8vf9AEHvABbsADvv////qcv7AB7t6fL98ff9ABrsi7n7
+///+AFfxfbD7////ZwBlAHQAVQBzAGUAcgBGAGkAbABsAEMAbwBsAG8AcgAiADoATgBBAE0A
+RQA+AA0ACgAJAAkAfAAgADwAIgBnAGUAdABVAHMAZQByAEIAbwByAGQAZQByAEMAbwBsAG8A
+cgAiADoATgBBAE0ARQA+AA0ACgAJAAkAfAAgADwAIgBnAGUAdABVAHMAZQByAEYAbwBuAHQA
+QwBvAGwAbwByACIAOgBOAEEATQBFAD4ADQAKAAkACQB8ACAAPAAiAGcAZQB0AEQAZQBm
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALRWMkitt5bbHAEAAHACAAAHABEAc3RyLmRhdFVUDQAHNsScVjbEnFY2xJxW
+bZFPS8NAEMXf1X6KkFwUBK3gSTwUFLyohx4EL9I2sQbSWJKtRcTv7m9mk6ZIWObPzr6ZeTPb
+6kMLbVUo0QavVK0fTXRC/I17RWRNLNEtkmoFslZAN9xuHPk1ilzqE1xAbzrkhHg8LfnBu9Y6
+1ZWuOeeaoi+xJgnRs65+RFv9Gq/F/+ZWkJnqTjPN9aB7vPSQ0dB1BzrHK+AcwPaVp+hja50G
+GysMXd+pZPOusBXSjPLt+255N5ZBezzbq82YO9MZe7L9Vuil29InSfTqPewHMt72dLZ9jqN7
+bHaY9tf5tkf/GHMKbPzJC06c5tn5rZ2jcZrrBW2zxw0Mk1jOME3V4TM9Mccj2/7fP/c9234W
+4EtnmSA7civejYkh/wBQSwECFwsUAAAACAC0VjJIrbeW2xwBAABwAgAABwAJAAAAAAAAAAAA
+AIAAAAAAc3RyLmRhdFVUBQAHNsScVlBLBQYAAAAAAQABAD4AAABSAQAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws_availabilityZone" type="enumeration" description="" unit="" values="a,b,c" default="a"/>
+				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="AWS_Location_Region" metatype="AWS Region" notes="" generalizes="Archimate2::ArchiMate_Location" baseStereotypes="Archimate2::ArchiMate_Location">
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKJJiEcM0K+2wQAAAIoBAAAHABEAc3RyLmRhdFVUDQAHTZ9mVk2fZlZNn2ZW
-bZDNCsJADITnqk9R6kXBg3oVb3oWxHvRtlahraVdLSK+u9/2X5AlySQ7mWS30FUnZQrlKAHd
-lOqtsUbUPfKYSkTN0QZz5cNMZfA52bpiPv8yz7rDM/ikYY6p16eg31RTU0210LwzRyvNGt2a
-ZXVTUAF+kYV0uNpqryNnB3K7jpxpD9gBKGRXM1Bf4ofRTupjrdBPvaBk3+kTYyz/2bOdl1G3
-2xmVIPuP9k1BteEBFHFrdRxNuC3R9qrN2nq7+Qf7AlBLAQIXCxQAAAAIAKJJiEcM0K+2wQAA
-AIoBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdNn2ZWUEsFBgAAAAABAAEAPgAA
-APcAAAAAAA==</Image>
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////AAAAAAAA////AAAAAAAA////ZmZmAAAA7e3tz8/PAAAAWVlZ////////////////
+MzMzNTU1////cHBwCAgI////u7u7AAAA/////f39AAAA39/f7+/vqampAAAANTU1////////
+////////////////////////////////////////AAAAAAAAAAAAAAAA////////////////
+////////////////////////////////u7u7jIyM////////////////////////////////
+////////////////////////////////QEBAb29v////////////////////////////////
+////////////////AAAAAAAAAAAAAAAA////////////////////////////////////////
+////////bW1tHx8f////////////////////////////////////////////////////////
+////////r6+vwMDA////////////////////////////////////////////////DAwMAAAA
+AAAAAAAA////////////////////////////////////////////////ICAgAAAAycnJ3Nzc
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////U1NTAAAAAAAAAAAA////////////////
+////////////////////////////////AAAAAAAAOTk5qqqq////////////////////////
+////////////////////////////////////////AAAAAAAACgoK////zMzMAAAA////////
+AAAAtra2////AAAAICAg////////7+/vAAAAAAAAAAAA////kpKSAAAA4+Pj7u7uAAAAbGxs
+////AAAAWlpa////cgBpAGIAdQB0AGUAIAB3AGgAZQByAGUAIAB0AF8AYQB0AHQAcgBpAGIA
+dQB0AGUALgBDAGwAYQBzAHMAaQBmAGkAZQByACAAPAA+ACAAJwAwACcAIABhAG4AZAAgAFYA
+YQBsACgAdABfAGEAdAB0AHIAaQBiAHUAdABlAC4AQwBsAGEAcwBzAGkAZgBpAGUAcgAgACYA
+IAAnACcAKQAgACAAPQAgAHQAXwBvAGIAagBlAGMAdAAuAE8AYgBqAGUAYwB0AF8ASQBE
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALpWMkjVO7tOCAEAADYCAAAHABEAc3RyLmRhdFVUDQAHKcScVinEnFYpxJxW
+bZFPa8JAEMXfVT9FSC4VCv1zLT0U9GgFW+hR1EQrrFGStSLS797f7EaTlrLM7szkzbw3k1qf
+mmuvQom2eBuVOquvHvkZsSOzJpfoGUu1BFnKc1dETwH59S9yoR04z71tkH3y8dTU+8Ba6kb3
+ur1aokcNmr4RZX1LvBr/RFRQkWqoid45I7z0WlHBdgCd4xVo9Z3uD9zd15jaN3ZoWVd0sjmX
+vA6rfum88O3JmzqvI57t0WbKg8KM+Ei3WdCyBmcdM/imnfii/Tuw152/4fAWeK75H3ecqG0S
+WK2DbS/Vmz64bZI4T6vPalqNrsFnetWLxuwu+8Ofh63ZtHPwUWGCHah1fDclhvwBUEsBAhcL
+FAAAAAgAulYySNU7u04IAQAANgIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABynE
+nFZQSwUGAAAAAAEAAQA+AAAAPgEAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws_region" type="enumeration" description="" unit="" values="ap-northeast-1,ap-southeast-1,ap-southeast-2,eu-central-1,eu-west-1,sa-east-1,us-east-1,us-west-1,us-west-2" default="us-east-1"/>
+				</TaggedValues>
 			</Stereotype>
 		</Stereotypes>
 		<TaggedValueTypes/>
