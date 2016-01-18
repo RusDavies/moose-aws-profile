@@ -3,7 +3,7 @@
 	<Documentation id="31F8FD05-9" name="moose-aws_Location" version="1.0" notes="moose-aws_Location"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="aws-moose_LocationElements" notes="Alias=Location;Notes=Elements for AWS Locations">
+			<Stereotype name="aws-moose_LocationElements" notes="Alias=Location;Notes=Elements for AWS Locations;">
 				<AppliesTo>
 					<Apply type="ToolboxPage"/>
 				</AppliesTo>
