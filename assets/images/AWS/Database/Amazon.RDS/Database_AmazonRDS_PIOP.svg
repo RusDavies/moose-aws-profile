@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,19 +7,26 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   id="Layer_1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 100 100"
-   style="enable-background:new 0 0 100 100;"
-   xml:space="preserve"
+   version="1.0"
+   width="29mm"
+   height="29mm"
+   id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Database_AmazonRDS_PIOP.svg"><metadata
-     id="metadata21"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs19" /><sodipodi:namedview
+   viewBox="0 0 29 29"
+   sodipodi:docname="Database_AmazonRDS_PIOP.svg">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -30,49 +35,53 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="861"
-     id="namedview17"
+     inkscape:window-width="1280"
+     inkscape:window-height="958"
+     id="namedview21"
+     inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.9122198"
-     inkscape:cx="19.760911"
-     inkscape:cy="20.400609"
-     inkscape:window-x="1280"
-     inkscape:window-y="0"
+     inkscape:zoom="6.9077819"
+     inkscape:cx="51.667481"
+     inkscape:cy="50.50714"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="Layer_1" /><style
-     type="text/css"
-     id="style3">
-	.st0{fill:#1A476F;}
-	.st1{fill:#2D72B8;}
-	.st2{fill:#FFFFFF;stroke:#19486F;stroke-miterlimit:10;}
-	.st3{font-family:'HelveticaNeueLTStd-BdCn';}
-	.st4{font-size:11px;}
-	.st5{display:none;}
-</style><g
-     id="g4150"><path
-       class="st0"
-       d="m 1.1111098,88.88889 c 0,0 -1.48148148,11.11111 7.4074076,11.11111 8.8888896,0 83.1481506,0 83.1481506,0 0,0 6.851852,-1.48148 7.407407,-9.999999 L 1.1111098,88.88889 Z"
-       id="path6"
-       inkscape:connector-curvature="0"
-       style="fill:#1a476f" /><path
-       class="st1"
-       d="m 99.074075,90.740742 c 0,4.074074 -3.333333,7.407407 -7.407407,7.407407 l -83.3333358,0 c -4.0740741,0 -7.40740755,-3.333333 -7.40740755,-7.407407 l 0,-83.3333356 c 0,-4.0740742 3.33333345,-7.40740765 7.40740755,-7.40740765 l 83.3333358,0 c 4.074074,0 7.407407,3.33333345 7.407407,7.40740765 l 0,83.3333356 z"
-       id="path8"
-       inkscape:connector-curvature="0"
-       style="fill:#2d72b8" /><g
-       transform="matrix(1.8518519,0,0,1.8518519,-42.592595,-41.666669)"
-       id="g10"><path
-         class="st2"
-         d="m 73,67 c 0,2.2 -1.8,4 -4,4 l -19,0 c -2.2,0 -4,-1.8 -4,-4 l 0,-6 c 0,-2.2 1.8,-4 4,-4 l 19,0 c 2.2,0 4,1.8 4,4 l 0,6 z"
-         id="path12"
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff;stroke:#19486f;stroke-miterlimit:10" /></g><text
-       y="84.611855"
-       x="43.631546"
-       class="st1 st3 st4"
-       id="text14"
-       style="font-size:20.37037086px;font-family:HelveticaNeueLTStd-BdCn;fill:#2d72b8">PIOP</text>
-</g><g
-     id="nyt_x5F_exporter_x5F_info"
-     class="st5" /></svg>
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <path
+     style="fill:#1a476f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     d="m 0.31749718,25.082302 c 0,0 -0.42332967,3.132667 2.09548592,3.132667 l 23.4524859,0 c 0,0 1.947333,-0.402167 2.0955,-2.815167 l -27.64347182,-0.3175 z"
+     id="path7"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#2d72b8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     d="m 27.960969,25.611469 c 0,1.143 -0.931333,2.0955 -2.0955,2.0955 l -23.5159859,0 c -1.1429916,0 -2.09548508,-0.9525 -2.09548508,-2.0955 l 0,-23.5159831 C 0.25399802,0.93132769 1.2064915,0 2.3494831,0 L 25.865469,0 c 1.164167,0 2.0955,0.93132769 2.0955,2.0954859 l 0,23.5159831 z"
+     id="path9"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.28222222;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+     d="m 26.09111,23.331735 c 0,1.143 -0.9525,2.095472 -2.095472,2.095472 l -9.92711,0 c -1.164139,0 -2.095472,-0.952472 -2.095472,-2.095472 l 0,-3.132638 c 0,-1.164167 0.931333,-2.0955 2.095472,-2.0955 l 9.92711,0 c 1.142972,0 2.095472,0.931333 2.095472,2.0955 l 0,3.132638 z"
+     id="path11"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.21480131px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2d72b8;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     x="13.471215"
+     y="21.995058"
+     id="text4217"
+     sodipodi:linespacing="125%"
+     transform="scale(0.92333692,1.0830283)"><tspan
+       sodipodi:role="line"
+       id="tspan4219"
+       x="13.471215"
+       y="21.995058">PIOP</tspan></text>
+</svg>
