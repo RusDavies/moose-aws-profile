@@ -3,7 +3,7 @@
 	<Documentation id="9226E970-1" name="moose-aws_Analytics" version="1.0" notes="moose-aws_Analytics"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="AWS_Analytics_DataPipeline" metatype="Data Pipeline" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_DataPipeline" metatype="Data Pipeline" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////tbvJAAx2AFLtwuP/////////////////////////////////
 ////////3d7lABp0AAAyAAA/ABLqACv/BG3/4vH/////////////////////////////////
@@ -19,24 +19,24 @@ AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAtAAB6AADBInr1////////Sm6xAABIAABKAABVAABT
 AAA/AAAoAAVsAC2/AED3AD3/ACn/ACH/WaD/////////////vsviATOPAABZAABTAABYAABy
 AFT/AFv/AEX/AEL/GH3/xuT/////////////////////////5ejxI0qXAABYAABlAEL/AFn/
 Opj/6///////////////////////////////////////////397jAC6PDXP/6v//////////
-////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+////////////////LQAxACwASQBzAEIAbwBsAGQAPQAwACwAUABEAEEAVABBADEAPQBOAFUA
+TABMACwAUABEAEEAVABBADIAPQBOAFUATABMACwAUABEAEEAVABBADMAPQBOAFUATABMACwA
+UABEAEEAVABBADQAPQBOAFUATABMACwAUABEAEEAVABBADUAPQBOAFUATABMACwAUwBvAHUA
+cgBjAGUAUgBvAGwAZQA9AE4AVQBMAEwALABEAGUAcwB0AFIAbwBsAGUAPQBOAFUATABM
 AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKBtL0iBsv53sQAAAEoBAAAHABEAc3RyLmRhdFVUDQAH/PeYVvz3mFb895hW
-bY8/C8IwFMR/awW/g9RFQURnJ0FH/0AHR9FaayGNYuog4nf3klqo4PBeLpf37i6OCwduZPQo
-hQosL7p0iIQ9k+ttQMycHQl7nVas4UmliRQnbiGmUm3FeC0TdDLGqpKztkfSn7T6VGcbDZkF
-13fovlwrmRE6Bt0mm9OtYsNdTnlw8xkTZfz1anQjKflZqy3zne6z1m9WLIXiPwlO8ki5as//
-rhCy0rQ8pGDCRJ2m3vgAUEsBAhcLFAAAAAgAoG0vSIGy/nexAAAASgEAAAcACQAAAAAAAAAA
-AACAAAAAAHN0ci5kYXRVVAUAB/z3mFZQSwUGAAAAAAEAAQA+AAAA5wAAAAAA</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGBvOkifRuIpmgAAABgBAAAHABEAc3RyLmRhdFVUDQAHpHunVqR7p1ake6dW
+XY8xC8IwFIS/tYL/QeqiIKKzk6BjVejgKCq1FtIgTRYR/7uXYCE6vJfL5b27i+POmQcVI1qh
+BsuLIQMy4cDUepuQs+ZIyUmnFWt44jVxxYnbiPGqg5igZaJOxVzVctP2TPqLpC91pmjKKrq+
+Yw/lkmRG6BJ1+2xON8+eTk51dAsZS2X89ep1MymFWast850es9NvCrZC+V+CD1BLAQIXCxQA
+AAAIAGBvOkifRuIpmgAAABgBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeke6dW
+UEsFBgAAAAABAAEAPgAAANAAAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_EMR" metatype="EMR" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_EMR" metatype="EMR" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ///////////////////////////zACV7C2nt6vv/////////////////////////////////
 ///////////pdZzZT37JAABLADjqAFH/QZP/9P3///////////////////////////z1UoPP
@@ -53,23 +53,23 @@ AABWAABtAGD/AGb/AFb/AEP/ACz+ACX1aqf+////////////zdXmDzuOAABWAABNAABOAABm
 AFP/AFn/AEX/AEP/In//0Of/////////////////////////7uzvK02SAABQAABcAEH+AFj/
 QJb/8f7/////////////////////////////////////////497dAC6IEHL87P//////////
 ////////////////XwBJAEQAIAAgAFcAaABlAHIAZQAgACAAKAAgAHQAXwBvAGIAagBlAGMA
-dAAuAE8AYgBqAGUAYwB0AF8ASQBEACAASQBOACAAKAAxADYAOQApACAAKQAgACAATwByAGQA
+dAAuAE8AYgBqAGUAYwB0AF8ASQBEACAASQBOACAAKAA2ADUANAApACAAKQAgACAATwByAGQA
 ZQByACAAYgB5ACAAdABfAG8AYgBqAGUAYwB0AC4AVABQAG8AcwAAAAAAAAAAAAAAAAAAAAAA
-AAAAACwAQwAAAAAAAAAAAHwYHQJRBAAARlJFRagCJwWYAicFPQBOAAAAAAAAAAAAAAAA
-AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALxtL0gwVAPEqgAAADgBAAAHABEAc3RyLmRhdFVUDQAHCviYVgr4mFYK+JhW
-ZY8xC8IwEIW/tYL/odhFQURnJwfHKtjBUWrVWkhbMXUQ8b/7kqpUHHJ5d3l398VyJuXCkZBS
-qqDiQZ8egbSr5HobMmDBloSd7kpVw51Gjgyr2pKYDRM5S07yjjVt2okz3V01Yu53PH10x3Y4
-jNReynxJrLKGNVdtzD2jI0pE9LvrMzfQJOet1GXe7oiV2GOxRsr+CQ7akVGrL/U/q9UX6tw0
-wXhHS9N2vABQSwECFwsUAAAACAC8bS9IMFQDxKoAAAA4AQAABwAJAAAAAAAAAAAAAIAAAAAA
-c3RyLmRhdFVUBQAHCviYVlBLBQYAAAAAAQABAD4AAADgAAAAAAA=</Image>
+AAAAAAAAAAAAAAAAAAAAAAAAAADcMJgVxDCYFejrjxXoMJgV0DCYFTj8vhX0MJgV3DCY
+FQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHJvOkgRvKL3kwAAAAYBAAAHABEAc3RyLmRhdFVUDQAHrXunVq17p1ate6dW
+VY4xC8IwEIW/tUL/g9ilBRGdnRwcq9AOjqKiVUiDNF2k+N99CSrpkLt3l3d3n+POiSdXprRS
+DywDKRMSad9p9JczY8OBmqOyVdfwopfjglNvS0nFQs6Wm7xzbVtGcaUcq4J1uPEO0T8XcRip
+s5T5kzhVPXs6XWwCoyeqRTS+9dubaJP3Wk2ZrztjJ/ZSrJmqMcEHUEsBAhcLFAAAAAgAcm86
+SBG8oveTAAAABgEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB617p1ZQSwUGAAAA
+AAEAAQA+AAAAyQAAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_EMR_Cluster" metatype="EMR Cluster" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_EMR_Cluster" metatype="EMR Cluster" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////////7OvtAAB8AAB0M2Ow////////////////////////////
 ////////////////////+v//ADL+ACT+TJr/////////////////////////////////////
@@ -90,19 +90,19 @@ RAAgAD0AIAB0AF8AYQB0AHQAcgBpAGIAdQB0AGUALgBPAGIAagBlAGMAdABfAEkARAAgAGEA
 bgBkACAAdABfAGEAdAB0AHIAaQBiAHUAdABlAC4AZQBhAF8AZwB1AGkAZAA9AHQAXwB4AHIA
 ZQBmAC4AQwBsAGkAZQBuAHQAIAB1AG4AaQBvAG4AIABhAGwAbAAgAHMAZQBsAGUAYwB0
 AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANBtL0i9gPKnsgAAAEgBAAAHABEAc3RyLmRhdFVUDQAHIPiYViD4mFYg+JhW
-ZY+9CsJAEISnjeA7BG0URLS2ErGMgiksJca/wCURLylEfHe/u6hELG53dm5nd9bqokRXHRUq
-B2Uq9FBXHQVgx5z5G6inubaKtSMXsEZ3VXSksnBLRdqQF/A1TIXmpjEx1wntiOmTVpyS22io
-md/59NE92/JlQHuQ+TqzVJXW7Mjw5zw7hzEOf3d95gZMcr0FKvPu7mvFLRHe+1T/Dg7sSFWi
-S/ylJbqQVzPB+I7GTaN4AVBLAQIXCxQAAAAIANBtL0i9gPKnsgAAAEgBAAAHAAkAAAAAAAAA
-AAAAgAAAAABzdHIuZGF0VVQFAAcg+JhWUEsFBgAAAAABAAEAPgAAAOgAAAAAAA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGhvOkgBodNPnAAAABYBAAAHABEAc3RyLmRhdFVUDQAHuHunVrh7p1a4e6dW
+VY+7CgIxEEVPu4L/IG6jIKK1lYjlKriFpaj4WMgGMbEQ8d+9s6hki8zc3MzjJHBlz40TPWqp
+Cs+LLh0yaXMuehvQZ86Wkp2yl+t4ElVxJMhbUrBRXsh/yInquTNWrDmrd6TpkyROlVM1ZNbs
+fDfRTki4nNRByv3Jgm6RtXZU4jNmIyxF2N71m5tpktV6dblvdc5KfynEnuvWJvgAUEsBAhcL
+FAAAAAgAaG86SAGh00+cAAAAFgEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB7h7
+p1ZQSwUGAAAAAAEAAQA+AAAA0gAAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_EMR_Engine" metatype="EMR Engine" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_EMR_Engine" metatype="EMR Engine" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -118,24 +118,24 @@ Upf4ADzyAED1AELxAEHxAD/yXp74stH6////////////////////////////////////H2vb
 ADzbACfvADPkAFPV///5///////////////////////////////////////9ha3pVZPsUJb5
 VJXxXpXm///6////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-////////////////XwBJAEQAIAAgAFcAaABlAHIAZQAgACAAKAAgAHQAXwBvAGIAagBlAGMA
-dAAuAE8AYgBqAGUAYwB0AF8ASQBEACAASQBOACAAKAAxADYAOQApACAAKQAgACAATwByAGQA
-ZQByACAAYgB5ACAAdABfAG8AYgBqAGUAYwB0AC4AVABQAG8AcwAAAHIA+QIAAEZSRUVAEq0V
-cMSsFWgAAAAAAAAAUwBFAEwARQBDAFQAIAAqACAAZgByAG8AbQAgAHQAXwBvAHAAZQBy
-AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMhtL0gxR3wrrwAAAEYBAAAHABEAc3RyLmRhdFVUDQAHLPiYViz4mFYs+JhW
-ZY8/C8IwFMR/awW/Q9FFQURnJwfHKtjBUWqtfyBNxdRBxO/uJVWpOLy8y8u9u4vjRMaFgphS
-6IzlQZcOkbCfHPU2oMecDSlbdaup4U4tRo7TbEHCOnQrvtcoGKtKDtocSXvSOqfqbTRkFhyf
-4fTlWqmM0E7IfHM53WpWXOXUuPl8qfL9en10Iyl5rtWWebP7LPWTRIn7uv0n2Msjp9JeFv5Z
-aS9W3aRgAqNJ02y8AFBLAQIXCxQAAAAIAMhtL0gxR3wrrwAAAEYBAAAHAAkAAAAAAAAAAAAA
-gAAAAABzdHIuZGF0VVQFAAcs+JhWUEsFBgAAAAABAAEAPgAAAOUAAAAAAA==</Image>
+////////////////AAB3AAAAZwEAAI0AAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAABAAAAwKKjFQAAAAAAAAAApGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAEA
+AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgyNQVOgAAAFVTRQ4pAAAARlJF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHpvOkjL20gpmQAAABQBAAAHABEAc3RyLmRhdFVUDQAHwXunVsF7p1bBe6dW
+VY87C8JAEIS/NoL/QUyjIKK1lUXKKJjCUlTiAy6HeGlE/O/Ong8uxe7O7s3OzgUu7LlRM6AR
+uuJ50qdHJmyTs95GDFmypWKn6jV1PGjFOBI0KyjZxOrFN42aqaLhpM2JtGdJnqumaMwiXnzF
+bBESV07oIOT+voK6ljV3XfpcM3+V/HVv/XQzKRnXa8t92Tkr/aSU41xd18EbUEsBAhcLFAAA
+AAgAem86SMvbSCmZAAAAFAEAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB8F7p1ZQ
+SwUGAAAAAAEAAQA+AAAAzwAAAAAA</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_EMR_HDFS_Cluster" metatype="EMR HDFS Cluster" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_EMR_HDFS_Cluster" metatype="EMR HDFS Cluster" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////////////IlSoAABzAACA7+7t////////////////////////
 ////////////////////////K4T/ACP+ADX/////////////////////////////////////
@@ -151,25 +151,24 @@ v93/////////ImrWkJ26///2ycjPS3rFGWbZADn9ADX6AGT9////////////////////////
 ////////AELCAAyGABerAB6pAFniAEn7AD/2KIH8////////////////////////////////
 LYT/ACH0ADH1udn/////////////////////////////////////////////////JX/4ABz1
 AC71////////////////////////////////////////////////////RZD5ABfxACj1+P3/
-////////////////cAChAwAARlJFRUASrRWIAicF3AAAAAAAAABTAEUATABFAEMAVAAgAHQA
-XwBvAHAAZQByAGEAdABpAG8AbgBwAGEAcgBhAG0AcwAuACoAIABGAFIATwBNACAAdABfAG8A
-cABlAHIAYQB0AGkAbwBuAHAAYQByAGEAbQBzACwAdABfAG8AcABlAHIAYQB0AGkAbwBuACAA
-VwBIAEUAUgBFACAAdABfAG8AcABlAHIAYQB0AGkAbwBuAHAAYQByAGEAbQBzAC4ATwBw
-AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANxtL0jzpXwzuQAAAFIBAAAHABEAc3RyLmRhdFVUDQAHNviYVjb4mFY2+JhW
-ZY87C8JAEISnjeB/CKZRENHaSnxgEwVTWIrGV+CSiEkKEf+7350PIha3O7s3sztb6KytLjrI
-VwpKlOmuphrywLZz4q+tlkZaK9KGnNE1uqmEEaugN1WoFXmuiWaONYZR8VeivqpHTHVkSpc9
-/VockOuoo6Hb/nDRvqLm0IB2IPP1WFCVWrIjwal1b71GeP3d9ZnrMclyM1TmzQ604KqQKwKq
-fwd7dsTK0W3dzTk6n1cxwTjGy81L8QRQSwECFwsUAAAACADcbS9I86V8M7kAAABSAQAABwAJ
-AAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHNviYVlBLBQYAAAAAAQABAD4AAADvAAAA
-AAA=</Image>
+////////////////JwV3AAAAZwEAAI0AAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAABAAAAwKKjFQAAAAAAAAAApGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAEA
+AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgyNQVOgAAAFVTRQ4pAAAARlJF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGxvOkjY+luhowAAACABAAAHABEAc3RyLmRhdFVUDQAHynunVsp7p1bKe6dW
+VY+9CsJAEIS/NoLvIKZRENHaSvzBJgqmsBQVo4FLEO8sRHx35w6VS3G7s3uzO7OWKwdunOlQ
+CZXUvGjTIhH2nYv+enSZsiNnr1yra3jixDhh1VuQsVVeMWcZWDMxHvpzmr4zVKwotGUgnVEU
+x8ox6jMJ6u8Q/bORQyN0FDJ/j1aVYyONUk69e+81l9em1m9vok2eW2vKfNkpa12V6YpUVdPB
+B1BLAQIXCxQAAAAIAGxvOkjY+luhowAAACABAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0
+VVQFAAfKe6dWUEsFBgAAAAABAAEAPgAAANkAAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_EMR_MapRM3Engine" metatype="EMR MapRM3 Engine" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_EMR_MapRM3Engine" metatype="EMR MapRM3 Engine" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -185,24 +184,24 @@ PYr4ADfxADvxAD3xADvxADnxSpH4nMP6////////////////////////////////////FGTb
 ADncACTuADDkAE/W///5///////////////////////////////////////9daPoQofqPIn5
 QIjwTInk///5////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-////////////////AAAAAAAAAAAAAP///////////////////////////+zr7QAAfAAAdDNj
-sP////////////////////////////////////////////////r//wAy/gAk/kya////////
-/////////////////////////////////////////4Wn3QAu/wAu/xNu7f///f//////////
-/////////////////////////////4uZuABKyQBt/wBW/wA83SFPnpufsJiespWetv//
-9w==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIANBtL0h/VXOjtQAAAFIBAAAHABEAc3RyLmRhdFVUDQAHQPiYVkD4mFZA+JhW
-ZY87C8IwFIXPWsH/UHRREFEcnRwcq9AOjlJrfUCaiq2DiP/dL6lKxeHmntzc80ilk1JdlCtU
-ATrL6qGuOgrAbnLkbaCeFtoo0ZZumRrdVbORqWK2VKSYHnmtmD5jZuE6vVxjqtABlRE+k9Y5
-pbfRUHPv/vSnq6qV0IB2IPPNWHGrtdYVp8bNZU3I+uv10Q1QcrsWlnlv97XiVxGJ+9z+E+zx
-yFTCS/2fS3ghdUPB+I0mTcN4AVBLAQIXCxQAAAAIANBtL0h/VXOjtQAAAFIBAAAHAAkAAAAA
-AAAAAAAAgAAAAABzdHIuZGF0VVQFAAdA+JhWUEsFBgAAAAABAAEAPgAAAOsAAAAAAA==</Image>
+////////////////JwV3AAAAZwEAAI0AAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAABAAAAwKKjFQAAAAAAAAAApGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAEA
+AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgyNQVOgAAAFVTRQ4pAAAARlJF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGBvOkhaCNL+oAAAACABAAAHABEAc3RyLmRhdFVUDQAH1HunVtR7p1bUe6dW
+VY+9CgIxEIS/9gTfQbxGQUSxtLKwjMJdYSkqpx7kgphrRHx3J/GHXLG7s5vdmYnnyoEbFQMa
+oRrHkz49MuEwuehtxJAVO0r2qk5Ty4NWGye8ZmsMhaqJXIXqQjOn28BXMVU0nMUykc4syXPV
+FI1ZRvVXzCF84tAKHYXs36NX17LlLqWPWvBaymtX68ebiSnsOl3Z73bORr8ycpyr6zp4A1BL
+AQIXCxQAAAAIAGBvOkhaCNL+oAAAACABAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAfUe6dWUEsFBgAAAAABAAEAPgAAANYAAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_EMR_MapRM5Engine" metatype="EMR MapRM5 Engine" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_EMR_MapRM5Engine" metatype="EMR MapRM5 Engine" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -218,24 +217,24 @@ UJb4ADjyADvxADzxADvxADrxWJr4rM36////////////////////////////////////G2jb
 ADbaACPuAC3iAE/U///5///////////////////////////////////////9h6/qV5TsVZj5
 VpbxX5bn///6////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMhtL0h2vKxTtQAAAFIBAAAHABEAc3RyLmRhdFVUDQAHTPiYVkz4mFZM+JhW
-ZY87C8IwFIXPWsH/UHRRENHBycnBsQrt4Ci11gekqdg6iPjf/ZKqVBxu7snNPY9UOinVRblC
-FaCzrB7qqqMA7CZH3gbqaaGNEm3plqnRXTUbmSpmS0WK6ZHXiukzZhau08s1pgodUBnhM2md
-U3obDTX37k9/uqpaCQ1oBzLfjBW3WmtdcWrcXNaErL9eH90AJbdrYZn3dl8rfhWRuM/tP8Ee
-j0wlvNT/uYQXUjcUjN9o0jSMF1BLAQIXCxQAAAAIAMhtL0h2vKxTtQAAAFIBAAAHAAkAAAAA
-AAAAAAAAgAAAAABzdHIuZGF0VVQFAAdM+JhWUEsFBgAAAAABAAEAPgAAAOsAAAAAAA==</Image>
+////////////////JwV3AAAAZwEAAI0AAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAABAAAAwKKjFQAAAAAAAAAApGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAEA
+AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgyNQVOgAAAFVTRQ4pAAAARlJF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHBvOkg0Yo13oAAAACABAAAHABEAc3RyLmRhdFVUDQAH3HunVtx7p1bce6dW
+VY+9CgIxEIS/9gTfQbxGQUQLKysLyyjcFZaicupBLoi5RsR3dxJ/yBW7O7vZnZl4rhy4UTGg
+EapxPOnTIxMOk4veRgxZsaNkr+o0tTxotXHCa7bGUKiayFWoLjRzug18FVNFw1ksE+nMkjxX
+TdGYZVR/xRzCJw6t0FHI/j16dS1b7lL6qAWvpbx2tX68mZjCrtOV/W7nbPQrI8e5uq6DN1BL
+AQIXCxQAAAAIAHBvOkg0Yo13oAAAACABAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAfce6dWUEsFBgAAAAABAAEAPgAAANYAAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_EMR_MapRM7Engine" metatype="EMR Map RM7 Engine" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_EMR_MapRM7Engine" metatype="EMR Map RM7 Engine" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
@@ -251,24 +250,24 @@ Por4ADfxADvxAD3xADzxADnxSpH4nMP6////////////////////////////////////FGXb
 ADncACTuADDkAE/W///5///////////////////////////////////////9daPoQofqPIn5
 QIjwTInk///5////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
-////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAORtL0hxG+YDtQAAAFIBAAAHABEAc3RyLmRhdFVUDQAHVviYVlb4mFZW+JhW
-ZY87C8IwFIXPWsH/UHRRENHJwcnBsQrt4Ci11gekqdg6iPjf/ZKqVBxu7snNPY9UOinVRblC
-FaCzrB7qqqMA7CZH3gbqaaGNEm3plqnRXTUbmSpmS0WK6ZHXiukzZhau08s1pgodUBnhM2md
-U3obDTX37k9/uqpaCQ1oBzLfjBW3WmtdcWrcXNaErL9eH90AJbdrYZn3dl8rfhWRuM/tP8Ee
-j0wlvNT/uYQXUjcUjN9o0jSMF1BLAQIXCxQAAAAIAORtL0hxG+YDtQAAAFIBAAAHAAkAAAAA
-AAAAAAAAgAAAAABzdHIuZGF0VVQFAAdW+JhWUEsFBgAAAAABAAEAPgAAAOsAAAAAAA==</Image>
+////////////////JwV3AAAAZwEAAI0AAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAABAAAAwKKjFQAAAAAAAAAApGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAEA
+AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgyNQVOgAAAFVTRQ4pAAAARlJF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAhwOkjiDO35oQAAACQBAAAHABEAc3RyLmRhdFVUDQAH5HunVuR7p1bke6dW
+ZY+9CgIxEIS/9gTfQbxGQUQrCysLyyjcFZaicupBLoi5RsR3dxJ/iFjs7uxmd2biObPjQkWP
+RqjGcadLh0w4TE56G9BnwYaSrarT1HKj1cYBr9kSQ6FqIlehOtPM6TbwVYwVDUexjKQzSfJU
+NUVD5lH9EXMInzi0Qnsh+/Xo1bWsuUrppRa8lvL6q/XhzcQUdp2u7Hs7Z6VfGTnO1f07eAJQ
+SwECFwsUAAAACAAIcDpI4gzt+aEAAAAkAQAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVU
+BQAH5HunVlBLBQYAAAAAAQABAD4AAADXAAAAAAA=</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_Elasticsearch" metatype="Elastic Search" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_Elasticsearch" metatype="Elastic Search" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////4NjUACeACmv16Pz/////////////////////////////////
 ////////////z9TfAABFAABQADf0AE7/OY//7Pr/////////////////////////////K0uM
@@ -284,24 +283,24 @@ XJPlOXfXAABEAABeAFX/AGf/V2uCAi5qAAKIAALPL4f/////////////////////////3NfW
 AAA/AABaAE3+AFH/ADPlADL7ACf/ACP+Zqf/////////////////////////xsbPAAA4AABU
 AED5AEr/ADv/ADv/Gnv/zOX/////////////////////////////1NPYAAA/AABNADH0AEv/
 NY7/6vr/////////////////////////////////////////y8rPAB5+AWX14vn/////////
-////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPxtL0i0frqXtgAAAFgBAAAHABEAc3RyLmRhdFVUDQAHgviYVoL4mFaC+JhW
-ZY+xDoJAEESnxcR/INpoYozWVhaWakFhaRBRSAANYKHGf/ftIQZjcXdzu7Mzs5UShboqlq8c
-lKrQU3315IGtcqY30kBL7RRoz1tQzXRXDSNS5WrGfOhCb0UvpNp2Y34lKNEUnOuE1gS3Weee
-83bRWAuX4eVuO1Unp+kfQNk3qbnU2uKTktd2sMQBiX+9Wl0PJeMWTGUf9lAb9liTf8jvP8ER
-j4gNS9xtN9vV59xQyByjSdNMvAFQSwECFwsUAAAACAD8bS9ItH66l7YAAABYAQAABwAJAAAA
-AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHgviYVlBLBQYAAAAAAQABAD4AAADsAAAAAAA=</Image>
+////////////////JwV3AAAAZwEAAI0AAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAABAAAAwKKjFQAAAAAAAAAApGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAEA
+AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgyNQVOgAAAFVTRQ4pAAAARlJF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABZwOkieKCk3oAAAACYBAAAHABEAc3RyLmRhdFVUDQAH63unVut7p1bre6dW
+VY+xCsJAEERfG8F/ENMoiGhtZWGpFiksJUo0geQUL42K/+7sYeRS3O7szt7OrKck507BiEao
+wvFmyIBE2DpXcRPGrDmQcVR26tY8aTVxxoeeTb64iduIy9Xt2ELVQ6hkLtxw0a6Z1BZRXCrH
+aMoqePiEaM9HPm3/Saj+OzWVlr10Kvm1G8xxJsd9rW5vok026/Sr/k2n7HTHVv5TVX0HX1BL
+AQIXCxQAAAAIABZwOkieKCk3oAAAACYBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
+AAfre6dWUEsFBgAAAAABAAEAPgAAANYAAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
 					</Apply>
 				</AppliesTo>
 			</Stereotype>
-			<Stereotype name="AWS_Analytics_Kinesis" metatype="Kinesis" notes="" generalizes="Archimate2::ArchiMate_Node" baseStereotypes="Archimate2::ArchiMate_Node">
+			<Stereotype name="AWS_Analytics_Kinesis" metatype="Kinesis" notes="" generalizes="Moose_Node" baseStereotypes="Moose_Node">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////////////////////zsvPACF/CWv04vj/////////////////////////////////
 ////////2dnhEzeAAAA9AABMADHxAEX/Mor/5/X/////////////////////////vMXZACV8
@@ -317,17 +316,17 @@ AABeAABhAABdAAp0AGX/ABOVACCzQ4vzUne4AAF+XJrz////////XXy0AABMAABNAABXAABb
 AABYAABvAFv/ABSZABqwptr/////////////////////////0dnnEj6PAABXAABOAABPAABn
 AE3/ps7//P3/////////////////////////////////////7e3vKE2SAABRAABdADn/5P//
 ////////////////////////////////////////////////2tndACaJAGn9////////////
-////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAPJtL0ifbzzvrAAAAEABAAAHABEAc3RyLmRhdFVUDQAHjfiYVo34mFaN+JhW
-bY+xCsJAEESnjeA/hNgoiGhtZWElapHCUmKMMXBJxIuFiP/uu4tKBIvdndvb2Zm1OivRRZlC
-laBClR7qq6cA7Do5f0NFWminWHtqRdforoaJVJbeyvMycEFMQKVOcMZsnXbyjNpFI8291tNn
-F7bjx4AOIPN1ZHk12uqKTu41nbMYZ79an70Bm9xsBcu8pwfacMNaS1D0x8ERjVQ1vMRfWMML
-iRsbjJ9o3bSMF1BLAQIXCxQAAAAIAPJtL0ifbzzvrAAAAEABAAAHAAkAAAAAAAAAAAAAgAAA
-AABzdHIuZGF0VVQFAAeN+JhWUEsFBgAAAAABAAEAPgAAAOIAAAAAAA==</Image>
+////////////////JwV3AAAAZwEAAI0AAAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAABAAAAwKKjFQAAAAAAAAAApGjXAQAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAEA
+AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgyNQVOgAAAFVTRQ4pAAAARlJF
+RQ==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAxwOkjqqqjAlwAAAA4BAAAHABEAc3RyLmRhdFVUDQAH9nunVvZ7p1b2e6dW
+XY8xC8IwEIW/tYL/QeqiUIrOTg6dRB06OBaVWgtpENNFxP/el6ASHe7y5XJ378Vx5ciNmgmd
+qMXyZMyIROwrjd5mpKw5UFLptKoaHvTqOONU24S5WtwqclHHRTOZti6ivNQZ05xV0HqF7MNF
+fozoJDJfR063nj136TRB0zsr5exX67M30SbfazVl3t1TdvrDlkKU/jkYAFBLAQIXCxQAAAAI
+AAxwOkjqqqjAlwAAAA4BAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf2e6dWUEsF
+BgAAAAABAAEAPgAAAM0AAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>

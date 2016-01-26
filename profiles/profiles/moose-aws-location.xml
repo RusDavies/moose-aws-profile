@@ -3,7 +3,7 @@
 	<Documentation id="EAFFBAD5-C" name="moose-aws_Location" version="1.0" notes="moose-aws_Location"/>
 	<Content>
 		<Stereotypes>
-			<Stereotype name="AWS_Location_AvailabilityZone" metatype="AWS Availability Zone" notes="" generalizes="Archimate2::ArchiMate_Location" baseStereotypes="Archimate2::ArchiMate_Location">
+			<Stereotype name="AWS_Location_AvailabilityZone" metatype="AWS Availability Zone" notes="" generalizes="Moose_Location" baseStereotypes="Moose_Location">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ///////+AETwAFjx////KX30AC7u///+h7b7ABXs8ff92ej8AA7rfLD7///////////+////
 Xp36X576////jrv7PYn1///+yd78I3r0///+/v79Inn05vD98vf9vNb8AF/yYJ/6////////
@@ -19,19 +19,19 @@ ACftAFjx////////////////////////////////////////////////T5T6AGDy1OX85O/9
 ////////////////////////////////Kn30AC7uY6D6vNr8////////////////////////
 ///////////////////////+///+///+///////+GHP0DGvzPor1///+1ub8GHP0///9///+
 FXHzyd78///+AEnwT5T6////////8vf9AEHvABbsADvv////qcv7AB7t6fL98ff9ABrsi7n7
-///+AFfxfbD7////XwBJAEQAIAAgAGEAbgBkACAAKAB0AF8AbwBiAGoAZQBjAHQALgBBAGwA
-aQBhAHMAIABpAHMAIABuAG8AdAAgAG4AdQBsAGwAIABhAG4AZAAgAHQAXwBvAGIAagBlAGMA
-dAAuAEEAbABpAGEAcwAgADwAPgAgACcAJwApACAAdQBuAGkAbwBuACAAYQBsAGwAIABzAGUA
-bABlAGMAdAAgAEEAbABpAGEAcwAsACAAdABfAG8AYgBqAGUAYwB0AC4ATwBiAGoAZQBj
+///+AFfxfbD7////JwAsAFMAdABhAHQAZQBGAGwAYQBnAHMAPQBOAFUATABMACwAUwBvAHUA
+cgBjAGUAUwB0AGUAcgBlAG8AdAB5AHAAZQA9AE4AVQBMAEwALABEAGUAcwB0AFMAdABlAHIA
+ZQBvAHQAeQBwAGUAPQBOAFUATABMACwAUwBvAHUAcgBjAGUAUwB0AHkAbABlAD0AJwBVAG4A
+aQBvAG4APQAwADsARABlAHIAaQB2AGUAZAA9ADAAOwBBAGwAbABvAHcARAB1AHAAbABp
 AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMJaMkgbCaAkIQEAAHgCAAAHABEAc3RyLmRhdFVUDQAH+cqcVvnKnFb5ypxW
-bZFBS8NAEIXf1f6KkFwUBK3gxeKhoOBFPfQgeJG0iTWQxpKkFhH/u9/MJk2RsOzM7OybnTdv
-G30o1Va5Im2IClX60UQn5N84l2TW5CLdsmOtQFZqsTWnmSO/RpFLfYJrsZsOOSEfVkN9610r
-nepK16xzTbGXeNsR2bPu/YC29yuihvibU05lrDvNtdCD7oniQ0VN1x3ojCiHcwu2f3mKPfbW
-afDhhaHrOy/ZvCt8ya5H+fZ9t9wby1Z7ItPVZsyc6RydTN8Su3Rf+CSRXr2H/UBCJkXFG+we
-BqbreFVfkxym/nXezdF/hpocH370ghWmenaea+dq3BZ6wZoGQYlhIqsZpio7fKIn5nlE9f/9
-M9fbdErBF84yYu+oLbk3Job8A1BLAQIXCxQAAAAIAMJaMkgbCaAkIQEAAHgCAAAHAAkAAAAA
-AAAAAAAAgAAAAABzdHIuZGF0VVQFAAf5ypxWUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAG52OkgrdgtKFQEAAFYCAAAHABEAc3RyLmRhdFVUDQAHC4inVguIp1YLiKdW
+bZHNS8NAEMXf1f4VITmoUNAWvFR6KCj0oh56ELyUfmw/II0lWS0i/u/+ZjcxRcKyM7OTNzNv
+XirttNBRTokORHsV+lZPF+TnvHMyW3KJxtxUK5CFPLbkdR+Qn53Ipd7BeeyhRvbIx1NR78PU
+Qlca6o7T1wB7i7ebkL2u+0e09S+IKuIvXo7KVA+aaKapHonSv4qSqR+g10QOzh5s03mAPfc2
+qfWxQzt1Qyfbd4XPuWUn32buke/G0utEZLrajuvAdIJOpm+OXQa/D5skegsznEbEl8rILlBy
+hD3BwrTtrmzqMqqa3X8C++rsr8Yqh4//9YYTd3sJbLeBsTGc6RVrSkQ92r2spt0tr/GZntnq
+Ce2zf/N/AVBLAQIXCxQAAAAIAG52OkgrdgtKFQEAAFYCAAAHAAkAAAAAAAAAAAAAgAAAAABz
+dHIuZGF0VVQFAAcLiKdWUEsFBgAAAAABAAEAPgAAAEsBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
@@ -41,7 +41,7 @@ AAAAAAAAgAAAAABzdHIuZGF0VVQFAAf5ypxWUEsFBgAAAAABAAEAPgAAAFcBAAAAAA==</Image>
 					<Tag name="aws_availabilityZone" type="enumeration" description="" unit="" values="a,b,c" default="a"/>
 				</TaggedValues>
 			</Stereotype>
-			<Stereotype name="AWS_Location_Region" metatype="AWS Region" notes="" generalizes="Archimate2::ArchiMate_Location" baseStereotypes="Archimate2::ArchiMate_Location">
+			<Stereotype name="AWS_Location_Region" metatype="AWS Region" notes="" generalizes="Moose_Location" baseStereotypes="Moose_Location">
 				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////AAAAAAAA////AAAAAAAA////ZmZmAAAA7e3tz8/PAAAAWVlZ////////////////
 MzMzNTU1////cHBwCAgI////u7u7AAAA/////f39AAAA39/f7+/vqampAAAANTU1////////
@@ -57,19 +57,19 @@ AAAAAAAA////////////////////////////////////////////////ICAgAAAAycnJ3Nzc
 ////////////////////////////////AAAAAAAAOTk5qqqq////////////////////////
 ////////////////////////////////////////AAAAAAAACgoK////zMzMAAAA////////
 AAAAtra2////AAAAICAg////////7+/vAAAAAAAAAAAA////kpKSAAAA4+Pj7u7uAAAAbGxs
-////AAAAWlpa////cABlAHIAdABpAGUAcwAuAE8AYgBqAGUAYwB0AF8ASQBEACAAYQBuAGQA
-IAAgACgAIAB0AF8AbwBiAGoAZQBjAHQALgBPAGIAagBlAGMAdABfAEkARAAgAEkATgAgACgA
-MQAzADQAKQAgACkAIAAgAG8AcgBkAGUAcgAgAGIAeQAgAHQAXwBvAGIAagBlAGMAdABwAHIA
-bwBwAGUAcgB0AGkAZQBzAC4ATwBiAGoAZQBjAHQAXwBJAEQAIABBAFMAQwAsACAAUABy
+////AAAAWlpa////ZABlAHIAIABiAHkAIAB0AF8AbwBwAGUAcgBhAHQAaQBvAG4ALgBPAHAA
+ZQByAGEAdABpAG8AbgBJAEQALAAgAHQAXwBvAHAAZQByAGEAdABpAG8AbgBwAGEAcgBhAG0A
+cwAuAFAAbwBzAAAAKPTAdiwVMgAAAFVTRQBoGB0CDwAAAA8AAAAAAAAAMgA2ADoAMQA5ADoA
+NQAyADoAMgAwADoAMwAwAMB2LBUqAAAAVVNFAGgYHQILAAAACwAAAAAAAABFAG4AdQBt
 AA==</Icon>
-				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMZaMkixu1BqDgEAAEACAAAHABEAc3RyLmRhdFVUDQAH68qcVuvKnFbrypxW
-bZFPS8NAEMXf1X6KkFwsCP45VjwU9FgLKngsaZNWYZuWZGsR8bv7m900iSLLzr6dvJn3ZtPo
-Tbn2KpVoC3pXpS+NdEZ+wd2R2ZBLdMdOtYJZyRNrbreB+fEvc6kdPE/ctswR+bga6n1QrXSu
-K110O9GNxm3fyLK+FagBf3IrqUh1r7leWA+gtKuoUTvALkAlXv2g+zVxeJpSf8YOveqaTjbn
-itOx618+T3p78ubO6wiyd7SZiuDwCbThq/WZoJLByslMiEdUFsHjiZF1U3wHH83gvzjQEuTa
-P3PJii7nQd962DumetYr0WaKk/VOraZ361p+pkdNNeMV/+oX4f1s7hx+9JiwD9Q6vpsTY/4A
-UEsBAhcLFAAAAAgAxloySLG7UGoOAQAAQAIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRV
-VAUAB+vKnFZQSwUGAAAAAAEAAQA+AAAARAEAAAAA</Image>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAGZ2Okjv036qAAEAABoCAAAHABEAc3RyLmRhdFVUDQAH94enVveHp1b3h6dW
+bZFPS8NAEMXf1X6KkBxUEFo9tvQg6NEWVPBY+ietwjaWZNsi4nfvb3aTJgVZdvbt5M28N5tK
+n5prp1yJtqAvFfpVT1fkZ9wdmQ25RGN2qiXMQp5YchsF5uFf5kLf8DxxWzN75OOqqPdBtdCN
+Bro770QPuq37Rpb1LUAV+IdbTkWqJ031znoGpeeKErU97BUox6vvdL8ndk9Tas/YoVVd08nm
+XHI6dnnhs9HbkTd3XkeQvaPNtAoOX0EbvlqfISrXyuDNyQ2JR3RmwWXDyWA0k/wFL1Xn3zjQ
+AuTqv9NnRafT4MG62FumetMH0eaK07VuraZ17Gp+poke9cJLZhf6J1BLAQIXCxQAAAAIAGZ2
+Okjv036qAAEAABoCAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf3h6dWUEsFBgAA
+AAABAAEAPgAAADYBAAAAAA==</Image>
 				<AppliesTo>
 					<Apply type="Class">
 						<Property name="isActive" value=""/>
