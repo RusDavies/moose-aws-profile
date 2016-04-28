@@ -12,11 +12,11 @@
 					<Tag name="moose-aws_Networking::AWS_Networking_Route53(UML::Class)" type="" description="" unit="" values="" default="Route53"/>
 					<Tag name="moose-aws_Networking::AWS_Networking_Route53_HostedZone(UML::Class)" type="" description="" unit="" values="" default="Route53 Hosted Zone"/>
 					<Tag name="moose-aws_Networking::AWS_Networking_Route53_Table(UML::Class)" type="" description="" unit="" values="" default="Route53 Table"/>
-					<Tag name="moose-aws_Networking::AWS_Networking_VPC(UML::Class)" type="" description="" unit="" values="" default="VPC"/>
 					<Tag name="moose-aws_Networking::AWS_Networking_VPC_CustomerGateway(UML::Class)" type="" description="" unit="" values="" default="VPC Customer Gateway"/>
 					<Tag name="moose-aws_Networking::AWS_Networking_VPC_InternetGateway(UML::Class)" type="" description="" unit="" values="" default="VPC Internet Gateway"/>
 					<Tag name="moose-aws_Networking::AWS_Networking_VPC_Peering(UML::Class)" type="" description="" unit="" values="" default="VPC Peering"/>
 					<Tag name="moose-aws_Networking::AWS_Networking_VPC_Router(UML::Class)" type="" description="" unit="" values="" default="VPC Router"/>
+					<Tag name="moose-aws_Networking::AWS_Networking_VPC_Subnet(UML::Class)" type="" description="" unit="" values="" default="VPC Subnet"/>
 					<Tag name="moose-aws_Networking::AWS_Networking_VPC_VPNConnection(UML::Class)" type="" description="" unit="" values="" default="VPC VPN Connection"/>
 					<Tag name="moose-aws_Networking::AWS_Networking_VPC_VPNGateway(UML::Class)" type="" description="" unit="" values="" default="VPC VPN Gateway"/>
 				</TaggedValues>
