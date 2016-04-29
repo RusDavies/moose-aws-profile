@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="41BDE2DA-1" name="moose-aws-StorageAndContentDelivery" version="1.0" notes="moose-aws-StorageAndContentDelivery"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="AWS_StorageAndContentDelivery_S3_Bucket" metatype="EC2 Container Registry" notes="" generalizes="Moose_InfrastructureService" baseStereotypes="Moose_InfrastructureService">
+				<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////////////rLC2MDyCBxZ8AA6BARGIABGHAA6BCBh9Mj6Esra6////////////////////
++vrpAACiAADOCB3mIDPyKz33Kz32HzLxCBzlAADOAACl/Pzw////////////////tLroAADb
+AA3mESXrIzbvLD7xLD7xIzbvESXrAA3lAADbrLLp////////////////YGzWAADZABPgFinm
+JzjpL0DrL0DrJznpFinlABPgAADYVmPZ////////////////GyzNAADYBBjgGi3gKTvlMULm
+MULmKjvlGy3gBBngAADYEiXP///////////////2AAPMAALYCR3gHjDgLD3gMkPgMkPgLD3g
+HjHgCh7cAAPYAADN///4////////0tTmAADPAArZDiHgITPgLT7gMkPgMkPgLT7gITPgDyLc
+AAvYAADPyc3q////////gInYAADUABDaESXgIjTgLD3gMULgMULgLT7gIjTgEiXgABHaAADT
+doDa////////OEfSAADYABTcFCfgIjTgKzzgL0DgL0DgKzzgIzTgFCfgARXcAADYLj7T////
+///+BBjSAAHbAxfgFCfgIDLgJzngKzzgKzzgKDngITPgFSjgBBjgAALbABHS////4OHoAADV
+AAHgBRrhIjTnOkvrTVzuVWLwVWLwTlzuO0vrIzXnBhvhAALgAADV1tntiZLiL0HpkJnwys7p
+5ebd7u7R7OvG8O/F8O/F7OvG7u3Q5ebdy87okpvvMULlfofjxcjTfIShSVOCKDV+GyqGFiWO
+GyqXIC+dIC+eHCuYFyaPHCqHJzR+SFOCg4ahw8fVHiyWAACkAADKABHeDyLgHC7mJDboKDro
+KDroJDboHC/mDyPgABHeAADKAACkHi2WgIvxAAbfAADbAAvgCBzgFyrgITPgJjjgJjjgITPg
+FyrgCBzgAAvgAADbAAffgYvx////////vML7eYPvTVzlOEjiLj/hKTvgKTvgLj/hOEjiTVzl
+eILvvMH7////////LQAxACwASQBzAEIAbwBsAGQAPQAwACwAUABEAEEAVABBADEAPQBOAFUA
+TABMACwAUABEAEEAVABBADIAPQBOAFUATABMACwAUABEAEEAVABBADMAPQBOAFUATABMACwA
+UABEAEEAVABBADQAPQBOAFUATABMACwAUABEAEEAVABBADUAPQBOAFUATABMACwAUwBvAHUA
+cgBjAGUAUgBvAGwAZQA9AE4AVQBMAEwALABEAGUAcwB0AFIAbwBsAGUAPQBOAFUATABM
+AA==</Icon>
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMCgnEgLENOatwAAAFYBAAAHABEAc3RyLmRhdFVUDQAHWG0iV1htIldYbSJX
+XY+7CsJQEESnjeA/SGwURBRLsfBVqkUKS/ERNZhESaIi4r977k0C0WJnh33MzqY6a6ubfDUU
+wQLFequumhzYVantH2BPJkaEq0yJ7my4GhaTgd09UWtRHWstTxsiYy8pOlN4TMW3OCOH7D3I
+iV52egBOUN7rQjVTF4x0RLHD3V4F++QqaxdOPhZN5L7zv0LYzt4rP0ut/orLAd7Mz8a3h+/f
+W6Wug5KZNc7DYrqpJZ8uNIe5fw6+UEsBAhcLFAAAAAgAwKCcSAsQ05q3AAAAVgEAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB1htIldQSwUGAAAAAAEAAQA+AAAA7QAAAAAA
+</Image>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
