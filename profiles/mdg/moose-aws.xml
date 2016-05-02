@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<MDG.Technology version="1.0"><Documentation id="moose-aws" name="Moose-tools AWS Profile" version="0.48" notes="A profile containing a subset of AWS elements for use with Sparx Systems Enterprise Architect.&#xA;&#xA;Changes: &#xA;&#xA;- Still working on Fix #8: Only first toolbox page is loaded&#xA;- Added S3 Bucket to Storage and Content Delivery &#xA;" infoURI="http://www.blakemere.ca" supportURI="1-514-985-9551"/><UMLProfiles><UMLProfile profiletype="uml2">
+<MDG.Technology version="1.0"><Documentation id="moose-aws" name="Moose-tools AWS Profile" version="0.49" notes="A profile containing a subset of AWS elements for use with Sparx Systems Enterprise Architect.&#xA;&#xA;Changes: &#xA;&#xA;- Still working on Fix #8: Only first toolbox page is loaded&#xA;- Started creating an &quot;moose-aws-All&quot; toolbox.  &#xA;- Changed &quot;location&quot; types to &quot;groups&quot;&#xA;- Added a SecurityGroup group.&#xA;&#xA;" infoURI="http://www.blakemere.ca" supportURI="1-514-985-9551"/><UMLProfiles><UMLProfile profiletype="uml2">
 			<Documentation id="9226E970-1" name="moose-aws_Analytics" version="1.0" notes="moose-aws_Analytics"/>
 			<Content>
 				<Stereotypes>
@@ -2359,10 +2359,10 @@ AHN0ci5kYXRVVAUABx6Wp1ZQSwUGAAAAAAEAAQA+AAAA4QAAAAAA</Image>
 			</Content>
 		</UMLProfile>
 		<UMLProfile profiletype="uml2">
-			<Documentation id="EAFFBAD5-C" name="moose-aws_Location" version="1.0" notes="moose-aws_Location"/>
+			<Documentation id="EAFFBAD5-C" name="moose-aws_Groups" version="1.0" notes="moose-aws_Groups"/>
 			<Content>
 				<Stereotypes>
-					<Stereotype name="AWS_Location_AvailabilityZone" metatype="AWS Availability Zone" notes="" generalizes="Moose_Location" baseStereotypes="Moose_Location">
+					<Stereotype name="AWS_Group_AvailabilityZone" metatype="AWS Availability Zone" notes="" generalizes="Moose_Location" baseStereotypes="Moose_Location">
 						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ///////+AETwAFjx////KX30AC7u///+h7b7ABXs8ff92ej8AA7rfLD7///////////+////
 Xp36X576////jrv7PYn1///+yd78I3r0///+/v79Inn05vD98vf9vNb8AF/yYJ/6////////
@@ -2378,19 +2378,19 @@ ACftAFjx////////////////////////////////////////////////T5T6AGDy1OX85O/9
 ////////////////////////////////Kn30AC7uY6D6vNr8////////////////////////
 ///////////////////////+///+///+///////+GHP0DGvzPor1///+1ub8GHP0///9///+
 FXHzyd78///+AEnwT5T6////////8vf9AEHvABbsADvv////qcv7AB7t6fL98ff9ABrsi7n7
-///+AFfxfbD7////JwAsAFMAdABhAHQAZQBGAGwAYQBnAHMAPQBOAFUATABMACwAUwBvAHUA
-cgBjAGUAUwB0AGUAcgBlAG8AdAB5AHAAZQA9AE4AVQBMAEwALABEAGUAcwB0AFMAdABlAHIA
-ZQBvAHQAeQBwAGUAPQBOAFUATABMACwAUwBvAHUAcgBjAGUAUwB0AHkAbABlAD0AJwBVAG4A
-aQBvAG4APQAwADsARABlAHIAaQB2AGUAZAA9ADAAOwBBAGwAbABvAHcARAB1AHAAbABp
+///+AFfxfbD7////QgBvAGwAZAA9ADAALABQAEQAQQBUAEEAMQA9AE4AVQBMAEwALABQAEQA
+QQBUAEEAMgA9AE4AVQBMAEwALABQAEQAQQBUAEEAMwA9AE4AVQBMAEwALABQAEQAQQBUAEEA
+NAA9AE4AVQBMAEwALABQAEQAQQBUAEEANQA9AE4AVQBMAEwALABTAG8AdQByAGMAZQBSAG8A
+bABlAD0ATgBVAEwATAAsAEQAZQBzAHQAUgBvAGwAZQA9AE4AVQBMAEwALABTAG8AdQBy
 AA==</Icon>
-						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALp+Oki1JLp9JAEAAH4CAAAHABEAc3RyLmRhdFVUDQAHaZanVmmWp1ZplqdW
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKxYoki1JLp9JAEAAH4CAAAHABEAc3RyLmRhdFVUDQAHkjQnV5I0J1eSNCdX
 bZFBS8NAEIXf1f6KkhxUELSCl4qHgoIX9dCD4EXaZm0LMS1JahHxv/vNbNeIhGVnZnffm3kz
 22ilmbYKGuqdaK1KXxroCL9R468F0Z73G3amVrV24DNdO26lVzAlzCWchFqAqMAG0An50Yuc
 k71lbagfkQPu42rgt66u0okudcU60wh7gbc95Pb0kD+iLX9F1BB/cgowM91qoqnudUeU/TJq
 qu5AF0QBzS3YlHmE/eutUudjhq7qG5ms3wW+ZNe9elPdLe+msmWutc/feixc6YQ52T+U2Ln7
 tXcy1IvXCBoTHyvndsYkx9g9Kmy2/czEy2Gl3r9dffzf+PuRFfDx/89ZsbcnV7t0xaZwqmes
-TSLOo+vLOF1v5QGf65GuHph9/q/+D1BLAQIXCxQAAAAIALp+Oki1JLp9JAEAAH4CAAAHAAkA
-AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdplqdWUEsFBgAAAAABAAEAPgAAAFoBAAAA
+TSLOo+vLOF1v5QGf65GuHph9/q/+D1BLAQIXCxQAAAAIAKxYoki1JLp9JAEAAH4CAAAHAAkA
+AAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAeSNCdXUEsFBgAAAAABAAEAPgAAAFoBAAAA
 AA==</Image>
 						<AppliesTo>
 							<Apply type="Class">
@@ -2401,7 +2401,7 @@ AA==</Image>
 							<Tag name="aws_availabilityZone" type="enumeration" description="" unit="" values="a,b,c" default="a"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="AWS_Location_Region" metatype="AWS Region" notes="" generalizes="Moose_Location" baseStereotypes="Moose_Location">
+					<Stereotype name="AWS_Group_Region" metatype="AWS Region" notes="" generalizes="Moose_Location" baseStereotypes="Moose_Location">
 						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
 ////////AAAAAAAA////AAAAAAAA////ZmZmAAAA7e3tz8/PAAAAWVlZ////////////////
 MzMzNTU1////cHBwCAgI////u7u7AAAA/////f39AAAA39/f7+/vqampAAAANTU1////////
@@ -2417,11 +2417,11 @@ AAAAAAAA////////////////////////////////////////////////ICAgAAAAycnJ3Nzc
 ////////////////////////////////AAAAAAAAOTk5qqqq////////////////////////
 ////////////////////////////////////////AAAAAAAACgoK////zMzMAAAA////////
 AAAAtra2////AAAAICAg////////7+/vAAAAAAAAAAAA////kpKSAAAA4+Pj7u7uAAAAbGxs
-////AAAAWlpa////XwBJAEQAIAAgAFcAaABlAHIAZQAgACAAKAAgAHQAXwBvAGIAagBlAGMA
-dAAuAE8AYgBqAGUAYwB0AF8ASQBEACAASQBOACAAKAAxADMANAApACAAKQAgACAATwByAGQA
-ZQByACAAYgB5ACAAdABfAG8AYgBqAGUAYwB0AC4AVABQAG8AcwAAAP//////////////////
-/////////////////////////////wBT8QAx7gBT8SN59P//////////////////////
-/w==</Icon>
+////AAAAWlpa////AAAAAAAAfBgdAnwYHQJ8GB0CfBgdAnwYHQJ8GB0CfBgdAnwYHQL/////
+AABlACARlhV8GB0CfBgdAnwYHQIBAAAAAQAAAKRo1wEAAAAAAAAAAAAAAAAAAAAAAAAAAAoA
+AACwY9cBAAAAAAAAAAAAAAAAAAAAAAAAYwAAAAAAAAAAAICoyAEAAAAAAAAAAAAAAAAAAAAA
+fBgdAnwYHQIAAAAAAAAAAHwYHQJ8GB0CfBgdAnwYHQJ8GB0CAAAAAAAAAAAAAAAAAAAA
+AA==</Icon>
 						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKp+Okh0zR0SEQEAAEICAAAHABEAc3RyLmRhdFVUDQAHYZanVmGWp1ZhlqdW
 bZFPSwMxEMXf1X6Kkj2oIPjn2OJB0KMWVPBY2u7aCnFbdlOLiN/d3ySbbgsyJPOSvJl5M2m1
 0kwbVRrqE/ShWj8a6AS/VhtfS9CO91uWU1CjLXynceStNIXjiVwSk1kLGDXcCnZmfv3LnJM9
@@ -2438,6 +2438,37 @@ YXRVVAUAB2GWp1ZQSwUGAAAAAAEAAQA+AAAARwEAAAAA</Image>
 						<TaggedValues>
 							<Tag name="aws_region" type="enumeration" description="" unit="" values="ap-northeast-1,ap-southeast-1,ap-southeast-2,eu-central-1,eu-west-1,sa-east-1,us-east-1,us-west-1,us-west-2" default="us-east-1"/>
 						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="AWS_Group_SecurityGroup" metatype="Security Group" notes="" generalizes="Moose_InfrastructureService" baseStereotypes="Moose_InfrastructureService">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADXDQAA1w0AAAAAAAAAAAAA
+////vLyoAAD/AAC4AAAAAACbAAD/AAAAAAA/AAD/AAAAAAAAAAD/AABat7dt////xMSbAAAA
+AACUQ0PsMzMJSEjQT0//NTUcQkKWUlL/OTlCPDxcSkr/AAAAAAAAzc3/AAD/AABt///4////
+////////////////////////////////////////AAD/AAD/AADyIiL/////////////////
+////////////////////////////////ERFpAAAhAAAABgYA////////////////////////
+////////////////////////CAgCAAAAAABnGBiV////////////////////////////////
+////////////////KCj/AAD/AAD/KCj/////////////////////////////////////////
+////////GhqrAACHAAAACQkR////////////////////////////////////////////////
+BAQAAAAAAAAQEBBS////////////////////////////////////////////////IiL1AADs
+AAD/Kir/////////////////////////////////////////////////IiLrAADeAAAADw9F
+////////////////////////////////////////////////BQUAAAAAAAAACgoV////////
+////////////////////////////////////////HR26AACVAAD/Jib/////////////////
+////////////////////////////////IiL/AAD/AACfAAAW///0////////////////////
+////////////////////////AAAAAAAAwcFyAAAAAADTS0v/Tk7/NDQUPz9/UlL/OjpIOjpP
+U1P/QECBLy8vAAD/AABWwsKI////vr7YAAD/AAD/AAD9AAAAAAAeAAD/AAAAAAAAAAD/AAAb
+AAAAAAD/yMj/////ZAAgACAAIAB0AF8AbwBiAGoAZQBjAHQALgBPAGIAagBlAGMAdABfAEkA
+RAAgAD0AIAB0AF8AYQB0AHQAcgBpAGIAdQB0AGUALgBPAGIAagBlAGMAdABfAEkARAAgAGEA
+bgBkACAAdABfAGEAdAB0AHIAaQBiAHUAdABlAC4AZQBhAF8AZwB1AGkAZAA9AHQAXwB4AHIA
+ZQBmAC4AQwBsAGkAZQBuAHQAIAB1AG4AaQBvAG4AIABhAGwAbAAgAHMAZQBsAGUAYwB0
+AA==</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAZZokjv329sPQEAABQDAAAHABEAc3RyLmRhdFVUDQAHEzUnVxM1J1cTNSdX
+rZJNS8NAEIbfq/0VITlUQdAWeql4ECoqqD14ELyUtllbIaYhHy0i/nef3U2aKAoeZNmZSfad
+mXc+Cq01VyajQK9YL0r1rp4O0BsV7jXG2vF+zg1VKlcFPtSZw601A5PgucKnQS1BpGAN6Aa5
+/RG5IHrJ2ZDfI3v896fAv3TsUh3qVMf7G2ikozquR9m4KVaB/caXwSPUg6a61Y0m2A0+J1cF
+NsYyMC07sQfIrg407Ogmwm8Mh7AafWE5/BPLiS5geq3Lf+XZZn0mkp3GEp1w8w7XAdJHbfJm
+vFuWJVPP3XbY+uK6n5ZJ5RC2gkBXNc9MY/UV8XfOfMfIHdntxLdurxLkwmnv+eQ4GTz6+5o/
+HGu/dX4nvZdB+6084fiapo7DyjH1zB6RtgO+D2091qetKanxke7p+h09j77l/wRQSwECFwsU
+AAAACAAGWaJI799vbD0BAAAUAwAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHEzUn
+V1BLBQYAAAAAAQABAD4AAABzAQAAAAA=</Image>
 					</Stereotype>
 				</Stereotypes>
 				<TaggedValueTypes/>
@@ -10824,7 +10855,71 @@ DAAAAAUAAIAoAAAADAAAAAEAAAAnAAAAGAAAAAEAAAAAAAAAdps/AAYAAAAlAAAADAAAAAEA
 AAAlAAAADAAAAAgAAIADAAAAbAAAAAAAAAAAAAAA//////////8KAAAAAgQAAHcBAACEAwAA
 dQAAAJsCAAAAAAAAmwIAAAsBAACbAgAAKgQAAJsCAAA1BQAA4wMAADIEAADCBAAAVQIAAMIE
 AACwAQAAAgQAAHcBAAAlAAAADAAAAAUAAIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAA
-WAYAAA==</Column></DataRow><DataRow><Column name="ImageID" value="12966326"/><Column name="Name" value="AWS_StorageContentDelivery_S3_Bucket.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAAAwBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAVBMAAOMA
+WAYAAA==</Column></DataRow><DataRow><Column name="ImageID" value="172726749"/><Column name="Name" value="AWS_Compute_ElasticLoadBalancing2"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAAPwAAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAsA0AALMA
+AAADAAAARwAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
+SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABBAHUAZwAgACAA
+NQAgADIAMAAxADUAKQAAAEMAbwBtAHAAdQB0AGUAXwBFAGwAYQBzAHQAaQBjAEwAbwBhAGQA
+QgBhAGwAYQBuAGMAaQBuAGcAMgAuAGUAbQBmAAAAAAAAAAAAEQAAAAwAAAABAAAAJAAAACQA
+AAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAACAAAARgAAACwAAAAgAAAAU2NyZWVuPTEwMjA1
+eDEzMTgxcHgsIDIxNngyNzltbQBGAAAAMAAAACMAAABEcmF3aW5nPTEwMC4weDEwMC4wcHgs
+IDI4LjJ4MjguMm1tAAASAAAADAAAAAEAAAATAAAADAAAAAIAAAAWAAAADAAAABgAAAAYAAAA
+DAAAAAAAAAAUAAAADAAAAA0AAAAnAAAAGAAAAAEAAAAAAAAAnVAlAAYAAAAlAAAADAAAAAEA
+AAAlAAAADAAAAAgAAIA7AAAACAAAABsAAAAQAAAAJgUAAKcCAAAFAAAANAAAAAAAAAAAAAAA
+//////////8DAAAAJgUAAAYEAAAFBAAAIwUAAKECAAAjBQAABQAAADQAAAAAAAAAAAAAAP//
+////////AwAAADwBAAAjBQAAGwAAAAYEAAAbAAAApwIAAAUAAAA0AAAAAAAAAAAAAAD/////
+/////wMAAAAbAAAARwEAADwBAAAqAAAAoQIAACoAAAAFAAAANAAAAAAAAAAAAAAA////////
+//8DAAAABQQAACoAAAAmBQAARwEAACYFAACnAgAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAA
+AAAAAAAAAAD//////////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAA
+AAD1hDUABgAAACUAAAAMAAAAAQAAACUAAAAMAAAACAAAgDsAAAAIAAAAGwAAABAAAAAZBQAA
+hgIAAAUAAAA0AAAAAAAAAAAAAAD//////////wMAAAAZBQAA5gMAAPgDAAADBQAAlAIAAAMF
+AAAFAAAANAAAAAAAAAAAAAAA//////////8DAAAALwEAAAMFAAAPAAAA5gMAAA8AAACGAgAA
+BQAAADQAAAAAAAAAAAAAAP//////////AwAAAA8AAAAnAQAALwEAAAoAAACUAgAACgAAAAUA
+AAA0AAAAAAAAAAAAAAD//////////wMAAAD4AwAACgAAABkFAAAnAQAAGQUAAIYCAAA9AAAA
+CAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwAAAAFAACAKAAAAAwA
+AAABAAAAJwAAABgAAAABAAAAAAAAAP///wAGAAAAJQAAAAwAAAABAAAAJQAAAAwAAAAIAACA
+OwAAAAgAAAAbAAAAEAAAAIUAAADNAQAANgAAABAAAACmAQAAzQEAADYAAAAQAAAApgEAAEAD
+AAA2AAAAEAAAAIUAAABAAwAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAAAAAAAAAAAAD/////
+/////yUAAAAMAAAABQAAgCgAAAAMAAAAAQAAACcAAAAYAAAAAQAAAAAAAAD///8ABgAAACUA
+AAAMAAAAAQAAACUAAAAMAAAACAAAgDsAAAAIAAAAGwAAABAAAAAVAwAAtgAAADYAAAAQAAAA
+BAQAALYAAAA2AAAAEAAAAAQEAAC6AQAANgAAABAAAAAVAwAAugEAAD0AAAAIAAAAPAAAAAgA
+AAA+AAAAGAAAAAAAAAAAAAAA//////////8lAAAADAAAAAUAAIAoAAAADAAAAAEAAAAnAAAA
+GAAAAAEAAAAAAAAA////AAYAAAAlAAAADAAAAAEAAAAlAAAADAAAAAgAAIA7AAAACAAAABsA
+AAAQAAAAFQMAAAQCAAA2AAAAEAAAAAQEAAAEAgAANgAAABAAAAAEBAAACQMAADYAAAAQAAAA
+FQMAAAkDAAA9AAAACAAAADwAAAAIAAAAPgAAABgAAAAAAAAAAAAAAP//////////JQAAAAwA
+AAAFAACAKAAAAAwAAAABAAAAJwAAABgAAAABAAAAAAAAAP///wAGAAAAJQAAAAwAAAABAAAA
+JQAAAAwAAAAIAACAOwAAAAgAAAAbAAAAEAAAABUDAABTAwAANgAAABAAAAAEBAAAUwMAADYA
+AAAQAAAABAQAAFcEAAA2AAAAEAAAABUDAABXBAAAPQAAAAgAAAA8AAAACAAAAD4AAAAYAAAA
+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</Column></DataRow><DataRow><Column name="ImageID" value="12966326"/><Column name="Name" value="AWS_StorageContentDelivery_S3_Bucket.emf"/><Column name="Type" value="Metafile"/><Column name="Image" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">AQAAAAwBAAAAAAAAAAAAAFkFAABZBQAAAAAAAAAAAABTCwAAUwsAACBFTUYAAAEAVBMAAOMA
 AAACAAAAUAAAAGwAAAAAAAAA3ScAAH0zAADYAAAAFwEAAAAAAAAAAAAAAAAAAMBLAwDYQQQA
 SQBuAGsAcwBjAGEAcABlACAAMAAuADkAMQAgAHIAMQAzADcAMgA1ACAAKABKAGEAbgAgADMA
 MAAgADIAMAAxADUAKQAAAFMAdABvAHIAYQBnAGUAQwBvAG4AdABlAG4AdABEAGUAbABpAHYA
@@ -10924,7 +11019,7 @@ AIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAAVBMAAA==</Column></DataRow></DataSet></R
 							<Apply type="Diagram_Logical">
 								<Property name="alias" value="moose-aws"/>
 								<Property name="diagramID" value="moose-aws"/>
-								<Property name="toolbox" value="moose-aws_AppServicesElements"/>
+								<Property name="toolbox" value="moose-aws_All"/>
 							</Apply>
 						</AppliesTo>
 					</Stereotype>
@@ -10933,6 +11028,30 @@ AIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAAVBMAAA==</Column></DataRow></DataSet></R
 			</Content>
 		</UMLProfile>
 	</DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
+			<Documentation id="11139E99-D" name="moose-aws-All" version="1.0" notes="moose-aws-All"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="moose-aws_All" notes="">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_DataPipeline(UML::Class)" type="" description="" unit="" values="" default="Analytics - Data Pipeline"/>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_Elasticsearch(UML::Class)" type="" description="" unit="" values="" default="Analytics - Elastic Search"/>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_EMR(UML::Class)" type="" description="" unit="" values="" default="Analytics - EMR"/>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_Cluster(UML::Class)" type="" description="" unit="" values="" default="Analytics - EMR Cluster"/>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_Engine(UML::Class)" type="" description="" unit="" values="" default="Analytics - EMR Engine"/>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_MapRM3Engine(UML::Class)" type="" description="" unit="" values="" default="Analytics - EMR Map RM3 Engine"/>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_MapRM5Engine(UML::Class)" type="" description="" unit="" values="" default="Analytics - EMR Map RM5 Engine"/>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_EMR_MapRM7Engine(UML::Class)" type="" description="" unit="" values="" default="Analytics - EMR Map RM7 Engine"/>
+							<Tag name="moose-aws_Analytics::AWS_Analytics_Kinesis(UML::Class)" type="" description="" unit="" values="" default="Analytics - Kinesis"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
 			<Documentation id="14003C42-5" name="moose-aws_Analytics" version="1.0" alias="AWS Analytics" notes="AWS Analytics elements"/>
 			<Content>
 				<Stereotypes>
@@ -11058,16 +11177,17 @@ AIAoAAAADAAAAAEAAAAOAAAAFAAAAAAAAAAAAAAAVBMAAA==</Column></DataRow></DataSet></R
 			</Content>
 		</UMLProfile>
 		<UMLProfile profiletype="uml2">
-			<Documentation id="31F8FD05-9" name="moose-aws_Location" version="1.0" notes="moose-aws_Location"/>
+			<Documentation id="31F8FD05-9" name="moose-aws_Groups" version="1.0" notes="moose-aws_Groups"/>
 			<Content>
 				<Stereotypes>
-					<Stereotype name="aws-moose_LocationElements" notes="Alias=Location;Notes=Elements for AWS Locations;">
+					<Stereotype name="aws-moose_GroupsElements" notes="Alias=Groups;Notes=Elements for AWS Groups;">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
 						<TaggedValues>
-							<Tag name="moose-aws_Location::AWS_Location_AvailabilityZone(UML::Class)" type="" description="" unit="" values="" default="Availability Zone"/>
-							<Tag name="moose-aws_Location::AWS_Location_Region(UML::Class)" type="" description="" unit="" values="" default="Region"/>
+							<Tag name="moose-aws_Groups::AWS_Group_AvailabilityZone(UML::Class)" type="" description="" unit="" values="" default="Groups - Availability Zone"/>
+							<Tag name="moose-aws_Groups::AWS_Group_Region(UML::Class)" type="" description="" unit="" values="" default="Groups - Region"/>
+							<Tag name="moose-aws_Groups::AWS_Group_SecurityGroup(UML::Class)" type="" description="" unit="" values="" default="Groups - Security Group"/>
 						</TaggedValues>
 					</Stereotype>
 				</Stereotypes>
