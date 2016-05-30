@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="0B063F7F-E" name="aws" version="1.0" notes="aws"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="awsAnalyticsElements" alias="AWS Analytics" notes="AWS Analytics Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws::aws-analytics-data-pipeline(UML::Class)" type="" description="" unit="" values="" default="Data Pipeline"/>
+					<Tag name="aws::aws-analytics-emr-cluster(UML::Class)" type="" description="" unit="" values="" default="EMR Cluster"/>
+					<Tag name="aws::aws-analytics-emr-engine(UML::Class)" type="" description="" unit="" values="" default="EMR Engine"/>
+					<Tag name="aws::aws-analytics-emr-hd5s-cluster(UML::Class)" type="" description="" unit="" values="" default="EMR HD5S Cluster"/>
+					<Tag name="aws::aws-analytics-emr-map-rm3-engine(UML::Class)" type="" description="" unit="" values="" default="EMR MapRM3 Engine"/>
+					<Tag name="aws::aws-analytics-emr-map-rm5-engine(UML::Class)" type="" description="" unit="" values="" default="EMR MapRM5 Engine"/>
+					<Tag name="aws::aws-analytics-emr-map-rm7-engine(UML::Class)" type="" description="" unit="" values="" default="EMR MapRM7 Engine"/>
+					<Tag name="aws::aws-analytics-emr(UML::Class)" type="" description="" unit="" values="" default="EMR"/>
+					<Tag name="aws::aws-analytics-kinesis(UML::Class)" type="" description="" unit="" values="" default="Kinesis"/>
+					<Tag name="aws::aws-elastic-search(UML::Class)" type="" description="" unit="" values="" default="ElasticSearch"/>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="awsAppServicesElements" alias="AWS App Services" notes="AWS Applications Services Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws::aws-app-services-api-gateway(UML::Class)" type="" description="" unit="" values="" default="API Gateway"/>
+					<Tag name="aws::aws-app-services-app-stream(UML::Class)" type="" description="" unit="" values="" default="App Stream"/>
+					<Tag name="aws::aws-app-services-cloud-search-sdf-metadata(UML::Class)" type="" description="" unit="" values="" default="Cloud Search SDF Meta Data"/>
+					<Tag name="aws::aws-app-services-cloud-search(UML::Class)" type="" description="" unit="" values="" default="Cloud Search"/>
+					<Tag name="aws::aws-app-services-elastic-transcoder(UML::Class)" type="" description="" unit="" values="" default="Elastic Transcoder"/>
+					<Tag name="aws::aws-app-services-ses-email(UML::Class)" type="" description="" unit="" values="" default="SES Email"/>
+					<Tag name="aws::aws-app-services-ses(UML::Class)" type="" description="" unit="" values="" default="SES"/>
+					<Tag name="aws::aws-app-services-sqs-message(UML::Class)" type="" description="" unit="" values="" default="SQS Message"/>
+					<Tag name="aws::aws-app-services-sqs-queue(UML::Class)" type="" description="" unit="" values="" default="SQS Queue"/>
+					<Tag name="aws::aws-app-services-sqs(UML::Class)" type="" description="" unit="" values="" default="SQS"/>
+					<Tag name="aws::aws-app-services-swf-decider(UML::Class)" type="" description="" unit="" values="" default="SWF Decider"/>
+					<Tag name="aws::aws-app-services-swf-worker(UML::Class)" type="" description="" unit="" values="" default="SWF Worker"/>
+					<Tag name="aws::aws-app-services-swf(UML::Class)" type="" description="" unit="" values="" default="SWF"/>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="awsCompute" alias="AWS Compute" notes="AWS Compute Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws::aws-compute-autoscaling-group(UML::Class)" type="" description="" unit="" values="" default="Autoscaling Group"/>
+					<Tag name="aws::aws-compute-cloudwatch(UML::Class)" type="" description="" unit="" values="" default="CloudWatch"/>
+					<Tag name="aws::aws-compute-container-registry(UML::Class)" type="" description="" unit="" values="" default="Container Registry"/>
+					<Tag name="aws::aws-compute-container-service(UML::Class)" type="" description="" unit="" values="" default="Container Service"/>
+					<Tag name="aws::aws-compute-ec2-ami(UML::Class)" type="" description="" unit="" values="" default="EC2 AMI"/>
+					<Tag name="aws::aws-compute-ec2-db-on-instance(UML::Class)" type="" description="" unit="" values="" default="EC2 DB on Instance"/>
+					<Tag name="aws::aws-compute-ec2-instance(UML::Class)" type="" description="" unit="" values="" default="EC2 Instance"/>
+					<Tag name="aws::aws-compute-ec2-instances(UML::Class)" type="" description="" unit="" values="" default="EC2 Instances"/>
+					<Tag name="aws::aws-compute-ec2-optimized-instance(UML::Class)" type="" description="" unit="" values="" default="EC2 Optimized Instance"/>
+					<Tag name="aws::aws-compute-ec2-spot-instance(UML::Class)" type="" description="" unit="" values="" default="EC2 Spot Instance"/>
+					<Tag name="aws::aws-compute-ec2(UML::Class)" type="" description="" unit="" values="" default="EC2"/>
+					<Tag name="aws::aws-compute-elastic-ip(UML::Class)" type="" description="" unit="" values="" default="ElasticIP"/>
+					<Tag name="aws::aws-compute-elastic-loadbalancer(UML::Class)" type="" description="" unit="" values="" default="Elastic Load Balancer"/>
+					<Tag name="aws::aws-compute-elasticbeanstalk-application(UML::Class)" type="" description="" unit="" values="" default="ElasticBeanstalk Application"/>
+					<Tag name="aws::aws-compute-elasticbeanstalk-deployment(UML::Class)" type="" description="" unit="" values="" default="ElasticBeanstalk Deployment"/>
+					<Tag name="aws::aws-compute-elasticbeanstalk(UML::Class)" type="" description="" unit="" values="" default="ElasticBeanstalk"/>
+					<Tag name="aws::aws-compute-lambda(UML::Class)" type="" description="" unit="" values="" default="Lambda"/>
+					<Tag name="aws::aws-groups-availability-zone(UML::Class)" type="" description="" unit="" values="" default="Availability Zone"/>
+					<Tag name="aws::aws-groups-region(UML::Class)" type="" description="" unit="" values="" default="Region"/>
+					<Tag name="aws::aws-groups-security-group(UML::Class)" type="" description="" unit="" values="" default="Security Group"/>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="awsDatabase" alias="AWS Database" notes="AWS Database Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws::aws-database-rds-db-instance(UML::Class)" type="" description="" unit="" values="" default="RDS DB Instance"/>
+					<Tag name="aws::aws-database-rds-dynamodb-attribute(UML::Class)" type="" description="" unit="" values="" default="RDS DynamoDB Attribute"/>
+					<Tag name="aws::aws-database-rds-dynamodb-attributes(UML::Class)" type="" description="" unit="" values="" default="RDS DynamoDB Attributes"/>
+					<Tag name="aws::aws-database-rds-dynamodb-global-secondary-index(UML::Class)" type="" description="" unit="" values="" default="RDS DynamoDB Global Secondary Index"/>
+					<Tag name="aws::aws-database-rds-dynamodb-item(UML::Class)" type="" description="" unit="" values="" default="RDS DynamoDB Item"/>
+					<Tag name="aws::aws-database-rds-dynamodb-items(UML::Class)" type="" description="" unit="" values="" default="RDS DynamodDB Items"/>
+					<Tag name="aws::aws-database-rds-dynamodb-table(UML::Class)" type="" description="" unit="" values="" default="RDS DynamodDB Table"/>
+					<Tag name="aws::aws-database-rds-dynamodb(UML::Class)" type="" description="" unit="" values="" default="RDS DynamoDB"/>
+					<Tag name="aws::aws-database-rds-elasticcache-memcached(UML::Class)" type="" description="" unit="" values="" default="RDS ElasticCache MemCached"/>
+					<Tag name="aws::aws-database-rds-elasticcache-node(UML::Class)" type="" description="" unit="" values="" default="RDS ElasticCache Node"/>
+					<Tag name="aws::aws-database-rds-elasticcache-redis(UML::Class)" type="" description="" unit="" values="" default="RDS ElasticCache Redis"/>
+					<Tag name="aws::aws-database-rds-elasticcache(UML::Class)" type="" description="" unit="" values="" default="RDS ElasticCache"/>
+					<Tag name="aws::aws-database-rds-instance-read-replica(UML::Class)" type="" description="" unit="" values="" default="RDS Instance Read Replica"/>
+					<Tag name="aws::aws-database-rds-instance-standby(UML::Class)" type="" description="" unit="" values="" default="RDS Instance Standby"/>
+					<Tag name="aws::aws-database-rds-migration-service(UML::Class)" type="" description="" unit="" values="" default="RDS Migration Service"/>
+					<Tag name="aws::aws-database-rds-ms-instance2(UML::Class)" type="" description="" unit="" values="" default="RDS MSSQL Instance2"/>
+					<Tag name="aws::aws-database-rds-mssql-instnace(UML::Class)" type="" description="" unit="" values="" default="RDS MSSQL Instance"/>
+					<Tag name="aws::aws-database-rds-mysql-instance2(UML::Class)" type="" description="" unit="" values="" default="RDS MySQL Instance2"/>
+					<Tag name="aws::aws-database-rds-mysqldb-instance(UML::Class)" type="" description="" unit="" values="" default="RDS MySQL Instance"/>
+					<Tag name="aws::aws-database-rds-oracle-db-instance(UML::Class)" type="" description="" unit="" values="" default="RDS OracleDB Instance"/>
+					<Tag name="aws::aws-database-rds-oracle-db-instance2(UML::Class)" type="" description="" unit="" values="" default="RDS OracleDB Instance 2"/>
+					<Tag name="aws::aws-database-rds-piop(UML::Class)" type="" description="" unit="" values="" default="RDS PIOP"/>
+					<Tag name="aws::aws-database-rds-postgresql-instance(UML::Class)" type="" description="" unit="" values="" default="RDS PostgreSQL Instance"/>
+					<Tag name="aws::aws-database-rds-sql-master(UML::Class)" type="" description="" unit="" values="" default="RDS SQL Master"/>
+					<Tag name="aws::aws-database-rds-sql-slave(UML::Class)" type="" description="" unit="" values="" default="RDS SQL Slave"/>
+					<Tag name="aws::aws-database-rds(UML::Class)" type="" description="" unit="" values="" default="RDS"/>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="aws::awsDevTools" alias="Dev Tools" notes="AWS Developer Tools Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="aws::awsEnterpriseApps" alias="Enterprise Apps" notes="AWS Enterprise Applications Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="aws::awsInternetOfThings" alias="Internet of Things" notes="AWS Internet of Things Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="awsGroups" alias="Groups" notes="AWS Group Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws::aws-compute-autoscaling-group(UML::Class)" type="" description="" unit="" values="" default="Autoscaling Group"/>
+					<Tag name="aws::aws-groups-availability-zone(UML::Class)" type="" description="" unit="" values="" default="Availability Zone"/>
+					<Tag name="aws::aws-groups-region(UML::Class)" type="" description="" unit="" values="" default="Region"/>
+					<Tag name="aws::aws-groups-security-group(UML::Class)" type="" description="" unit="" values="" default="Security Group"/>
+					<Tag name="aws::aws-networking-vpc-subnet(UML::Class)" type="" description="" unit="" values="" default="VPC Subnet"/>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="aws::awsManagementTools" alias="Management Tools" notes="AWS Management Tools">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="aws::awsMobileServices" alias="Mobile Services" notes="AWS Mobile Service Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+					<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="awsNetworking" alias="Networking" notes="AWS Networking Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws::aws-compute-elastic-loadbalancer(UML::Class)" type="" description="" unit="" values="" default="Elastic Load Balancer"/>
+					<Tag name="aws::aws-networking-direct-connect(UML::Class)" type="" description="" unit="" values="" default="Direct Connect"/>
+					<Tag name="aws::aws-networking-route-52(UML::Class)" type="" description="" unit="" values="" default="Route53"/>
+					<Tag name="aws::aws-networking-route53-hosted-zone(UML::Class)" type="" description="" unit="" values="" default="Route53 Hosted Zone"/>
+					<Tag name="aws::aws-networking-route53-table(UML::Class)" type="" description="" unit="" values="" default="Route53 Table"/>
+					<Tag name="aws::aws-networking-vpc-customer-gateway(UML::Class)" type="" description="" unit="" values="" default="VPC Customer Gateway"/>
+					<Tag name="aws::aws-networking-vpc-internet-gateway(UML::Class)" type="" description="" unit="" values="" default="VPC Internet Gateway"/>
+					<Tag name="aws::aws-networking-vpc-peering(UML::Class)" type="" description="" unit="" values="" default="VPC Peering"/>
+					<Tag name="aws::aws-networking-vpc-router(UML::Class)" type="" description="" unit="" values="" default="VPC Router"/>
+					<Tag name="aws::aws-networking-vpc-subnet(UML::Class)" type="" description="" unit="" values="" default="VPC Subnet"/>
+					<Tag name="aws::aws-networking-vpc-vpn-connection(UML::Class)" type="" description="" unit="" values="" default="VPC VPN Connection"/>
+					<Tag name="aws::aws-networking-vpc-vpn-gateway(UML::Class)" type="" description="" unit="" values="" default="VPC VPN Gateway"/>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="awsSecurityAndIdentity" alias="Security and Identity" notes="AWS Security and Identity Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws::aws-secident-directory-service(UML::Class)" type="" description="" unit="" values="" default="Directory Service"/>
+					<Tag name="aws::aws-secident-iam-addon(UML::Class)" type="" description="" unit="" values="" default="IAM AddOn"/>
+					<Tag name="aws::aws-secident-iam-data-encryption(UML::Class)" type="" description="" unit="" values="" default="IAM Data Encryption"/>
+					<Tag name="aws::aws-secident-iam-encrypted data(UML::Class)" type="" description="" unit="" values="" default="IAM Encrypted Data"/>
+					<Tag name="aws::aws-secident-iam-long-term-credential(UML::Class)" type="" description="" unit="" values="" default="IAM Long Term Credential"/>
+					<Tag name="aws::aws-secident-iam-mfa-token(UML::Class)" type="" description="" unit="" values="" default="IAM MFA Token"/>
+					<Tag name="aws::aws-secident-iam-permissions(UML::Class)" type="" description="" unit="" values="" default="IAM Permissions"/>
+					<Tag name="aws::aws-secident-iam-role(UML::Class)" type="" description="" unit="" values="" default="IAM Role"/>
+					<Tag name="aws::aws-secident-iam-security-token-service2(UML::Class)" type="" description="" unit="" values="" default="IAM Security Token Service"/>
+					<Tag name="aws::aws-secident-iam-temporary-security-credential(UML::Class)" type="" description="" unit="" values="" default="IAM Temporary Security Credential"/>
+					<Tag name="aws::aws-secident-iam(UML::Class)" type="" description="" unit="" values="" default="IAM"/>
+					<Tag name="aws::aws-secident-key-management-service(UML::Class)" type="" description="" unit="" values="" default="Key Management Service"/>
+					<Tag name="aws::aws-secident-security-token-service(UML::Class)" type="" description="" unit="" values="" default="Security Token Service"/>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="awsStorageAndContentDelivery" alias="Storage and Content Delivery" notes="AWS Storage and Content Delivery Elements">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aws::aws-storedeliver-s3-bucket(UML::Class)" type="" description="" unit="" values="" default="S3 Bucket"/>
+					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

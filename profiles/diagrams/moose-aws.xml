@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="8E90F1C4-6" name="aws" version="1.0" alias="aws" notes="aws"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="MooseAWS" alias="Moose AWS" notes="">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="alias" value="Amazon Web Services"/>
+						<Property name="diagramID" value="aws"/>
+						<Property name="toolbox" value="aws"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
