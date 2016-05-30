@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<MDG.Technology version="1.0"><Documentation id="moose-aws-1" name="Moose-Tools AWS profile" version="0.76" notes="Moose-Tools AWS profile for Sparx Systems Enterprise Architect&#xA;&#xA;Fixes: &#xA;#12 Various element images are borked (on Linux via Wine)&#xA;The affected images have been recreated without strokes, which works around the bug in Wine, which renders strokes incorrectly. " infoURI="http://www.blakemere.ca" supportURI="514-985-9551"/><UMLProfiles><UMLProfile profiletype="uml2">
+<MDG.Technology version="1.0"><Documentation id="moose-aws-1" name="Moose-Tools AWS profile" version="0.77" notes="Moose-Tools AWS profile for Sparx Systems Enterprise Architect&#xA;&#xA;Fixes: &#xA;Prefixed all toolbox aliases with &quot;AWS &quot;" infoURI="http://www.blakemere.ca" supportURI="514-985-9551"/><UMLProfiles><UMLProfile profiletype="uml2">
 			<Documentation id="3CB8F5CC-D" name="aws" version="1.0" notes="aws"/>
 			<Content>
 				<Stereotypes>
@@ -10981,7 +10981,7 @@ AAACAAAADgAAABQAAAAAAAAAAAAAADwOAAA=</Column></DataRow></DataSet></RefData></Ima
 							<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="aws::awsEnterpriseApps" alias="Enterprise Apps" notes="AWS Enterprise Applications Elements">
+					<Stereotype name="aws::awsEnterpriseApps" alias="AWS Enterprise Apps" notes="AWS Enterprise Applications Elements">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
@@ -10990,7 +10990,7 @@ AAACAAAADgAAABQAAAAAAAAAAAAAADwOAAA=</Column></DataRow></DataSet></RefData></Ima
 							<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="aws::awsInternetOfThings" alias="Internet of Things" notes="AWS Internet of Things Elements">
+					<Stereotype name="aws::awsInternetOfThings" alias="AWS Internet of Things" notes="AWS Internet of Things Elements">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
@@ -10999,7 +10999,7 @@ AAACAAAADgAAABQAAAAAAAAAAAAAADwOAAA=</Column></DataRow></DataSet></RefData></Ima
 							<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="awsGroups" alias="Groups" notes="AWS Group Elements">
+					<Stereotype name="awsGroups" alias="AWS Groups" notes="AWS Group Elements">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
@@ -11012,7 +11012,7 @@ AAACAAAADgAAABQAAAAAAAAAAAAAADwOAAA=</Column></DataRow></DataSet></RefData></Ima
 							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="aws::awsManagementTools" alias="Management Tools" notes="AWS Management Tools">
+					<Stereotype name="aws::awsManagementTools" alias="AWS Management Tools" notes="AWS Management Tools">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
@@ -11021,7 +11021,7 @@ AAACAAAADgAAABQAAAAAAAAAAAAAADwOAAA=</Column></DataRow></DataSet></RefData></Ima
 							<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="aws::awsMobileServices" alias="Mobile Services" notes="AWS Mobile Service Elements">
+					<Stereotype name="aws::awsMobileServices" alias="AWS Mobile Services" notes="AWS Mobile Service Elements">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
@@ -11030,7 +11030,7 @@ AAACAAAADgAAABQAAAAAAAAAAAAAADwOAAA=</Column></DataRow></DataSet></RefData></Ima
 							<Tag name="isHidden" type="" description="" unit="" values="" default="true"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="awsNetworking" alias="Networking" notes="AWS Networking Elements">
+					<Stereotype name="awsNetworking" alias="AWS Networking" notes="AWS Networking Elements">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
@@ -11050,7 +11050,7 @@ AAACAAAADgAAABQAAAAAAAAAAAAAADwOAAA=</Column></DataRow></DataSet></RefData></Ima
 							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="awsSecurityAndIdentity" alias="Security and Identity" notes="AWS Security and Identity Elements">
+					<Stereotype name="awsSecurityAndIdentity" alias="AWS Security and Identity" notes="AWS Security and Identity Elements">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
@@ -11071,7 +11071,7 @@ AAACAAAADgAAABQAAAAAAAAAAAAAADwOAAA=</Column></DataRow></DataSet></RefData></Ima
 							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
 						</TaggedValues>
 					</Stereotype>
-					<Stereotype name="awsStorageAndContentDelivery" alias="Storage and Content Delivery" notes="AWS Storage and Content Delivery Elements">
+					<Stereotype name="awsStorageAndContentDelivery" alias="AWS Storage and Content Delivery" notes="AWS Storage and Content Delivery Elements">
 						<AppliesTo>
 							<Apply type="ToolboxPage"/>
 						</AppliesTo>
