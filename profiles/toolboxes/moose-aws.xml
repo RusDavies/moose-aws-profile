@@ -189,7 +189,7 @@
 				<TaggedValues>
 					<Tag name="aws::aws-secident-directory-service(UML::Class)" type="" description="" unit="" values="" default="Directory Service"/>
 					<Tag name="aws::aws-secident-iam-addon(UML::Class)" type="" description="" unit="" values="" default="IAM AddOn"/>
-					<Tag name="aws::aws-secident-iam-data-encryption(UML::Class)" type="" description="" unit="" values="" default="IAM Data Encryption"/>
+					<Tag name="aws::aws-secident-iam-data-encryption(UML::Class)" type="" description="" unit="" values="" default="IAM Data Encryption Key"/>
 					<Tag name="aws::aws-secident-iam-encrypted data(UML::Class)" type="" description="" unit="" values="" default="IAM Encrypted Data"/>
 					<Tag name="aws::aws-secident-iam-long-term-credential(UML::Class)" type="" description="" unit="" values="" default="IAM Long Term Credential"/>
 					<Tag name="aws::aws-secident-iam-mfa-token(UML::Class)" type="" description="" unit="" values="" default="IAM MFA Token"/>

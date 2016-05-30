@@ -31,14 +31,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="985"
+     inkscape:window-height="960"
      id="namedview14"
      showgrid="false"
-     inkscape:zoom="7.4579687"
-     inkscape:cx="50.26817"
-     inkscape:cy="50"
+     inkscape:zoom="5.6723589"
+     inkscape:cx="60.660471"
+     inkscape:cy="62.878848"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="Layer_1" /><style
      type="text/css"
@@ -64,26 +64,33 @@
 	.st18{font-family:'HelveticaNeueLTStd-Roman';}
 	.st19{font-size:18.5399px;}
 </style><g
-     id="CloudTrail_16_"
-     transform="matrix(1.8181818,0,0,1.8181818,-40.90909,-40.90909)"><circle
-       class="st17"
-       cx="50"
-       cy="50"
-       r="26.5"
-       id="circle6"
-       style="fill:#d2d3d3;stroke:#7d7c7c;stroke-width:2;stroke-miterlimit:10" /><text
-       transform="translate(30.165,56.3759)"
-       class="st12 st18 st19"
-       id="text8"
-       style="font-size:18.53989983px;font-family:HelveticaNeueLTStd-Roman;fill:#373737">M</text>
+     id="g4152"
+     transform="translate(3.9042931,-1.0923424)"><circle
+       r="49.979206"
+       cy="51.092342"
+       cx="46.095707"
+       id="path4138"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#7d7c7c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" /><circle
+       r="46.453335"
+       cy="51.092342"
+       cx="46.095707"
+       id="path4140"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#d2d3d3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" /></g><text
+     style="font-size:33.70890808px;font-family:HelveticaNeueLTStd-Roman;fill:#373737"
+     id="text8"
+     class="st12 st18 st19"
+     x="13.936364"
+     y="61.592545">M</text>
 <text
-       transform="translate(45.6094,56.3759)"
-       class="st12 st18 st19"
-       id="text10"
-       style="font-size:18.53989983px;font-family:HelveticaNeueLTStd-Roman;fill:#373737">F</text>
+     style="font-size:33.70890808px;font-family:HelveticaNeueLTStd-Roman;fill:#373737"
+     id="text10"
+     class="st12 st18 st19"
+     x="42.01709"
+     y="61.592545">F</text>
 <text
-       transform="translate(55.9199,56.3759)"
-       class="st12 st18 st19"
-       id="text12"
-       style="font-size:18.53989983px;font-family:HelveticaNeueLTStd-Roman;fill:#373737">A</text>
-</g></svg>
+     style="font-size:33.70890808px;font-family:HelveticaNeueLTStd-Roman;fill:#373737"
+     id="text12"
+     class="st12 st18 st19"
+     x="60.763454"
+     y="61.592545">A</text>
+</svg>
