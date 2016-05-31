@@ -140,6 +140,7 @@
 					<Tag name="aws::aws-groups-availability-zone(UML::Class)" type="" description="" unit="" values="" default="Availability Zone"/>
 					<Tag name="aws::aws-groups-region(UML::Class)" type="" description="" unit="" values="" default="Region"/>
 					<Tag name="aws::aws-groups-security-group(UML::Class)" type="" description="" unit="" values="" default="Security Group"/>
+					<Tag name="aws::aws-groups-virtual-private-cloud(UML::Class)" type="" description="" unit="" values="" default="VPC"/>
 					<Tag name="aws::aws-networking-vpc-subnet(UML::Class)" type="" description="" unit="" values="" default="VPC Subnet"/>
 					<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
 				</TaggedValues>
@@ -168,6 +169,7 @@
 				</AppliesTo>
 				<TaggedValues>
 					<Tag name="aws::aws-compute-elastic-loadbalancer(UML::Class)" type="" description="" unit="" values="" default="Elastic Load Balancer"/>
+					<Tag name="aws::aws-groups-virtual-private-cloud(UML::Class)" type="" description="" unit="" values="" default="VPC"/>
 					<Tag name="aws::aws-networking-direct-connect(UML::Class)" type="" description="" unit="" values="" default="Direct Connect"/>
 					<Tag name="aws::aws-networking-route-52(UML::Class)" type="" description="" unit="" values="" default="Route53"/>
 					<Tag name="aws::aws-networking-route53-hosted-zone(UML::Class)" type="" description="" unit="" values="" default="Route53 Hosted Zone"/>
