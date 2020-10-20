@@ -1,0 +1,6 @@
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CS_AddinFramework/plugin/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CS_AddinFramework/plugin/bin/Debug/plugin.exe.mdb
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CS_AddinFramework/plugin/bin/Debug/plugin.exe
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CS_AddinFramework/plugin/obj/x86/Debug/plugin.exe
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CS_AddinFramework/plugin/obj/x86/Debug/plugin.exe.mdb
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CS_AddinFramework/plugin/bin/Debug/Interop.EA.dll

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_AddinTaggedCSV", "CS_AddinTaggedCSV.csproj", "{BA41F544-D6A8-48C0-9E83-D3C6543A3D04}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BA41F544-D6A8-48C0-9E83-D3C6543A3D04}.Debug.ActiveCfg = Debug|.NET
+		{BA41F544-D6A8-48C0-9E83-D3C6543A3D04}.Debug.Build.0 = Debug|.NET
+		{BA41F544-D6A8-48C0-9E83-D3C6543A3D04}.Release.ActiveCfg = Release|.NET
+		{BA41F544-D6A8-48C0-9E83-D3C6543A3D04}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		ReadME.txt = ReadME.txt
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

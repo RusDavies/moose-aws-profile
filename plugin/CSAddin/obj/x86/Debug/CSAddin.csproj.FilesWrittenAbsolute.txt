@@ -1,0 +1,6 @@
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CSAddin/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CSAddin/bin/Debug/Interop.EA.dll
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CSAddin/bin/Debug/CSAddin.exe.mdb
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CSAddin/bin/Debug/CSAddin.exe
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CSAddin/obj/x86/Debug/CSAddin.exe
+/home/russell/Development/Moose-Tools/moose-aws/plugin/CSAddin/obj/x86/Debug/CSAddin.exe.mdb
